@@ -1,0 +1,1 @@
+export const LOAD_PERK_DATA = 'LOAD_PERK_DATA';
