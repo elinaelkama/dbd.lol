@@ -143,7 +143,7 @@ Error generating stack: `+i.message+`
 	padding: 0 ${wi};
 `,Yk=ve.div`
 	display: flex;
-	gap: 2rem;
+	gap: 1rem;
 	grid-area: roles;
 	margin: auto;
 `,Uk=ve.button`
