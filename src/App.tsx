@@ -8,16 +8,19 @@ import Perk from './components/Perk'
 import { useAppSelector } from './hooks/redux'
 import PerkDisplay from './components/PerkDisplay'
 import styled from 'styled-components'
-import RoleSelector from './components/RoleSelector'
 import Randomize from './components/Randomize'
 import Intro from './components/Intro'
 import bg from './assets/bg_rpd.jpg'
+import { bpSmall } from './style/DesignSystem'
 
 const Container = styled.div`
   display: grid;
   grid-template-rows: auto auto auto 9rem;
   margin: auto;
   min-height: 100vh;
+  @media screen and (max-width: ${bpSmall}) {
+	  grid-template-rows: auto auto auto 11rem;
+	}
 `
 
 const AppContainer = styled.div`
@@ -56,14 +59,14 @@ function App() {
   return (
     <AppContainer>
       <Container>
-        <Intro title="DBD Perk Randomizer" about="Get Random Perks for Your Build!" />
-        <RoleSelector setRole={setRole} role={role} />
+        <Intro title="DBD Perk Randomizer" />
         <PerkDisplay>
           {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
         </PerkDisplay>
         <div></div>
       </Container>
-      <Randomize role={role} setRoleNumber={setRoleNumber} randomize={randomize} roleNumber={roleNumber} />
+      <Randomize setRole={setRole} role={role} setRoleNumber={setRoleNumber} randomize={randomize} roleNumber={roleNumber}>
+      </Randomize>
     </AppContainer>
   )
 }
