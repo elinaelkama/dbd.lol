@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 // Or from '@reduxjs/toolkit/query/react'
 import perkReducer from './reducers/perkReducer'
+import characterReducer from './reducers/characterReducer'
 
 export const store = configureStore({
 	reducer: {
 		// Add the generated reducer as a specific top-level slice
-		perk: perkReducer
+		perk: perkReducer,
+		character: characterReducer
 	},
 	// Adding the api middleware enables caching, invalidation, polling,
 	// and other useful features of `rtk-query`.

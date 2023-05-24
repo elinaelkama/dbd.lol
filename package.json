@@ -8,6 +8,7 @@
     "mod": "node ./scripts/mod.js",
     "img": "node ./scripts/img.js",
     "check": "node ./scripts/check.js",
+    "char": "node ./scripts/char.js",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "tsc && vite build",

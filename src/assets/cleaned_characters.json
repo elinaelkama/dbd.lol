@@ -1,0 +1,404 @@
+{
+  "dwight_fairfield": {
+    "name": "Dwight Fairfield",
+    "role": "survivor",
+    "bio": "A nervous leader, able to locate his allies and increase their effectiveness. His personal perks, Bond, Prove Thyself and Leader, allow him to get in proximity of other Survivors and provide bonuses to their actions as well as his own.",
+    "image": "dwight_fairfield.png"
+  },
+  "meg_thomas": {
+    "name": "Meg Thomas",
+    "role": "survivor",
+    "bio": "An energetic athlete, able to outrun most Killers. Her personal perks, Quick & Quiet, Sprint Burst and Adrenaline, give her advantage to escape chases and put distance between herself and the Killer.",
+    "image": "meg_thomas.png"
+  },
+  "claudette_morel": {
+    "name": "Claudette Morel",
+    "role": "survivor",
+    "bio": "A studious botanist, able to boost her team's survivability as well as her own. Her personal perks, Empathy, Botany Knowledge and Self Care, allow her to spot injured Survivors and heal her team and herself more effectively.",
+    "image": "claudette_morel.png"
+  },
+  "jake_park": {
+    "name": "Jake Park",
+    "role": "survivor",
+    "bio": "A solitary survivalist, able to hold his own in most situations. His personal perks, Iron Will, Calm Spirit and Saboteur, allow him to more effectively move about the environment and survive while injured.",
+    "image": "jake_park.png"
+  },
+  "nea_karlsson": {
+    "name": "Nea Karlsson",
+    "role": "survivor",
+    "bio": "An urban artist, able to easily escape and hide. Her personal perks, Balanced Landing, Urban Evasion and Streetwise, make her well suited to completing objectives and rapid evasion.",
+    "image": "nea_karlsson.png"
+  },
+  "laurie_strode": {
+    "name": "Laurie Strode",
+    "role": "survivor",
+    "bio": "A determined Survivor, prepared to weather any challenge. Her personal perks, Sole Survivor, Object of Obsession and Decisive Strike, grant her powerful survival abilities at the cost of leaving her exposed.",
+    "image": "laurie_strode.png"
+  },
+  "ace_visconti": {
+    "name": "Ace Visconti",
+    "role": "survivor",
+    "bio": "A lucky gambler, improving the odds of the entire team. His personal perks, Open Handed, Up the Ante and Ace in the Hole, boost the Luck of all Survivors and help with unlocking chests.",
+    "image": "ace_visconti.png"
+  },
+  "william_bill_overbeck": {
+    "name": "William \"Bill\" Overbeck",
+    "role": "survivor",
+    "bio": "An old soldier, accustomed to dealing with critical situations. His personal perks, Left Behind, Borrowed Time and Unbreakable, make him more powerful in dire moments.",
+    "image": "william_bill_overbeck.png"
+  },
+  "feng_min": {
+    "name": "Feng Min",
+    "role": "survivor",
+    "bio": "An objective-focused competitor who can quickly adapt her strategy to meet a vast range of challenging situations. Her personal perks, Technician, Lithe and Alert, help her with repairing generators and locating the Killer.",
+    "image": "feng_min.png"
+  },
+  "david_king": {
+    "name": "David King",
+    "role": "survivor",
+    "bio": "A rugged scrapper, rewarding high-risk play. His personal perks, We're Gonna Live Forever, Dead Hard and No Mither, reward an aggressive, confrontational playstyle but leave him vulnerable.",
+    "image": "david_king.png"
+  },
+  "kate_denson": {
+    "name": "Kate Denson",
+    "role": "survivor",
+    "bio": "A hopeful songbird, able to&nbsp;make the most of her surroundings. Her personal perks, Dance With Me, Windows of Opportunity and Boil Over,&nbsp;grant her the foresight and feistiness to escape even the most dire situations.",
+    "image": "kate_denson.png"
+  },
+  "quentin_smith": {
+    "name": "Quentin Smith",
+    "role": "survivor",
+    "bio": "A resolute dreamwalker, increasing the survivability and recovery of his team. His personal perks, Wake Up!, Pharmacy and Vigil, help Survivors locate exit gates and recover more easily.",
+    "image": "quentin_smith.png"
+  },
+  "detective_david_tapp": {
+    "name": "Detective David Tapp",
+    "role": "survivor",
+    "bio": "An obsessed detective, able to locate and complete objectives faster. His personal perks, Tenacity, Detective's Hunch and Stake Out, make him objective-focused and able to rapidly recover.",
+    "image": "detective_david_tapp.png"
+  },
+  "adam_francis": {
+    "name": "Adam Francis",
+    "role": "survivor",
+    "bio": "A resourceful teacher, able to adapt to new circumstances and develop strategies accordingly. His personal perks, Diversion, Deliverance and Autodidact, help him to distract The Killer, survive desperate situations, and become more skilled as the trial continues.",
+    "image": "adam_francis.png"
+  },
+  "jeff_johansen": {
+    "name": "Jeff Johansen",
+    "role": "survivor",
+    "bio": "A quiet artist, standing steadfast against impossible odds. His personal perks, Breakdown, Aftercare and Distortion, give him observational advantages and help to hide his presence from The Killer.",
+    "image": "jeff_johansen.png"
+  },
+  "jane_romero": {
+    "name": "Jane Romero",
+    "role": "survivor",
+    "bio": "An influential celebrity, going against the grain to tackle challenges head on. Her personal perks, Solidarity, Poised and Head On, give her a flexible skillset that allow her to help others, as well as herself, to escape dangerous situations.",
+    "image": "jane_romero.png"
+  },
+  "ashley_j_williams": {
+    "name": "Ashley J. Williams",
+    "role": "survivor",
+    "bio": "An \"alone wolf,\" cocky and headstrong; a man built for survival. His personal perks, Flip-Flop, Buckle Up and Mettle of Man, give him additional resilience to pain and hardship, as well as the ability to help his friends out of sticky situations.",
+    "image": "ashley_j_williams.png"
+  },
+  "nancy_wheeler": {
+    "name": "Nancy Wheeler",
+    "role": "survivor",
+    "bio": "An aspiring journalist, able to make acute observations and gain insights that others may miss. Her perks, Situational Awareness, Self-Aware, and Inner Healing, give her the information and courage she needs to tackle unexpected challenges.",
+    "image": "nancy_wheeler.png"
+  },
+  "steve_harrington": {
+    "name": "Steve Harrington",
+    "role": "survivor",
+    "bio": "A former jock, able to protect and support his fellow Survivors while providing his own brand of humor. His perks, Guardian, Kinship, and Renewal, enable him to distract Killers, tolerate pain, and get back into the fight.",
+    "image": "steve_harrington.png"
+  },
+  "yui_kimura": {
+    "name": "Yui Kimura",
+    "role": "survivor",
+    "bio": "A hardened street racer, able to gain advantages for her and her fellow Survivors in challenging situations. Her personal perks, Lucky Break,&nbsp; Any Means Necessary &nbsp;and&nbsp; Breakout, enable her to cover her blood trails, reset dropped pallets, and assist helpless Survivors.",
+    "image": "yui_kimura.png"
+  },
+  "zarina_kassir": {
+    "name": "Zarina Kassir",
+    "role": "survivor",
+    "bio": "A plucky documentarian, able to use her street smarts to avoid detection and greatly assist other Survivors. Her personal perks, Off The Record, Red Herring and For the People, help her remain hidden in the face of danger, create distractions, and quickly heal others by forgoing her own safety.",
+    "image": "zarina_kassir.png"
+  },
+  "cheryl_mason": {
+    "name": "Cheryl Mason",
+    "role": "survivor",
+    "bio": "Cheryl Mason is a young veteran of terror, emboldening both herself and her team. Her personal perks, Soul Guard, Blood Pact, and Repressed Alliance, allow her to survive through immense hardship, stay in contact with team members, and plan objectives.",
+    "image": "cheryl_mason.png"
+  },
+  "felix_richter": {
+    "name": "Felix Richter",
+    "role": "survivor",
+    "bio": "A visionary architect, able to use his relentless determination to form a plan and help other Survivors. His personal perks, Visionary, Desperate Measures, and Built to Last, help him reveal generators, rescue Survivors, and get the most from his tools.",
+    "image": "felix_richter.png"
+  },
+  "élodie_rakoto": {
+    "name": "Élodie Rakoto",
+    "role": "survivor",
+    "bio": "An occult investigator, able to use cunning tricks and stubborn resolve to keep herself alive. Her personal perks, Appraisal, Deception, and Power Struggle, allow her to interact with objects in new ways, all while having a backup plan to escape Killers.",
+    "image": "élodie_rakoto.png"
+  },
+  "yun-jin_lee": {
+    "name": "Yun-Jin Lee",
+    "role": "survivor",
+    "bio": "A self-interested music producer, able to advance her goals during turbulent times. Her personal perks, Fast Track, Smash Hit, and Self-Preservation, allow her to improve her abilities when others are harmed, and quickly escape from a chase.",
+    "image": "yun-jin_lee.png"
+  },
+  "jill_valentine": {
+    "name": "Jill Valentine",
+    "role": "survivor",
+    "bio": "Jill Valentine is a founding member of S.T.A.R.S. who has triumphed over countless bio-organic weapons. Her personal perks, Counterforce, Resurgence, and Blast Mine, allow her to indirectly fight back, while offering strong support to her teammates.",
+    "image": "jill_valentine.png"
+  },
+  "leon_s_kennedy": {
+    "name": "Leon S. Kennedy",
+    "role": "survivor",
+    "bio": "Leon S. Kennedy is a rookie police officer who went beyond the call of duty during the outbreak in Raccoon City. His personal perks, Bite the Bullet, Flashbang, and Rookie Spirit, allow him to ignore pain, disorient the Killer, and track objectives being lost.",
+    "image": "leon_s_kennedy.png"
+  },
+  "mikaela_reid": {
+    "name": "Mikaela Reid",
+    "role": "survivor",
+    "bio": "Mikaela is a young mystic, able to alter the trial with supernatural abilities. Her personal perks, Clairvoyance, Boon: Circle of Healing, and Boon: Shadow Step, allow her to oversee the area while creating places of refuge.",
+    "image": "mikaela_reid.png"
+  },
+  "jonah_vasquez": {
+    "name": "Jonah Vasquez",
+    "role": "survivor",
+    "bio": "Jonah is a mathematical mastermind, able to use logic to help his team. His personal perks, Overcome, Corrective Action, and Boon: Exponential allow him to quickly flee, correct failed skill checks, and treat dying Survivors.",
+    "image": "jonah_vasquez.png"
+  },
+  "yoichi_asakawa": {
+    "name": "Yoichi Asakawa",
+    "role": "survivor",
+    "bio": "Yoichi is a brilliant marine biologist and psychic whose knowledge and abilities allow him to protect himself and assist others. His personal perks, Parental Guidance, Empathic Connection, and Boon: Dark Theory allow him to hide from Killers, call out to injured Survivors, and help others move faster.",
+    "image": "yoichi_asakawa.png"
+  },
+  "haddie_kaur": {
+    "name": "Haddie Kaur",
+    "role": "survivor",
+    "bio": "Haddie is a brave and determined podcaster with the ability to see and feel places of great suffering she calls Overlaps. Her personal perks, Inner Focus, Residual Manifest, and Overzealous allow her to track Survivors and Killers after an attack, use Flashlights more effectively, and repair generators more efficiently.",
+    "image": "haddie_kaur.png"
+  },
+  "ada_wong": {
+    "name": "Ada Wong",
+    "role": "survivor",
+    "bio": "Ada Wong is a mysterious secret agent whose skill in espionage makes her a dangerous foe. Her personal perks, Wiretap, Reactive Healing, and Low Profile allow her to spy on a Killer, gain a surge of healing when her allies are hurt, and leave no trace when she is the final Survivor.",
+    "image": "ada_wong.png"
+  },
+  "rebecca_chambers": {
+    "name": "Rebecca Chambers",
+    "role": "survivor",
+    "bio": "Rebecca Chambers is a gifted medic and squad member whose presence soothes those around her. Her personal perks, Better Than New, Reassurance, and Hyperfocus allow her to give her teammates speed boosts, give temporary relief to struggling allies, and complete skill checks at increased speed.",
+    "image": "rebecca_chambers.png"
+  },
+  "vittorio_toscano": {
+    "name": "Vittorio Toscano",
+    "role": "survivor",
+    "bio": "Vittorio has endlessly wandered through the Fog, attempting to learn its secrets, for ages. His personal perks, Potential Energy, Fogwise, and Quick Gambit allow him to store generator progress to use later, reveal the Killer's location after a great Skill Check, and give others a speed boost while repairing.",
+    "image": "vittorio_toscano.png"
+  },
+  "thalita_lyra": {
+    "name": "Thalita Lyra",
+    "role": "survivor",
+    "bio": "Thalita has mastered the art of competitive flair, fighting kites with skill and flourish. Her personal perks, Cut Loose, Friendly Competition, and Teamwork: Power of Two allow her to perform a series of fast vaults, inspire faster generator repair from teammates, and help allies move faster after they are healed by you.",
+    "image": "thalita_lyra.png"
+  },
+  "renato_lyra": {
+    "name": "Renato Lyra",
+    "role": "survivor",
+    "bio": "Renato always keeps his eye on the prize, and he expects the same from his teammates. His personal perks, Background Player, Blood Rush, and Teamwork: Collective Stealth allow him to move faster when near a chase, recover from Exhausted instantly, and hide your and an allies' scratch marks after that ally heals you.",
+    "image": "renato_lyra.png"
+  },
+  "the_trapper": {
+    "name": "The Trapper",
+    "role": "killer",
+    "bio": "An area-control Killer, able to apply pressure across the map by placing deadly Bear Traps for Survivors to step in. His personal perks, Unnerving Presence, Brutal Strength and Agitation, allow him to chase and carry Survivors more effectively.",
+    "image": "the_trapper.png"
+  },
+  "the_wraith": {
+    "name": "The Wraith",
+    "role": "killer",
+    "bio": "A stealth Killer, able to Cloak and Uncloak at the ringing of his Wailing Bell . His personal perks, Predator, Bloodhound and Shadowborn, give him extra abilities to track and locate Survivors, making him a very efficient hunter.",
+    "image": "the_wraith.png"
+  },
+  "the_hillbilly": {
+    "name": "The Hillbilly",
+    "role": "killer",
+    "bio": "A high-mobility Killer, able to cover large distances in a short amount of time and instantly down Survivors using his Chainsaw . His personal perks, Enduring, Lightborn and Tinkerer, allow him to enhance his power and make him harder to lose during chases.",
+    "image": "the_hillbilly.png"
+  },
+  "the_nurse": {
+    "name": "The Nurse",
+    "role": "killer",
+    "bio": "A warping Killer, able to Blink through obstacles and quickly close gaps with her power, Spencer's Last Breath . Her personal perks, Stridor, Thanatophobia and A Nurse's Calling, allow her to decrease Survivor abilities and track them when they are injured.",
+    "image": "the_nurse.png"
+  },
+  "the_hag": {
+    "name": "The Hag",
+    "role": "killer",
+    "bio": "A cursed Killer, able to place traps and then Teleport to them when activated, using her Blackened Catalyst . Her personal perks, Hex: The Third Seal, Hex: Ruin and Hex: Devour Hope, apply crippling penalties to Survivors as long as the Totem they are attached to remains uncleansed.",
+    "image": "the_hag.png"
+  },
+  "the_shape": {
+    "name": "The Shape",
+    "role": "killer",
+    "bio": "A haunting Killer, intent on monitoring Survivors from a distance to feed his power, Evil Within . The more he Stalks, the stronger and faster he becomes. His personal perks, Save the Best for Last, Play with your Food and Dying Light select one Survivor to become the Obsession and trigger deadly effects based on the Obsession's status.",
+    "image": "the_shape.png"
+  },
+  "the_doctor": {
+    "name": "The Doctor",
+    "role": "killer",
+    "bio": "A madness-inducing Killer who is able to use his power, Carter's Spark, to trigger electrical charges, incapacitating Survivors and eventually causing them to hallucinate and scream in terror, revealing their position. His personal perks, Overwhelming Presence, Monitor & Abuse and Overcharge, encourage chases, impact Survivors' ability to repair effectively, and make him harder to detect when not in a chase.",
+    "image": "the_doctor.png"
+  },
+  "the_huntress": {
+    "name": "The Huntress",
+    "role": "killer",
+    "bio": "A ranged Killer, able to throw Hunting Hatchets at Survivors to injure them from a distance. Her personal perks, Beast of Prey, Territorial Imperative and Hex: Huntress Lullaby, allow her to apply pressure through better map awareness and enhanced chasing abilities.",
+    "image": "the_huntress.png"
+  },
+  "the_cannibal": {
+    "name": "The Cannibal",
+    "role": "killer",
+    "bio": "A chainsaw-wielding Killer, able to trigger a deadly frenzy using Bubba's Chainsaw, immediately downing anyone in its path. His personal perks, Knock Out, Barbecue & Chili and Franklin's Demise, make Survivors easier to locate while robbing them of their tools and abilities.",
+    "image": "the_cannibal.png"
+  },
+  "the_nightmare": {
+    "name": "The Nightmare",
+    "role": "killer",
+    "bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, Dream Demon . It is here that Survivors become extremely vulnerable to his dream abilities. Using his Dream Projection ability he is able to quickly appear across the map and put pressure on Survivors. His personal perks,&nbsp; Fire Up, Remember Me and Blood Warden,&nbsp;improve his abilities over time and make him stronger as the trial reaches its climax.",
+    "image": "the_nightmare.png"
+  },
+  "the_pig": {
+    "name": "The Pig",
+    "role": "killer",
+    "bio": "A tormenting Killer, able to Crouch into stealth mode, then Ambush Survivors from a short distance. She can also apply Reverse Bear Traps to downed Survivors, forcing them to remove it before the timer runs out. If the timer expires, they die instantly. Her personal perks, Hangman's Trick, Surveillance and Make Your Choice, give her more map control and expose altruistic Survivors.",
+    "image": "the_pig.png"
+  },
+  "the_clown": {
+    "name": "The Clown",
+    "role": "killer",
+    "bio": "A strategic Killer, able to control and corral Survivors by throwing bottles of The Afterpiece Tonic to create clouds of noxious gas that cover large areas for a short amount of time. Survivors Intoxicated by the gas are inflicted with impaired vision and movement speed, and give away their location by coughing loudly. His personal perks, Bamboozle, Coulrophobia and Pop Goes the Weasel, provide vaulting advantages and negatively impact Survivor healing speed and repairs.",
+    "image": "the_clown.png"
+  },
+  "the_spirit": {
+    "name": "The Spirit",
+    "role": "killer",
+    "bio": "A phase-walking Killer, able to catch Survivors off-guard with her traversal power, Yamaoka’s Haunting . Her power allows her to Teleport from one place to another without being seen. Her personal perks, Spirit Fury, Hex: Haunted Ground and Rancor, give her tools to observe and bait Survivors, and deal with obstacles directly in her path.",
+    "image": "the_spirit.png"
+  },
+  "the_legion": {
+    "name": "The Legion",
+    "role": "killer",
+    "bio": "A band of merciless Killers, able to rushdown helpless Survivors with their power, Feral Frenzy . Attacks made during their frenzy inflict lingering internal damage, downing any Survivors that are not quick enough to react. Their personal perks, Discordance, Mad Grit and Iron Maiden, give them the ability to locate their prey and attack savagely while transporting Survivors to the hook.",
+    "image": "the_legion.png"
+  },
+  "the_plague": {
+    "name": "The Plague",
+    "role": "killer",
+    "bio": "A devout Killer, able to infect Survivors from a short distance using her power, Vile Purge . Survivors inflicted by this contamination risk becoming injured or broken, unless they find a way to cure themselves in a Pool of Devotion. Her personal perks, Corrupt Intervention, Infectious Fright and Dark Devotion, give her the ability to hinder Survivor objectives, while simultaneously confusing and frightening those within her presence.",
+    "image": "the_plague.png"
+  },
+  "the_ghost_face": {
+    "name": "The Ghost Face",
+    "role": "killer",
+    "bio": "A creepy Killer, able to Stalk his victims and sneak up silently using his power, Night Shroud . Affected Survivors will find themselves vulnerable and oblivious to his presence and must use all of their perception and awareness to protect themselves from his approach. His personal perks, I'm All Ears, Thrilling Tremors and Furtive Chase, give him the ability to locate Survivors, defend generators, and make his chases unpredictable.",
+    "image": "the_ghost_face.png"
+  },
+  "the_demogorgon": {
+    "name": "The Demogorgon",
+    "role": "killer",
+    "bio": "An unidentified Killer, able to open multiple Portals and traverse between them to cover large distances. Using its power, Of the Abyss, it can detect any Survivors within a close proximity to the Portals then unleash a leaping attack to inflict damage from a distance. Its perks, Jolt, Claustrophobia, and Fearmonger, impact the environment close to generators and affect nearby Survivors in unexpected ways.",
+    "image": "the_demogorgon.png"
+  },
+  "the_oni": {
+    "name": "The Oni",
+    "role": "killer",
+    "bio": "A monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, Yamaoka's Wrath,&nbsp;he can rush down Survivors at great speed and deal deadly strikes with his kanabō. His personal perks, Zanshin&nbsp;Tactics, Blood Echo and Nemesis, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
+    "image": "the_oni.png"
+  },
+  "the_deathslinger": {
+    "name": "The Deathslinger",
+    "role": "killer",
+    "bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, The Redeemer . His personal perks, Gear Head, Dead Man’s Switch, and Hex: Retribution, allow him to locate and&nbsp;impede&nbsp;Survivor objectives, and punish Survivors for destroying Totems.",
+    "image": "the_deathslinger.png"
+  },
+  "the_executioner": {
+    "name": "The Executioner",
+    "role": "killer",
+    "bio": "A map-manipulation Killer, able to torment Survivors with the hazards he creates. Affected Survivors will be vulnerable to his special hook, the Cage of Atonement, and his unique mori, Final Judgment . His personal perks, Forced Penance, Trail of Torment, and Deathbound, allow him to aggressively pursue his prey while deceiving and tracking Survivors.",
+    "image": "the_executioner.png"
+  },
+  "the_blight": {
+    "name": "The Blight",
+    "role": "killer",
+    "bio": "An unpredictable Killer, able to rush forward in a burst of speed and carom off obstacles to injure Survivors using his power, Blighted Corruption . His personal perks, Dragon's Grip, Hex: Undying, and Hex: Blood Favor allow him to impose powerful effects on generators, Totems, and pallets.",
+    "image": "the_blight.png"
+  },
+  "the_twins": {
+    "name": "The Twins",
+    "role": "killer",
+    "bio": "A cooperative pair of Killers, able to divide and hunt together using their power, Blood Bond . Their personal perks, Hoarder, Oppression, and Coup de Grâce allow them to monitor Survivors’ actions, impede their progress, and hunt more effectively.",
+    "image": "the_twins.png"
+  },
+  "the_trickster": {
+    "name": "The Trickster",
+    "role": "killer",
+    "bio": "A ranged Killer, able to quickly unleash a flurry of blades by using his&nbsp;power,&nbsp; Showstopper . His&nbsp;personal perks, Starstruck, Hex: Crowd Control, and No Way Out, allow him&nbsp;to quickly down would-be rescuers and block areas of the environment to his advantage.",
+    "image": "the_trickster.png"
+  },
+  "the_nemesis": {
+    "name": "The Nemesis",
+    "role": "killer",
+    "bio": "An unrelenting Killer, capable of attacking at mid-range with his tentacle, while receiving support from Zombies roaming the area. His personal perks, Lethal Pursuer, Hysteria, and Eruption, allow him to quickly ambush Survivors, while sowing confusion and fear when injuring and hooking them.",
+    "image": "the_nemesis.png"
+  },
+  "the_cenobite": {
+    "name": "The Cenobite",
+    "role": "killer",
+    "bio": "A summoning Killer, able to possess chain projectiles and use the Lament Configuration to torture every Survivor at once. His personal perks, Deadlock, Hex: Plaything, and Scourge Hook: Gift of Pain, allow him to slow generator progress and continue to torment Survivors who have experienced his sweet suffering.",
+    "image": "the_cenobite.png"
+  },
+  "the_artist": {
+    "name": "The Artist",
+    "role": "killer",
+    "bio": "A ranged-reconnaissance Killer, able to launch&nbsp;Dire Crows across the map to&nbsp;reveal and attack Survivors. Her personal perks,&nbsp; Grim Embrace,&nbsp; Scourge Hook: Pain Resonance, and&nbsp; Hex: Pentimento &nbsp;allow her to interrupt Survivor objectives, torment hooked Survivors, and&nbsp;use destroyed Totems to her advantage.&nbsp;",
+    "image": "the_artist.png"
+  },
+  "the_onryō": {
+    "name": "The Onryō",
+    "role": "killer",
+    "bio": "A vengeful ghost imbued with the power of Nensha, the Onryō is able to silently and invisibly traverse the realm, manifesting when she is ready to strike. Her personal perks, Scourge Hook: Floods Of Rage, Call Of Brine, and Merciless Storm allow her to expose hidden Survivors, surveil generators, and hamper repair progress.",
+    "image": "the_onryō.png"
+  },
+  "the_dredge": {
+    "name": "The Dredge",
+    "role": "killer",
+    "bio": "A manifestation of the dark thoughts of a once-vibrant community, the Dredge is able to teleport between lockers and summon an overwhelming darkness. Its personal perks, Dissolution, Darkness Revealed, and Septic Touch allow it to destroy pallets, spot Survivors near lockers, and afflict healing Survivors with Blindness and Exhausted.",
+    "image": "the_dredge.png"
+  },
+  "the_mastermind": {
+    "name": "The Mastermind",
+    "role": "killer",
+    "bio": "Albert Wesker is a brilliant and ruthless mastermind infused with the power of Uroboros. His personal perks, Superior Anatomy, Awakened Awareness, and Terminus allow you to vault faster, see other Survivor's auras while carrying one, and cause Survivors to be permanently Broken when the exit gates are powered.",
+    "image": "the_mastermind.png"
+  },
+  "the_knight": {
+    "name": "The Knight",
+    "role": "killer",
+    "bio": "The Knight is a strategic Killer, able to send his faithful Guards to hunt for Survivors and damage objects on the battlefield. His personal perks, Nowhere to Hide, Hex: Face the Darkness, and Hubris allow him to reveal Survivors near generators, curse Survivors to scream out in fear, and cause a Survivor who stuns you to become Exposed.",
+    "image": "the_knight.png"
+  },
+  "the_skull_merchant": {
+    "name": "The Skull Merchant",
+    "role": "killer",
+    "bio": "The Skull Merchant is a tactical Killer, able to place Drones that detect and debilitate her targets. Her personal perks, Game Afoot, THWACK!, and Leverage allow her to gain Haste from pursuing your Obsession, force screams from Survivors when breaking walls or pallets, and reduce Survivors' heal speed the more times you place them on hooks.",
+    "image": "the_skull_merchant.png"
+  }
+}

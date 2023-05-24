@@ -1,4 +1,4 @@
-import { PerkCollection } from '../../types/BetterPerksResponse';
+import { PerkCollection } from '../../types/PerkCollection';
 import { LOAD_PERK_DATA } from '../actions/types';
 
 export interface PerkState {
