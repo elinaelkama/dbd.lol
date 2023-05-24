@@ -64,22 +64,6 @@ const Select = styled.select`
 	grid-area: select;
 
 `
-const CharacterButton = styled.button`
-	border:${border};
-	border-radius: 2px;
-	box-shadow: ${shadow};
-	font-size: ${md};
-	color: ${textPrimary};
-	background: none;
-	text-transform: capitalize;
-	margin: auto;
-
-	&:hover{
-		cursor: pointer;
-		background-color: ${accent};
-		color: ${textSecondary};
-	}
-`
 
 const Option = styled.option`
 	padding: 0 ${sm};
