@@ -44,7 +44,7 @@ const Perk = ({ perk }: Props) => {
 		let desc: string = descriptionTemplate
 		if (!tunables || typeof tunables !== "object") return desc
 		tunables.forEach((value: string[], i: number) => {
-			desc = desc.replace(`{${i}}`, value.join("/"))
+			desc = desc.replaceAll(`{${i}}`, value.join("/"))
 		});
 
 		return desc

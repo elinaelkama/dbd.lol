@@ -1593,7 +1593,7 @@
 	"Kindred": {
 		"categories": ["perception"],
 		"name": "Kindred",
-		"description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to all other Survivors.<br><br>While a Survivor other than you is on the hook, all other Survivors\u2019 auras are revealed to you. If The Killer is within a {0} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
+		"description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to all other Survivors.<br><br>While a Survivor other than you is on the hook, all other Survivors\u2019 auras are revealed to you. If The Killer is within a {1} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
 		"role": "survivor",
 		"character": null,
 		"tunables": [
