@@ -568,11 +568,11 @@
 	"Deja_Vu": {
 		"categories": ["perception"],
 		"name": "Deja Vu",
-		"description": "The auras of 3 generators which are in close proximity to one another are revealed to you for {0} seconds at the start of the match and each time a generator is completed.<br><br>If you are holding a Map that can track generators, generators revealed by <i>D\u00e9j\u00e0 Vu</i> are added to the map.<br><br>Gain a 5% repair speed bonus on the revealed generators.",
+		"description": "The auras of <b>3 generators</b> which are in close proximity to one another are revealed to you.<br><br>Gain a {0}% repair speed bonus on the revealed generators.",
 		"role": "survivor",
 		"character": null,
 		"tunables": [
-			["30", "45", "60"]
+			["4", "5", "6"]
 		],
 		"modifier": "DejaVu",
 		"teachable": 0,
@@ -804,7 +804,7 @@
 			["150", "120", "90"],
 			["32"]
 		],
-		"modifier": "FranklinsLoss",
+		"modifier": "FranklinsDemise",
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Cannibal/iconPerks_franklinsLoss.png"
 	},
@@ -1546,6 +1546,50 @@
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Saturn/iconPerks_Leverage.png"
 	},
+	"K32P01": {
+		"categories": ["hinderance"],
+		"name": "Genetic Limits",
+		"description": "Around you, the limits of human life become readily apparent.<br><br>When a Survivor finishes the healing action, they suffer the <b>Exhausted</b> status effect for {0} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"role": "killer",
+		"character": 268435487,
+		"tunables": [
+			["24", "28", "32"]
+		],
+		"modifier": "BP_K32P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_GeneticLimits.png"
+	},
+	"K32P02": {
+		"categories": ["cruelty", "hinderance"],
+		"name": "Forced Hesitation",
+		"description": "You have learned the emotional weaknesses of the organics, and how to exploit them.<br><br>When a Survivor is put into the dying state by any means, all other Survivors standing within a {0} meter range around them suffer the <b>Hindered</b> status effect for {1} seconds, reducing their movement speed by {2}%.<br><br>This perk goes on cooldown for {3} seconds.<br><br>Hindered reduces Survivor movement speed.",
+		"role": "killer",
+		"character": 268435487,
+		"tunables": [
+			["16"],
+			["10"],
+			["20"],
+			["40", "30"]
+		],
+		"modifier": "BP_K32P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_ForcedHesitation.png"
+	},
+	"K32P03": {
+		"categories": ["enhancement", "chasing"],
+		"name": "Machine Learning",
+		"description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>After performing the damage generator action, this perk activates.<br><br>While this perk is active, the next generator you damage will be <b>compromised</b> until it is completed. The generator is highlighted in yellow.<br><br>When the <b>compromised</b> generator is completed, you become <b>Undetectable</b> and gain {1}% Haste for {2} seconds. Then, the perk deactivates.<br><br>If you damage a generator while another generator is <b>compromised</b>, the <b>compromised</b> generator becomes the latest one damaged.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
+		"role": "killer",
+		"character": 268435487,
+		"tunables": [
+			["1"],
+			["10"],
+			["20", "25", "30"]
+		],
+		"modifier": "BP_K32P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_SelfAware.png"
+	},
 	"Kindred": {
 		"categories": ["perception"],
 		"name": "Kindred",
@@ -1795,7 +1839,7 @@
 	"OffTheRecord": {
 		"categories": ["concealment"],
 		"name": "Off the Record",
-		"description": "You\u2019ve learned that a quiet approach is sometimes best.<br><br>Once you are unhooked or escape from the hook, <i>Off the Record</i> activates for {0} seconds. This perk and its effects are disabled once the exit gates are powered.<br><br>While <i>Off the Record</i> is active:<li>Your aura will not be shown to The Killer.</li><li>Grunts of pain caused by injuries are reduced by 100%.</li><li>Gain the <b>Endurance</b> status effect.</li><br><br>Endurance prevents a survivor from being downed, inflicting Deep Wound instead.",
+		"description": "You\u2019ve learned that a quiet approach is sometimes best.<br><br>Once you are unhooked or escape from the hook, <i>Off the Record</i> activates for {0} seconds. This perk and its effects are disabled once the exit gates are powered.<br><br>While <i>Off the Record</i> is active:<li>Your aura will not be shown to The Killer.</li><li>Grunts of pain caused by injuries are reduced by 100%.</li><li>Gain the <b>Endurance</b> status effect.</li><br><br>Endurance prevents a survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
 		"role": "survivor",
 		"character": 20,
 		"tunables": [
@@ -1892,7 +1936,7 @@
 		"role": "killer",
 		"character": 268435467,
 		"tunables": [
-			["20"],
+			["30"],
 			["35", "40", "45"]
 		],
 		"modifier": "BP_PopGoesTheWeasel",
@@ -2136,7 +2180,7 @@
 	"S26P03": {
 		"categories": ["adaptation"],
 		"name": "Blast Mine",
-		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>After repairing a generator for at least {1} seconds, press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds. The Aura of trapped generators is revealed in yellow to all Survivors. Only one Blast Mine can be active on a generator.<br><br><li>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby.<ul><li><i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li><br></ul></li>",
+		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>After repairing a generator for at least {1} seconds, press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds.<br><br>The Aura of trapped generators is revealed in yellow to all Survivors. Only one Blast Mine can be active on a generator.<br><br>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby. <i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.",
 		"role": "survivor",
 		"character": 25,
 		"tunables": [
@@ -2164,7 +2208,7 @@
 	"S27P02": {
 		"categories": ["adaptation"],
 		"name": "Flashbang",
-		"description": "You've adapted to a world in chaos and making what you can from the debris.<br><br>After completing {0}% progress on any generator, <i>Flashbang</i> activates.<br><br>Enter a locker while empty-handed and press the <i>Active Ability Button 1</i> to craft a flash grenade.<br><br><li>1 charge.</li><li>Detonates with a loud bang and flashing light.</li><li>Creates a noise notification.</li><li>Can be used to distract or blind.</li><br><br>You leave the flash grenade behind when escaping the trial.",
+		"description": "You've adapted to a world in chaos and making what you can from the debris.<br><br>After completing {0}% progress on any generator, <i>Flashbang</i> activates.<br><br>Enter a locker and press the <i>Active Ability Button 1</i> to craft a flash grenade.<br><br><li>1 charge.</li><li>Detonates with a loud bang and flashing light.</li><li>Creates a noise notification.</li><li>Can be used to distract or blind.</li><br><br>You leave the flash grenade behind when escaping the trial.",
 		"role": "survivor",
 		"character": 26,
 		"tunables": [
@@ -2571,6 +2615,50 @@
 		"modifier": "BP_S36P03",
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Saturn/iconPerks_TeamworkCollectiveStealth.png"
+	},
+	"S37P01": {
+		"categories": ["strategy"],
+		"name": "Troubleshooter",
+		"description": "No amount of distraction will shake you from your primary task.<br><br>When you are chased by the Killer, <i>Troubleshooter</i> activates.<br><br><li>You see the aura of the Generator with the most progress.</li><li>You see the aura of the Killer for {0} seconds after dropping a Pallet.</li><br><br>The effect lasts for {1} seconds after being in chase, then deactivates.",
+		"role": "survivor",
+		"character": 36,
+		"tunables": [
+			["4", "5", "6"],
+			["6", "8", "10"]
+		],
+		"modifier": "BP_S37P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_troubleshooter.png"
+	},
+	"S37P02": {
+		"categories": ["safeguard"],
+		"name": "Made for This",
+		"description": "You were born to survive, and raised to adapt.<br><br><i>Made for This</i> activates while you are in the injured state.<br><br><li>You run {0}% faster.</li><li>After you finish healing another Survivor, gain the <b>Endurance</b> status effect for {1} seconds.</li><br><br><i>Made for This cannot be used when suffering from Exhaustion, but does not cause the Exhausted Status Effect.</i><br><br>Endurance prevents a survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+		"role": "survivor",
+		"character": 36,
+		"tunables": [
+			["1", "2", "3"],
+			["6", "8", "10"]
+		],
+		"modifier": "BP_S37P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_madeForThis.png"
+	},
+	"S37P03": {
+		"categories": ["adaptation"],
+		"name": "Scavenger",
+		"description": "Where others see junk, you see valuable improvised tools.<br><br>While you are holding an empty toolbox, <i>Scavenger</i> activates.<br><br>Succeeding a great skill check while repairing gains {0} token, up to {1}.<br><br>When you reach maximum tokens, lose all tokens and automatically recharge your toolbox to full. Then, your generator repair speed is {2}% slower for {3} seconds.<br><br>This perk grants the ability to rummage through an opened chest once per Trial and will guarantee a basic Toolbox.",
+		"role": "survivor",
+		"character": 36,
+		"tunables": [
+			["1"],
+			["5"],
+			["50"],
+			["40", "35", "30"]
+		],
+		"modifier": "BP_S37P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Umbra/IconPerks_scavenger.png"
 	},
 	"Saboteur": {
 		"categories": ["strategy"],

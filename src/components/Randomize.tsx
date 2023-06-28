@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { accent, border, bpMedium, bpSmall, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
+import { accent, border, bpLarge, bpSmall, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
 import { ReactNode } from "react"
 
 type Props = {
@@ -25,7 +25,7 @@ const Container = styled.div`
 	justify-content: center;
 	padding: ${sm};
 	box-sizing: border-box;
-	@media screen and (max-width: ${bpMedium}) {
+	@media screen and (max-width: ${bpLarge}) {
 		background: linear-gradient(rgba(0,0,0, 1), rgba(0,0,0, 1));
 	}
 

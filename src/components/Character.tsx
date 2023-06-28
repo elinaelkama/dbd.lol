@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { md, textPrimary } from '../style/DesignSystem'
+import { bpMedium, md, textPrimary } from '../style/DesignSystem'
 import { useAppSelector } from '../hooks/redux'
 
 type Props = {
@@ -14,7 +14,12 @@ const Container = styled.div`
   max-width: 20rem;
   color: ${textPrimary};
   font-family: sans-serif;
-  justify-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: ${bpMedium}){
+	display: flex;
+	flex-wrap: wrap;
+  }
 `
 
 const Image = styled.img`

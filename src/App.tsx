@@ -73,18 +73,23 @@ function App() {
   }
 
   return (
-    <AppContainer>
-      <Container>
-        <Intro title="DBD Perk Randomizer" />
-        <CharacterDisplay>{randomCharacterName && randomCharacterName.map(name => (<Character key={name} character={name} />))}</CharacterDisplay>
-        <PerkDisplay>
-          {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
-        </PerkDisplay>
-        <div></div>
-      </Container>
-      <Randomize setRole={setRole} role={role} setRoleNumber={setRoleNumber} randomize={randomizePerks} randomizeCharacter={randomizeCharacter} roleNumber={roleNumber}>
-      </Randomize>
-    </AppContainer >
+    <html>
+      <head>
+        <meta name="description" content="Randomize your Dead by Daylight Perks and Character." />
+      </head>
+      <AppContainer>
+        <Container>
+          <Intro title="DBD Perk Randomizer" />
+          <CharacterDisplay>{randomCharacterName && randomCharacterName.map(name => (<Character key={name} character={name} />))}</CharacterDisplay>
+          <PerkDisplay>
+            {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
+          </PerkDisplay>
+          <div></div>
+        </Container>
+        <Randomize setRole={setRole} role={role} setRoleNumber={setRoleNumber} randomize={randomizePerks} randomizeCharacter={randomizeCharacter} roleNumber={roleNumber}>
+        </Randomize>
+      </AppContainer >
+    </html>
   )
 }
 

@@ -71,11 +71,11 @@
     "bio": "A resolute dreamwalker, increasing the survivability and recovery of his team. His personal perks, Wake Up!, Pharmacy and Vigil, help Survivors locate exit gates and recover more easily.",
     "image": "quentin_smith.png"
   },
-  "detective_david_tapp": {
+  "detective_tapp": {
     "name": "Detective David Tapp",
     "role": "survivor",
     "bio": "An obsessed detective, able to locate and complete objectives faster. His personal perks, Tenacity, Detective's Hunch and Stake Out, make him objective-focused and able to rapidly recover.",
-    "image": "detective_david_tapp.png"
+    "image": "detective_tapp.png"
   },
   "adam_francis": {
     "name": "Adam Francis",
@@ -95,7 +95,7 @@
     "bio": "An influential celebrity, going against the grain to tackle challenges head on. Her personal perks, Solidarity, Poised and Head On, give her a flexible skillset that allow her to help others, as well as herself, to escape dangerous situations.",
     "image": "jane_romero.png"
   },
-  "ashley_j_williams": {
+  "ashley_j._williams": {
     "name": "Ashley J. Williams",
     "role": "survivor",
     "bio": "An \"alone wolf,\" cocky and headstrong; a man built for survival. His personal perks, Flip-Flop, Buckle Up and Mettle of Man, give him additional resilience to pain and hardship, as well as the ability to help his friends out of sticky situations.",
@@ -155,7 +155,7 @@
     "bio": "Jill Valentine is a founding member of S.T.A.R.S. who has triumphed over countless bio-organic weapons. Her personal perks, Counterforce, Resurgence, and Blast Mine, allow her to indirectly fight back, while offering strong support to her teammates.",
     "image": "jill_valentine.png"
   },
-  "leon_s_kennedy": {
+  "leon_s._kennedy": {
     "name": "Leon S. Kennedy",
     "role": "survivor",
     "bio": "Leon S. Kennedy is a rookie police officer who went beyond the call of duty during the outbreak in Raccoon City. His personal perks, Bite the Bullet, Flashbang, and Rookie Spirit, allow him to ignore pain, disorient the Killer, and track objectives being lost.",
@@ -214,6 +214,12 @@
     "role": "survivor",
     "bio": "Renato always keeps his eye on the prize, and he expects the same from his teammates. His personal perks, Background Player, Blood Rush, and Teamwork: Collective Stealth allow him to move faster when near a chase, recover from Exhausted instantly, and hide your and an allies' scratch marks after that ally heals you.",
     "image": "renato_lyra.png"
+  },
+  "gabriel_soma": {
+    "name": "Gabriel Soma",
+    "role": "survivor",
+    "bio": "A resourceful engineer, ready to make the most out of any situation. His personal perks, Troubleshooter, Made For This and Scavenger, help him see things during a chase, gain Endurance after healing Survivors, and recharge his toolbox.",
+    "image": "gabriel_soma.png"
   },
   "the_trapper": {
     "name": "The Trapper",
@@ -400,5 +406,11 @@
     "role": "killer",
     "bio": "The Skull Merchant is a tactical Killer, able to place Drones that detect and debilitate her targets. Her personal perks, Game Afoot, THWACK!, and Leverage allow her to gain Haste from pursuing your Obsession, force screams from Survivors when breaking walls or pallets, and reduce Survivors' heal speed the more times you place them on hooks.",
     "image": "the_skull_merchant.png"
+  },
+  "the_singularity": {
+    "name": "The Singularity",
+    "role": "killer",
+    "bio": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map. His personal perks, Genetic Limits, Forced Hesitation, and Machine Learning allow him to Exhaust newly healed Survivors, Hinder anyone close to a newly injured Survivor, and compromise generators.",
+    "image": "the_singularity.png"
   }
 }
