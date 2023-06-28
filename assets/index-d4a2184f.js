@@ -87,7 +87,7 @@ Error generating stack: `+i.message+`
 `,K1=ee.p`
 	font-size: ${ki};
 	text-align: left;
-`,U1=({perk:e})=>{const t=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].description:""),r=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].tunables:[]),n=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].name:""),i=`/icons/${gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].image:"")}`,a=Q.useMemo(()=>{let s=t;return!r||typeof r!="object"||r.forEach((l,u)=>{s=s.replace(`{${u}}`,l.join("/"))}),s},[t,r]);return j.jsxs(F1,{children:[j.jsx("div",{children:j.jsx(B1,{src:i})}),j.jsx("div",{children:j.jsx(Y1,{children:n})}),j.jsx("div",{children:j.jsx(K1,{children:a})})]})},V1=ee.div`
+`,U1=({perk:e})=>{const t=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].description:""),r=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].tunables:[]),n=gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].name:""),i=`/icons/${gt(s=>s.perk.data&&s.perk.data[e]?s.perk.data[e].image:"")}`,a=Q.useMemo(()=>{let s=t;return!r||typeof r!="object"||r.forEach((l,u)=>{s=s.replaceAll(`{${u}}`,l.join("/"))}),s},[t,r]);return j.jsxs(F1,{children:[j.jsx("div",{children:j.jsx(B1,{src:i})}),j.jsx("div",{children:j.jsx(Y1,{children:n})}),j.jsx("div",{children:j.jsx(K1,{children:a})})]})},V1=ee.div`
 	display: flex;
 	flex-wrap: wrap;
 	gap:0 ${sn};
