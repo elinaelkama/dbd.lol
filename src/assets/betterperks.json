@@ -3252,7 +3252,7 @@
     "name": "Dramaturgy",
     "description": "When people bring you on to their project, they do so because of the unexpected magic you bring to your performance. Dramaturgy activates while you are healthy. While running, press the active ability button 2 to run with knees high for 0.5 seconds and then gain {0}% Haste for {1} seconds, followed by a unknown effect. Become Exposed for {2} seconds; Gain {3}% Haste for {4} seconds; Scream, but nothing happens; Gain a random rare item, with random add-ons, and drop any held item. The same effect cannot happen twice in a row. Dramaturgy causes exhaustion for {5} seconds. Can't be used while exhausted. Exposed Survivors will be downed by basic attacks even if uninjured. Haste increases Survivor movement speed. Exhaustion prevents Survivors from activating other perks that cause Exhaustion.",
     "role": "survivor",
-    "character": 37,
+    "character": "Nicolas Cage",
     "tunables": [
       [
         "25"
@@ -3282,7 +3282,7 @@
     "name": "Scene Partner",
     "description": "You lock in with your co-star, engaging with and reacting to each other on a higher level. Scene Partner activates when you are in the Killer's Terror Radius. Whenever you look at the Killer, scream, then see the Killer's aura for {0} seconds. There is a chance you will scream again, if you do, you will see the Killer's aura for an additional 2 seconds. Scene Partner then goes on cool-down for {1} seconds.",
     "role": "survivor",
-    "character": 37,
+    "character": "Nicolas Cage",
     "tunables": [
       [
         "3",
@@ -3300,7 +3300,7 @@
     "name": "Plot Twist",
     "description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful. Plot Twist activates when you are injured. Press the ability button 2 while crouched and motionless to enter the dying state silently. When using Plot Twist to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state. When you recover by yourself using Plot Twist , you are healed instantly and you gain {0}% Haste for {1} seconds. This perk deactivates if you recover by yourself by any means. This perk re-activates when the exit gates are powered. Haste increases Survivor movement speed.",
     "role": "survivor",
-    "character": 37,
+    "character": "Nicolas Cage",
     "tunables": [
       [
         "50"
