@@ -72,7 +72,7 @@
     "image": "quentin_smith.png"
   },
   "detective_tapp": {
-    "name": "Detective David Tapp",
+    "name": "Detective Tapp",
     "role": "survivor",
     "bio": "An obsessed detective, able to locate and complete objectives faster. His personal perks, Tenacity, Detective's Hunch and Stake Out, make him objective-focused and able to rapidly recover.",
     "image": "detective_tapp.png"
@@ -95,7 +95,7 @@
     "bio": "An influential celebrity, going against the grain to tackle challenges head on. Her personal perks, Solidarity, Poised and Head On, give her a flexible skillset that allow her to help others, as well as herself, to escape dangerous situations.",
     "image": "jane_romero.png"
   },
-  "ashley_j._williams": {
+  "ashley_j_williams": {
     "name": "Ashley J. Williams",
     "role": "survivor",
     "bio": "An \"alone wolf,\" cocky and headstrong; a man built for survival. His personal perks, Flip-Flop, Buckle Up and Mettle of Man, give him additional resilience to pain and hardship, as well as the ability to help his friends out of sticky situations.",
@@ -155,7 +155,7 @@
     "bio": "Jill Valentine is a founding member of S.T.A.R.S. who has triumphed over countless bio-organic weapons. Her personal perks, Counterforce, Resurgence, and Blast Mine, allow her to indirectly fight back, while offering strong support to her teammates.",
     "image": "jill_valentine.png"
   },
-  "leon_s._kennedy": {
+  "leon_s_kennedy": {
     "name": "Leon S. Kennedy",
     "role": "survivor",
     "bio": "Leon S. Kennedy is a rookie police officer who went beyond the call of duty during the outbreak in Raccoon City. His personal perks, Bite the Bullet, Flashbang, and Rookie Spirit, allow him to ignore pain, disorient the Killer, and track objectives being lost.",
@@ -220,6 +220,12 @@
     "role": "survivor",
     "bio": "A resourceful engineer, ready to make the most out of any situation. His personal perks, Troubleshooter, Made For This and Scavenger, help him see things during a chase, gain Endurance after healing Survivors, and recharge his toolbox.",
     "image": "gabriel_soma.png"
+  },
+  "nicolas_cage": {
+    "name": "Nicolas Cage",
+    "role": "survivor",
+    "bio": "Nicolas Cage is a superstar, trapped in the role of a lifetime. His personal perks, Dramaturgy, Scene Partner and Plot Twist, help him make a quick escape, see the Killer’s aura, and pretend to be dying.",
+    "image": "nicolas_cage.png"
   },
   "the_trapper": {
     "name": "The Trapper",

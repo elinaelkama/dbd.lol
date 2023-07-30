@@ -69,7 +69,7 @@
 	"name": "The Trickster"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/84/K24_charSelect_portrait.png",
-	"name": "The Nemesis"
+	"name": "The The Nemesis"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/K25_charSelect_portrait.png",
 	"name": "The Cenobite"
@@ -91,6 +91,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/K31_charSelect_portrait.png",
 	"name": "The Skull Merchant"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/K32_charSelect_portrait.png",
+	"name": "The Singularity"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png",
 	"name": "Dwight Fairfield"
@@ -114,7 +117,7 @@
 	"name": "Ace Visconti"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/S08_charSelect_portrait.png",
-	"name": "William Bill Overbeck"
+	"name": "Bill Overbeck"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/S09_charSelect_portrait.png",
 	"name": "Feng Min"
@@ -126,7 +129,7 @@
 	"name": "Quentin Smith"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png",
-	"name": "Detective David Tapp"
+	"name": "David Tapp"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/S13_charSelect_portrait.png",
 	"name": "Kate Denson"
@@ -141,7 +144,7 @@
 	"name": "Jane Romero"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png",
-	"name": "Ashley J Williams"
+	"name": "Ash Williams"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0e/S18_charSelect_portrait.png",
 	"name": "Nancy Wheeler"
@@ -171,7 +174,7 @@
 	"name": "Jill Valentine"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/S27_charSelect_portrait.png",
-	"name": "Leon S Kennedy"
+	"name": "Leon Scott Kennedy"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/S28_charSelect_portrait.png",
 	"name": "Mikaela Reid"
@@ -202,4 +205,7 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/S37_charSelect_portrait.png",
 	"name": "Gabriel Soma"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/S38_charSelect_portrait.png",
+	"name": "Nicolas Cage"
 }]

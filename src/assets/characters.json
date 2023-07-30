@@ -12,7 +12,7 @@
 		"item": null,
 		"outfit": ["D_Head01", "D_Torso01", "D_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/DF_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/S01_DwightFairfield_Portrait.png"
 	},
 	"1": {
 		"id": "Meg",
@@ -27,7 +27,7 @@
 		"item": null,
 		"outfit": ["M_Head01", "M_Torso01", "M_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/MT_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/S02_MegThomas_Portrait.png"
 	},
 	"2": {
 		"id": "Claudette",
@@ -42,7 +42,7 @@
 		"item": null,
 		"outfit": ["C_Head01", "C_Torso01", "C_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/CM_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/S03_ClaudetteMorel_Portrait.png"
 	},
 	"3": {
 		"id": "Jake",
@@ -57,7 +57,7 @@
 		"item": null,
 		"outfit": ["J_Head01", "J_Torso01", "J_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/JP_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/S04_JakePark_Portrait.png"
 	},
 	"4": {
 		"id": "Nea",
@@ -72,7 +72,7 @@
 		"item": null,
 		"outfit": ["N_Head01", "N_Torso01", "N_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/NK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/S05_NeaKarlsson_Portrait.png"
 	},
 	"5": {
 		"id": "Laurie",
@@ -87,7 +87,7 @@
 		"item": null,
 		"outfit": ["LS_Head01", "LS_Torso01", "LS_Legs01"],
 		"dlc": "halloween",
-		"image": "UI/Icons/CharPortraits/DLC2/LS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC2/S06_LaurieStrode_Portrait.png"
 	},
 	"6": {
 		"id": "Ace",
@@ -102,7 +102,7 @@
 		"item": null,
 		"outfit": ["AV_Head01", "AV_Torso01", "AV_Legs01"],
 		"dlc": "fleshAndMud",
-		"image": "UI/Icons/CharPortraits/DLC3/AV_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC3/S07_AceVisconti_Portrait.png"
 	},
 	"7": {
 		"id": "Bill",
@@ -117,7 +117,7 @@
 		"item": null,
 		"outfit": ["BO_Head01", "BO_Torso01", "BO_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/L4D/BO_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/L4D/S08_WilliamBillOverbeck_Portrait.png"
 	},
 	"8": {
 		"id": "Feng",
@@ -132,7 +132,7 @@
 		"item": null,
 		"outfit": ["FM_Head01", "FM_Torso01", "FM_Legs01"],
 		"dlc": "sparkofMadness",
-		"image": "UI/Icons/CharPortraits/DLC4/FM_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC4/S09_FengMin_Portrait.png"
 	},
 	"9": {
 		"id": "Smoke",
@@ -147,7 +147,7 @@
 		"item": null,
 		"outfit": ["DK_Head01", "DK_Torso01", "DK_Legs01"],
 		"dlc": "boreal",
-		"image": "UI/Icons/CharPortraits/DLC5/DK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC5/S10_DavidKing_Portrait.png"
 	},
 	"10": {
 		"id": "Kate",
@@ -162,7 +162,7 @@
 		"item": null,
 		"outfit": ["GS_Head01", "GS_Torso01", "GS_Legs01"],
 		"dlc": "Guam",
-		"image": "UI/Icons/CharPortraits/Guam/GS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Guam/S13_KateDenson_Portrait.png"
 	},
 	"11": {
 		"id": "Quentin",
@@ -177,7 +177,7 @@
 		"item": null,
 		"outfit": ["QS_Head01", "QS_Torso01", "QS_Legs01"],
 		"dlc": "Sandman",
-		"image": "UI/Icons/CharPortraits/England/QS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/England/S11_QuentinSmith_Portrait.png"
 	},
 	"12": {
 		"id": "Eric",
@@ -192,7 +192,7 @@
 		"item": null,
 		"outfit": ["FS_Head01", "FS_Torso01", "FS_Legs01"],
 		"dlc": "Finland",
-		"image": "UI/Icons/CharPortraits/Finland/FS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Finland/S12_DetectiveDavidTapp_Portrait.png"
 	},
 	"13": {
 		"id": "Adam",
@@ -207,7 +207,7 @@
 		"item": null,
 		"outfit": ["HS_Head01", "HS_Torso01", "HS_Legs01"],
 		"dlc": "Haiti",
-		"image": "UI/Icons/CharPortraits/Haiti/AF_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Haiti/S14_AdamFrancis_Portrait.png"
 	},
 	"14": {
 		"id": "Jeff",
@@ -222,7 +222,7 @@
 		"item": null,
 		"outfit": ["KS_Head01", "KS_Torso01", "KS_Legs01"],
 		"dlc": "Kenya",
-		"image": "UI/Icons/CharPortraits/Kenya/KS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Kenya/S15_JeffJohansen_Portrait.png"
 	},
 	"15": {
 		"id": "Jane",
@@ -237,7 +237,7 @@
 		"item": null,
 		"outfit": ["MS_Head01", "MS_Torso01", "MS_Legs01"],
 		"dlc": "Mali",
-		"image": "UI/Icons/CharPortraits/Mali/MS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Mali/S16_JaneRomero_Portrait.png"
 	},
 	"16": {
 		"id": "Ash",
@@ -252,7 +252,7 @@
 		"item": null,
 		"outfit": ["ML_Hand01", "ML_Torso01", "ML_Legs01"],
 		"dlc": "Nepals",
-		"image": "UI/Icons/CharPortraits/Ash/MS2_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Ash/S17_AshleyJWilliams_Portrait.png"
 	},
 	"17": {
 		"id": "Nancy",
@@ -267,7 +267,7 @@
 		"item": null,
 		"outfit": ["QF_Head01", "QF_Torso01", "QF_Legs01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/QF_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/S19_NancyWheeler_Portrait.png"
 	},
 	"18": {
 		"id": "Steve",
@@ -282,7 +282,7 @@
 		"item": null,
 		"outfit": ["QM_Head01", "QM_Torso01", "QM_Legs01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/QM_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/S18_SteveHarrington_Portrait.png"
 	},
 	"19": {
 		"id": "Yui",
@@ -297,7 +297,7 @@
 		"item": null,
 		"outfit": ["SwedenSurvivor_Head01", "SwedenSurvivor_Torso01", "SwedenSurvivor_Legs01"],
 		"dlc": "Sweden",
-		"image": "UI/Icons/CharPortraits/Sweden/SS_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Sweden/S20_YuiKimura_Portrait.png"
 	},
 	"20": {
 		"id": "Zarina",
@@ -312,7 +312,7 @@
 		"item": null,
 		"outfit": ["US_Head01", "US_Torso01", "US_Legs01"],
 		"dlc": "Ukraine",
-		"image": "UI/Icons/CharPortraits/Ukraine/US_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Ukraine/S21_ZarinaKassir_Portrait.png"
 	},
 	"21": {
 		"id": "S22",
@@ -327,7 +327,7 @@
 		"item": null,
 		"outfit": ["S22_Head01", "S22_Torso01", "S22_Legs01"],
 		"dlc": "Wales",
-		"image": "UI/Icons/CharPortraits/Wales/S22_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Wales/S22_CherylMason_Portrait.png"
 	},
 	"22": {
 		"id": "S23",
@@ -342,7 +342,7 @@
 		"item": null,
 		"outfit": ["S23_Head01", "S23_Torso01", "S23_Legs01"],
 		"dlc": "Yemen",
-		"image": "UI/Icons/CharPortraits/Yemen/S23_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Yemen/S23_FelixRichter_Portrait.png"
 	},
 	"23": {
 		"id": "S24",
@@ -357,7 +357,7 @@
 		"item": null,
 		"outfit": ["S24_Head01", "S24_Torso01", "S24_Legs01"],
 		"dlc": "Aurora",
-		"image": "UI/Icons/CharPortraits/Aurora/S24_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Aurora/S24_ElodieRakoto_Portrait.png"
 	},
 	"24": {
 		"id": "S25",
@@ -372,7 +372,7 @@
 		"item": null,
 		"outfit": ["S25_Head01", "S25_Torso01", "S25_Legs01"],
 		"dlc": "Comet",
-		"image": "UI/Icons/CharPortraits/Comet/S25_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Comet/S25_YunJinLee_Portrait.png"
 	},
 	"25": {
 		"id": "S26",
@@ -387,7 +387,7 @@
 		"item": null,
 		"outfit": ["S26_Head01", "S26_Torso01", "S26_Legs01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/S26_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/S26_JillValentine_Portrait.png"
 	},
 	"26": {
 		"id": "S27",
@@ -402,7 +402,7 @@
 		"item": null,
 		"outfit": ["S27_Head01", "S27_Torso01", "S27_Legs01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/S27_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/S27_LeonSKennedy_Portrait.png"
 	},
 	"27": {
 		"id": "S28",
@@ -417,7 +417,7 @@
 		"item": null,
 		"outfit": ["S28_Head01", "S28_Torso01", "S28_Legs01"],
 		"dlc": "Hubble",
-		"image": "UI/Icons/CharPortraits/Hubble/S28_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Hubble/S28_MikaelaReid_Portrait.png"
 	},
 	"28": {
 		"id": "S29",
@@ -432,7 +432,7 @@
 		"item": null,
 		"outfit": ["S29_Head01", "S29_Torso01", "S29_Legs01"],
 		"dlc": "Ion",
-		"image": "UI/Icons/CharPortraits/Ion/T_S29_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Ion/S29_JonahVasquez_Portrait.png"
 	},
 	"29": {
 		"id": "S30",
@@ -447,7 +447,7 @@
 		"item": null,
 		"outfit": ["S30_Head01", "S30_Torso01", "S30_Legs01"],
 		"dlc": "Kepler",
-		"image": "UI/Icons/CharPortraits/Kepler/S30_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Kepler/S30_YoichiAsakawa_Portrait.png"
 	},
 	"30": {
 		"id": "S31",
@@ -462,7 +462,7 @@
 		"item": null,
 		"outfit": ["S31_Head01", "S31_Torso01", "S31_Legs01"],
 		"dlc": "Meteor",
-		"image": "UI/Icons/CharPortraits/Meteor/S31_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Meteor/S31_HaddieKaur_Portrait.png"
 	},
 	"31": {
 		"id": "S32",
@@ -477,7 +477,7 @@
 		"item": null,
 		"outfit": ["S32_Head01", "S32_Torso01", "S32_Legs01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/S32_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/S32_AdaWong_Portrait.png"
 	},
 	"32": {
 		"id": "S33",
@@ -492,7 +492,7 @@
 		"item": null,
 		"outfit": ["S33_Head01", "S33_Torso01", "S33_Legs01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/S33_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/S33_RebeccaChambers_Portrait.png"
 	},
 	"33": {
 		"id": "S34",
@@ -507,7 +507,7 @@
 		"item": null,
 		"outfit": ["S34_Head01", "S34_Torso01", "S34_Legs01"],
 		"dlc": "Quantum",
-		"image": "UI/Icons/CharPortraits/Quantum/S34_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Quantum/S34_VittorioToscano_Portrait.png"
 	},
 	"34": {
 		"id": "S35",
@@ -522,7 +522,7 @@
 		"item": null,
 		"outfit": ["S35_Head01", "S35_Torso01", "S35_Legs01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/s35_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/S35_ThalitaLyra_Portrait.png"
 	},
 	"35": {
 		"id": "S36",
@@ -537,7 +537,7 @@
 		"item": null,
 		"outfit": ["S36_Head01", "S36_Torso01", "S36_Legs01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/S36_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/S36_RenatoLyra_Portrait.png"
 	},
 	"36": {
 		"id": "S37",
@@ -552,7 +552,22 @@
 		"item": null,
 		"outfit": ["S37_Head01", "S37_Torso01", "S37_Legs01"],
 		"dlc": "Umbra",
-		"image": "UI/Icons/CharPortraits/Umbra/S37_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Umbra/S37_GabrielSoma_Portrait.png"
+	},
+	"37": {
+		"id": "S38",
+		"name": "Nicolas Cage",
+		"role": "survivor",
+		"difficulty": "intermediate",
+		"gender": "male",
+		"height": "average",
+		"bio": "Nicolas Cage is a superstar, trapped in the role of a lifetime.<br><br>His personal perks, <b>Dramaturgy</b>, <b>Scene Partner</b> and <b>Plot Twist</b>, help him make a quick escape, see the Killer\u2019s aura, and pretend to be dying.",
+		"story": "Countless awards. Billions of dollars at the box office. Over one hundred films shot in every corner of the globe. Nicolas Cage had done it all and seen it all.<br><br>Or so he thought.<br><br>The last script to cross his desk was something new entirely. Descend Beyond. As he pored over every word, every page, Nick became more and more transfixed. It was as if the script had consumed his senses entirely. He could see himself kneeling before the great altar of a dark temple. He could feel the coarse stone on his fingertips as he drew ancient symbols inked in blood on that very altar. He could hear rumbling as the walls glowed and released\u2014<br><br>Nick called his agent immediately. By the time the sun rose, he was on a private jet bound for the Pacific. His agent had warned him that Descend Beyond was backed by some questionable financers. Nick didn\u2019t mind. He was willing to do the film for free, but his agent talked him out of it.<br><br>Touching down, Nick wondered if the rocky island was under lockdown. The dirt runway was flanked by research tents bearing a logo he did not recognize. As soon as he stepped off the jet, he was lead by armed guards to the director of Descend Beyond, a white-haired woman with the hardness of a government agent: Pauline Stamper.<br><br>Stamper herself drove Nick to set, with another two black jeeps following them. The dirt road went through an abandoned camp, along the edge of a waterfall, and switchbacked down to a valley of dense forests. Stamper lead Nick and the guards on foot to the film\u2019s key location: an ominous cave, home to the crumbling ruins of an ancient temple.<br><br>It was exactly what he had seen as he read the script in his office. The dark temple. The stone altar in the middle of the main chamber. The smooth walls waiting to glow. Waiting to unleash\u2014<br><br>Nick was ready to film immediately. Stamper gently reminded him that filming would commence the following morning, but Nick refused to hear any of it. The crew was quickly summoned, and just as the sun began to set, Nick heard the words he longed to hear:<br><br>Action!<br><br>Nick performed his dialogue to the letter. A dark incantation that rolled off his tongue with ease. He dipped his fingers in a cup of red ink and painted symbols on the stone altar. He never felt this way on a set before. But then\u2026<br><br>Nick looked up and saw the temple walls glowing, revealing symbols like the one he had painted on the altar. Nick had thought the glowing would be a special effect added to the film in post. Something was wrong.<br><br>He approached the wall and touched the symbols. Just like it said in the script. He stared in disbelief as black fog -- real black fog -- billowed from the symbols and wrapped around his arm. This had to be a practical joke. He looked behind the camera, expecting to see Stamper and her crew laughing at their little prank.<br><br>But they were gone. And the black fog was all around him.<br><br>This can\u2019t be real. This is only a movie.",
+		"tunables": null,
+		"item": null,
+		"outfit": ["S38_Head01", "S38_Torso01", "S38_Legs01"],
+		"dlc": "Venus",
+		"image": "UI/Icons/CharPortraits/Venus/S38_NicolasCage_Portrait.png"
 	},
 	"268435456": {
 		"id": "Chuckles",
@@ -571,7 +586,7 @@
 		"item": "Item_Slasher_Beartrap",
 		"outfit": ["S01_Head01", "S01_Body01", "S01_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/TR_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/K01_TheTrapper_Portrait.png"
 	},
 	"268435457": {
 		"id": "Bob",
@@ -591,7 +606,7 @@
 		"item": "Item_Slasher_CloakBell",
 		"outfit": ["Wraith_Head01", "Wraith_Body01", "Wraith_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/WR_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/K02_TheWraith_Portrait.png"
 	},
 	"268435458": {
 		"id": "HillBilly",
@@ -620,7 +635,7 @@
 		"item": "Item_Slasher_Chainsaw",
 		"outfit": ["Hillbilly_Body01", "Hillbilly_Legs01", "Hillbilly_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/HB_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/K03_TheHillbilly_Portrait.png"
 	},
 	"268435459": {
 		"id": "Nurse",
@@ -651,7 +666,7 @@
 		"item": "Item_Slasher_Blinker",
 		"outfit": ["Nurse_Head01", "Nurse_Body01", "Nurse_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/NR_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/K04_TheNurse_Portrait.png"
 	},
 	"268435460": {
 		"id": "Witch",
@@ -674,7 +689,7 @@
 			"phantomtrap_activetime": 5,
 			"phantomtrap_triggerattacktime": 10,
 			"phantomtrap_teleportattacktime": 10,
-			"phantomtrap_teleportcooldownduration": 15,
+			"phantomtrap_teleportcooldownduration": 10,
 			"teleportstuntime": 0.009999999776482582,
 			"slowdowntimeafterteleport": 1,
 			"phantomtrap_activatenotifysurvivorbotsrange": 1600,
@@ -683,7 +698,7 @@
 		"item": "Item_Slasher_PhantomTrap",
 		"outfit": ["HA_Head01", "HA_Body01", "HA_Claw01"],
 		"dlc": "fleshAndMud",
-		"image": "UI/Icons/CharPortraits/DLC3/HA_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC3/K05_TheHag_Portrait.png"
 	},
 	"268435461": {
 		"id": "Shape",
@@ -728,7 +743,7 @@
 		"item": "Item_Slasher_Stalker",
 		"outfit": ["MM_Head01", "MM_Body01", "MM_Knife01"],
 		"dlc": "halloween",
-		"image": "UI/Icons/CharPortraits/DLC2/SH_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC2/K06_TheShape_Portrait.png"
 	},
 	"268435462": {
 		"id": "Killer07",
@@ -774,7 +789,7 @@
 		"item": "Item_Slasher_Killer07Item",
 		"outfit": ["DO_Head01", "DO_Body01", "DO_Weapon01"],
 		"dlc": "sparkofMadness",
-		"image": "UI/Icons/CharPortraits/DLC4/DO_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC4/K07_TheDoctor_Portrait.png"
 	},
 	"268435463": {
 		"id": "Bear",
@@ -799,7 +814,7 @@
 		"item": "Item_Slasher_Hatchet",
 		"outfit": ["BE_Mask01", "BE_Body01", "BE_W01"],
 		"dlc": "boreal",
-		"image": "UI/Icons/CharPortraits/DLC5/BE_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC5/K08_TheHuntress_Portrait.png"
 	},
 	"268435464": {
 		"id": "Cannibal",
@@ -834,7 +849,7 @@
 		"item": "Item_Slasher_LFChainsaw",
 		"outfit": ["CA_Head01", "CA_Body01", "CA_W01"],
 		"dlc": "Cannibal",
-		"image": "UI/Icons/CharPortraits/Cannibal/CA_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Cannibal/K09_TheCannibal_Portrait.png"
 	},
 	"268435465": {
 		"id": "Nightmare",
@@ -878,7 +893,7 @@
 		"item": "Item_Slasher_DreamInducer",
 		"outfit": ["SD_Head01", "SD_Body01", "SD_W01"],
 		"dlc": "Sandman",
-		"image": "UI/Icons/CharPortraits/England/SD_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/England/K10_TheNightmare_Portrait.png"
 	},
 	"268435466": {
 		"id": "Pig",
@@ -907,7 +922,7 @@
 		"item": "Item_Slasher_ReverseBearTrap",
 		"outfit": ["FK_Mask01", "FK_Body01", "FK_W01"],
 		"dlc": "Finland",
-		"image": "UI/Icons/CharPortraits/Finland/FK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Finland/K11_ThePig_Portrait.png"
 	},
 	"268435467": {
 		"id": "Clown",
@@ -962,7 +977,7 @@
 		"item": "Item_Slasher_GasBomb",
 		"outfit": ["GK_Head01", "GK_Body01", "GK_W01"],
 		"dlc": "Guam",
-		"image": "UI/Icons/CharPortraits/Guam/GK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Guam/K12_TheClown_Portrait.png"
 	},
 	"268435468": {
 		"id": "Spirit",
@@ -992,7 +1007,7 @@
 		"item": "Item_Slasher_PhaseWalker",
 		"outfit": ["HK_Head01", "HK_Body01", "HK_W01"],
 		"dlc": "Haiti",
-		"image": "UI/Icons/CharPortraits/Haiti/HK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Haiti/K13_TheSpirit_Portrait.png"
 	},
 	"268435469": {
 		"id": "Legion",
@@ -1031,7 +1046,7 @@
 		"item": "Item_Slasher_Frenzy",
 		"outfit": ["KK_Head01", "KK_Body01", "KK_W01"],
 		"dlc": "Kenya",
-		"image": "UI/Icons/CharPortraits/Kenya/KK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Kenya/K14_TheLegion_Portrait.png"
 	},
 	"268435470": {
 		"id": "Plague",
@@ -1082,7 +1097,7 @@
 		"item": "Item_Slasher_PlaguePower",
 		"outfit": ["MK_Mask01", "MK_Body01", "MK_W01"],
 		"dlc": "Mali",
-		"image": "UI/Icons/CharPortraits/Mali/MK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Mali/K15_ThePlague_Portrait.png"
 	},
 	"268435471": {
 		"id": "Ghostface",
@@ -1132,7 +1147,7 @@
 		"item": "Item_Slasher_GhostPower",
 		"outfit": ["OK_Mask01", "OK_Body01", "OK_W01"],
 		"dlc": "Oman",
-		"image": "UI/Icons/CharPortraits/Oman/OK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Oman/K16_TheGhostface_Portrait.png"
 	},
 	"268435472": {
 		"id": "Demogorgon",
@@ -1181,7 +1196,7 @@
 		"item": "Item_Slasher_QatarKillerPower",
 		"outfit": ["QK_Head01", "QK_Body01", "QK_W01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/QK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/K17_TheDemogorgon_Portrait.png"
 	},
 	"268435473": {
 		"id": "Oni",
@@ -1248,7 +1263,7 @@
 		"item": "Item_Slasher_Kanobo",
 		"outfit": ["SwedenKiller_Head01", "SwedenKiller_Body01", "SwedenKiller_Weapon01"],
 		"dlc": "Sweden",
-		"image": "UI/Icons/CharPortraits/Sweden/SK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Sweden/K18_TheOni_Portrait.png"
 	},
 	"268435474": {
 		"id": "Gunslinger",
@@ -1316,7 +1331,7 @@
 		"item": "Item_Slasher_HarpoonRifle",
 		"outfit": ["UkraineKiller_Head01", "UkraineKiller_Body01", "UkraineKiller_W01"],
 		"dlc": "Ukraine",
-		"image": "UI/Icons/CharPortraits/Ukraine/UK_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Ukraine/K19_TheDeathslinger_Portrait.png"
 	},
 	"268435475": {
 		"id": "K20",
@@ -1371,7 +1386,7 @@
 			"maxinputthresholdtotriggerinputfeedback": 0.6000000238418579,
 			"inputfeedbackcooldowtime": 0.5,
 			"inputfeedbackanimtime": 0.20000000298023224,
-			"deathbed_anticampzonedistance": 500,
+			"deathbed_anticampzonedistance": 1000,
 			"deathbed_anticampzonetimetotrigger": 3.5,
 			"deathbed_anticampdraincooldowntime": 10,
 			"tormentmode_cancelwalkspeed": 368
@@ -1379,7 +1394,7 @@
 		"item": "Item_Slasher_TormentMode",
 		"outfit": ["K20_Head01", "K20_Body01", "K20_Weapon01"],
 		"dlc": "Wales",
-		"image": "UI/Icons/CharPortraits/Wales/K20_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Wales/K20_TheExecutioner_Portrait.png"
 	},
 	"268435476": {
 		"id": "K21",
@@ -1429,7 +1444,7 @@
 		"item": "Item_Slasher_K21Power",
 		"outfit": ["K21_Head01", "K21_Body01", "K21_Weapon01"],
 		"dlc": "Yemen",
-		"image": "UI/Icons/CharPortraits/Yemen/K21_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Yemen/K21_TheBlight_Portrait.png"
 	},
 	"268435477": {
 		"id": "K22",
@@ -1490,7 +1505,7 @@
 		"item": "Item_Slasher_K22Power",
 		"outfit": ["K22_Head01", "K22_Body01", "K22_Weapon01"],
 		"dlc": "Aurora",
-		"image": "UI/Icons/CharPortraits/Aurora/K22_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Aurora/K22_TheTwins_Portrait.png"
 	},
 	"268435478": {
 		"id": "K23",
@@ -1557,7 +1572,7 @@
 		"item": "Item_Slasher_ThrowingKnives",
 		"outfit": ["K23_Head01", "K23_Body01", "K23_Weapon01"],
 		"dlc": "Comet",
-		"image": "UI/Icons/CharPortraits/Comet/K23_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Comet/K23_TheTrickster_Portrait.png"
 	},
 	"268435479": {
 		"id": "K24",
@@ -1624,7 +1639,7 @@
 		"item": "Item_Slasher_K24Power",
 		"outfit": ["K24_Head01", "K24_Body01", "K24_Weapon01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/K24_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/K24_TheNemesis_Portrait.png"
 	},
 	"268435480": {
 		"id": "K25",
@@ -1692,7 +1707,7 @@
 		"item": "Item_Slasher_K25Power",
 		"outfit": ["K25_Head01", "K25_Body01", "K25_Weapon01"],
 		"dlc": "Gemini",
-		"image": "UI/Icons/CharPortraits/Gemini/K25_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Gemini/K25_TheCenobite_Portrait.png"
 	},
 	"268435481": {
 		"id": "K26",
@@ -1783,7 +1798,7 @@
 		"item": "Item_Slasher_K26Power",
 		"outfit": ["K26_Head01", "K26_Body01", "K26_W01"],
 		"dlc": "Ion",
-		"image": "UI/Icons/CharPortraits/Ion/T_K26_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Ion/K26_TheArtist_Portrait.png"
 	},
 	"268435482": {
 		"id": "K27",
@@ -1798,22 +1813,25 @@
 			"maxwalkspeed": 460,
 			"carryingcampermaxwalkspeedpercent": 0.800000011920929,
 			"terrorradius": 2400,
+			"condemnedstacksonteleport": 0.75,
+			"reducedcondemnedstacksonteleportwithaddon": 0.5,
+			"condemnedstackstogainonbasicattack": 2,
 			"maxcondemnstacks": 7,
 			"stacksaddedonturnoff": 1,
-			"stacksonretrievetape": 1,
 			"stacksremovedoninsert": 3,
 			"mindistanceforselectedtv": 3200,
 			"maxdistanceforselectedtv": 7600,
 			"killerinstinctdurationonfullycondemned": 6,
-			"timepercondemnstacks": 25,
 			"rangetostopcondemnprogressafterchase": 1600,
 			"timeawayfromkillertoresumecondemn": 6,
-			"survivorturnoffduration": 60,
-			"survivorinserttapeturnoffduration": 60,
+			"distanceuntilshowtvwithvhs": 1600,
+			"survivorturnoffduration": 70,
+			"survivorinserttapeturnoffduration": 70,
 			"televisioninitialcooldown": 30,
-			"televisionteleportcooldown": 100,
+			"televisionteleportcooldown": 45,
 			"distancetoplaysurvivorvideo": 1600,
 			"distancethresholdforgeneratorneartelevisions": 1600,
+			"teleportcooldowntime": 10,
 			"teleportconfirmationtime": 0.30000001192092896,
 			"teleportsuccesstime": 2.700000047683716,
 			"teleportcancelledtime": 0.5,
@@ -1833,12 +1851,15 @@
 			"flicker_inotherworld_invisibleduration": 1,
 			"flicker_lingeringflicker_visibleduration": 0.5,
 			"flicker_lingeringflicker_invisibleduration": 0.75,
-			"maxtrackedtimesincemanifest": 8
+			"maxtrackedtimesincemanifest": 8,
+			"phasingslowdowninduration": 0.10000000149011612,
+			"phasingislowdownoutduration": 1,
+			"phasingslowdownmaxspeedpercentage": 0.75
 		},
 		"item": "Item_Slasher_K27Power",
 		"outfit": ["K27_Head01", "K27_Body01", "K27_Weapon01"],
 		"dlc": "Kepler",
-		"image": "UI/Icons/CharPortraits/Kepler/K27_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Kepler/K27_TheOnryo_Portrait.png"
 	},
 	"268435483": {
 		"id": "K28",
@@ -1898,7 +1919,7 @@
 		"item": "Item_Slasher_K28Power",
 		"outfit": ["K28_Head01", "K28_Body01", "K28_Weapon01"],
 		"dlc": "Meteor",
-		"image": "UI/Icons/CharPortraits/Meteor/K28_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Meteor/K28_TheDredge_Portrait.png"
 	},
 	"268435484": {
 		"id": "K29",
@@ -1984,7 +2005,7 @@
 		"item": "Item_Slasher_K29Power",
 		"outfit": ["K29_Head01", "K29_Body01", "K29_Weapon01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/K29_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/K29_TheMasterMind_Portrait.png"
 	},
 	"268435485": {
 		"id": "K30",
@@ -2008,6 +2029,7 @@
 			"minimumdistancebetweenpathnodes": 200,
 			"pathlengthpercentlimitforaudiowarning": 0.699999988079071,
 			"pathdrawingdurationlimitaudiowarningpercent": 0.699999988079071,
+			"minslopetocheckstepup": 20,
 			"transitionspeedwhenkillerlookinfrontofhim": 1,
 			"transitiontimewhenkillerislaunchtopreviewposition": 1,
 			"drawpathmode_yawinputlimit": 290,
@@ -2026,7 +2048,7 @@
 		"item": "Item_Slasher_K30Power",
 		"outfit": ["K30_Head01", "K30_Body01", "K30_Weapon01"],
 		"dlc": "Quantum",
-		"image": "UI/Icons/CharPortraits/Quantum/K30_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Quantum/K30_TheKnight_Portrait.png"
 	},
 	"268435486": {
 		"id": "K31",
@@ -2094,7 +2116,7 @@
 		"item": "Item_Slasher_K31Power",
 		"outfit": ["K31_Head01", "K31_Body01", "K31_Weapon01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/K31_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/K31_TheSkullMerchant_Portrait.png"
 	},
 	"268435487": {
 		"id": "K32",
@@ -2119,16 +2141,16 @@
 			"lockonwakeuptime": 1,
 			"lockonwakeuptimeanticampmultiplier": 5,
 			"lockonautodetectrange": 100,
-			"itemboxinprogressduration": 90,
+			"itemboxinprogressduration": 100,
 			"itemboxspeedupinteractionprogressmultiplier": 4,
-			"initialnumberofinprogressitemboxes": 5,
+			"initialnumberofinprogressitemboxes": 4,
 			"itemboxdistancetoshowoutline": 3200,
 			"empammocount": 1,
-			"empinteractionsecondstocharge": 2,
+			"empinteractionsecondstocharge": 2.5,
 			"empinteractionzoompercentage": 0.5,
 			"emprange": 1000,
 			"assimilationcooldowntime": 2,
-			"poddisabletime": 60,
+			"poddisabletime": 45,
 			"lastcontrolledpodlingertime": 5,
 			"maxkillerpodammo": 8,
 			"podremovalrange": 130,
@@ -2165,7 +2187,7 @@
 			"crosssurvivorassimilationpreventionbuffer": 5,
 			"addon10screamrevealduration": 4,
 			"addon12firstactivatedboxeschargetimeextension": 30,
-			"addon13killerinstinctduration": 5,
+			"addon13effectduration": 6,
 			"addon13activationfromspawnedkillerpodrange": 600,
 			"addon14activationdelay": 0.5,
 			"addon16recentlyteleportedtime": 10,
@@ -2184,6 +2206,6 @@
 		"item": "Item_Slasher_K32Power",
 		"outfit": ["K32_Head01", "K32_Body01", "K32_Weapon01"],
 		"dlc": "Umbra",
-		"image": "UI/Icons/CharPortraits/Umbra/K32_charSelect_portrait.png"
+		"image": "UI/Icons/CharPortraits/Umbra/K32_TheSingularity_Portrait.png"
 	}
 }

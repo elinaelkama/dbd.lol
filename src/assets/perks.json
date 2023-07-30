@@ -16,7 +16,7 @@
 	"Adrenaline": {
 		"categories": ["navigation", "adaptation"],
 		"name": "Adrenaline",
-		"description": "You are fuelled by unexpected energy when on the verge of escape. Instantly heal one <b>health state</b> and sprint at {0}% of your normal running speed for {1} seconds when the exit gates are powered. Adrenaline is on hold if you are disabled at the moment it should take effect and will activate when freed.<br><br><i>Adrenaline</i> will <b>wake you up</b> if you are asleep when it triggers.<br><br><i>Adrenaline</i> ignores the <b>Exhausted</b> status effect.<br><br>Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "You are fuelled by unexpected energy when on the verge of escape.<br><br>Instantly heal one <b>health state</b> and sprint at {0}% of your normal running speed for {1} seconds when the exit gates are powered. Adrenaline is on hold if you are disabled at the moment it should take effect and will activate when freed.<br><br><i>Adrenaline</i> will <b>wake you up</b> if you are asleep when it triggers.<br><br><i>Adrenaline</i> ignores the <b>Exhausted</b> status effect.<br><br>Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 1,
 		"tunables": [
@@ -145,10 +145,11 @@
 	"BBQAndChilli": {
 		"categories": ["tracking"],
 		"name": "Barbecue & Chili",
-		"description": "A deep bond with The Entity unlocks potential in one's aura reading ability.<li>After hooking a Survivor, all other Survivors' auras are revealed to you for 4 seconds when they are further than {0} meters from the hook.</li>",
+		"description": "A deep bond with The Entity unlocks potential in one's aura reading ability.<li>After hooking a Survivor, all other Survivors' auras are revealed to you for {0} seconds when they are further than {1} meters from the hook.</li>",
 		"role": "killer",
 		"character": 268435464,
 		"tunables": [
+			["5"],
 			["60", "50", "40"]
 		],
 		"modifier": "BBQAndChilli",
@@ -339,9 +340,9 @@
 		"role": "survivor",
 		"character": 19,
 		"tunables": [
-			["6"],
+			["5"],
 			["5", "6", "7"],
-			["20"]
+			["25"]
 		],
 		"modifier": "BP_Breakout",
 		"teachable": 40,
@@ -350,7 +351,7 @@
 	"Brutal_Strength": {
 		"categories": ["enhancement"],
 		"name": "Brutal Strength",
-		"description": "Your great strength allows you to shred through your prey's defenses.<br><br>Destroy dropped <b>pallets, breakable walls, and generators</b> {0}% faster.",
+		"description": "Your great strength allows you to shred through your prey's defenses.<br><br>Destroy <b>dropped pallets, breakable walls, and generators</b> {0}% faster.",
 		"role": "killer",
 		"character": 268435456,
 		"tunables": [
@@ -363,12 +364,11 @@
 	"BuckleUp": {
 		"categories": ["perception"],
 		"name": "Buckle Up",
-		"description": "Unlocks potential in one's aura reading ability. When you heal a Survivor from the dying state to injured, both you and the healed Survivor see the Killer's aura for a duration of {0} seconds.<br><br>The healed Survivor also gains a {1}% Haste status effect for the same duration.",
+		"description": "Unlocks potential in one's aura reading ability. While healing a Survivor in the dying state, you both can see the Killer's aura. When completing healing a Survivor from the dying state to injured, both you and the healed Survivor gain <b>Endurance</b> for {0} seconds.<br><br><b>Endurance</b> prevents a Survivor from being downed, inflicting <b>Deep Wound</b> instead.<br><br><b>Deep Wound</b> will put a Survivor in the dying state unless it is mended before the timer runs out.",
 		"role": "survivor",
 		"character": 16,
 		"tunables": [
-			["6", "8", "10"],
-			["10"]
+			["6", "8", "10"]
 		],
 		"modifier": "BuckleUp_BP",
 		"teachable": 35,
@@ -446,11 +446,10 @@
 	"CruelConfinement": {
 		"categories": ["trickery"],
 		"name": "Claustrophobia",
-		"description": "Your ties to the otherworldly manifest when your prey attempts to get away.<br><br>Every time a generator is completed, all windows and vault locations within a {0} meter radius of the completed generator are blocked for all Survivors for the next {1} seconds.<br><br>You see the aura of the vault locations blocked by <i>Claustrophobia</i> for the duration.",
+		"description": "Your ties to the otherworldly manifest when your prey attempts to get away.<br><br>Every time a generator is completed, all windows and vault locations are blocked for all Survivors for the next {0} seconds.<br><br>You see the aura of the vault locations blocked by <i>Claustrophobia</i> for the duration.",
 		"role": "killer",
 		"character": 268435472,
 		"tunables": [
-			["32"],
 			["20", "25", "30"]
 		],
 		"modifier": "BP_CruelConfinement",
@@ -851,12 +850,12 @@
 	},
 	"HangmansTrick": {
 		"categories": ["obstruction"],
-		"name": "Hangman's Trick",
-		"description": "Your ingenious modifications to hooks alert you of tampering.<br><br><li>Gain a notification when a Survivor begins sabotaging a hook.</li><li>While carrying a Survivor, see the aura of any Survivor within {0} meters of a hook.</li>",
+		"name": "Scourge Hook: Hangman's Trick",
+		"description": "Your ingenious modifications to hooks alert you of tampering.<br><br><li>Gain a notification when a Survivor begins sabotaging a hook.</li><li>While carrying a Survivor, see the aura of any Survivor within {0} meters of a scourge hook.</li>",
 		"role": "killer",
 		"character": 268435466,
 		"tunables": [
-			["2", "4", "6"]
+			["8", "9", "10"]
 		],
 		"modifier": "HangmansTrick",
 		"teachable": 30,
@@ -1126,7 +1125,7 @@
 	"K22P01": {
 		"categories": ["tracking"],
 		"name": "Hoarder",
-		"description": "You protect what little you have and are attentive to any disturbance of your stockpiles.<br><br>Survivors reveal their location when they interact with a&nbsp;chest&nbsp;or when they pick up an item within&nbsp;{0} meters of your location.<br><br>The trial begins with up to&nbsp;{1} additional&nbsp;chests in the environment.",
+		"description": "You protect what little you have and are attentive to any disturbance of your stockpiles.<br><br>Survivors reveal their location when they interact with a&nbsp;chest&nbsp;or when they pick up an item within&nbsp;{0} meters of your location.<br><br>The trial begins with up to&nbsp;{1} additional&nbsp;Chests in the environment.",
 		"role": "killer",
 		"character": 268435477,
 		"tunables": [
@@ -1154,7 +1153,7 @@
 	"K22P03": {
 		"categories": ["cruelty"],
 		"name": "Coup de Gr\u00e2ce",
-		"description": "As the&nbsp;end nears,&nbsp;you go in for the kill.<br><br>Each time a generator is completed, Coup de Gr\u00e2ce grows in power. Gain a token.<br><br>Consume one token to increase the distance of your next lunge attack by {0}%.",
+		"description": "As the&nbsp;end nears,&nbsp;you go in for the kill.<br><br>Each time a generator is completed, Coup de Gr\u00e2ce grows in power. Gain 2 tokens, with a maximum of 5 tokens maximum.<br><br>Consume one token to increase the distance of your next lunge attack by {0}%.",
 		"role": "killer",
 		"character": 268435477,
 		"tunables": [
@@ -1185,7 +1184,7 @@
 		"role": "killer",
 		"character": 268435478,
 		"tunables": [
-			["14", "17", "20"]
+			["40", "50", "60"]
 		],
 		"modifier": "BP_HexCrowdControl",
 		"teachable": 35,
@@ -1298,7 +1297,7 @@
 		"tunables": [
 			["4"],
 			["30", "35", "40"],
-			["5"]
+			["6"]
 		],
 		"modifier": "BP_K26P01",
 		"teachable": 30,
@@ -1569,7 +1568,7 @@
 			["16"],
 			["10"],
 			["20"],
-			["40", "30"]
+			["40", "35", "30"]
 		],
 		"modifier": "BP_K32P02",
 		"teachable": 35,
@@ -1578,7 +1577,7 @@
 	"K32P03": {
 		"categories": ["enhancement", "chasing"],
 		"name": "Machine Learning",
-		"description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>After performing the damage generator action, this perk activates.<br><br>While this perk is active, the next generator you damage will be <b>compromised</b> until it is completed. The generator is highlighted in yellow.<br><br>When the <b>compromised</b> generator is completed, you become <b>Undetectable</b> and gain {1}% Haste for {2} seconds. Then, the perk deactivates.<br><br>If you damage a generator while another generator is <b>compromised</b>, the <b>compromised</b> generator becomes the latest one damaged.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
+		"description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>After performing the damage generator action, this perk activates.<br><br>While this perk is active, the next Generator you damage will be <b>compromised</b> until it is completed. The Generator is highlighted in yellow.<br><br>When the <b>compromised</b> generator is completed, you become <b>Undetectable</b> and gain {1}% Haste for {2} seconds. Then, the perk deactivates.<br><br>If you damage a generator while another generator is <b>compromised</b>, the <b>compromised</b> generator becomes the latest one damaged.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
 		"role": "killer",
 		"character": 268435487,
 		"tunables": [
@@ -1593,7 +1592,7 @@
 	"Kindred": {
 		"categories": ["perception"],
 		"name": "Kindred",
-		"description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to all other Survivors.<br><br>While a Survivor other than you is on the hook, all other Survivors\u2019 auras are revealed to you. If The Killer is within a {1} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
+		"description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to all other Survivors.<br><br>While a Survivor other than you is on the hook, all other Survivors\u2019 auras are revealed to you. If The Killer is within a {0} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
 		"role": "survivor",
 		"character": null,
 		"tunables": [
@@ -1971,13 +1970,12 @@
 	"Prove_Thyself": {
 		"categories": ["strategy", "support"],
 		"name": "Prove Thyself",
-		"description": "For every other Survivor working on a generator within a {1} meter range, gain {0}% repair speed bonus. This same bonus is also applied to all other Survivors within range.<br><br>Gain {2}% more Bloodpoints for coop actions.<br><br>Survivors can only be affected by one Prove Thyself effect at a time.",
+		"description": "For every other Survivor working on a generator within a {0} meter range, gain {1}% repair speed bonus. This same bonus is also applied to all other Survivors within range.<br><br>Survivors can only be affected by one Prove Thyself effect at a time.",
 		"role": "survivor",
 		"character": 0,
 		"tunables": [
-			["15"],
 			["4"],
-			["50", "75", "100"]
+			["6", "8", "10"]
 		],
 		"modifier": "ProveThyself",
 		"teachable": 35,
@@ -2028,12 +2026,13 @@
 	"RememberMe": {
 		"categories": ["obstruction"],
 		"name": "Remember Me",
-		"description": "You become <b>obsessed</b> with one Survivor. Each time your Obsession loses a health state, you increase the opening time of the exit gates by {0} seconds up to a maximum of {1} additional seconds.<br><br>The Obsession is not affected by <i>Remember Me.</i><br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "You become <b>obsessed</b> with one Survivor.<br><br>Each time your Obsession loses a health state, gain 1 token, up to {2}. Each token increases the opening time of the exit gates by {0} seconds up to a maximum of {1} additional seconds.<br><br>The Obsession is not affected by <i>Remember Me.</i><br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "killer",
 		"character": 268435465,
 		"tunables": [
-			["4"],
-			["8", "12", "16"]
+			["6"],
+			["12", "18", "24"],
+			["2", "3", "4"]
 		],
 		"modifier": "RememberMe",
 		"teachable": 35,
@@ -2130,7 +2129,7 @@
 		"tunables": [
 			["150"],
 			["4"],
-			["60", "50", "40"]
+			["30", "25", "20"]
 		],
 		"modifier": "BP_SmashHit",
 		"teachable": 35,
@@ -2180,13 +2179,13 @@
 	"S26P03": {
 		"categories": ["adaptation"],
 		"name": "Blast Mine",
-		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>After repairing a generator for at least {1} seconds, press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds.<br><br>The Aura of trapped generators is revealed in yellow to all Survivors. Only one Blast Mine can be active on a generator.<br><br>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby. <i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.",
+		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>After repairing a generator for at least {1} seconds, press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator.<br><br><li>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby.</li><li><i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li>",
 		"role": "survivor",
 		"character": 25,
 		"tunables": [
 			["50"],
 			["3"],
-			["40", "45", "50"]
+			["100", "110", "120"]
 		],
 		"modifier": "BP_BlastMine",
 		"teachable": 40,
@@ -2234,7 +2233,7 @@
 	"S28P01": {
 		"categories": null,
 		"name": "Clairvoyance",
-		"description": "There is an intrinsic energy in you that sees beyond your vision.<br><br><i>Clairvoyance</i> activates whenever you cleanse a Totem.<br><br>When empty-handed, hold the <i>Ability Button</i> to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
+		"description": "There is an intrinsic energy in you that sees beyond your vision.<br><br><i>Clairvoyance</i> activates whenever you cleanse or bless a Totem.<br><br>When empty-handed, hold the <i>Ability Button</i> to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
 		"role": "survivor",
 		"character": 27,
 		"tunables": [
@@ -2401,12 +2400,12 @@
 	"S32P01": {
 		"categories": null,
 		"name": "Wiretap",
-		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>After repairing a Generator for at least {2} seconds, press the <i>Active Ability button 1</i> to install a Wiretap, which stays active for {0} seconds. The Aura of trapped generators is revealed in yellow to all Survivors.<br><br><li>When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li></ul></li>",
+		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>After repairing a Generator for at least {2} seconds, press the <i>Active Ability button 1</i> to install a Wiretap, which stays active for {0} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one trap can be active on a generator.<br><br><li>When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li></ul></li>",
 		"role": "survivor",
 		"character": 31,
 		"tunables": [
-			["60", "70", "80"],
-			["33"],
+			["100", "110", "120"],
+			["50"],
 			["3"],
 			["14"]
 		],
@@ -2660,14 +2659,60 @@
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Umbra/IconPerks_scavenger.png"
 	},
+	"S38P01": {
+		"categories": null,
+		"name": "Dramaturgy",
+		"description": "When people bring you on to their project, they do so because of the unexpected magic you bring to your performance.<br><br><i>Dramaturgy</i> activates while you are healthy.<br><br>While running, press the <i>active ability button 2</i> to run with knees high for 0.5 seconds and then gain {0}% Haste for {1} seconds, followed by a unknown effect.<br><br><ul><li>Become <b>Exposed</b> for {2} seconds;</li><li>Gain {3}% <b>Haste</b> for {4} seconds;</li><li>Scream, but nothing happens;</li><li>Gain a random rare item, with random add-ons, and drop any held item.</li></ul><i>The same effect cannot happen twice in a row.</i><br><br><i>Dramaturgy</i> causes <b>exhaustion</b> for {5} seconds. Can't be used while exhausted.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured.<br><br>Haste increases Survivor movement speed.<br><br>Exhaustion prevents Survivors from activating other perks that cause Exhaustion.",
+		"role": "survivor",
+		"character": 37,
+		"tunables": [
+			["25"],
+			["2"],
+			["12"],
+			["25"],
+			["2"],
+			["60", "50", "40"]
+		],
+		"modifier": "BP_S38P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Venus/iconPerks_Dramaturgy.png"
+	},
+	"S38P02": {
+		"categories": null,
+		"name": "Scene Partner",
+		"description": "You lock in with your co-star, engaging with and reacting to each other on a higher level.<br><br><i>Scene Partner</i> activates when you are in the Killer's Terror Radius.<br><br>Whenever you look at the Killer, scream, then see the Killer's aura for {0} seconds.<br><br><i>There is a chance you will scream again, if you do, you will see the Killer's aura for an additional 2 seconds.</i><br><br><i>Scene Partner</i> then goes on cool-down for {1} seconds.",
+		"role": "survivor",
+		"character": 37,
+		"tunables": [
+			["3", "4", "5"],
+			["60"]
+		],
+		"modifier": "BP_S38P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Venus/iconPerks_ScenePartner.png"
+	},
+	"S38P03": {
+		"categories": null,
+		"name": "Plot Twist",
+		"description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful.<br><br><i>Plot Twist</i> activates when you are injured.<br><br>Press the <i>ability button 2</i> while crouched and motionless to enter the dying state silently.<br><br>When using <i>Plot Twist</i> to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state.<br><br>When you recover by yourself using <i>Plot Twist</i>, you are healed instantly and you gain {0}% Haste for {1} seconds.<br><br><i>This perk deactivates if you recover by yourself by any means.<br><br>This perk re-activates when the exit gates are powered.</i><br><br>Haste increases Survivor movement speed.",
+		"role": "survivor",
+		"character": 37,
+		"tunables": [
+			["50"],
+			["2", "3", "4"]
+		],
+		"modifier": "BP_S38P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Venus/iconPerks_PlotTwist.png"
+	},
 	"Saboteur": {
 		"categories": ["strategy"],
 		"name": "Saboteur",
-		"description": "Unlocks potential in one's aura reading ability.<br><br><li>See hook auras in a 56 meter radius from the pickup spot if another Survivor is being carried. Scourge Hooks are shown in yellow.</li><li>Unlocks the ability to sabotage hooks without a Toolbox.</li><li>Sabotaging a hook without a Toolbox takes 2.5 seconds.</li><li>The sabotage action has a {0} second cooldown.</li>",
+		"description": "Unlocks potential in one's aura reading ability.<br><br><li>See hook auras in a 56 meter radius from the pickup spot if another Survivor is being carried. Scourge Hooks are shown in yellow.</li><li>Unlocks the ability to sabotage hooks without a Toolbox.</li><li>Sabotaging a hook without a Toolbox takes 2.3 seconds.</li><li>The sabotage action has a {0} second cooldown.</li>",
 		"role": "survivor",
 		"character": 3,
 		"tunables": [
-			["90", "75", "60"]
+			["70", "65", "60"]
 		],
 		"modifier": "Saboteur",
 		"teachable": 40,
@@ -2839,7 +2884,7 @@
 	"Spine_Chill": {
 		"categories": ["navigation", "strategy"],
 		"name": "Spine Chill",
-		"description": "An unnatural tingle warns you of impending doom.<br><br>Get notified when the Killer is within a 36-meter range. If the Killer is within range and is looking at you with a clear line of sight, your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.<li>The effects of <i>Spine Chill</i> linger for 0.5 seconds after the Killer looks away or is out of range.</li><li><i>Spine Chill's</i> icon indicates the strength of the Killer's Terror Radius.</li>",
+		"description": "An unnatural tingle warns you of impending doom.<br><br>Get notified when the Killer is within a 36-meter range. If the Killer is within range and is looking at you with a clear line of sight, your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.<li>The effects of <i>Spine Chill</i> linger for 0.5 seconds after the Killer looks away or is out of range.</li>",
 		"role": "survivor",
 		"character": null,
 		"tunables": [
@@ -2981,9 +3026,9 @@
 		"role": "killer",
 		"character": 268435463,
 		"tunables": [
-			["3"],
-			["32"],
-			["30", "25", "20"]
+			["4", "5", "6"],
+			["24"],
+			["45"]
 		],
 		"modifier": "TerritorialImperative",
 		"teachable": 35,
@@ -3062,7 +3107,7 @@
 	"TrailofTorment": {
 		"categories": ["trickery"],
 		"name": "Trail of Torment",
-		"description": "You guide your victims along a path of pain and punishment.<br><br>After damaging a generator, you become <b>Undetectable</b> until the generator stops regressing or a Survivor is injured or put into the dying state by any means.&nbsp;During this time, the generator\u2019s yellow aura is revealed to Survivors.<br><br>This effect can only trigger once every {2}&nbsp;seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+		"description": "You guide your victims along a path of pain and punishment.<br><br>After damaging a generator, you become <b>Undetectable</b> until the generator stops regressing.&nbsp;During this time, the generator\u2019s yellow aura is revealed to Survivors.<br><br>This effect can only trigger once every {2}&nbsp;seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
 		"role": "killer",
 		"character": 268435475,
 		"tunables": {
@@ -3103,7 +3148,7 @@
 	"Up_The_Ante": {
 		"categories": ["support"],
 		"name": "Up the Ante",
-		"description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you. For each other Survivor still alive, grant a {0}% bonus of luck to all remaining Survivors.",
+		"description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you.<br><br>For each other Survivor still alive, grant a {0}% bonus of luck to all remaining Survivors.",
 		"role": "survivor",
 		"character": 6,
 		"tunables": [
@@ -3187,7 +3232,7 @@
 	"WereGonnaLiveForever": {
 		"categories": ["support"],
 		"name": "We're Gonna Live Forever",
-		"description": "Your few friends deserve the best protection.<br><br>When healing another Survivor in the dying state, your healing speed is increased by 100%.<br><br>Additionally, performing any of the following actions activates this perk's secondary function:<li>Perform a Safe Hook Rescue</li><li>Take a hit to protect a Survivor</li><li>Rescue a Survivor by stunning the Killer with a pallet</li><li>Rescue a Survivor by blinding the Killer with a Flashlight</li>When this perk's secondary function is active, healing another Survivor out of the dying state grants them <b>Endurance</b> for {0} seconds and deactivates the secondary function.<br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+		"description": "Your few friends deserve the best protection.<br><br>When healing another Survivor in the dying state, your healing speed is increased by 100%.<br><br>Additionally, performing any of the following actions activates this perk's secondary function:<li>Perform a Safe Hook Rescue</li><li>Take a hit to protect a Survivor</li><li>Rescue a Survivor by stunning the Killer with a pallet</li><li>Rescue a Survivor by blinding the Killer</li>When this perk's secondary function is active, healing another Survivor out of the dying state grants them <b>Endurance</b> for {0} seconds and deactivates the secondary function.<br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
 		"role": "survivor",
 		"character": 9,
 		"tunables": [
