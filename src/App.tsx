@@ -23,7 +23,7 @@ const Container = styled.div`
   margin: auto;
   min-height: 100vh;
   @media screen and (max-width: ${bpSmall}) {
-	  grid-template-rows: auto auto auto 11rem;
+	  grid-template-rows: auto auto auto 15rem;
 	}
 `
 
