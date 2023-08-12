@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { accent, border, md, textPrimary, xs } from "../style/DesignSystem"
+import { accent, border, md, xs } from "../style/DesignSystem"
 
 type Props = {
 	name: string,

@@ -17,7 +17,6 @@ const Container = styled.div`
 	position: fixed;
 	grid-template-areas:
 	'roles  popup'
-	'randomize randomize'
 	'randomize randomize';
 	bottom: 0;
 	gap: ${sm};
