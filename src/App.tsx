@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux'
 import './App.css'
+import 'reactjs-popup/dist/index.css';
 import { useEffect, useState } from 'react'
 import { loadCharacterData, loadPerkData } from './store/actions'
 import perkData from './assets/betterperks.json'
@@ -43,9 +44,8 @@ function App() {
   const characters = useAppSelector(state => state.character.data ? state.character.data : {})
 
   const [randomPerkNames, setRandomPerkNames] = useState<string[]>([])
-  const [randomCharacterName, setRandomCharacterName] = useState<string[]>([])
+  const [randomCharacterName, setRandomCharacterName] = useState<string>()
   const [role, setRole] = useState("survivor")
-  const [roleNumber, setRoleNumber] = useState(4)
 
   useEffect(() => {
     dispatch(loadPerkData(perkData as PerkCollection))
@@ -63,33 +63,31 @@ function App() {
     setRandomPerkNames(selectedPerkNames)
   }
 
-  const randomizeCharacter = (role: string) => {
+  const randomizeCharacter = (role: string | null) => {
+    if (!role) {
+      setRandomCharacterName(undefined)
+      return
+    }
     const filteredCharacters = Object.keys(characters)
       .filter(key => characters[key].role === role)
       .sort(() => Math.random() - 0.5);
 
-    const selectedCharacterName = filteredCharacters.slice(0, 1)
+    const selectedCharacterName = filteredCharacters[0]
     setRandomCharacterName(selectedCharacterName)
   }
 
   return (
-    <html>
-      <head>
-        <meta name="description" content="Randomize your Dead by Daylight Perks and Character." />
-      </head>
-      <AppContainer>
-        <Container>
-          <Intro title="DBD Perk Randomizer" />
-          <CharacterDisplay>{randomCharacterName && randomCharacterName.map(name => (<Character key={name} character={name} />))}</CharacterDisplay>
-          <PerkDisplay>
-            {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
-          </PerkDisplay>
-          <div></div>
-        </Container>
-        <Randomize setRole={setRole} role={role} setRoleNumber={setRoleNumber} randomize={randomizePerks} randomizeCharacter={randomizeCharacter} roleNumber={roleNumber}>
-        </Randomize>
-      </AppContainer >
-    </html>
+    <AppContainer>
+      <Container>
+        <Intro title="DBD Perk Randomizer" />
+        <CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>
+        <PerkDisplay>
+          {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
+        </PerkDisplay>
+        <div></div>
+      </Container>
+      <Randomize setRole={setRole} role={role} randomize={randomizePerks} randomizeCharacter={randomizeCharacter} />
+    </AppContainer >
   )
 }
 

@@ -16,6 +16,7 @@ const Container = styled.div`
   color: ${textPrimary};
   font-family: sans-serif;
   justify-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent);
 `
 
 const Image = styled.img`
@@ -29,6 +30,7 @@ const Header = styled.h3`
 const Desc = styled.p`
 	font-size: ${sm};
 	text-align: left;
+	padding: 0 ${sm};
 `
 
 const Perk = ({ perk }: Props) => {

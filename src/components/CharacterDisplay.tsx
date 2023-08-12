@@ -8,7 +8,6 @@ type Props = {
 
 const Display = styled.div`
 	gap:0 ${md};
-	min-height: 20rem;
 	margin: auto;
 `
 

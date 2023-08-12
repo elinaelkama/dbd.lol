@@ -1,24 +1,24 @@
 import styled from "styled-components"
-import { accent, border, bpLarge, bpSmall, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
-import { ReactNode } from "react"
+import { accent, border, bpLarge, bpSmall, lg, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
+import { useState } from "react"
+import Popup from "reactjs-popup"
+import { DiAptana } from "react-icons/di";
+import Toggle from "./Toggle";
 
 type Props = {
 	randomize: (role: string, roleNumber: number) => void
-	randomizeCharacter: (role: string) => void
-	setRoleNumber: (roleNumber: number) => void
+	randomizeCharacter: (role: string | null) => void
 	setRole: (role: string) => void
 	role: string
-	roleNumber: number
-	children: ReactNode
 }
 
 const Container = styled.div`
 	display: grid;
 	position: fixed;
 	grid-template-areas:
-	'roles roles'
-	'character character'
-	'randomize select';
+	'roles  popup'
+	'randomize randomize'
+	'randomize randomize';
 	bottom: 0;
 	gap: ${sm};
 	width: 100vw;
@@ -31,8 +31,8 @@ const Container = styled.div`
 
 	@media screen and (max-width: ${bpSmall}) {
 		grid-template-areas:
-		'roles select character'
-		'randomize randomize randomize';
+		'roles popup'
+		'randomize randomize';
 	}
 `
 
@@ -53,24 +53,8 @@ const PerkButton = styled.button`
 	}
 `
 
-const Select = styled.select`
-	overflow: hidden;
-	font-size: ${md};
-	border: ${border};
-	box-sizing: border-box;
-	background-color: transparent;
-	box-shadow: 1px 1px 1px black;
-	color: ${textPrimary};
-	grid-area: select;
-
-`
-
-const Option = styled.option`
-	padding: 0 ${sm};
-`
-
 type ButtonProps = {
-	isActive: boolean
+	is_active: string
 }
 
 const RoleContainer = styled.div`
@@ -87,7 +71,7 @@ const RoleButton = styled.button<ButtonProps>`
 	font-size: ${md};
 	color: ${textPrimary};
 	text-transform: capitalize;
-	background: ${props => props.isActive ? "red" : "none"};
+	background: ${props => props.is_active === "true" ? "red" : "none"};
 
 	&:hover{
 		cursor: pointer;
@@ -96,22 +80,62 @@ const RoleButton = styled.button<ButtonProps>`
 	}
 `
 
-const Randomize = ({ setRole, randomize, randomizeCharacter, setRoleNumber, role, roleNumber }: Props) => {
+const ModalContainer = styled.div`
+	box-shadow: ${shadow};
+	background-color: black;
+`
+
+const ModalContent = styled.div`
+	color: ${textPrimary};
+	text-transform: capitalize;
+	font-family: sans-serif;
+	padding: ${sm};
+
+	& > h1, h2, h3{
+		font-size: ${lg};
+		font-weight: 300;
+		text-align: center;
+	}
+
+	& > p{
+		font-size: ${md};
+	}
+`
+
+const PopUpButton = styled.button`
+	border:${border};
+	border-radius: 2px;
+	box-shadow: ${shadow};
+	font-size: ${md};
+	color: ${textPrimary};
+	background: none;
+	grid-area: popup;
+`
+
+const Randomize = ({ setRole, randomize, randomizeCharacter, role }: Props) => {
+
+	const [includeCharacter, setIncludeCharacter] = useState(true)
 
 	const randomizeAll = () => {
-		randomize(role, roleNumber)
-		randomizeCharacter(role)
+		randomize(role, 4)
+		randomizeCharacter(includeCharacter ? role : null)
 	}
 
 	return (
 		<Container>
+			<Popup trigger={<PopUpButton className="button"><DiAptana /></PopUpButton>} modal>
+				<ModalContainer>
+					<ModalContent>
+						<h2>Settings</h2>
+						<p>Perks: always on</p>
+						<Toggle name={"Character"} value={includeCharacter} setValue={(value) => setIncludeCharacter(value)}></Toggle>
+					</ModalContent>
+				</ModalContainer>
+			</Popup>
 			<RoleContainer>
-				{["survivor", "killer"].map(roleName => (<RoleButton isActive={role === roleName} onClick={() => setRole(roleName)}>{roleName}</RoleButton>))}
+				{["survivor", "killer"].map(roleName => (<RoleButton key={roleName} is_active={role === roleName ? "true" : ""} onClick={() => setRole(roleName)}>{roleName}</RoleButton>))}
 			</RoleContainer>
 			<PerkButton onClick={() => randomizeAll()}>Randomize</PerkButton>
-			<Select size={4} onChange={e => setRoleNumber(parseInt(e.target.value))}>
-				{[1, 2, 3, 4].map(i => (<Option selected={roleNumber === i} key={`random_${i}`}>{i}</Option>))}
-			</Select>
 		</Container>
 	)
 }
