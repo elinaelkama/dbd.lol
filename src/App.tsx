@@ -52,6 +52,8 @@ function App() {
     dispatch(loadCharacterData(characterData as CharacterCollection))
   }, [dispatch])
 
+  const initialized = Object.keys(perks).length > 0 && Object.keys(characters).length > 0
+
   const randomizePerks = (role: string, roleNumber: number) => {
     const filteredPerkNames = Object.keys(perks)
       .filter(key => perks[key].role === role)
@@ -86,7 +88,7 @@ function App() {
         </PerkDisplay>
         <div></div>
       </Container>
-      <Randomize setRole={setRole} role={role} randomize={randomizePerks} randomizeCharacter={randomizeCharacter} />
+      <Randomize setRole={setRole} role={role} randomizePerks={randomizePerks} randomizeCharacter={randomizeCharacter} initialized={initialized} />
     </AppContainer >
   )
 }

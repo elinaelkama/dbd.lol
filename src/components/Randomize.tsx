@@ -1,14 +1,15 @@
 import styled from "styled-components"
 import { accent, border, bpLarge, bpSmall, lg, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Popup from "reactjs-popup"
 import { DiAptana } from "react-icons/di";
 import Toggle from "./Toggle";
 
 type Props = {
-	randomize: (role: string, roleNumber: number) => void
+	randomizePerks: (role: string, roleNumber: number) => void
 	randomizeCharacter: (role: string | null) => void
 	setRole: (role: string) => void
+	initialized: boolean
 	role: string
 }
 
@@ -111,14 +112,22 @@ const PopUpButton = styled.button`
 	grid-area: popup;
 `
 
-const Randomize = ({ setRole, randomize, randomizeCharacter, role }: Props) => {
+const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, role }: Props) => {
 
 	const [includeCharacter, setIncludeCharacter] = useState(true)
 
 	const randomizeAll = () => {
-		randomize(role, 4)
+		randomizePerks(role, 4)
 		randomizeCharacter(includeCharacter ? role : null)
 	}
+
+	useEffect(() => {
+		if (!initialized) {
+			return
+		}
+		randomizeAll()
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [initialized])
 
 	return (
 		<Container>
