@@ -137,6 +137,8 @@ const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, r
 						<h2>Settings</h2>
 						<p>Perks: always on</p>
 						<Toggle name={"Character"} value={includeCharacter} setValue={(value) => setIncludeCharacter(value)}></Toggle>
+						<p></p>
+						<p>Support: <a href="https://discord.gg/Xde7C47kYD">Discord Server</a></p>
 					</ModalContent>
 				</ModalContainer>
 			</Popup>
