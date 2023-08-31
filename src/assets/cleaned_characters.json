@@ -41,7 +41,7 @@
     "bio": "A lucky gambler, improving the odds of the entire team. His personal perks, Open Handed, Up the Ante and Ace in the Hole, boost the Luck of all Survivors and help with unlocking chests.",
     "image": "ace_visconti.png"
   },
-  "william_bill_overbeck": {
+  "william_\"bill\"_overbeck": {
     "name": "William \"Bill\" Overbeck",
     "role": "survivor",
     "bio": "An old soldier, accustomed to dealing with critical situations. His personal perks, Left Behind, Borrowed Time and Unbreakable, make him more powerful in dire moments.",
@@ -62,7 +62,7 @@
   "kate_denson": {
     "name": "Kate Denson",
     "role": "survivor",
-    "bio": "A hopeful songbird, able to&nbsp;make the most of her surroundings. Her personal perks, Dance With Me, Windows of Opportunity and Boil Over,&nbsp;grant her the foresight and feistiness to escape even the most dire situations.",
+    "bio": "A hopeful songbird, able to make the most of her surroundings. Her personal perks, Dance With Me, Windows of Opportunity and Boil Over, grant her the foresight and feistiness to escape even the most dire situations.",
     "image": "kate_denson.png"
   },
   "quentin_smith": {
@@ -95,7 +95,7 @@
     "bio": "An influential celebrity, going against the grain to tackle challenges head on. Her personal perks, Solidarity, Poised and Head On, give her a flexible skillset that allow her to help others, as well as herself, to escape dangerous situations.",
     "image": "jane_romero.png"
   },
-  "ashley_j_williams": {
+  "ashley_j._williams": {
     "name": "Ashley J. Williams",
     "role": "survivor",
     "bio": "An \"alone wolf,\" cocky and headstrong; a man built for survival. His personal perks, Flip-Flop, Buckle Up and Mettle of Man, give him additional resilience to pain and hardship, as well as the ability to help his friends out of sticky situations.",
@@ -116,7 +116,7 @@
   "yui_kimura": {
     "name": "Yui Kimura",
     "role": "survivor",
-    "bio": "A hardened street racer, able to gain advantages for her and her fellow Survivors in challenging situations. Her personal perks, Lucky Break,&nbsp; Any Means Necessary &nbsp;and&nbsp; Breakout, enable her to cover her blood trails, reset dropped pallets, and assist helpless Survivors.",
+    "bio": "A hardened street racer, able to gain advantages for her and her fellow Survivors in challenging situations. Her personal perks, Lucky Break, Any Means Necessary and Breakout, enable her to cover her blood trails, reset dropped pallets, and assist helpless Survivors.",
     "image": "yui_kimura.png"
   },
   "zarina_kassir": {
@@ -155,7 +155,7 @@
     "bio": "Jill Valentine is a founding member of S.T.A.R.S. who has triumphed over countless bio-organic weapons. Her personal perks, Counterforce, Resurgence, and Blast Mine, allow her to indirectly fight back, while offering strong support to her teammates.",
     "image": "jill_valentine.png"
   },
-  "leon_s_kennedy": {
+  "leon_s._kennedy": {
     "name": "Leon S. Kennedy",
     "role": "survivor",
     "bio": "Leon S. Kennedy is a rookie police officer who went beyond the call of duty during the outbreak in Raccoon City. His personal perks, Bite the Bullet, Flashbang, and Rookie Spirit, allow him to ignore pain, disorient the Killer, and track objectives being lost.",
@@ -227,6 +227,12 @@
     "bio": "Nicolas Cage is a superstar, trapped in the role of a lifetime. His personal perks, Dramaturgy, Scene Partner and Plot Twist, help him make a quick escape, see the Killer’s aura, and pretend to be dying.",
     "image": "nicolas_cage.png"
   },
+  "ellen_ripley": {
+    "name": "Ellen Ripley",
+    "role": "survivor",
+    "bio": "Ellen Ripley, Warrant Officer of the Nostromo, is capable and pragmatic. Her personal perks, Lucky Star, Chemical Trap, and Light-footed let her hide her pools of blood and grunts of pain, slow Killers with trapped pallets, and run silently.",
+    "image": "ellen_ripley.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -284,7 +290,7 @@
   "the_nightmare": {
     "name": "The Nightmare",
     "role": "killer",
-    "bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, Dream Demon . It is here that Survivors become extremely vulnerable to his dream abilities. Using his Dream Projection ability he is able to quickly appear across the map and put pressure on Survivors. His personal perks,&nbsp; Fire Up, Remember Me and Blood Warden,&nbsp;improve his abilities over time and make him stronger as the trial reaches its climax.",
+    "bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, Dream Demon . It is here that Survivors become extremely vulnerable to his dream abilities. Using his Dream Projection ability he is able to quickly appear across the map and put pressure on Survivors. His personal perks, Fire Up, Remember Me and Blood Warden, improve his abilities over time and make him stronger as the trial reaches its climax.",
     "image": "the_nightmare.png"
   },
   "the_pig": {
@@ -332,13 +338,13 @@
   "the_oni": {
     "name": "The Oni",
     "role": "killer",
-    "bio": "A monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, Yamaoka's Wrath,&nbsp;he can rush down Survivors at great speed and deal deadly strikes with his kanabō. His personal perks, Zanshin&nbsp;Tactics, Blood Echo and Nemesis, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
+    "bio": "A monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, Yamaoka's Wrath, he can rush down Survivors at great speed and deal deadly strikes with his kanabō. His personal perks, Zanshin Tactics, Blood Echo and Nemesis, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
     "image": "the_oni.png"
   },
   "the_deathslinger": {
     "name": "The Deathslinger",
     "role": "killer",
-    "bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, The Redeemer . His personal perks, Gear Head, Dead Man’s Switch, and Hex: Retribution, allow him to locate and&nbsp;impede&nbsp;Survivor objectives, and punish Survivors for destroying Totems.",
+    "bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, The Redeemer . His personal perks, Gear Head, Dead Man’s Switch, and Hex: Retribution, allow him to locate and impede Survivor objectives, and punish Survivors for destroying Totems.",
     "image": "the_deathslinger.png"
   },
   "the_executioner": {
@@ -362,7 +368,7 @@
   "the_trickster": {
     "name": "The Trickster",
     "role": "killer",
-    "bio": "A ranged Killer, able to quickly unleash a flurry of blades by using his&nbsp;power,&nbsp; Showstopper . His&nbsp;personal perks, Starstruck, Hex: Crowd Control, and No Way Out, allow him&nbsp;to quickly down would-be rescuers and block areas of the environment to his advantage.",
+    "bio": "A ranged Killer, able to quickly unleash a flurry of blades by using his power, Showstopper . His personal perks, Starstruck, Hex: Crowd Control, and No Way Out, allow him to quickly down would-be rescuers and block areas of the environment to his advantage.",
     "image": "the_trickster.png"
   },
   "the_nemesis": {
@@ -380,7 +386,7 @@
   "the_artist": {
     "name": "The Artist",
     "role": "killer",
-    "bio": "A ranged-reconnaissance Killer, able to launch&nbsp;Dire Crows across the map to&nbsp;reveal and attack Survivors. Her personal perks,&nbsp; Grim Embrace,&nbsp; Scourge Hook: Pain Resonance, and&nbsp; Hex: Pentimento &nbsp;allow her to interrupt Survivor objectives, torment hooked Survivors, and&nbsp;use destroyed Totems to her advantage.&nbsp;",
+    "bio": "A ranged-reconnaissance Killer, able to launch Dire Crows across the map to reveal and attack Survivors. Her personal perks, Grim Embrace, Scourge Hook: Pain Resonance, and Hex: Pentimento allow her to interrupt Survivor objectives, torment hooked Survivors, and use destroyed Totems to her advantage. ",
     "image": "the_artist.png"
   },
   "the_onryō": {
@@ -418,5 +424,11 @@
     "role": "killer",
     "bio": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map. His personal perks, Genetic Limits, Forced Hesitation, and Machine Learning allow him to Exhaust newly healed Survivors, Hinder anyone close to a newly injured Survivor, and compromise generators.",
     "image": "the_singularity.png"
+  },
+  "the_xenomorph": {
+    "name": "The Xenomorph",
+    "role": "killer",
+    "bio": "A relentless specimen from a distant planet, The Xenomorph is vicious, agile, and cunning. Its personal perks, Ultimate Weapon, Rapid Brutality, and Alien Instinct allow it to cause nearby Survivors to scream, gain Haste after basic attacks, and see auras of faraway Survivors.",
+    "image": "the_xenomorph.png"
   }
 }

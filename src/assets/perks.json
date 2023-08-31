@@ -526,7 +526,7 @@
 	"Deathbound": {
 		"categories": ["trickery", "tracking"],
 		"name": "Deathbound",
-		"description": "Those whose lives are intertwined in darkness are destined to suffer together.<br><br>When a Survivor heals another Survivor for one health state at least {0}&nbsp;meters away from the Killer,&nbsp;the Survivor performing the healing action will scream, revealing their location and activating <i>Deathbound</i> for the next {1}&nbsp;seconds. During that time, the Survivor will suffer from the <b>Oblivious</b> status effect when further than {2}&nbsp;meters away from the healed Survivor.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
+		"description": "Those whose lives are intertwined in darkness are destined to suffer together.<br><br>When a Survivor heals another Survivor for one health state at least {0}&nbsp;meters away from the Killer,&nbsp;the Survivor performing the healing action will scream, revealing their location and activating <i>Deathbound</i> for the next {1}&nbsp;seconds.<br><br>During that time, the Survivor will suffer from the <b>Oblivious</b> status effect when further than {2}&nbsp;meters away from the healed Survivor.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
 		"role": "killer",
 		"character": 268435475,
 		"tunables": [
@@ -810,7 +810,7 @@
 	"FurtiveChase": {
 		"categories": ["chasing", "trickery"],
 		"name": "Furtive Chase",
-		"description": "You become <b>obsessed</b> with one Survivor. You lurk in the shadows, eliminating your victims one by one. When your Obsession is hooked, <i>Furtive Chase</i> receives a token, up to a maximum of {0} tokens.<br><br>Each token decreases your Terror Radius by {1} meters while in a chase.<br><br>When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "You lurk in the shadows, eliminating your victims one by one.<br><br>You become <b>obsessed</b> with one Survivor. When your Obsession is hooked, <i>Furtive Chase</i> receives a token, up to a maximum of {0} tokens.<br><br>Each token decreases your Terror Radius by {1} meters while in a chase.<br><br>When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "killer",
 		"character": 268435471,
 		"tunables": [
@@ -855,7 +855,7 @@
 		"role": "killer",
 		"character": 268435466,
 		"tunables": [
-			["8", "9", "10"]
+			["8", "10", "12"]
 		],
 		"modifier": "HangmansTrick",
 		"teachable": 30,
@@ -1589,6 +1589,49 @@
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Umbra/IconPerks_SelfAware.png"
 	},
+	"K33P01": {
+		"categories": null,
+		"name": "Ultimate Weapon",
+		"description": "When they spot you, they know the end is near.<br><br>When you open a locker, this perk activates for {0} seconds.<br><br>Survivors entering your Terror Radius scream, reveal their position and gain <b>Blindness</b> for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>\u201cI can't lie to you about your chances, but... you have my sympathies.\u201d \u2013Ash",
+		"role": "killer",
+		"character": 268435488,
+		"tunables": [
+			["30"],
+			["30"],
+			["40", "35", "30"]
+		],
+		"modifier": "BP_K33P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_UltimateWeapon.png"
+	},
+	"K33P02": {
+		"categories": null,
+		"name": "Rapid Brutality",
+		"description": "You move with a speed and fury that makes blood run cold.<br><br>You can no longer gain Bloodlust.<br><br>Hitting a Survivor with a basic attack gives you {0}% Haste for {1} seconds.<br><br>Haste increases Killer movement speed.<br><br>\u201cCatch it, put it in the airlock, get rid of it.\u201d \u2013Dallas",
+		"role": "killer",
+		"character": 268435488,
+		"tunables": [
+			["5"],
+			["8", "9", "10"]
+		],
+		"modifier": "BP_K33P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_RapidBrutality.png"
+	},
+	"K33P03": {
+		"categories": null,
+		"name": "Alien Instinct",
+		"description": "You are so stealthy, sometimes it seems like you appear out of nowhere.<br><br>This perk activates when you hook a Survivor.<br><br>You see the aura of the farthest injured Survivor for {0} seconds and that Survivor is <b>Oblivious</b> for {1} seconds.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.<br><br>\u201cYellow light's for my eyes only.\u201d \u2013Dallas",
+		"role": "killer",
+		"character": 268435488,
+		"tunables": [
+			["5"],
+			["16", "18", "20"]
+		],
+		"modifier": "BP_K33P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_AlienInstinct.png"
+	},
 	"Kindred": {
 		"categories": ["perception"],
 		"name": "Kindred",
@@ -2179,7 +2222,7 @@
 	"S26P03": {
 		"categories": ["adaptation"],
 		"name": "Blast Mine",
-		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>After repairing a generator for at least {1} seconds, press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator.<br><br><li>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby.</li><li><i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li>",
+		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>Press the <i>Active Ability Button 1</i> to install a trap which stays active for {2} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator.<br><br><li>When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby.</li><li><i>Blast Mine</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li>",
 		"role": "survivor",
 		"character": 25,
 		"tunables": [
@@ -2400,7 +2443,7 @@
 	"S32P01": {
 		"categories": null,
 		"name": "Wiretap",
-		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>After repairing a Generator for at least {2} seconds, press the <i>Active Ability button 1</i> to install a Wiretap, which stays active for {0} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one trap can be active on a generator.<br><br><li>When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li></ul></li>",
+		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>Press the <i>Active Ability button 1</i> to install a Wiretap, which stays active for {0} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one trap can be active on a generator.<br><br><li>When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the trapped generator is damaged by the Killer or when the timer expires.</li></ul></li>",
 		"role": "survivor",
 		"character": 31,
 		"tunables": [
@@ -2705,6 +2748,50 @@
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Venus/iconPerks_PlotTwist.png"
 	},
+	"S39P01": {
+		"categories": null,
+		"name": "Lucky Star",
+		"description": "You know how to stay calm in the face of incomprehensible danger.<br><br>When you hide in a locker, this perk activates.<br><br>You leave no pools of blood and make no grunts of pain for {0} seconds.<br><br>When you exit a locker, you see other Survivors and the closest generator's aura in yellow for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>\u201cYou are my\u2026 lucky star\u2026\u201d \u2013Ellen Ripley",
+		"role": "survivor",
+		"character": 38,
+		"tunables": [
+			["10"],
+			["10"],
+			["40", "35", "30"]
+		],
+		"modifier": "BP_S39P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_LuckyStar.png"
+	},
+	"S39P02": {
+		"categories": null,
+		"name": "Chemical Trap",
+		"description": "In the Fog, an officer must adapt to the materials at hand.<br><br>After completing {0}% progress on any generator, this perk activates.<br><br>While standing next to a dropped pallet, press the <i>Active Ability Button 2</i> to install a Trap, which stays active for {1} seconds.<br><br>The aura of trapped pallets are revealed in yellow to all Survivors.<br><br>When the Killer performs the break action on the trapped pallet, the trap explodes, and they are slowed by {2}% for {3} seconds.<br><br>\u201cHow do we kill it, Ash?\u201d \u2013Ellen Ripley",
+		"role": "survivor",
+		"character": 38,
+		"tunables": [
+			["70", "60", "50"],
+			["100", "110", "120"],
+			["50"],
+			["4"]
+		],
+		"modifier": "BP_S39P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_ChemicalTrap.png"
+	},
+	"S39P03": {
+		"categories": null,
+		"name": "Light-footed",
+		"description": "Crossing paths with deadly killers has taught you the value of discretion.<br><br>When you are healthy, this perk activates.<br><br>Your running footsteps are silent.<br><br>This perk goes on cooldown for {0} seconds after performing a rushed action.<br><br>\u201cCome on, cat.\u201d \u2013Ellen Ripley",
+		"role": "survivor",
+		"character": 38,
+		"tunables": [
+			["28", "24", "20"]
+		],
+		"modifier": "BP_S39P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Wormhole/iconPerks_LightFooted.png"
+	},
 	"Saboteur": {
 		"categories": ["strategy"],
 		"name": "Saboteur",
@@ -2884,7 +2971,7 @@
 	"Spine_Chill": {
 		"categories": ["navigation", "strategy"],
 		"name": "Spine Chill",
-		"description": "An unnatural tingle warns you of impending doom.<br><br>Get notified when the Killer is within a 36-meter range. If the Killer is within range and is looking at you with a clear line of sight, your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.<li>The effects of <i>Spine Chill</i> linger for 0.5 seconds after the Killer looks away or is out of range.</li>",
+		"description": "An unnatural tingle warns you of impending doom.<br><br>Get notified when the Killer is looking at you with a clear line of sight within a 36-meter range. Your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.<li>The effects of <i>Spine Chill</i> linger for 0.5 seconds after the Killer looks away or is out of range.</li>",
 		"role": "survivor",
 		"character": null,
 		"tunables": [
@@ -3258,7 +3345,7 @@
 	"WindowsOfOpportunity": {
 		"categories": ["perception"],
 		"name": "Windows of Opportunity",
-		"description": "Unlocks potential in one's aura reading ability. Auras of pallets, breakable walls, and vault locations are revealed to you when within a {0} meter range.",
+		"description": "Unlocks potential in one's aura reading ability. Auras of pallets and vault locations are revealed to you when within a {0} meter range.<br><br><i>Windows of Opportunity</i> has a cooldown of&nbsp;{1} seconds after vaulting or dropping a pallet.",
 		"role": "survivor",
 		"character": 10,
 		"tunables": [

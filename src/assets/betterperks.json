@@ -509,7 +509,7 @@
   },
   "corrupt_intervention": {
     "name": "Corrupt Intervention",
-    "description": "Your prayers invoke a dark power that meddles with the Survivors’s chances of survival. {0} generators located furthest from you are blocked by The Entity for {1} seconds at the start of the trial. Survivors cannot repair these generators for the duration. Affected generators are highlighted by a white aura. Corrupt Intervention  deactivates when any Survivor enters the dying state.",
+    "description": "Your prayers invoke a dark power that meddles with the Survivors’s chances of survival. {0} generators located furthest from you are blocked by The Entity for {1} seconds at the start of the trial. Survivors cannot repair these generators for the duration. Affected generators are highlighted by a white aura. Corrupt Intervention deactivates when any Survivor enters the dying state.",
     "role": "killer",
     "character": "The Plague",
     "tunables": [
@@ -614,7 +614,7 @@
     ],
     "image": "dead_hard.png"
   },
-  "dead_man_s_switch": {
+  "dead_man’s_switch": {
     "name": "Dead Man’s Switch",
     "description": "When you hook a Survivor, Dead Man’s Switch activates for the next {0} seconds. While activated, any Survivor that stops repairing a generator before it is fully repaired causes The Entity to block the generator until Dead Man’s Switch's effect ends. Affected generators are highlighted by a white aura.",
     "role": "killer",
@@ -797,7 +797,7 @@
     ],
     "image": "diversion.png"
   },
-  "dragon_s_grip": {
+  "dragon’s_grip": {
     "name": "Dragon’s Grip",
     "description": "After damaging a generator, for the next {0} seconds, the first Survivor that interacts with it will scream, revealing their location for {1} seconds, and becoming afflicted with the Exposed status effect for {2} seconds. Dragon’s Grip has a cooldown of {3} seconds. Exposed Survivors will be downed by basic attacks even if uninjured.",
     "role": "killer",
@@ -957,7 +957,7 @@
   },
   "furtive_chase": {
     "name": "Furtive Chase",
-    "description": "You become obsessed with one Survivor. You lurk in the shadows, eliminating your victims one by one. When your Obsession is hooked, Furtive Chase receives a token, up to a maximum of {0} tokens. Each token decreases your Terror Radius by {1} meters while in a chase. When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession. The Killer can only be obsessed with one Survivor at a time.",
+    "description": "You lurk in the shadows, eliminating your victims one by one. You become obsessed with one Survivor. When your Obsession is hooked, Furtive Chase receives a token, up to a maximum of {0} tokens. Each token decreases your Terror Radius by {1} meters while in a chase. When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession. The Killer can only be obsessed with one Survivor at a time.",
     "role": "killer",
     "character": "The Ghost Face",
     "tunables": [
@@ -1011,8 +1011,8 @@
     "tunables": [
       [
         "8",
-        "9",
-        "10"
+        "10",
+        "12"
       ]
     ],
     "image": "scourge_hook_hangman_s_trick.png"
@@ -1225,7 +1225,7 @@
   },
   "inner_healing": {
     "name": "Inner Healing",
-    "description": "You look inward and trust your instincts when you feel lost and alone. Each time you complete a Totem cleanse action, Inner Healing activates. If you are already afflicted by the Broken status effect, Inner Healing does not activate. While  Inner Healing is active, hiding inside a locker for {0} seconds while injured automatically heals you from injured to healthy. Inner Healing becomes deactivated as soon as it has successfully triggered.",
+    "description": "You look inward and trust your instincts when you feel lost and alone. Each time you complete a Totem cleanse action, Inner Healing activates. If you are already afflicted by the Broken status effect, Inner Healing does not activate. While Inner Healing is active, hiding inside a locker for {0} seconds while injured automatically heals you from injured to healthy. Inner Healing becomes deactivated as soon as it has successfully triggered.",
     "role": "survivor",
     "character": null,
     "tunables": [
@@ -1927,6 +1927,63 @@
     ],
     "image": "machine_learning.png"
   },
+  "ultimate_weapon": {
+    "categories": null,
+    "name": "Ultimate Weapon",
+    "description": "When they spot you, they know the end is near. When you open a locker, this perk activates for {0} seconds. Survivors entering your Terror Radius scream, reveal their position and gain Blindness for {1} seconds. This perk goes on cooldown for {2} seconds. Blindness prevents Survivors from seeing auras. “I can't lie to you about your chances, but... you have my sympathies.” –Ash",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "tunables": [
+      [
+        "30"
+      ],
+      [
+        "30"
+      ],
+      [
+        "40",
+        "35",
+        "30"
+      ]
+    ],
+    "image": "ultimate_weapon.png"
+  },
+  "rapid_brutality": {
+    "categories": null,
+    "name": "Rapid Brutality",
+    "description": "You move with a speed and fury that makes blood run cold. You can no longer gain Bloodlust. Hitting a Survivor with a basic attack gives you {0}% Haste for {1} seconds. Haste increases Killer movement speed. “Catch it, put it in the airlock, get rid of it.” –Dallas",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "tunables": [
+      [
+        "5"
+      ],
+      [
+        "8",
+        "9",
+        "10"
+      ]
+    ],
+    "image": "rapid_brutality.png"
+  },
+  "alien_instinct": {
+    "categories": null,
+    "name": "Alien Instinct",
+    "description": "You are so stealthy, sometimes it seems like you appear out of nowhere. This perk activates when you hook a Survivor. You see the aura of the farthest injured Survivor for {0} seconds and that Survivor is Oblivious for {1} seconds. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius. “Yellow light's for my eyes only.” –Dallas",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "tunables": [
+      [
+        "5"
+      ],
+      [
+        "16",
+        "18",
+        "20"
+      ]
+    ],
+    "image": "alien_instinct.png"
+  },
   "kindred": {
     "name": "Kindred",
     "description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to all other Survivors. While a Survivor other than you is on the hook, all other Survivors’ auras are revealed to you. If The Killer is within a {0} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
@@ -2623,7 +2680,7 @@
   },
   "blast_mine": {
     "name": "Blast Mine",
-    "description": "When direct combat isn't an option, you still find ways to strike back. Blast Mine activates after completing a total of {0}% worth of repair progress on generators. After repairing a generator for at least {1} seconds, press the Active Ability Button 1 to install a trap which stays active for {2} seconds. Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator. When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby. Blast Mine deactivates when the trapped generator is damaged by the Killer or when the timer expires. ",
+    "description": "When direct combat isn't an option, you still find ways to strike back. Blast Mine activates after completing a total of {0}% worth of repair progress on generators. Press the Active Ability Button 1 to install a trap which stays active for {2} seconds. Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator. When the Killer damages the trapped generator, the trap explodes, stunning them and blinding anyone nearby. Blast Mine deactivates when the trapped generator is damaged by the Killer or when the timer expires. ",
     "role": "survivor",
     "character": "Jill Valentine",
     "tunables": [
@@ -2899,7 +2956,7 @@
   "wiretap": {
     "categories": null,
     "name": "Wiretap",
-    "description": "You know that the best way to stay one step ahead is to keep tabs on the competition. Wiretap activates after completing a total of {1}% worth of repair progress on generators. After repairing a Generator for at least {2} seconds, press the Active Ability button 1 to install a Wiretap, which stays active for {0} seconds. Affected generators will be revealed to all Survivors by a yellow aura. Only one trap can be active on a generator. When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors. Wiretap deactivates when the trapped generator is damaged by the Killer or when the timer expires. ",
+    "description": "You know that the best way to stay one step ahead is to keep tabs on the competition. Wiretap activates after completing a total of {1}% worth of repair progress on generators. Press the Active Ability button 1 to install a Wiretap, which stays active for {0} seconds. Affected generators will be revealed to all Survivors by a yellow aura. Only one trap can be active on a generator. When the Killer enters within {3} meters of the trapped generator, their aura is revealed to all Survivors. Wiretap deactivates when the trapped generator is damaged by the Killer or when the timer expires. ",
     "role": "survivor",
     "character": "Ada Wong",
     "tunables": [
@@ -3129,7 +3186,7 @@
   },
   "background_player": {
     "name": "Background Player",
-    "description": "You're not usually the center of attention. In some cases, this can be a good thing. When the Killer picks-up another Survivor, Background Player activates for {0} seconds. When you start running, break into a sprint at {1}% of your normal Running Movement speed for {2} seconds. This perk cannot be used while Exhausted. This perk causes the Exhausted status effect for {3} seconds.  Exhausted prevents Survivors from activating exhausting perks.",
+    "description": "You're not usually the center of attention. In some cases, this can be a good thing. When the Killer picks-up another Survivor, Background Player activates for {0} seconds. When you start running, break into a sprint at {1}% of your normal Running Movement speed for {2} seconds. This perk cannot be used while Exhausted. This perk causes the Exhausted status effect for {3} seconds. Exhausted prevents Survivors from activating exhausting perks.",
     "role": "survivor",
     "character": "Renato Lyra",
     "tunables": [
@@ -3312,6 +3369,68 @@
       ]
     ],
     "image": "plot_twist.png"
+  },
+  "lucky_star": {
+    "categories": null,
+    "name": "Lucky Star",
+    "description": "You know how to stay calm in the face of incomprehensible danger. When you hide in a locker, this perk activates. You leave no pools of blood and make no grunts of pain for {0} seconds. When you exit a locker, you see other Survivors and the closest generator's aura in yellow for {1} seconds. This perk goes on cooldown for {2} seconds. “You are my… lucky star…” –Ellen Ripley",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "tunables": [
+      [
+        "10"
+      ],
+      [
+        "10"
+      ],
+      [
+        "40",
+        "35",
+        "30"
+      ]
+    ],
+    "image": "lucky_star.png"
+  },
+  "chemical_trap": {
+    "categories": null,
+    "name": "Chemical Trap",
+    "description": "In the Fog, an officer must adapt to the materials at hand. After completing {0}% progress on any generator, this perk activates. While standing next to a dropped pallet, press the Active Ability Button 2 to install a Trap, which stays active for {1} seconds. The aura of trapped pallets are revealed in yellow to all Survivors. When the Killer performs the break action on the trapped pallet, the trap explodes, and they are slowed by {2}% for {3} seconds. “How do we kill it, Ash?” –Ellen Ripley",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "tunables": [
+      [
+        "70",
+        "60",
+        "50"
+      ],
+      [
+        "100",
+        "110",
+        "120"
+      ],
+      [
+        "50"
+      ],
+      [
+        "4"
+      ]
+    ],
+    "image": "chemical_trap.png"
+  },
+  "light-footed": {
+    "categories": null,
+    "name": "Light-footed",
+    "description": "Crossing paths with deadly killers has taught you the value of discretion. When you are healthy, this perk activates. Your running footsteps are silent. This perk goes on cooldown for {0} seconds after performing a rushed action. “Come on, cat.” –Ellen Ripley",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "tunables": [
+      [
+        "28",
+        "24",
+        "20"
+      ]
+    ],
+    "image": "light-footed.png"
   },
   "saboteur": {
     "name": "Saboteur",
@@ -3520,7 +3639,7 @@
   },
   "spine_chill": {
     "name": "Spine Chill",
-    "description": "An unnatural tingle warns you of impending doom. Get notified when the Killer is within a 36-meter range. If the Killer is within range and is looking at you with a clear line of sight, your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%. The effects of Spine Chill linger for 0.5 seconds after the Killer looks away or is out of range. ",
+    "description": "An unnatural tingle warns you of impending doom. Get notified when the Killer is looking at you with a clear line of sight within a 36-meter range. Your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%. The effects of Spine Chill linger for 0.5 seconds after the Killer looks away or is out of range. ",
     "role": "survivor",
     "character": null,
     "tunables": [
@@ -3969,7 +4088,7 @@
   },
   "windows_of_opportunity": {
     "name": "Windows of Opportunity",
-    "description": "Unlocks potential in one's aura reading ability. Auras of pallets, breakable walls, and vault locations are revealed to you when within a {0} meter range.",
+    "description": "Unlocks potential in one's aura reading ability. Auras of pallets and vault locations are revealed to you when within a {0} meter range. Windows of Opportunity has a cooldown of {1} seconds after vaulting or dropping a pallet.",
     "role": "survivor",
     "character": "Kate Denson",
     "tunables": [

@@ -1,211 +1,289 @@
 [{
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/K01_charSelect_portrait.png",
-	"name": "The Trapper"
+	"name": "The Trapper",
+	"code": "K01"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/K02_charSelect_portrait.png",
-	"name": "The Wraith"
+	"name": "The Wraith",
+	"code": "K02"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/K03_charSelect_portrait.png",
-	"name": "The Hillbilly"
+	"name": "The Hillbilly",
+	"code": "K03"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/K04_charSelect_portrait.png",
-	"name": "The Nurse"
+	"name": "The Nurse",
+	"code": "K04"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/K05_charSelect_portrait.png",
-	"name": "The Shape"
+	"name": "The Shape",
+	"code": "K05"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/K06_charSelect_portrait.png",
-	"name": "The Hag"
+	"name": "The Hag",
+	"code": "K06"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ad/K07_charSelect_portrait.png",
-	"name": "The Doctor"
+	"name": "The Doctor",
+	"code": "K07"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/K08_charSelect_portrait.png",
-	"name": "The Huntress"
+	"name": "The Huntress",
+	"code": "K08"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/K09_charSelect_portrait.png",
-	"name": "The Cannibal"
+	"name": "The Cannibal",
+	"code": "K09"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/K10_charSelect_portrait.png",
-	"name": "The Nightmare"
+	"name": "The Nightmare",
+	"code": "K10"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/K11_charSelect_portrait.png",
-	"name": "The Pig"
+	"name": "The Pig",
+	"code": "K11"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/K12_charSelect_portrait.png",
-	"name": "The Clown"
+	"name": "The Clown",
+	"code": "K12"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b0/K13_charSelect_portrait.png",
-	"name": "The Spirit"
+	"name": "The Spirit",
+	"code": "K13"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/K14_charSelect_portrait.png",
-	"name": "The Legion"
+	"name": "The Legion",
+	"code": "K14"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/K15_charSelect_portrait.png",
-	"name": "The Plague"
+	"name": "The Plague",
+	"code": "K15"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/K16_charSelect_portrait.png",
-	"name": "The Ghost Face"
+	"name": "The Ghost Face",
+	"code": "K16"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/K17_charSelect_portrait.png",
-	"name": "The Demogorgon"
+	"name": "The Demogorgon",
+	"code": "K17"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/K18_charSelect_portrait.png",
-	"name": "The Oni"
+	"name": "The Oni",
+	"code": "K18"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/84/K19_charSelect_portrait.png",
-	"name": "The Deathslinger"
+	"name": "The Deathslinger",
+	"code": "K19"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/K20_charSelect_portrait.png",
-	"name": "The Executioner"
+	"name": "The Executioner",
+	"code": "K20"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/K21_charSelect_portrait.png",
-	"name": "The Blight"
+	"name": "The Blight",
+	"code": "K21"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/K22_charSelect_portrait.png",
-	"name": "The Twins"
+	"name": "The Twins",
+	"code": "K22"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/K23_charSelect_portrait.png",
-	"name": "The Trickster"
+	"name": "The Trickster",
+	"code": "K23"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/84/K24_charSelect_portrait.png",
-	"name": "The Nemesis"
+	"name": "The Nemesis",
+	"code": "K24"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/K25_charSelect_portrait.png",
-	"name": "The Cenobite"
+	"name": "The Cenobite",
+	"code": "K25"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/K26_charSelect_portrait.png",
-	"name": "The Artist"
+	"name": "The Artist",
+	"code": "K26"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e2/K27_charSelect_portrait.png",
-	"name": "The Onryō"
+	"name": "The Onryō",
+	"code": "K27"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/K28_charSelect_portrait.png",
-	"name": "The Dredge"
+	"name": "The Dredge",
+	"code": "K28"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/87/K29_charSelect_portrait.png",
-	"name": "The Mastermind"
+	"name": "The Mastermind",
+	"code": "K29"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/44/K30_charSelect_portrait.png",
-	"name": "The Knight"
+	"name": "The Knight",
+	"code": "K30"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/K31_charSelect_portrait.png",
-	"name": "The Skull Merchant"
+	"name": "The Skull Merchant",
+	"code": "K31"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/K32_charSelect_portrait.png",
-	"name": "The Singularity"
+	"name": "The Singularity",
+	"code": "K32"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dc/K33_charSelect_portrait.png",
+	"name": "The Xenomorph",
+	"code": "K33"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png",
-	"name": "Dwight Fairfield"
+	"name": "Dwight Fairfield",
+	"code": "S01"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png",
-	"name": "Meg Thomas"
+	"name": "Meg Thomas",
+	"code": "S02"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png",
-	"name": "Claudette Morel"
+	"name": "Claudette Morel",
+	"code": "S03"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/S04_charSelect_portrait.png",
-	"name": "Jake Park"
+	"name": "Jake Park",
+	"code": "S04"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/S05_charSelect_portrait.png",
-	"name": "Nea Karlsson"
+	"name": "Nea Karlsson",
+	"code": "S05"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/S06_charSelect_portrait.png",
-	"name": "Laurie Strode"
+	"name": "Laurie Strode",
+	"code": "S06"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png",
-	"name": "Ace Visconti"
+	"name": "Ace Visconti",
+	"code": "S07"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/S08_charSelect_portrait.png",
-	"name": "Bill Overbeck"
+	"name": "Bill Overbeck",
+	"code": "S08"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/S09_charSelect_portrait.png",
-	"name": "Feng Min"
+	"name": "Feng Min",
+	"code": "S09"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png",
-	"name": "David King"
+	"name": "David King",
+	"code": "S10"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png",
-	"name": "Quentin Smith"
+	"name": "Quentin Smith",
+	"code": "S11"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png",
-	"name": "David Tapp"
+	"name": "David Tapp",
+	"code": "S12"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/S13_charSelect_portrait.png",
-	"name": "Kate Denson"
+	"name": "Kate Denson",
+	"code": "S13"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/S14_charSelect_portrait.png",
-	"name": "Adam Francis"
+	"name": "Adam Francis",
+	"code": "S14"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/S15_charSelect_portrait.png",
-	"name": "Jeff Johansen"
+	"name": "Jeff Johansen",
+	"code": "S15"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/S16_charSelect_portrait.png",
-	"name": "Jane Romero"
+	"name": "Jane Romero",
+	"code": "S16"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png",
-	"name": "Ash Williams"
+	"name": "Ash Williams",
+	"code": "S17"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0e/S18_charSelect_portrait.png",
-	"name": "Nancy Wheeler"
+	"name": "Nancy Wheeler",
+	"code": "S18"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/S19_charSelect_portrait.png",
-	"name": "Steve Harrington"
+	"name": "Steve Harrington",
+	"code": "S19"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/S20_charSelect_portrait.png",
-	"name": "Yui Kimura"
+	"name": "Yui Kimura",
+	"code": "S20"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/S21_charSelect_portrait.png",
-	"name": "Zarina Kassir"
+	"name": "Zarina Kassir",
+	"code": "S21"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/S22_charSelect_portrait.png",
-	"name": "Cheryl Mason"
+	"name": "Cheryl Mason",
+	"code": "S22"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/S23_charSelect_portrait.png",
-	"name": "Felix Richter"
+	"name": "Felix Richter",
+	"code": "S23"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/S24_charSelect_portrait.png",
-	"name": "Élodie Rakoto"
+	"name": "Élodie Rakoto",
+	"code": "S24"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png",
-	"name": "Yun-Jin Lee"
+	"name": "Yun-Jin Lee",
+	"code": "S25"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/S26_charSelect_portrait.png",
-	"name": "Jill Valentine"
+	"name": "Jill Valentine",
+	"code": "S26"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/S27_charSelect_portrait.png",
-	"name": "Leon Scott Kennedy"
+	"name": "Leon Scott Kennedy",
+	"code": "S27"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/S28_charSelect_portrait.png",
-	"name": "Mikaela Reid"
+	"name": "Mikaela Reid",
+	"code": "S28"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/S29_charSelect_portrait.png",
-	"name": "Jonah Vasquez"
+	"name": "Jonah Vasquez",
+	"code": "S29"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/S30_charSelect_portrait.png",
-	"name": "Yoichi Asakawa"
+	"name": "Yoichi Asakawa",
+	"code": "S30"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/S31_charSelect_portrait.png",
-	"name": "Haddie Kaur"
+	"name": "Haddie Kaur",
+	"code": "S31"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S32_charSelect_portrait.png",
-	"name": "Ada Wong"
+	"name": "Ada Wong",
+	"code": "S32"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/S33_charSelect_portrait.png",
-	"name": "Rebecca Chambers"
+	"name": "Rebecca Chambers",
+	"code": "S33"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/S34_charSelect_portrait.png",
-	"name": "Vittorio Toscano"
+	"name": "Vittorio Toscano",
+	"code": "S34"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/20/S35_charSelect_portrait.png",
-	"name": "Thalita Lyra"
+	"name": "Thalita Lyra",
+	"code": "S35"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png",
-	"name": "Renato Lyra"
+	"name": "Renato Lyra",
+	"code": "S36"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/S37_charSelect_portrait.png",
-	"name": "Gabriel Soma"
+	"name": "Gabriel Soma",
+	"code": "S37"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/S38_charSelect_portrait.png",
-	"name": "Nicolas Cage"
+	"name": "Nicolas Cage",
+	"code": "S38"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png",
+	"name": "Ellen Ripley",
+	"code": "S39"
 }]
