@@ -104,13 +104,13 @@
   "nancy_wheeler": {
     "name": "Nancy Wheeler",
     "role": "survivor",
-    "bio": "An aspiring journalist, able to make acute observations and gain insights that others may miss. Her perks, Situational Awareness, Self-Aware, and Inner Healing, give her the information and courage she needs to tackle unexpected challenges.",
+    "bio": "An aspiring journalist, able to make acute observations and gain insights that others may miss. Her perks, Better Together, Fixated, and Inner Strength, give her the information and courage she needs to tackle unexpected challenges.",
     "image": "nancy_wheeler.png"
   },
   "steve_harrington": {
     "name": "Steve Harrington",
     "role": "survivor",
-    "bio": "A former jock, able to protect and support his fellow Survivors while providing his own brand of humor. His perks, Guardian, Kinship, and Renewal, enable him to distract Killers, tolerate pain, and get back into the fight.",
+    "bio": "A former jock, able to protect and support his fellow Survivors while providing his own brand of humor. His perks, Babysitter, Camaraderie, and Second Wind, enable him to distract Killers, tolerate pain, and get back into the fight.",
     "image": "steve_harrington.png"
   },
   "yui_kimura": {
@@ -332,7 +332,7 @@
   "the_demogorgon": {
     "name": "The Demogorgon",
     "role": "killer",
-    "bio": "An unidentified Killer, able to open multiple Portals and traverse between them to cover large distances. Using its power, Of the Abyss, it can detect any Survivors within a close proximity to the Portals then unleash a leaping attack to inflict damage from a distance. Its perks, Jolt, Claustrophobia, and Fearmonger, impact the environment close to generators and affect nearby Survivors in unexpected ways.",
+    "bio": "An unidentified Killer, able to open multiple Portals and traverse between them to cover large distances. Using its power, Of the Abyss, it can detect any Survivors within a close proximity to the Portals then unleash a leaping attack to inflict damage from a distance. Its perks, Surge, Cruel Limits, and Mindbreaker, impact the environment close to generators and affect nearby Survivors in unexpected ways.",
     "image": "the_demogorgon.png"
   },
   "the_oni": {
@@ -430,5 +430,11 @@
     "role": "killer",
     "bio": "A relentless specimen from a distant planet, The Xenomorph is vicious, agile, and cunning. Its personal perks, Ultimate Weapon, Rapid Brutality, and Alien Instinct allow it to cause nearby Survivors to scream, gain Haste after basic attacks, and see auras of faraway Survivors.",
     "image": "the_xenomorph.png"
+  },
+  "the_good_guy": {
+    "name": "The Good Guy",
+    "role": "killer",
+    "bio": "The Good Guy is an elusive killer, capable of deceiving Survivors with his illusory Footfalls and deadly Slice & Dice. His personal perks, Hex: Two can Play, Friends 'til the End, and Batteries Included, allow him to blind those who blind him, relentlessly hunt his Obsession, and get faster around completed generators.",
+    "image": "the_good_guy.png"
   }
 }
