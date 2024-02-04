@@ -233,6 +233,12 @@
     "bio": "Ellen Ripley, Warrant Officer of the Nostromo, is capable and pragmatic. Her personal perks, Lucky Star, Chemical Trap, and Light-footed let her hide her pools of blood and grunts of pain, slow Killers with trapped pallets, and run silently.",
     "image": "ellen_ripley.png"
   },
+  "alan_wake": {
+    "name": "Alan Wake",
+    "role": "survivor",
+    "bio": "Alan Wake, bestselling author, knows what it means to push back the darkness. His perks, Champion of Light, Boon: Illumination, and Deadline, make Flashlights more powerful, reveal chests and generators, and create more frequent Skill Checks.",
+    "image": "alan_wake.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -434,7 +440,7 @@
   "the_good_guy": {
     "name": "The Good Guy",
     "role": "killer",
-    "bio": "The Good Guy is an elusive killer, capable of deceiving Survivors with his illusory Footfalls and deadly Slice & Dice. His personal perks, Hex: Two can Play, Friends 'til the End, and Batteries Included, allow him to blind those who blind him, relentlessly hunt his Obsession, and get faster around completed generators.",
+    "bio": "The Good Guy is an elusive Killer, capable of deceiving Survivors with his illusory Footfalls and deadly Slice & Dice . His personal perks, Hex: Two Can Play, Friends 'til the End, and Batteries Included, allow him to blind those who blind him, relentlessly hunt his Obsession, and get faster around completed generators.",
     "image": "the_good_guy.png"
   }
 }

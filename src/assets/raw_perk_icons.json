@@ -1,4 +1,7 @@
 [{
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/IconPerks_self-Care.png",
+	"name": "iconperks_self-care"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/IconPerks_aceInTheHole.png",
 	"name": "ace_in_the_hole"
 }, {
@@ -62,6 +65,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/IconPerks_boonExponential.png",
 	"name": "boon:_exponential"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/IconPerks_boonIllumination.png",
+	"name": "boon:_illumination"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/IconPerks_boonShadowStep.png",
 	"name": "boon:_shadow_step"
 }, {
@@ -89,6 +95,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png",
 	"name": "camaraderie"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_championOfLight.png",
+	"name": "champion_of_light"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/IconPerks_chemicalTrap.png",
 	"name": "chemical_trap"
 }, {
@@ -112,6 +121,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/IconPerks_deadHard.png",
 	"name": "dead_hard"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_deadline.png",
+	"name": "deadline"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/eb/IconPerks_deception.png",
 	"name": "deception"
@@ -498,7 +510,7 @@
 	"name": "franklin's_demise"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconPerks_friendsTilTheEnd.png",
-	"name": "friends_til_the_end"
+	"name": "friends_'til_the_end"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_furtiveChase.png",
 	"name": "furtive_chase"
@@ -595,6 +607,12 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/IconPerks_lightborn.png",
 	"name": "lightborn"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/db/IconPerks_flashbang.png",
+	"name": "iconperks_flashbang"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_blastMine.png",
+	"name": "iconperks_blastmine"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconPerks_machineLearning.png",
 	"name": "machine_learning"
@@ -736,4 +754,70 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_zanshinTactics.png",
 	"name": "zanshin_tactics"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a8/IconPerks_kindred.png",
+	"name": "iconperks_kindred"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_hexThrillOfTheHunt.png",
+	"name": "iconperks_hexthrillofthehunt"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_betterTogether.png",
+	"name": "iconperks_bettertogether"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/da/IconPerks_situationalAwareness.png",
+	"name": "iconperks_situationalawareness"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7c/IconPerks_fixated.png",
+	"name": "iconperks_fixated"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7c/IconPerks_fixated.png",
+	"name": "iconperks_fixated"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/IconPerks_innerStrength.png",
+	"name": "iconperks_innerstrength"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/df/IconPerks_innerHealing.png",
+	"name": "iconperks_innerhealing"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/db/IconPerks_babysitter.png",
+	"name": "iconperks_babysitter"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/23/IconPerks_guardian.png",
+	"name": "iconperks_guardian"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png",
+	"name": "iconperks_camaraderie"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png",
+	"name": "iconperks_camaraderie"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_secondWind.png",
+	"name": "iconperks_secondwind"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7b/IconPerks_renewal.png",
+	"name": "iconperks_renewal"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_surge.png",
+	"name": "iconperks_surge"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_surge.png",
+	"name": "iconperks_surge"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_cruelLimits.png",
+	"name": "iconperks_cruellimits"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_cruelLimits.png",
+	"name": "iconperks_cruellimits"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_mindbreaker.png",
+	"name": "iconperks_mindbreaker"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_mindbreaker.png",
+	"name": "iconperks_mindbreaker"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_shatteredHope.png",
+	"name": "iconperks_shatteredhope"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/IconPerks_dramaturgy.png",
+	"name": "iconperks_dramaturgy"
 }]

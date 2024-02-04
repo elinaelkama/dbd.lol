@@ -85,7 +85,7 @@
 	"Autodidact": {
 		"categories": ["safeguard"],
 		"name": "Autodidact",
-		"description": "You start the trial with a -{1}% progress penalty for Skill Checks to heal Survivors.<br><br>For every successful Skill Check while healing a Survivor, you receive a token up to a maximum of {0} tokens.<br><br>Each token grants you a +{2}% progress bonus.<br><br>Great Skill Checks cannot be performed while using <i>Autodidact</i>.<li><i>Autodidact</i> is not active when using a Med Kit to heal.</li>",
+		"description": "You start the trial with a -{1}% progress penalty for Skill Checks to heal other Survivors.<br><br>For every successful Skill Check while healing another Survivor, you receive a token up to a maximum of {0} tokens.<br><br>Each token grants you a +{2}% progress bonus.<br><br>Great Skill Checks cannot be performed while using <i>Autodidact</i>.<li><i>Autodidact</i> is not active when using a Med Kit to heal.</li>",
 		"role": "survivor",
 		"character": 13,
 		"tunables": [
@@ -201,7 +201,7 @@
 	"BloodEcho": {
 		"categories": ["hinderance"],
 		"name": "Blood Echo",
-		"description": "The agony of one is inflicted on others.<br><br>When hooking a Survivor, all other injured Survivors suffer from the Hemorrhage&nbsp;and Exhausted&nbsp;status effect for {0}&nbsp;seconds.<br><br><i>Blood Echo</i> has a cooldown of {1} seconds.<br><br>Exhausted prevents Survivors from activating perks that cause Exhausted.<br><br>Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured Survivors.",
+		"description": "The agony of one is inflicted on others.<br><br>When hooking a Survivor, all other injured Survivors suffer from the <b>Hemorrhage</b>&nbsp;and <b>Exhausted</b>&nbsp;status effect for {0}&nbsp;seconds.<br><br><i>Blood Echo</i> has a cooldown of {1} seconds.<br><br>Exhausted prevents Survivors from activating perks that cause Exhausted.<br><br>Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured Survivors.",
 		"role": "killer",
 		"character": 268435473,
 		"tunables": [
@@ -500,7 +500,7 @@
 	"DeadHard": {
 		"categories": ["navigation", "adaptation"],
 		"name": "Dead Hard",
-		"description": "You can take a beating.<br><br>Dead hard activates after you are unhooked or unhook yourself.<br><br>When injured, tap into your adrenaline bank to avoid incoming damage. Press the <i>Active Ability Button 1</i> while running to gain the Endurance status effect for the next 0.5 seconds.<br><br><li>Causes the <i>Exhausted</i> status effect for {0} seconds.</li><li>Dead Hard then deactivates.</li><br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.<br><br>Exhausted prevents survivors from activating exhausting perks.",
+		"description": "You can take a beating.<br><br>Dead hard activates after you are unhooked or unhook yourself.<br><br>When injured, tap into your adrenaline bank to avoid incoming damage. Press the <i>Active Ability Button 1</i> while running to gain the Endurance status effect for the next 0.5 seconds.<br><br><li>Causes the <b>Exhausted</b>&nbsp;status effect for {0} seconds.</li><li>Dead Hard then deactivates.</li><br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.<br><br>Exhausted prevents survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 9,
 		"tunables": [
@@ -541,7 +541,7 @@
 	"DecisiveStrike": {
 		"categories": ["adaptation"],
 		"name": "Decisive Strike",
-		"description": "Stab at your aggressor in an attempt to escape.<br><br>After being unhooked or unhooking yourself, <i>Decisive Strike</i> activates for {0} seconds.<br><br>While active, complete a Skill Check when grabbed by the Killer to escape, stunning them for 3 seconds.<li>Succeeding or failing the Skill Check disables <i>Decisive Strike</i>.</li><li>You become the Obsession after stunning the Killer.</li><li>The perk and its effects are disabled if the exit gates are powered.</li><br><br><i>Increases your chance to be the Obsession.</i><br><br>The Killer can only be obsessed with one Survivor at a time.<br><br>Taking any Conspicuous Action will deactivate <i>Decisive Strike</i>.",
+		"description": "Stab at your aggressor in an attempt to escape.<br><br>After being unhooked or unhooking yourself, <b>Decisive Strike</b> activates for {0} seconds.<br><br>While active, complete a Skill Check when grabbed by the Killer to escape, stunning them for 3 seconds.<li>Succeeding or failing the Skill Check disables <b>Decisive Strike</b>.</li><li>You become the Obsession after stunning the Killer.</li><li>The perk and its effects are disabled if the exit gates are powered.</li><br><br><b>Increases</b> your chance to be the Obsession.<br><br>Taking any Conspicuous Action will deactivate <b>Decisive Strike</b>.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "survivor",
 		"character": 5,
 		"tunables": [
@@ -851,7 +851,7 @@
 	"HangmansTrick": {
 		"categories": ["obstruction"],
 		"name": "Scourge Hook: Hangman's Trick",
-		"description": "Your ingenious modifications to hooks alert you of tampering.<br><br><li>Gain a notification when a Survivor begins sabotaging a hook.</li><li>While carrying a Survivor, see the aura of any Survivor within {0} meters of a scourge hook.</li>",
+		"description": "Your ingenious modifications to hooks alert you of tampering.<br><br>At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white.<br><br>Gain a notification when a Survivor begins sabotaging a hook.<br><br>While carrying a Survivor, see the aura of any Survivor within {0} meters of a scourge hook.",
 		"role": "killer",
 		"character": 268435466,
 		"tunables": [
@@ -864,7 +864,7 @@
 	"HeadOn": {
 		"categories": ["adaptation"],
 		"name": "Head On",
-		"description": "When your mind is set, there better be no one standing in your way.<br><br>While standing in a locker, for {0} seconds, <i>Head On</i> activates.<br><br>While <i>Head On</i> is activated, perform a rush action to leave a locker to use <i>Head On</i>. If The Killer is standing within <i>Head On's</i> effective range, The Killer is stunned for {1} seconds.<br><br>Causes the Exhausted status effect for {2} seconds.<br><br><i>Head On</i> cannot be used while Exhausted.<br><br>You do not recover from the Exhausted status effect while running.<br><br><i>Head On</i> cannot be used when you have idle crows.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "When your mind is set, there better be no one standing in your way.<br><br>While standing in a locker, for {0} seconds, <i>Head On</i> activates.<br><br>While <i>Head On</i> is activated, perform a rush action to leave a locker to use <i>Head On</i>. If The Killer is standing within <i>Head On's</i> effective range, The Killer is stunned for {1} seconds.<br><br>Causes the <b>Exhausted</b>&nbsp;status effect for {2} seconds.<br><br><i>Head On</i> cannot be used while <b>Exhausted</b>.<br><br>You do not recover from the <b>Exhausted</b> status effect while running.<br><br><i>Head On</i> cannot be used when you have idle crows.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 15,
 		"tunables": [
@@ -959,7 +959,7 @@
 	"Hex_Ruin": {
 		"categories": ["obstruction"],
 		"name": "Hex: Ruin",
-		"description": "A Hex that affects all generator repair progress.<br><br>All generators are affected by <i>Hex: Ruin</i>. While a generator is not being repaired by a Survivor, it will immediately and automatically regress repair progress at {0}% of the normal regression speed.<br><br><li>Once any Survivor is killed by any means, the <i>Hex: Ruin</i> Totem reverts to a Dull Totem.</li><br><br><i>The Hex effects persist as long as the related Hex Totem is standing.</i>",
+		"description": "A Hex that affects all Survivors' generator repair progress.<br><br>All generators are affected by <i>Hex: Ruin</i>. While a generator is not being repaired by a Survivor, it will immediately and automatically regress repair progress at {0}% of the normal regression speed.<br><br><i>The Hex effects persist as long as the related Hex Totem is standing.</i>",
 		"role": "killer",
 		"character": 268435460,
 		"tunables": [
@@ -1234,7 +1234,7 @@
 	"K24P03": {
 		"categories": ["obstruction"],
 		"name": "Eruption",
-		"description": "The NE-\u03b1 parasite provides you with the intelligence and awareness needed to set a trap.<br><br>After damaging a generator, its aura is highlighted in yellow.<br><br><li>Whenever a Survivor enters the dying state, every affected generator explodes, losing {0}% worth of progress, and starts to regress.</li><li>Any Survivor repairing a generator when it explodes will scream and reveal their aura for {1} seconds.</li><br><br><i>Eruption</i> has a cooldown of {2} seconds.",
+		"description": "The NE-\u03b1 parasite provides you with the intelligence and awareness needed to set a trap.<br><br>After kicking a generator, its aura is highlighted in yellow.<br><br><li>Whenever a Survivor enters the dying state, every affected generator explodes, losing {0}% worth of progress, and starts to regress.</li><li>Any Survivor repairing a generator when it explodes will scream and reveal their aura for {1} seconds.</li><br><br><i>Eruption</i> has a cooldown of {2} seconds.",
 		"role": "killer",
 		"character": 268435479,
 		"tunables": [
@@ -1277,7 +1277,7 @@
 	"K25P03": {
 		"categories": null,
 		"name": "Scourge Hook: Gift of Pain",
-		"description": "You are the bringer of sweet pain.<br><br>At the start of the trial, up to {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, they suffer from the <b>Hemorrhage</b> and <b>Mangled</b> status effect until fully healed. The first time the Survivor is healed, they suffer a {1}% speed penalty to healing and repairing actions until injured again.<br><br>Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured Survivors.<br><br>Mangled increases time required to heal by 25% and lasts until fully healed.",
+		"description": "You are the bringer of sweet pain.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, they suffer from the <b>Hemorrhage</b> and <b>Mangled</b> status effect until fully healed. The first time the Survivor is healed, they suffer a {1}% speed penalty to healing and repairing actions until injured again.<br><br>Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured Survivors.<br><br>Mangled increases time required to heal by 25% and lasts until fully healed.",
 		"role": "killer",
 		"character": 268435480,
 		"tunables": [
@@ -1291,12 +1291,13 @@
 	"K26P01": {
 		"categories": null,
 		"name": "Grim Embrace",
-		"description": "Your act of servitude to The Entity has not gone unnoticed.<br><br>Each time a Survivor is hooked for the first time, you gain a token. Upon reaching {0} tokens <i>Grim Embrace</i> activates.<br><br>The Entity blocks all generators for {1} seconds. The Obsession's aura is revealed to you for {2} seconds.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "Your act of servitude to The Entity has not gone unnoticed.<br><br>Each time a Survivor is hooked for the first time, gain a token. When moving 16 meters away from the hook, all generators are blocked for {0} seconds.<br><br>Upon reaching {1} tokens, when moving 16 meters away from the hook, The Entity instead blocks all generators for {2} seconds. The Obsession's aura is revealed to you for {3} seconds.<br><br>Then, <i>Grim Embrace</i> deactivates.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "killer",
 		"character": 268435481,
 		"tunables": [
+			["8", "10", "12"],
 			["4"],
-			["30", "35", "40"],
+			["40"],
 			["6"]
 		],
 		"modifier": "BP_K26P01",
@@ -1306,7 +1307,7 @@
 	"K26P02": {
 		"categories": null,
 		"name": "Scourge Hook: Pain Resonance",
-		"description": "Overwhelming pain reverberates outwards into chaos.<br><br>At the start of the trial, up to {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>You start the trial with 4 tokens. The first time each Survivor is hooked on a scourge hook, lose 1 token and the generator with the most progress explodes, instantly losing {1}% progress, and will start to regress.<br><br>Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
+		"description": "Overwhelming pain reverberates outwards into chaos.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>You start the trial with 4 tokens. The first time each Survivor is hooked on a scourge hook, lose 1 token and the generator with the most progress explodes, instantly losing {1}% progress, and will start to regress.<br><br>Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
 		"role": "killer",
 		"character": 268435481,
 		"tunables": [
@@ -1336,7 +1337,7 @@
 	"K27P01": {
 		"categories": null,
 		"name": "Scourge Hook: Floods of Rage",
-		"description": "You form a psychic connection with The Entity and alter the rules of the trial.<br><br>At the start of the trial, up to {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {1} seconds.",
+		"description": "You form a psychic connection with The Entity and alter the rules of the trial.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {1} seconds.",
 		"role": "killer",
 		"character": 268435482,
 		"tunables": [
@@ -1504,7 +1505,7 @@
 	"K31P01": {
 		"categories": ["enhancement", "cruelty"],
 		"name": "Game Afoot",
-		"description": "First you pick your prey. Then you pick it apart.<br><br>While you are chasing the Obsession, this perk activates.<br><br>Damaging generators and breaking walls or pallets gives you a {0}% Haste Status for {1} seconds.<br><br>Whenever you hit the Survivor with the total most time in chase with a basic attack, they become the obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "First you pick your prey. Then you pick it apart.<br><br>While you are chasing the Obsession, this perk activates.<br><br>Damaging generators and breaking walls or pallets gives you a {0}% <b>Haste</b> Status for {1} seconds.<br><br>Whenever you hit the Survivor with the total most time in chase with a basic attack, they become the obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.<br><br>Haste increases Killer movement speed.",
 		"role": "killer",
 		"character": 268435486,
 		"tunables": [
@@ -1649,7 +1650,7 @@
 	"K34P02": {
 		"categories": ["trickery"],
 		"name": "Friends \u2018Til the End",
-		"description": "You\u2019ll kill anyone who gets between you and your target.<br><br>You become <b>obsessed</b> with one Survivor.<br><br>When you hook a Survivor that is not the Obsession, the Obsession becomes <b>Exposed</b> for {0} seconds and reveals their aura for {1} seconds.<br><br>When you hook the Obsession, another random Survivor screams and reveals their position and becomes the Obsession.<br><br>\"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" \u2013 Chucky",
+		"description": "You\u2019ll kill anyone who gets between you and your target.<br><br>You become <b>obsessed</b> with one Survivor.<br><br>When you hook a Survivor that is not the Obsession, the Obsession becomes <b>Exposed</b> for {0} seconds and reveals their aura for {1} seconds.<br><br>When you hook the Obsession, another random Survivor screams and reveals their position and becomes the Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured<br><br>\"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" \u2013 Chucky",
 		"role": "killer",
 		"character": 268435489,
 		"tunables": [
@@ -1815,12 +1816,12 @@
 	"MonitorAndAbuse": {
 		"categories": ["tracking", "trickery"],
 		"name": "Monitor & Abuse",
-		"description": "Meticulous in your approach, terrifying in your application.<br><br>While in a chase, your Terror Radius is increased by {0} meters. Otherwise, your Terror Radius is decreased by {0} meters and your field of view is increased by {1} degrees.<br><br><i>Field of view gains do not stack.</i>",
+		"description": "Meticulous in your approach, terrifying in your application.<br><br>While in a chase, your Terror Radius is increased by {0} meters. Otherwise, your Terror Radius is decreased by {1} meters.",
 		"role": "killer",
 		"character": 268435462,
 		"tunables": [
-			["8"],
-			["3", "5", "10"]
+			["6", "7", "8"],
+			["6", "7", "8"]
 		],
 		"modifier": "MonitorAndAbuse",
 		"teachable": 35,
@@ -1829,7 +1830,7 @@
 	"Monstrous_Shrine": {
 		"categories": ["hinderance"],
 		"name": "Scourge Hook: Monstrous Shrine",
-		"description": "Your fervent care of the hooks found in the basement have aroused The Entity's interest.<br><br>At the start of the trial, up to {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br><li>Scourge Hooks grant&nbsp;{1}%&nbsp;faster Entity progression if the Killer is not within 24 meters.</li><br><br>Basement hooks count as Scourge Hooks.",
+		"description": "Your fervent care of the hooks found in the basement have aroused The Entity's interest.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br><li>Scourge Hooks grant&nbsp;{1}%&nbsp;faster Entity progression if the Killer is not within 24 meters.</li><br><br>Basement hooks count as Scourge Hooks.",
 		"role": "killer",
 		"character": null,
 		"tunables": [
@@ -1911,7 +1912,7 @@
 	"ObjectOfObsession": {
 		"categories": ["perception"],
 		"name": "Object of Obsession",
-		"description": "A supernatural bond links you to the Killer.<br><br>Whenever your aura is revealed to the Killer, the Killer's aura becomes visible to you and you gain a {0}% bonus to healing, repairing and cleansing speed.<br><br>If you are the Obsession, your aura is revealed to the Killer for 3 seconds once every 30 seconds.<br><br>Increases your chances of being the Obsession.<br><br><i>The Killer can only be obsessed with one Survivor at a time.</i>",
+		"description": "A supernatural bond links you to the Killer.<br><br>While your aura is revealed to the Killer, the Killer's aura becomes visible to you and you gain a {0}% bonus to healing, repairing and cleansing speed.<br><br>If you are the Obsession, your aura is revealed to the Killer for 3 seconds once every 30 seconds.<br><br><b>Increases</b> your chances of being the Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "survivor",
 		"character": 5,
 		"tunables": [
@@ -2361,7 +2362,7 @@
 	"S29P01": {
 		"categories": null,
 		"name": "Overcome",
-		"description": "You've calculated how much energy you can risk to expend.<br><br>When you are injured, you retain the movement speed bonus for {0} seconds longer.<br><br><i>Overcome</i> causes the <b>Exhausted</b> status effect for {1} seconds.<br><br><i>Overcome</i> cannot be used when Exhausted.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "You've calculated how much energy you can risk to expend.<br><br>When you are injured, you retain the movement speed bonus for {0} seconds longer.<br><br><i>Overcome</i> causes the <b>Exhausted</b> status effect for {1} seconds.<br><br><i>Overcome</i> cannot be used when <b>Exhausted</b>.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 28,
 		"tunables": [
@@ -2603,11 +2604,11 @@
 	"S34P03": {
 		"categories": null,
 		"name": "Quick Gambit",
-		"description": "When you have a Killer's attention, you know how to keep it; others can be confident they won't be interrupted any time soon.<br><br>When you are chased within {0} meters of any generator, any other Survivor working on that generator receives a {1}% speed boost to the repair action.",
+		"description": "When you have a Killer's attention, you know how to keep it; others can be confident they won't be interrupted any time soon.<br><br>When you are chased by the Killer, see the auras of generators within 36 meters.<br><br>Survivors working on highlighted generators receive a {1}% speed boost to the repair action.",
 		"role": "survivor",
 		"character": 33,
 		"tunables": [
-			["24"],
+			["36"],
 			["6", "7", "8"]
 		],
 		"modifier": "BP_S34P03",
@@ -2660,7 +2661,7 @@
 	"S36P01": {
 		"categories": ["navigation"],
 		"name": "Background Player",
-		"description": "You're not usually the center of attention. In some cases, this can be a good thing.<br><br>When the Killer picks-up another Survivor, <i>Background Player</i> activates for {0} seconds.<br><br>When you start running, break into a sprint at {1}% of your normal Running Movement speed for {2} seconds.<br><br><i>This perk cannot be used while Exhausted.</i><br><br>This perk causes the Exhausted status effect for {3} seconds.&nbsp;<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "You're not usually the center of attention. In some cases, this can be a good thing.<br><br>When the Killer picks-up another Survivor, <i>Background Player</i> activates for {0} seconds.<br><br>When you start running, break into a sprint at {1}% of your normal Running Movement speed for {2} seconds.<br><br><i>This perk cannot be used while <b>Exhausted</b>.</i><br><br>This perk causes the <b>Exhausted</b> status effect for {3} seconds.&nbsp;<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 35,
 		"tunables": [
@@ -2676,7 +2677,7 @@
 	"S36P02": {
 		"categories": ["strategy"],
 		"name": "Blood Rush",
-		"description": "Your mind and body are honed for great feats, allowing you to push through with extra effort when necessary.<br><br>This perk activates once you are one hook away from instant death.<br><br>While healthy, running, and suffering from Exhausted, press the <i>Active Ability Button 1</i> to lose a health state and recover from Exhausted instantly and gain the Broken status effect for {0} seconds.<br><br>You are automatically healed from injured to healthy after {1} seconds. Being put into the dying state will cancel the healing effect.<br><br><i>Activating Blood Rush will disable it for the remainder of the trial.</i><br><br>Exhausted prevents Survivors from activating other perks that cause Exhausted.<br><br>Broken prevents Survivors from being healed.",
+		"description": "Your mind and body are honed for great feats, allowing you to push through with extra effort when necessary.<br><br>This perk activates once you are one hook away from instant death.<br><br>While healthy, running, and suffering from <b>Exhausted</b>&nbsp;, press the <i>Active Ability Button 1</i> to lose a health state and recover from <b>Exhausted</b>&nbsp;instantly and gain the <b>Broken</b> status effect for {0} seconds.<br><br>You are automatically healed from injured to healthy after {1} seconds. Being put into the dying state will cancel the healing effect.<br><br><i>Activating Blood Rush will disable it for the remainder of the trial.</i><br><br>Exhausted prevents Survivors from activating other perks that cause Exhausted.<br><br>Broken prevents Survivors from being healed.",
 		"role": "survivor",
 		"character": 35,
 		"tunables": [
@@ -2748,7 +2749,7 @@
 	"S38P01": {
 		"categories": null,
 		"name": "Dramaturgy",
-		"description": "When people bring you on to their project, they do so because of the unexpected magic you bring to your performance.<br><br><i>Dramaturgy</i> activates while you are healthy.<br><br>While running, press the <i>active ability button 2</i> to run with knees high for 0.5 seconds and then gain {0}% Haste for {1} seconds, followed by a unknown effect.<br><br><ul><li>Become <b>Exposed</b> for {2} seconds;</li><li>Gain {3}% <b>Haste</b> for {4} seconds;</li><li>Scream, but nothing happens;</li><li>Gain a random rare item, with random add-ons, and drop any held item.</li></ul><i>The same effect cannot happen twice in a row.</i><br><br><i>Dramaturgy</i> causes <b>Exhausted</b> for {5} seconds. Can't be used while Exhausted.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured.<br><br>Haste increases Survivor movement speed.<br><br>Exhausted prevents Survivors from activating other perks that cause Exhausted.",
+		"description": "When people bring you on to their project, they do so because of the unexpected magic you bring to your performance.<br><br><i>Dramaturgy</i> activates while you are healthy.<br><br>While running, press the <i>active ability button 2</i> to run with knees high for 0.5 seconds and then gain {0}% Haste for {1} seconds, followed by a unknown effect.<br><br><ul><li>Become <b>Exposed</b> for {2} seconds;</li><li>Gain {3}% <b>Haste</b> for {4} seconds;</li><li>Scream, but nothing happens;</li><li>Gain a random rare item, with random add-ons, and drop any held item.</li></ul><i>The same effect cannot happen twice in a row.</i><br><br><i>Dramaturgy</i> causes <b>Exhausted</b> for {5} seconds. Can't be used while <b>Exhausted</b>.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured.<br><br>Haste increases Survivor movement speed.<br><br>Exhausted prevents Survivors from activating other perks that cause Exhausted.",
 		"role": "survivor",
 		"character": 37,
 		"tunables": [
@@ -2835,6 +2836,50 @@
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Wormhole/iconPerks_LightFooted.png"
 	},
+	"S40P01": {
+		"categories": ["safeguard"],
+		"name": "Champion of Light",
+		"description": "The glow of the flashlight looks a little different, feels a little warmer.<br><br>While you are holding a Flashlight, this perk activates.<br><br>When you are shining a Flashlight, you have {0}% Haste.<br><br>When you successfully blind the Killer, they also gain {1}% Hindered for {2} seconds. This effect cannot stack with itself.<br><br>Then, this perk goes on cooldown for {3} seconds.<br><br>Haste increases Survivor movement speed.<br><br>Hindered reduces Killer movement speed.<br><br>\u201cI squeezed the flashlight like my life depended on it, willing it to stop coming any closer.\u201d \u2013 Departure",
+		"role": "survivor",
+		"character": 39,
+		"tunables": [
+			["50"],
+			["20"],
+			["6"],
+			["80", "70", "60"]
+		],
+		"modifier": "BP_S40P01",
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight.png"
+	},
+	"S40P02": {
+		"categories": ["strategy"],
+		"name": "Boon: Illumination",
+		"description": "Your keen insight is something best shared with others.<br><br>Press and hold the <i>Ability button 1</i> near a Dull or Hex Totem to bless it and create a Boon Totem. Soft chimes ring out in a {0} meter range.<br><br>Survivors inside your Boon Totem\u2019s range see the aura of all chests and all generators in blue.<br><br>If you have a lit Boon Totem, you cleanse or bless Totems {1}% faster.<br><br>You can only bless one Totem at a time. All equipped Boon perks are active on your Boon Totem.<br><br>\"A shift in reality. Heavy with hidden meanings\" \u2013 Return",
+		"role": "survivor",
+		"character": 39,
+		"tunables": [
+			["24"],
+			["6", "8", "10"]
+		],
+		"modifier": "BP_S40P02",
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Zodiac/iconsPerks_Illumination.png"
+	},
+	"S40P03": {
+		"categories": ["concealment"],
+		"name": "Deadline",
+		"description": "Desperation creeps in, and you push yourself to work harder.<br><br>This perk activates when you are injured.<br><br>Skill Checks appear {0}% more frequently when repairing or healing and appear in random places.<br><br>The penalty for missing skill checks is reduced by {1}%.<br><br>\u201cThe night had been one desperate situation after another.\u201d \u2013 Departure",
+		"role": "survivor",
+		"character": 39,
+		"tunables": [
+			["6", "8", "10"],
+			["50"]
+		],
+		"modifier": "BP_S40P03",
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Zodiac/iconsPerks_Deadline.png"
+	},
 	"Saboteur": {
 		"categories": ["strategy"],
 		"name": "Saboteur",
@@ -2851,13 +2896,13 @@
 	"Save_The_Best_For_Last": {
 		"categories": ["cruelty"],
 		"name": "Save the best for last",
-		"description": "You become <b>obsessed</b> with one Survivor.<br><br>Earn a token for each successful <i>basic attack</i> that is not dealt to the Obsession.<br><br>Each token grants a stackable {0}% decreased successful <i>basic attack</i> cooldown, you can earn up to {1} tokens.<br><br>Hitting your Obsession with a <i>basic attack</i> will cause you to lose {2} tokens.<br><br>You can no longer gain tokens if your Obsession is sacrificed or killed.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "You become <b>obsessed</b> with one Survivor.<br><br>Earn a token for each successful <i>basic attack</i> that is not dealt to the Obsession. Each token grants a stackable {0}% decreased successful <i>basic attack</i> cooldown, you can earn up to {1} tokens.<br><br>When you hit the Obsession with a Basic Attack or Special Attack, lose {2} tokens. You cannot gain tokens as long as your Obsession is sacrificed or killed.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "killer",
 		"character": 268435461,
 		"tunables": [
-			["5"],
-			["8"],
-			["4", "3", "2"]
+			["4"],
+			["6", "7", "8"],
+			["2"]
 		],
 		"modifier": "SaveTheBestForLast",
 		"teachable": 30,
@@ -2905,11 +2950,12 @@
 	"Shadowborn": {
 		"categories": ["tracking"],
 		"name": "Shadowborn",
-		"description": "You have a keen vision in the darkness of the night.<br><br>Your field of view is {0} degrees wider than normal.<br><br><i>Does not stack with other FOV increases.</i>",
+		"description": "You have a keen vision in the darkness of the night.<br><br>When <b>blinded</b> by any means, gain {0}% <b>Haste</b> for {1} seconds.<br><br>Haste increases Killer movement speed.",
 		"role": "killer",
 		"character": 268435457,
 		"tunables": [
-			["9", "12", "15"]
+			["6", "8", "10"],
+			["10"]
 		],
 		"modifier": "Shadowborn",
 		"teachable": 40,
@@ -2959,7 +3005,7 @@
 	"SoleSurvivor": {
 		"categories": ["concealment"],
 		"name": "Sole Survivor",
-		"description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's <b>aura-reading abilities</b> towards you are disrupted.<br><br>Every time a fellow Survivor is killed or sacrificed, gain a token. For each token, your aura cannot be read by The Killer within a max range of {0} meters.<br><br>When you're the last Survivor alive:<li>Gain 75% action speed when repairing generators.</li><li>Gain 50% action speed while opening an exit gate or the Hatch.</li><br><br>Increases your chances of being The Killer's Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's <b>aura-reading abilities</b> towards you are disrupted.<br><br>Every time a fellow Survivor is killed or sacrificed, gain a token. For each token, your aura cannot be read by The Killer within a max range of {0} meters.<br><br>When you're the last Survivor alive:<li>Gain 75% action speed when repairing generators.</li><li>Gain 50% action speed while opening an exit gate or the Hatch.</li><br><br><b>Increases</b> your chances of being The Killer's Obsession.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "survivor",
 		"character": 5,
 		"tunables": [
@@ -3040,7 +3086,7 @@
 	"Sprint_Burst": {
 		"categories": ["navigation"],
 		"name": "Sprint Burst",
-		"description": "When starting to run, break into a sprint at {0}% of your normal running speed for a maximum of {1} seconds.<br><br>Causes the <i>Exhausted</i> status effect for {2} seconds.<br><br><i>Sprint Burst</i> cannot be used while <i>Exhausted</i>.<br><br>You do not recover from the <i>Exhausted</i> status effect while running.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "When starting to run, break into a sprint at {0}% of your normal running speed for a maximum of {1} seconds.<br><br>Causes the <b>Exhausted</b>&nbsp;status effect for {2} seconds.<br><br><i>Sprint Burst</i> cannot be used while <b>Exhausted</b>.<br><br>You do not recover from the <b>Exhausted</b>&nbsp;status effect while running.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 1,
 		"tunables": [
