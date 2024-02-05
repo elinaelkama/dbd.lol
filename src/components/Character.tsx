@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { bpMedium, md, textPrimary } from '../style/DesignSystem'
+import { bpMedium, fontFamilyPrimary, md, sm, textPrimary } from '../style/DesignSystem'
 import { useAppSelector } from '../hooks/redux'
 
 type Props = {
@@ -13,7 +13,7 @@ const Container = styled.div`
   grid-template-rows: 15rem;
   max-width: 20rem;
   color: ${textPrimary};
-  font-family: sans-serif;
+  font-family: ${fontFamilyPrimary};
   justify-content: center;
 
   @media screen and (max-width: ${bpMedium}){
@@ -28,9 +28,15 @@ max-height: 15rem;
 
 const Header = styled.h3`
 	font-size: ${md};
+	padding: 0 ${sm};
+
+	@media screen and (max-width: ${bpMedium}){
+		text-align: center;
+  }
 `
 
 const Bio = styled.p`
+	padding: 0 ${sm};
 `
 
 const Character = ({ character }: Props) => {

@@ -1,22 +1,23 @@
-import { useDispatch } from 'react-redux'
-import './App.css'
+import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import 'reactjs-popup/dist/index.css';
-import { useEffect, useState } from 'react'
-import { loadCharacterData, loadPerkData } from './store/actions'
-import perkData from './assets/refined_perks.json'
-import { PerkCollection } from './types/PerkCollection'
-import Perk from './components/Perk'
-import { useAppSelector } from './hooks/redux'
-import PerkDisplay from './components/PerkDisplay'
-import styled from 'styled-components'
-import Randomize from './components/Randomize'
-import Intro from './components/Intro'
-import bg from './assets/bg_rpd.jpg'
-import { bpSmall } from './style/DesignSystem'
-import characterData from './assets/refined_characters.json'
-import { CharacterCollection } from './types/CharacterCollection'
-import CharacterDisplay from './components/CharacterDisplay'
-import Character from './components/Character'
+import styled from 'styled-components';
+import './App.css';
+import bg from './assets/bg_rpd.jpg';
+import characterData from './assets/refined_characters.json';
+import perkData from './assets/refined_perks.json';
+import Character from './components/Character';
+import CharacterDisplay from './components/CharacterDisplay';
+import Intro from './components/Intro';
+import Links from './components/Links';
+import Perk from './components/Perk';
+import PerkDisplay from './components/PerkDisplay';
+import Randomize from './components/Randomize';
+import { useAppSelector } from './hooks/redux';
+import { loadCharacterData, loadPerkData } from './store/actions';
+import { bpSmall } from './style/DesignSystem';
+import { CharacterCollection } from './types/CharacterCollection';
+import { PerkCollection } from './types/PerkCollection';
 
 const Container = styled.div`
   display: grid;
@@ -81,7 +82,7 @@ function App() {
   return (
     <AppContainer>
       <Container>
-        <Intro title="DBD Perk Randomizer" />
+        <Intro title="DBD Perk Randomizer" ><Links /></Intro>
         <CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>
         <PerkDisplay>
           {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}

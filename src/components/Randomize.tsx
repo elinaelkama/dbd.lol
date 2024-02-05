@@ -1,8 +1,8 @@
-import styled from "styled-components"
-import { accent, border, bpLarge, bpSmall, lg, md, shadow, sm, textPrimary, textSecondary, xxl } from "../style/DesignSystem"
-import { useEffect, useState } from "react"
-import Popup from "reactjs-popup"
-import { DiAptana } from "react-icons/di";
+import { useEffect, useState } from "react";
+import { FaGear, FaXmark } from "react-icons/fa6";
+import Popup from "reactjs-popup";
+import styled from "styled-components";
+import { border, bpLarge, bpSmall, fontFamilyPrimary, hoverBackground, hoverColor, lg, md, shadow, sm, textPrimary, xs, xxl } from "../style/DesignSystem";
 import Toggle from "./Toggle";
 
 type Props = {
@@ -38,18 +38,18 @@ const Container = styled.div`
 
 const PerkButton = styled.button`
 	border: ${border};
-	border-radius: 6px;
+	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${xxl};
-	font-family: sans-serif;
+	font-family: ${fontFamilyPrimary};
 	background: none;
 	color: ${textPrimary};
 	grid-area: randomize;
 
 	&:hover{
 		cursor: pointer;
-		background-color: ${accent};
-		color: ${textSecondary};
+		background: ${hoverBackground};
+		color: ${hoverColor};
 	}
 `
 
@@ -66,7 +66,7 @@ const RoleContainer = styled.div`
 
 const RoleButton = styled.button<ButtonProps>`
 	border:${border};
-	border-radius: 2px;
+	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${md};
 	color: ${textPrimary};
@@ -75,8 +75,8 @@ const RoleButton = styled.button<ButtonProps>`
 
 	&:hover{
 		cursor: pointer;
-		background-color: ${accent};
-		color: ${textSecondary};
+		background: ${hoverBackground};
+		color: ${hoverColor};
 	}
 `
 
@@ -88,8 +88,9 @@ const ModalContainer = styled.div`
 const ModalContent = styled.div`
 	color: ${textPrimary};
 	text-transform: capitalize;
-	font-family: sans-serif;
+	font-family: ${fontFamilyPrimary};
 	padding: ${sm};
+	position: relative;
 
 	& > h1, h2, h3{
 		font-size: ${lg};
@@ -103,18 +104,51 @@ const ModalContent = styled.div`
 `
 
 const PopUpButton = styled.button`
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border:${border};
-	border-radius: 2px;
+	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${md};
 	color: ${textPrimary};
 	background: none;
 	grid-area: popup;
+
+	&:hover{
+		cursor: pointer;
+		background: ${hoverBackground};
+		color: ${hoverColor};
+	}
+`
+
+const CloseButton = styled.button`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:${border};
+	border-radius: ${xs};
+	box-shadow: ${shadow};
+	font-size: ${md};
+	color: ${textPrimary};
+	background: none;
+	grid-area: popup;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: ${sm};
+
+	&:hover{
+		cursor: pointer;
+		background: ${hoverBackground};
+		color: ${hoverColor};
+	}
 `
 
 const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, role }: Props) => {
 
 	const [includeCharacter, setIncludeCharacter] = useState(true)
+	const [settingsOpen, setSettingsOpen] = useState(false)
 
 	const randomizeAll = () => {
 		randomizePerks(role, 4)
@@ -131,14 +165,14 @@ const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, r
 
 	return (
 		<Container>
-			<Popup trigger={<PopUpButton className="button"><DiAptana /></PopUpButton>} modal>
+			<PopUpButton onClick={() => setSettingsOpen(true)}><FaGear /></PopUpButton>
+			<Popup open={settingsOpen} onClose={() => setSettingsOpen(false)} modal closeOnEscape>
 				<ModalContainer>
 					<ModalContent>
+						<CloseButton onClick={() => setSettingsOpen(false)}><FaXmark /></CloseButton>
 						<h2>Settings</h2>
 						<p>Perks: always on</p>
 						<Toggle name={"Character"} value={includeCharacter} setValue={(value) => setIncludeCharacter(value)}></Toggle>
-						<p></p>
-						<p>Support: <a href="https://discord.gg/Xde7C47kYD">Discord Server</a></p>
 					</ModalContent>
 				</ModalContainer>
 			</Popup>

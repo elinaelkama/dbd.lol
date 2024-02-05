@@ -1,7 +1,7 @@
 import { useMemo } from "react"
-import { useAppSelector } from "../hooks/redux"
 import styled from "styled-components"
-import { md, sm, textPrimary } from "../style/DesignSystem"
+import { useAppSelector } from "../hooks/redux"
+import { fontFamilyPrimary, md, sm, textPrimary } from "../style/DesignSystem"
 
 type Props = {
 	perk: string
@@ -14,7 +14,7 @@ const Container = styled.div`
   max-width: 20rem;
   align-items: center;
   color: ${textPrimary};
-  font-family: sans-serif;
+  font-family: ${fontFamilyPrimary};
   justify-items: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent);
 `
