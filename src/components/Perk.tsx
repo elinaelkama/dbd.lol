@@ -25,6 +25,7 @@ const Image = styled.img`
 
 const Header = styled.h3`
 	font-size: ${md};
+	text-align: center;
 `
 
 const Desc = styled.p`

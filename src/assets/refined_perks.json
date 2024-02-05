@@ -2574,7 +2574,7 @@
     "image": "remember_me.png"
   },
   "repressed_alliance": {
-    "name": "Repressed&nbsp;Alliance",
+    "name": "Repressed Alliance",
     "description": "You’re accustomed to being hunted by malicious forces, and you’ve begun using it to your advantage. Repressed Alliance activates after repairing generators for a total of {0} seconds. When repairing a generator while the perk is active, press the Active Ability Button 1 to call upon The Entity to block the generator for {1} seconds. The perk deactivates. This interaction is not available if other Survivors are repairing the generator. Affected generators will be revealed by a white aura to all Survivors.",
     "role": "survivor",
     "character": "Cheryl Mason",
