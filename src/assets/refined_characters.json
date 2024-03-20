@@ -62,7 +62,7 @@
   "kate_denson": {
     "name": "Kate Denson",
     "role": "survivor",
-    "bio": "A hopeful songbird, able to make the most of her surroundings. Her personal perks, Dance With Me, Windows of Opportunity and Boil Over, grant her the foresight and feistiness to escape even the most dire situations.",
+    "bio": "A hopeful songbird, able to make the most of her surroundings. Her personal perks, Dance With Me, Windows of Opportunity and Boil Over, grant her the foresight and feistiness to escape even the most dire situations.",
     "image": "kate_denson.png"
   },
   "quentin_smith": {
@@ -239,6 +239,12 @@
     "bio": "Alan Wake, bestselling author, knows what it means to push back the darkness. His perks, Champion of Light, Boon: Illumination, and Deadline, make Flashlights more powerful, reveal chests and generators, and create more frequent Skill Checks.",
     "image": "alan_wake.png"
   },
+  "sable_ward": {
+    "name": "Sable Ward",
+    "role": "survivor",
+    "bio": "She is not afraid to embrace the darkness, or the power that lies within it. Her personal perks, Invocation: Weaving Spiders, Strength in Shadows, and Wicked allow her to quicken repair progress, heal herself without a Med-kit, and escape the basement hooks.",
+    "image": "sable_ward.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -296,7 +302,7 @@
   "the_nightmare": {
     "name": "The Nightmare",
     "role": "killer",
-    "bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, Dream Demon . It is here that Survivors become extremely vulnerable to his dream abilities. Using his Dream Projection ability he is able to quickly appear across the map and put pressure on Survivors. His personal perks, Fire Up, Remember Me and Blood Warden, improve his abilities over time and make him stronger as the trial reaches its climax.",
+    "bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, Dream Demon . It is here that Survivors become extremely vulnerable to his dream abilities. Using his Dream Projection ability he is able to quickly appear across the map and put pressure on Survivors. His personal perks, Fire Up, Remember Me and Blood Warden, improve his abilities over time and make him stronger as the trial reaches its climax.",
     "image": "the_nightmare.png"
   },
   "the_pig": {
@@ -344,13 +350,13 @@
   "the_oni": {
     "name": "The Oni",
     "role": "killer",
-    "bio": "A monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, Yamaoka's Wrath, he can rush down Survivors at great speed and deal deadly strikes with his kanabō. His personal perks, Zanshin Tactics, Blood Echo and Nemesis, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
+    "bio": "A monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, Yamaoka's Wrath, he can rush down Survivors at great speed and deal deadly strikes with his kanabō. His personal perks, Zanshin Tactics, Blood Echo and Nemesis, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
     "image": "the_oni.png"
   },
   "the_deathslinger": {
     "name": "The Deathslinger",
     "role": "killer",
-    "bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, The Redeemer . His personal perks, Gear Head, Dead Man’s Switch, and Hex: Retribution, allow him to locate and impede Survivor objectives, and punish Survivors for destroying Totems.",
+    "bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, The Redeemer . His personal perks, Gear Head, Dead Man’s Switch, and Hex: Retribution, allow him to locate and impede Survivor objectives, and punish Survivors for destroying Totems.",
     "image": "the_deathslinger.png"
   },
   "the_executioner": {
@@ -362,7 +368,7 @@
   "the_blight": {
     "name": "The Blight",
     "role": "killer",
-    "bio": "An unpredictable Killer, able to rush forward in a burst of speed and carom off obstacles to injure Survivors using his power, Blighted Corruption . His personal perks, Dragon's Grip, Hex: Undying, and Hex: Blood Favor allow him to impose powerful effects on generators, Totems, and pallets.",
+    "bio": "An unpredictable Killer, able to rush forward in a burst of speed and carom off obstacles to injure Survivors using his power, Blighted Corruption . His personal perks, Dragon's Grip, Hex: Undying, and Hex: Blood Favor allow him to impose powerful effects on generators, Totems, and pallets. ",
     "image": "the_blight.png"
   },
   "the_twins": {
@@ -374,7 +380,7 @@
   "the_trickster": {
     "name": "The Trickster",
     "role": "killer",
-    "bio": "A ranged Killer, able to quickly unleash a flurry of blades by using his power, Showstopper . His personal perks, Starstruck, Hex: Crowd Control, and No Way Out, allow him to quickly down would-be rescuers and block areas of the environment to his advantage.",
+    "bio": "A ranged Killer, able to quickly unleash a flurry of blades by using his power, Showstopper . His personal perks, Starstruck, Hex: Crowd Control, and No Way Out, allow him to quickly down would-be rescuers and block areas of the environment to his advantage.",
     "image": "the_trickster.png"
   },
   "the_nemesis": {
@@ -392,7 +398,7 @@
   "the_artist": {
     "name": "The Artist",
     "role": "killer",
-    "bio": "A ranged-reconnaissance Killer, able to launch Dire Crows across the map to reveal and attack Survivors. Her personal perks, Grim Embrace, Scourge Hook: Pain Resonance, and Hex: Pentimento allow her to interrupt Survivor objectives, torment hooked Survivors, and use destroyed Totems to her advantage. ",
+    "bio": "A ranged-reconnaissance Killer, able to launch Dire Crows across the map to reveal and attack Survivors. Her personal perks, Grim Embrace, Scourge Hook: Pain Resonance, and Hex: Pentimento allow her to interrupt Survivor objectives, torment hooked Survivors, and use destroyed Totems to her advantage. ",
     "image": "the_artist.png"
   },
   "the_onryō": {
@@ -442,5 +448,11 @@
     "role": "killer",
     "bio": "The Good Guy is an elusive Killer, capable of deceiving Survivors with his illusory Footfalls and deadly Slice & Dice . His personal perks, Hex: Two Can Play, Friends 'til the End, and Batteries Included, allow him to blind those who blind him, relentlessly hunt his Obsession, and get faster around completed generators.",
     "image": "the_good_guy.png"
+  },
+  "the_unknown": {
+    "name": "The Unknown",
+    "role": "killer",
+    "bio": "A being beyond understanding, though many have tried. Its personal perks, Unbound, Unforeseen, and Undone allow it to move quicker, put its Terror Radius on a generator, and deplete generator progress.",
+    "image": "the_unknown.png"
   }
 }

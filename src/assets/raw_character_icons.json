@@ -135,6 +135,10 @@
 	"name": "The Good Guy",
 	"code": "K34"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/K35_charSelect_portrait.png",
+	"name": "The Unknown",
+	"code": "K35"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png",
 	"name": "Dwight Fairfield",
 	"code": "S01"
@@ -294,4 +298,8 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/S40_charSelect_portrait.png",
 	"name": "Alan Wake",
 	"code": "S40"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/52/S41_charSelect_portrait.png",
+	"name": "Sable Ward",
+	"code": "S41"
 }]

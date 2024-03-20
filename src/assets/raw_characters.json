@@ -12,7 +12,8 @@
 		"item": null,
 		"outfit": ["D_Head01", "D_Torso01", "D_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/S01_DwightFairfield_Portrait.png"
+		"image": "UI/Icons/CharPortraits/S01_DwightFairfield_Portrait.png",
+		"perks": ["Bond", "Leader", "Prove_Thyself"]
 	},
 	"1": {
 		"id": "Meg",
@@ -27,7 +28,8 @@
 		"item": null,
 		"outfit": ["M_Head01", "M_Torso01", "M_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/S02_MegThomas_Portrait.png"
+		"image": "UI/Icons/CharPortraits/S02_MegThomas_Portrait.png",
+		"perks": ["Adrenaline", "QuickQuiet", "Sprint_Burst"]
 	},
 	"2": {
 		"id": "Claudette",
@@ -42,7 +44,8 @@
 		"item": null,
 		"outfit": ["C_Head01", "C_Torso01", "C_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/S03_ClaudetteMorel_Portrait.png"
+		"image": "UI/Icons/CharPortraits/S03_ClaudetteMorel_Portrait.png",
+		"perks": ["Botany_Knowledge", "Empathy", "Self_Care"]
 	},
 	"3": {
 		"id": "Jake",
@@ -57,7 +60,8 @@
 		"item": null,
 		"outfit": ["J_Head01", "J_Torso01", "J_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/S04_JakePark_Portrait.png"
+		"image": "UI/Icons/CharPortraits/S04_JakePark_Portrait.png",
+		"perks": ["Calm_Spirit", "Iron_Will", "Saboteur"]
 	},
 	"4": {
 		"id": "Nea",
@@ -72,7 +76,8 @@
 		"item": null,
 		"outfit": ["N_Head01", "N_Torso01", "N_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/S05_NeaKarlsson_Portrait.png"
+		"image": "UI/Icons/CharPortraits/S05_NeaKarlsson_Portrait.png",
+		"perks": ["Balanced_Landing", "Streetwise", "Urban_Evasion"]
 	},
 	"5": {
 		"id": "Laurie",
@@ -87,7 +92,8 @@
 		"item": null,
 		"outfit": ["LS_Head01", "LS_Torso01", "LS_Legs01"],
 		"dlc": "halloween",
-		"image": "UI/Icons/CharPortraits/DLC2/S06_LaurieStrode_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC2/S06_LaurieStrode_Portrait.png",
+		"perks": ["DecisiveStrike", "ObjectOfObsession", "SoleSurvivor"]
 	},
 	"6": {
 		"id": "Ace",
@@ -102,7 +108,8 @@
 		"item": null,
 		"outfit": ["AV_Head01", "AV_Torso01", "AV_Legs01"],
 		"dlc": "fleshAndMud",
-		"image": "UI/Icons/CharPortraits/DLC3/S07_AceVisconti_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC3/S07_AceVisconti_Portrait.png",
+		"perks": ["Ace_In_The_Hole", "Open_Handed", "Up_The_Ante"]
 	},
 	"7": {
 		"id": "Bill",
@@ -117,7 +124,8 @@
 		"item": null,
 		"outfit": ["BO_Head01", "BO_Torso01", "BO_Legs01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/L4D/S08_WilliamBillOverbeck_Portrait.png"
+		"image": "UI/Icons/CharPortraits/L4D/S08_WilliamBillOverbeck_Portrait.png",
+		"perks": ["BorrowedTime", "LeftBehind", "SelfSufficient"]
 	},
 	"8": {
 		"id": "Feng",
@@ -132,7 +140,8 @@
 		"item": null,
 		"outfit": ["FM_Head01", "FM_Torso01", "FM_Legs01"],
 		"dlc": "sparkofMadness",
-		"image": "UI/Icons/CharPortraits/DLC4/S09_FengMin_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC4/S09_FengMin_Portrait.png",
+		"perks": ["Alert", "Lithe", "Technician"]
 	},
 	"9": {
 		"id": "Smoke",
@@ -147,7 +156,8 @@
 		"item": null,
 		"outfit": ["DK_Head01", "DK_Torso01", "DK_Legs01"],
 		"dlc": "boreal",
-		"image": "UI/Icons/CharPortraits/DLC5/S10_DavidKing_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC5/S10_DavidKing_Portrait.png",
+		"perks": ["DeadHard", "NoMither", "WereGonnaLiveForever"]
 	},
 	"10": {
 		"id": "Kate",
@@ -156,13 +166,14 @@
 		"difficulty": "none",
 		"gender": "female",
 		"height": "average",
-		"bio": "A&nbsp;hopeful songbird, able to&nbsp;make the most of her surroundings.<br><br>Her personal perks, <b>Dance With Me</b>, <b>Windows of Opportunity</b> and <b>Boil Over</b>,&nbsp;grant her the foresight and feistiness to escape even the most dire situations.",
+		"bio": "A\u00a0hopeful songbird, able to\u00a0make the most of her surroundings.<br><br>Her personal perks, <b>Dance With Me</b>, <b>Windows of Opportunity</b> and <b>Boil Over</b>,\u00a0grant her the foresight and feistiness to escape even the most dire situations.",
 		"story": "One of Kate Denson\u2019s earliest memories was standing in front of her family, singing a song that she\u2019d learned that morning at school, and watching smiles spread across their faces. Seeing how something as simple as a song could make people so happy was the moment when she knew what she wanted to do with her life.<br><br>She practised, learned the guitar as soon as she was big enough to reach over it, and was performing in front of crowds by the time she was eight years old. Her mother did everything she could to fulfil Kate\u2019s dreams, taking her all over home state of Pennsylvania, then across the South, and even to Nashville itself.<br><br>Kate won folk music competitions and talent shows whenever she participated, but for her to win others had to lose, and that wasn\u2019t in her nature. She only wanted an outlet, a way to touch people\u2019s lives. To make them forget the worries of the world and just enjoy themselves, if only for a while.<br><br>With age came a new-found freedom. She bought a battered old Chevy truck and was able to travel around by herself, meeting fans and making new friends wherever she stopped. Hers wasn\u2019t a story of rock excess though: just the road, her guitar and maybe a good bourbon to end the day.<br><br>From sun-baked festivals to dark and cosy bars, people flocked to her voice and her self-penned songs of friendship, family, love and home.<br><br>These sentiments weren\u2019t just lip-service: she made sure to return home as often as she could, to help out in her community and entertain the local children with her tales of the wider world. She saw it as a way of giving back, of supporting others in the same way she had.<br><br>It was home where she found most of her inspiration as well. She had always loved to take long walks in the woods around her town, exploring off the beaten track, finding a quiet spot to play and write her songs. She had a favorite location she returned to time and again, a natural hollow, encircled by trees, that looked almost as if it had been blasted out of the rocks thousands of years ago.<br><br>Here she felt a strong connection to nature, and to the Earth itself. She let her mind be enveloped by the forest and it rewarded her with constant inspiration.<br><br>She picked up her guitar and played, her fingers dancing across the fretboard. The music that she made this time was unlike her usual uplifting tunes, being much more melancholy, even dark. Still, something compelled her to continue, to finish the song.<br><br>Around her, the leaves vibrated in unison with the guitar strings and the boughs of the trees lengthened, coalescing into a living form. Spider-like legs descended from the canopy above, grasping for her. Regaining her senses, she grabbed a rock and tried to beat them back, but their skin was as hard as iron and the rock simply bounced off and skittered away.<br><br>The legs coiled like tendrils around her limbs and lifted her towards the darkness overhead. Fog rolled across the clearing, obscuring both Kate and the creature of nightmares that drew her up towards itself.<br><br>When the fog cleared, there was no sign of any struggle, or of life. Just an acoustic guitar, the scratch plate engraved with flowers; as well as the initials KD, inlaid in mother of pearl.",
 		"tunables": null,
 		"item": null,
 		"outfit": ["GS_Head01", "GS_Torso01", "GS_Legs01"],
 		"dlc": "Guam",
-		"image": "UI/Icons/CharPortraits/Guam/S13_KateDenson_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Guam/S13_KateDenson_Portrait.png",
+		"perks": ["BoilOver", "Dance_with_me", "WindowsOfOpportunity"]
 	},
 	"11": {
 		"id": "Quentin",
@@ -177,7 +188,8 @@
 		"item": null,
 		"outfit": ["QS_Head01", "QS_Torso01", "QS_Legs01"],
 		"dlc": "Sandman",
-		"image": "UI/Icons/CharPortraits/England/S11_QuentinSmith_Portrait.png"
+		"image": "UI/Icons/CharPortraits/England/S11_QuentinSmith_Portrait.png",
+		"perks": ["Pharmacy", "Vigil", "WakeUp"]
 	},
 	"12": {
 		"id": "Eric",
@@ -192,7 +204,8 @@
 		"item": null,
 		"outfit": ["FS_Head01", "FS_Torso01", "FS_Legs01"],
 		"dlc": "Finland",
-		"image": "UI/Icons/CharPortraits/Finland/S12_DetectiveDavidTapp_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Finland/S12_DetectiveDavidTapp_Portrait.png",
+		"perks": ["DetectivesHunch", "StakeOut", "Tenacity"]
 	},
 	"13": {
 		"id": "Adam",
@@ -207,7 +220,8 @@
 		"item": null,
 		"outfit": ["HS_Head01", "HS_Torso01", "HS_Legs01"],
 		"dlc": "Haiti",
-		"image": "UI/Icons/CharPortraits/Haiti/S14_AdamFrancis_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Haiti/S14_AdamFrancis_Portrait.png",
+		"perks": ["Autodidact", "Deliverance", "Diversion"]
 	},
 	"14": {
 		"id": "Jeff",
@@ -222,7 +236,8 @@
 		"item": null,
 		"outfit": ["KS_Head01", "KS_Torso01", "KS_Legs01"],
 		"dlc": "Kenya",
-		"image": "UI/Icons/CharPortraits/Kenya/S15_JeffJohansen_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Kenya/S15_JeffJohansen_Portrait.png",
+		"perks": ["Aftercare", "Breakdown", "Distortion"]
 	},
 	"15": {
 		"id": "Jane",
@@ -237,7 +252,8 @@
 		"item": null,
 		"outfit": ["MS_Head01", "MS_Torso01", "MS_Legs01"],
 		"dlc": "Mali",
-		"image": "UI/Icons/CharPortraits/Mali/S16_JaneRomero_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Mali/S16_JaneRomero_Portrait.png",
+		"perks": ["HeadOn", "Poised", "Solidarity"]
 	},
 	"16": {
 		"id": "Ash",
@@ -252,7 +268,8 @@
 		"item": null,
 		"outfit": ["ML_Hand01", "ML_Torso01", "ML_Legs01"],
 		"dlc": "Nepals",
-		"image": "UI/Icons/CharPortraits/Ash/S17_AshleyJWilliams_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Ash/S17_AshleyJWilliams_Portrait.png",
+		"perks": ["BuckleUp", "FlipFlop", "TheMettleOfMan"]
 	},
 	"17": {
 		"id": "Nancy",
@@ -267,7 +284,8 @@
 		"item": null,
 		"outfit": ["QF_Head01", "QF_Torso01", "QF_Legs01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/S19_NancyWheeler_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/S19_NancyWheeler_Portrait.png",
+		"perks": ["BetterTogether", "Fixated", "InnerStrength"]
 	},
 	"18": {
 		"id": "Steve",
@@ -282,7 +300,8 @@
 		"item": null,
 		"outfit": ["QM_Head01", "QM_Torso01", "QM_Legs01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/S18_SteveHarrington_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/S18_SteveHarrington_Portrait.png",
+		"perks": ["Babysitter", "Camaraderie", "SecondWind"]
 	},
 	"19": {
 		"id": "Yui",
@@ -291,13 +310,14 @@
 		"difficulty": "none",
 		"gender": "female",
 		"height": "short",
-		"bio": "A hardened street racer, able to gain advantages for her and her fellow Survivors in challenging situations.<br><br>Her personal perks,&nbsp;<b>Lucky Break</b>,&nbsp;<b>Any Means Necessary</b>&nbsp;and&nbsp;<b>Breakout</b>, enable her to cover her blood trails, reset dropped pallets, and assist helpless Survivors.",
-		"story": "Despite her traditional upbringing,&nbsp;Yui&nbsp;Kimura raced scooters&nbsp;in her&nbsp;hometown&nbsp;of&nbsp;Hida&nbsp;where she earned the reputation of being able to do the impossible with very little. Her&nbsp;father did his best to steer her away from what he believed to be&nbsp;masculine&nbsp;pursuits,&nbsp;but her grandmother&nbsp;secretly&nbsp;shared her grandfather\u2019s&nbsp;engineer&nbsp;manuals and notes on&nbsp;car and motorcycle&nbsp;engines.&nbsp;Yui&nbsp;read&nbsp;her grandfather\u2019s manuals&nbsp;and&nbsp;learned fast. She&nbsp;was able to not only maintain her&nbsp;scooter,&nbsp;but&nbsp;she modified&nbsp;the engine so that she could compete with older boys&nbsp;on&nbsp;motor&nbsp;crosses.&nbsp;With her grandfathers&nbsp;\u2018good luck&nbsp;hachimaki\u2019 wrapped&nbsp;around her&nbsp;arm,&nbsp;she&nbsp;raced local&nbsp;boys who, unable to keep up with her,&nbsp;worked together to&nbsp;orchestrate her defeat. No luck for them.&nbsp;Yui&nbsp;outmaneuvered them at every turn and became a sensation to all her friends.&nbsp;&nbsp;When it came time to apply for school,&nbsp;Yui&nbsp;gathered her courage and&nbsp;confessed her ambition to race motorcycles&nbsp;to her&nbsp;father. An altercation ensued&nbsp;and&nbsp;when&nbsp;Yui&nbsp;refused to apply for a proper education, her&nbsp;father&nbsp;felt a great shame and told her she was no longer welcome in their home. With a heavy heart,&nbsp;Yui&nbsp;left&nbsp;for Nagoya&nbsp;with the blessings&nbsp;and savings&nbsp;of her grandmother.<br><br>Nagoya was not what&nbsp;Yui&nbsp;expected. She could only find&nbsp;low grade clerical work or minor jobs as a hostess. With the last of the money her grandmother gave her, she purchased a racing bike and entered illegal street races where she won more money than she had ever seen. Rumors of her courage and quick reflexes spread like wildfire. Soon she had an unofficial retinue of women motorcyclists wearing&nbsp;Yui\u2019s&nbsp;signature pink. Along with a gang following her,&nbsp;Yui&nbsp;realized she had a stalker&nbsp;following her&nbsp;in the shadows. When&nbsp;Yui&nbsp;realized her lucky handkerchief&nbsp;had been&nbsp;stolen from her apartment,&nbsp;she took her concerns to the police who laughed and dismissed her, saying her stalker was probably a nice guy&nbsp;and&nbsp;that she would probably marry him in the near future.<br><br>One&nbsp;evening&nbsp;Yui&nbsp;returned home to find&nbsp;the stalker in her apartment going through her things.&nbsp;He hadn\u2019t seen her, and she wasn\u2019t sure what she should do. But the sight of him going through her clothes was too much to bear. She yelled for him to leave.&nbsp;&nbsp;The stalker turned to her with a knife.&nbsp;He lunged at her.&nbsp;&nbsp;She evaded his attack, and he&nbsp;hit the wall and dropped his knife.&nbsp;Without hesitation,&nbsp;Yui&nbsp;tackled him.&nbsp;They rolled&nbsp;over the ground&nbsp;exchanging&nbsp;desperate&nbsp;blows.&nbsp;Yui&nbsp;took more blows than she had ever experienced racing scooters in Shirakawa. With a surge of adrenaline,&nbsp;she&nbsp;managed to overpower&nbsp;her&nbsp;stalker,&nbsp;snatching&nbsp;the knife&nbsp;from the floor&nbsp;and holding&nbsp;the razor-sharp blade&nbsp;to his neck.<br><br>When&nbsp;the police reached her&nbsp;apartment,&nbsp;they&nbsp;took him away&nbsp;and&nbsp;rushed&nbsp;Yui&nbsp;to the hospital for trauma.&nbsp;X-rays revealed she had broken her arm and foot in several places.&nbsp;It wasn\u2019t long before her gang showed up&nbsp;one by one and together they helped her pay her medical bills.&nbsp;&nbsp;Rehabilitation was difficult but&nbsp;Yui&nbsp;never gave up and with the support of her gang she was ready for the races.&nbsp;Yui\u2019s&nbsp;first race after the attack her gang&nbsp;presented her with a new pink&nbsp;hachimaki&nbsp;with their signatures and&nbsp;good luck&nbsp;messages&nbsp;written all over it.&nbsp;Yui&nbsp;vowed she would help other women with&nbsp;her&nbsp;winnings&nbsp;and&nbsp;influence. True to her word, her gang became known as the Sakura&nbsp;7&nbsp;Gang&nbsp;and they&nbsp;wore pink&nbsp;hachimakis&nbsp;as a symbol of&nbsp;unity and support&nbsp;for&nbsp;women needing help from stalkers and abusers.<br><br>The&nbsp;Sakura&nbsp;7&nbsp;grew beyond the&nbsp;7&nbsp;members and&nbsp;Yui\u2019s&nbsp;signature pink became synonymous with women\u2019s empowerment.&nbsp;At street races women would line&nbsp;up&nbsp;in droves to support her.&nbsp;After winning seven straight races in a row, she attracted the attention of a sponsor. She not only earned a spot at the&nbsp;All-Japan Moto Championship&nbsp;but was the youngest woman to&nbsp;race and win in the prestigious event. Her sponsorship soon tripled. So,&nbsp;too,&nbsp;did her gang.&nbsp;But everything came to&nbsp;a staggering&nbsp;halt&nbsp;at the&nbsp;illegal&nbsp;TK3 (Tokyo&nbsp;Kick&nbsp;3000)&nbsp;street&nbsp;races.&nbsp;Yui&nbsp;was leading the race until she entered an unnatural fog&nbsp;that seemed to have appeared from nowhere.&nbsp;Baffled and confused, she&nbsp;stopped&nbsp;her bike and&nbsp;dismounted. It wasn\u2019t long before she&nbsp;realized she wasn\u2019t in Tokyo anymore.&nbsp;",
+		"bio": "A hardened street racer, able to gain advantages for her and her fellow Survivors in challenging situations.<br><br>Her personal perks,\u00a0<b>Lucky Break</b>,\u00a0<b>Any Means Necessary</b>\u00a0and\u00a0<b>Breakout</b>, enable her to cover her blood trails, reset dropped pallets, and assist helpless Survivors.",
+		"story": "Despite her traditional upbringing,\u00a0Yui\u00a0Kimura raced scooters\u00a0in her\u00a0hometown\u00a0of\u00a0Hida\u00a0where she earned the reputation of being able to do the impossible with very little. Her\u00a0father did his best to steer her away from what he believed to be\u00a0masculine\u00a0pursuits,\u00a0but her grandmother\u00a0secretly\u00a0shared her grandfather\u2019s\u00a0engineer\u00a0manuals and notes on\u00a0car and motorcycle\u00a0engines.\u00a0Yui\u00a0read\u00a0her grandfather\u2019s manuals\u00a0and\u00a0learned fast. She\u00a0was able to not only maintain her\u00a0scooter,\u00a0but\u00a0she modified\u00a0the engine so that she could compete with older boys\u00a0on\u00a0motor\u00a0crosses.\u00a0With her grandfathers\u00a0\u2018good luck\u00a0hachimaki\u2019 wrapped\u00a0around her\u00a0arm,\u00a0she\u00a0raced local\u00a0boys who, unable to keep up with her,\u00a0worked together to\u00a0orchestrate her defeat. No luck for them.\u00a0Yui\u00a0outmaneuvered them at every turn and became a sensation to all her friends.\u00a0\u00a0When it came time to apply for school,\u00a0Yui\u00a0gathered her courage and\u00a0confessed her ambition to race motorcycles\u00a0to her\u00a0father. An altercation ensued\u00a0and\u00a0when\u00a0Yui\u00a0refused to apply for a proper education, her\u00a0father\u00a0felt a great shame and told her she was no longer welcome in their home. With a heavy heart,\u00a0Yui\u00a0left\u00a0for Nagoya\u00a0with the blessings\u00a0and savings\u00a0of her grandmother.<br><br>Nagoya was not what\u00a0Yui\u00a0expected. She could only find\u00a0low grade clerical work or minor jobs as a hostess. With the last of the money her grandmother gave her, she purchased a racing bike and entered illegal street races where she won more money than she had ever seen. Rumors of her courage and quick reflexes spread like wildfire. Soon she had an unofficial retinue of women motorcyclists wearing\u00a0Yui\u2019s\u00a0signature pink. Along with a gang following her,\u00a0Yui\u00a0realized she had a stalker\u00a0following her\u00a0in the shadows. When\u00a0Yui\u00a0realized her lucky handkerchief\u00a0had been\u00a0stolen from her apartment,\u00a0she took her concerns to the police who laughed and dismissed her, saying her stalker was probably a nice guy\u00a0and\u00a0that she would probably marry him in the near future.<br><br>One\u00a0evening\u00a0Yui\u00a0returned home to find\u00a0the stalker in her apartment going through her things.\u00a0He hadn\u2019t seen her, and she wasn\u2019t sure what she should do. But the sight of him going through her clothes was too much to bear. She yelled for him to leave.\u00a0\u00a0The stalker turned to her with a knife.\u00a0He lunged at her.\u00a0\u00a0She evaded his attack, and he\u00a0hit the wall and dropped his knife.\u00a0Without hesitation,\u00a0Yui\u00a0tackled him.\u00a0They rolled\u00a0over the ground\u00a0exchanging\u00a0desperate\u00a0blows.\u00a0Yui\u00a0took more blows than she had ever experienced racing scooters in Shirakawa. With a surge of adrenaline,\u00a0she\u00a0managed to overpower\u00a0her\u00a0stalker,\u00a0snatching\u00a0the knife\u00a0from the floor\u00a0and holding\u00a0the razor-sharp blade\u00a0to his neck.<br><br>When\u00a0the police reached her\u00a0apartment,\u00a0they\u00a0took him away\u00a0and\u00a0rushed\u00a0Yui\u00a0to the hospital for trauma.\u00a0X-rays revealed she had broken her arm and foot in several places.\u00a0It wasn\u2019t long before her gang showed up\u00a0one by one and together they helped her pay her medical bills.\u00a0\u00a0Rehabilitation was difficult but\u00a0Yui\u00a0never gave up and with the support of her gang she was ready for the races.\u00a0Yui\u2019s\u00a0first race after the attack her gang\u00a0presented her with a new pink\u00a0hachimaki\u00a0with their signatures and\u00a0good luck\u00a0messages\u00a0written all over it.\u00a0Yui\u00a0vowed she would help other women with\u00a0her\u00a0winnings\u00a0and\u00a0influence. True to her word, her gang became known as the Sakura\u00a07\u00a0Gang\u00a0and they\u00a0wore pink\u00a0hachimakis\u00a0as a symbol of\u00a0unity and support\u00a0for\u00a0women needing help from stalkers and abusers.<br><br>The\u00a0Sakura\u00a07\u00a0grew beyond the\u00a07\u00a0members and\u00a0Yui\u2019s\u00a0signature pink became synonymous with women\u2019s empowerment.\u00a0At street races women would line\u00a0up\u00a0in droves to support her.\u00a0After winning seven straight races in a row, she attracted the attention of a sponsor. She not only earned a spot at the\u00a0All-Japan Moto Championship\u00a0but was the youngest woman to\u00a0race and win in the prestigious event. Her sponsorship soon tripled. So,\u00a0too,\u00a0did her gang.\u00a0But everything came to\u00a0a staggering\u00a0halt\u00a0at the\u00a0illegal\u00a0TK3 (Tokyo\u00a0Kick\u00a03000)\u00a0street\u00a0races.\u00a0Yui\u00a0was leading the race until she entered an unnatural fog\u00a0that seemed to have appeared from nowhere.\u00a0Baffled and confused, she\u00a0stopped\u00a0her bike and\u00a0dismounted. It wasn\u2019t long before she\u00a0realized she wasn\u2019t in Tokyo anymore.\u00a0\u00a0",
 		"tunables": null,
 		"item": null,
 		"outfit": ["SwedenSurvivor_Head01", "SwedenSurvivor_Torso01", "SwedenSurvivor_Legs01"],
 		"dlc": "Sweden",
-		"image": "UI/Icons/CharPortraits/Sweden/S20_YuiKimura_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Sweden/S20_YuiKimura_Portrait.png",
+		"perks": ["AnyMeansNecessary", "Breakout", "LuckyBreak"]
 	},
 	"20": {
 		"id": "Zarina",
@@ -312,7 +332,8 @@
 		"item": null,
 		"outfit": ["US_Head01", "US_Torso01", "US_Legs01"],
 		"dlc": "Ukraine",
-		"image": "UI/Icons/CharPortraits/Ukraine/S21_ZarinaKassir_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Ukraine/S21_ZarinaKassir_Portrait.png",
+		"perks": ["ForThePeople", "OffTheRecord", "RedHerring"]
 	},
 	"21": {
 		"id": "S22",
@@ -322,12 +343,13 @@
 		"gender": "female",
 		"height": "short",
 		"bio": "Cheryl Mason is a young veteran of terror, emboldening both herself and her team.<br><br>Her personal perks, <b>Soul Guard</b>, <b>Blood Pact</b>, and <b>Repressed Alliance</b>, allow her to survive through immense hardship, stay in contact with team members, and plan objectives.",
-		"story": "Caring and impulsive, Cheryl Mason, previously known as Heather, attempted to rebuild her life after the tragic death of her adoptive father, Harry Mason. While she had freed herself from the religious cult that pursued her since birth, she was shackled by the guilt of her father's death. A darkness&nbsp;punished her every night under the guise of abominable nightmares.<br><br>To ease her conscience, she volunteered at a crisis intervention center for troubled youth. Three months later, she aced training and could answer the crisis line without supervision. Yet little could have prepared her for the first call. All she heard was static. The air thickened as black fumes rose from the ground and&nbsp;suddenly&nbsp;she heard the voice of&nbsp;a woman\u2014someone she thought she'd never hear from again.&nbsp;Why do you cling to this corrupt world? You know that only God can save us.<br><br>It couldn't be her\u2014Claudia was dead.&nbsp;Suddenly, the world&nbsp;spun&nbsp;and she dropped on her knees, nauseous. Hot bile traveled up her throat and she retched warm blood on the floor. Then the spinning stopped as swiftly as it began. Cheryl looked up and saw she was somewhere else. A cold, hopeless place.",
+		"story": "Caring and impulsive, Cheryl Mason, previously known as Heather, attempted to rebuild her life after the tragic death of her adoptive father, Harry Mason. While she had freed herself from the religious cult that pursued her since birth, she was shackled by the guilt of her father's death. A darkness\u00a0punished her every night under the guise of abominable nightmares.<br><br>To ease her conscience, she volunteered at a crisis intervention center for troubled youth. Three months later, she aced training and could answer the crisis line without supervision. Yet little could have prepared her for the first call. All she heard was static. The air thickened as black fumes rose from the ground and\u00a0suddenly\u00a0she heard the voice of\u00a0a woman\u2014someone she thought she'd never hear from again.\u00a0Why do you cling to this corrupt world? You know that only God can save us.<br><br>It couldn't be her\u2014Claudia was dead.\u00a0Suddenly, the world\u00a0spun\u00a0and she dropped on her knees, nauseous. Hot bile traveled up her throat and she retched warm blood on the floor. Then the spinning stopped as swiftly as it began. Cheryl looked up and saw she was somewhere else. A cold, hopeless place.",
 		"tunables": null,
 		"item": null,
 		"outfit": ["S22_Head01", "S22_Torso01", "S22_Legs01"],
 		"dlc": "Wales",
-		"image": "UI/Icons/CharPortraits/Wales/S22_CherylMason_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Wales/S22_CherylMason_Portrait.png",
+		"perks": ["BloodPact", "RepressedAlliance", "SoulGuard"]
 	},
 	"22": {
 		"id": "S23",
@@ -342,7 +364,8 @@
 		"item": null,
 		"outfit": ["S23_Head01", "S23_Torso01", "S23_Legs01"],
 		"dlc": "Yemen",
-		"image": "UI/Icons/CharPortraits/Yemen/S23_FelixRichter_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Yemen/S23_FelixRichter_Portrait.png",
+		"perks": ["BuiltToLast", "DesperateMeasures", "Visionary"]
 	},
 	"23": {
 		"id": "S24",
@@ -357,7 +380,8 @@
 		"item": null,
 		"outfit": ["S24_Head01", "S24_Torso01", "S24_Legs01"],
 		"dlc": "Aurora",
-		"image": "UI/Icons/CharPortraits/Aurora/S24_ElodieRakoto_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Aurora/S24_ElodieRakoto_Portrait.png",
+		"perks": ["S24P01", "S24P02", "S24P03"]
 	},
 	"24": {
 		"id": "S25",
@@ -372,7 +396,8 @@
 		"item": null,
 		"outfit": ["S25_Head01", "S25_Torso01", "S25_Legs01"],
 		"dlc": "Comet",
-		"image": "UI/Icons/CharPortraits/Comet/S25_YunJinLee_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Comet/S25_YunJinLee_Portrait.png",
+		"perks": ["S25P01", "S25P02", "S25P03"]
 	},
 	"25": {
 		"id": "S26",
@@ -387,7 +412,8 @@
 		"item": null,
 		"outfit": ["S26_Head01", "S26_Torso01", "S26_Legs01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/S26_JillValentine_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/S26_JillValentine_Portrait.png",
+		"perks": ["S26P01", "S26P02", "S26P03"]
 	},
 	"26": {
 		"id": "S27",
@@ -402,7 +428,8 @@
 		"item": null,
 		"outfit": ["S27_Head01", "S27_Torso01", "S27_Legs01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/S27_LeonSKennedy_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/S27_LeonSKennedy_Portrait.png",
+		"perks": ["S27P01", "S27P02", "S27P03"]
 	},
 	"27": {
 		"id": "S28",
@@ -417,7 +444,8 @@
 		"item": null,
 		"outfit": ["S28_Head01", "S28_Torso01", "S28_Legs01"],
 		"dlc": "Hubble",
-		"image": "UI/Icons/CharPortraits/Hubble/S28_MikaelaReid_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Hubble/S28_MikaelaReid_Portrait.png",
+		"perks": ["S28P01", "S28P02", "S28P03"]
 	},
 	"28": {
 		"id": "S29",
@@ -432,7 +460,8 @@
 		"item": null,
 		"outfit": ["S29_Head01", "S29_Torso01", "S29_Legs01"],
 		"dlc": "Ion",
-		"image": "UI/Icons/CharPortraits/Ion/S29_JonahVasquez_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Ion/S29_JonahVasquez_Portrait.png",
+		"perks": ["S29P01", "S29P02", "S29P03"]
 	},
 	"29": {
 		"id": "S30",
@@ -447,7 +476,8 @@
 		"item": null,
 		"outfit": ["S30_Head01", "S30_Torso01", "S30_Legs01"],
 		"dlc": "Kepler",
-		"image": "UI/Icons/CharPortraits/Kepler/S30_YoichiAsakawa_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Kepler/S30_YoichiAsakawa_Portrait.png",
+		"perks": ["S30P01", "S30P02", "S30P03"]
 	},
 	"30": {
 		"id": "S31",
@@ -462,7 +492,8 @@
 		"item": null,
 		"outfit": ["S31_Head01", "S31_Torso01", "S31_Legs01"],
 		"dlc": "Meteor",
-		"image": "UI/Icons/CharPortraits/Meteor/S31_HaddieKaur_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Meteor/S31_HaddieKaur_Portrait.png",
+		"perks": ["S31P01", "S31P02", "S31P03"]
 	},
 	"31": {
 		"id": "S32",
@@ -477,7 +508,8 @@
 		"item": null,
 		"outfit": ["S32_Head01", "S32_Torso01", "S32_Legs01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/S32_AdaWong_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/S32_AdaWong_Portrait.png",
+		"perks": ["S32P01", "S32P02", "S32P03"]
 	},
 	"32": {
 		"id": "S33",
@@ -492,7 +524,8 @@
 		"item": null,
 		"outfit": ["S33_Head01", "S33_Torso01", "S33_Legs01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/S33_RebeccaChambers_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/S33_RebeccaChambers_Portrait.png",
+		"perks": ["S33P01", "S33P02", "S33P03"]
 	},
 	"33": {
 		"id": "S34",
@@ -507,7 +540,8 @@
 		"item": null,
 		"outfit": ["S34_Head01", "S34_Torso01", "S34_Legs01"],
 		"dlc": "Quantum",
-		"image": "UI/Icons/CharPortraits/Quantum/S34_VittorioToscano_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Quantum/S34_VittorioToscano_Portrait.png",
+		"perks": ["S34P01", "S34P02", "S34P03"]
 	},
 	"34": {
 		"id": "S35",
@@ -522,7 +556,8 @@
 		"item": null,
 		"outfit": ["S35_Head01", "S35_Torso01", "S35_Legs01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/S35_ThalitaLyra_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/S35_ThalitaLyra_Portrait.png",
+		"perks": ["S35P01", "S35P02", "S35P03"]
 	},
 	"35": {
 		"id": "S36",
@@ -537,7 +572,8 @@
 		"item": null,
 		"outfit": ["S36_Head01", "S36_Torso01", "S36_Legs01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/S36_RenatoLyra_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/S36_RenatoLyra_Portrait.png",
+		"perks": ["S36P01", "S36P02", "S36P03"]
 	},
 	"36": {
 		"id": "S37",
@@ -552,7 +588,8 @@
 		"item": null,
 		"outfit": ["S37_Head01", "S37_Torso01", "S37_Legs01"],
 		"dlc": "Umbra",
-		"image": "UI/Icons/CharPortraits/Umbra/S37_GabrielSoma_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Umbra/S37_GabrielSoma_Portrait.png",
+		"perks": ["S37P01", "S37P02", "S37P03"]
 	},
 	"37": {
 		"id": "S38",
@@ -567,7 +604,8 @@
 		"item": null,
 		"outfit": ["S38_Head01", "S38_Torso01", "S38_Legs01"],
 		"dlc": "Venus",
-		"image": "UI/Icons/CharPortraits/Venus/S38_NicolasCage_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Venus/S38_NicolasCage_Portrait.png",
+		"perks": ["S38P01", "S38P02", "S38P03"]
 	},
 	"38": {
 		"id": "S39",
@@ -582,7 +620,8 @@
 		"item": null,
 		"outfit": ["S39_Head01", "S39_Torso01", "S39_Legs01"],
 		"dlc": "Wormhole",
-		"image": "UI/Icons/CharPortraits/Wormhole/S39_EllenRipley_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Wormhole/S39_EllenRipley_Portrait.png",
+		"perks": ["S39P01", "S39P02", "S39P03"]
 	},
 	"39": {
 		"id": "S40",
@@ -597,7 +636,24 @@
 		"item": null,
 		"outfit": ["S40_Head01", "S40_Torso01", "S40_Legs01"],
 		"dlc": "Zodiac",
-		"image": "UI/Icons/CharPortraits/Zodiac/S40_AlanWake_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Zodiac/S40_AlanWake_Portrait.png",
+		"perks": ["S40P01", "S40P02", "S40P03"]
+	},
+	"40": {
+		"id": "S41",
+		"name": "Sable Ward",
+		"role": "survivor",
+		"difficulty": "none",
+		"gender": "female",
+		"height": "average",
+		"bio": "She is not afraid to embrace the darkness, or the power that lies within it.<br><br>Her personal perks, <b>Invocation: Weaving Spiders</b>, <b>Strength in Shadows</b>, and <b>Wicked</b> allow her to quicken repair progress, heal herself without a Med-kit, and escape the basement hooks.",
+		"story": "Sable figured she had to be adopted. No way was she the progeny of her insanely perky mom and her grinning, golf-playing, frat boy of a dad. They didn\u2019t understand the first thing about her. No one in Greenville did. Except for Mikaela. They were fast friends since third grade. Up until then Sable had no friends. She wasn\u2019t into ponies or dolls or tea parties with teddy bears. She liked bugs, lizards, riding bikes and dirt clod fights. Her favorite holiday was Halloween and Mikaela was the only one who didn\u2019t think she was crazy when she dyed her hair purple in eighth grade. Sable\u2019s mom was furious. Her dad didn\u2019t even notice. Mikaela went with her to the mall when she got her ears pierced and helped her pick out her first tattoo. An occult symbol hidden in a place her parents would never see. Mikaela declined to get her own tattoo. She flirted with the dark side, but she didn\u2019t live it. Not like Sable. The dark side made sense to Sable, and she reveled in it. Partly because it freaked out her parents and teachers. Partly because it felt like who she was. Some called her a goth because of the way she presented herself. But she wasn\u2019t into labels. She loved horror movies and found the occult exciting. It made sense to her. She knew that the shiny suburban world of her mom and dad had a dark underbelly. They were afraid to confront their fear, so they pretended everything was perfect and that they would live forever. But Sable knew better. Death stalked us all and no one was getting out alive.<br><br>Mikaela got Sable a job at Moonstone. Probably the only place in town that would have hired her. She took classes at the local college and produced a guerilla radio show on the shortwave in her attic. All Things Wicked This Night was about the world\u2019s dark underbelly. The occult. Urban legends. Horror. And often there were heated discussions with Mikaela about the horror movies they\u2019d catch at the only theater in Greenville. Mikaela liked her horror with a little comedy, but Sable liked it meaner. Scarier. Bloodier. She relished the gore. Enjoyed the terror. Liked to feel the adrenaline rush. And their debates were entertaining to say the least.<br><br>When searching for inspiration for her show, Sable would take walks in the cemetery with all the statues and headstones of early settlers who had founded the town as a sanctuary for those escaping persecution. She often talked about that history on her show, and she formed a theory that the uncanny sightings and disappearances were somehow linked to the town\u2019s history. One caller suggested the town was built on top of a fracture. The caller went on to describe a fracture as an overlap between worlds. Another caller said these fractures were created by an ancient cult devoted to forgotten demons. Another caller defined fractures as a cosmic buffet for an elder god that fed on pain, fear, and misery. And one caller even argued that it wasn\u2019t a fracture but The Unknown, a mysterious creature that consumed anyone who dared to imagine it. All the theories made for fun and inspiring debates, and she loved nothing more than to discuss real-life horror until the horror became personal.<br><br>One evening Sable had challenged Mikaela to tell a real horror story at Moonstone\u2019s Annual Halloween Festival. Scare the crap out of people. Stop dancing around the horror and embrace it. Tell a story about The Unknown. Make them imagine it. Make them believe The Unknown will show up on stage. Nothing terrifies an audience more than a show that could potentially kill them. Mikaela laughed at the idea and declined the challenge because she was working on another story with her roommate.<br><br>But a strange, black fog had taken Mikaela during her performance and Sable felt the icy hand of guilt grab her by the back of the neck. She was convinced that she had somehow sent Mikaela to her doom. Did The Unknown take her? Did she try to define The Unknown? What about her roommate? Her roommate disappeared as well. But then she realized Mikaela\u2019s story wasn\u2019t about The Unknown. It was about something else. Another dimension. A dimension filled with terrifying creatures, sadistic killers, and endless horror.<br><br>This was not The Unknown.<br><br>With this realization, Sable began to investigate other disappearances in Greenville. Before long, she realized most of the disappearances occurred at the theater or somewhere close by. Investigating further, she discovered the theater was built over the ruins of an old, one-room schoolhouse that had burned to the ground in the 1920s. Somehow the students couldn\u2019t get out and everyone perished in the flames. Feeling close to an answer, she continued her research and discovered two teenage brothers had recently disappeared from the theater. Elias and Elan. The only witness, their younger sister, Ellen, was committed to an institution after ripping her eyes out. And so, pretending to be a relative, Sable went to talk to Ellen who admitted she and her brothers had been trying to steal old movie posters from the storage room behind the movie screen. She then described a secret door in the basement and a passageway that led to another place.<br><br>A dark place.<br><br>A cold place.<br><br>An evil place.<br><br>Stay away from there, she begged. Stay away.<br><br>But Sable wasn\u2019t about to stay away.<br><br>Not after that story.<br><br>Determined to see Mikaela again, Sable hitched a ride to the theater and soon found the door behind the movie screen. In the darkness she jimmied the door open with a crowbar and headed down a creaking, wooden stairway to the dank cellar. A light switch activated flickering fluorescent lights that illuminated a room filled with broken theater seats and old movie posters dating back eighty years. She searched the sprawling basement and found a thick wooden door hidden behind a poster of the original Frankenstein. She pushed and shoved the door open to reveal an endless circular stairway descending into perfect darkness. Using a penlight to navigate, she descended for ten minutes before she noticed the cold, black fog rising from the lower depths.<br><br>The same cold, black fog that had taken Mikaela.<br><br>Sable considered running back up the stairs to where she would be safe. But then she thought about the terrifying creatures and the sadistic killers and the endless horror, and she quickly decided she wasn\u2019t going to let her best friend have all the fun.",
+		"tunables": null,
+		"item": null,
+		"outfit": ["S41_Head01", "S41_Torso01", "S41_Legs01"],
+		"dlc": "ApplePie",
+		"image": "UI/Icons/CharPortraits/Applepie/S41_SableWard_Portrait.png",
+		"perks": ["S41P01", "S41P02", "S41P03"]
 	},
 	"268435456": {
 		"id": "Chuckles",
@@ -617,7 +673,8 @@
 		"item": "Item_Slasher_Beartrap",
 		"outfit": ["S01_Head01", "S01_Body01", "S01_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/K01_TheTrapper_Portrait.png"
+		"image": "UI/Icons/CharPortraits/K01_TheTrapper_Portrait.png",
+		"perks": ["Agitation", "Brutal_Strength", "Unnerving_Presence"]
 	},
 	"268435457": {
 		"id": "Bob",
@@ -637,7 +694,8 @@
 		"item": "Item_Slasher_CloakBell",
 		"outfit": ["Wraith_Head01", "Wraith_Body01", "Wraith_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/K02_TheWraith_Portrait.png"
+		"image": "UI/Icons/CharPortraits/K02_TheWraith_Portrait.png",
+		"perks": ["BloodHound", "Predator", "Shadowborn"]
 	},
 	"268435458": {
 		"id": "HillBilly",
@@ -655,7 +713,7 @@
 			"TerrorRadius": 3200,
 			"ChainsawInitialTurnRate": 412,
 			"ChainsawFinalTurnRate": 32,
-			"ChainsawTurnRateAdjustmentTime": 0.75,
+			"ChainsawTurnRateAdjustmentTime": 1,
 			"HillbillyChainsawLongDashDuration": 2,
 			"ChainsawDashAttackZoneScaleFactor": 0.8999999761581421,
 			"ChainsawDashObstructionZoneScaleFactor": 0.5,
@@ -673,7 +731,8 @@
 		"item": "Item_Slasher_Chainsaw",
 		"outfit": ["Hillbilly_Body01", "Hillbilly_Legs01", "Hillbilly_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/K03_TheHillbilly_Portrait.png"
+		"image": "UI/Icons/CharPortraits/K03_TheHillbilly_Portrait.png",
+		"perks": ["Enduring", "Lightborn", "Tinkerer"]
 	},
 	"268435459": {
 		"id": "Nurse",
@@ -704,7 +763,8 @@
 		"item": "Item_Slasher_Blinker",
 		"outfit": ["Nurse_Head01", "Nurse_Body01", "Nurse_Weapon01"],
 		"dlc": null,
-		"image": "UI/Icons/CharPortraits/K04_TheNurse_Portrait.png"
+		"image": "UI/Icons/CharPortraits/K04_TheNurse_Portrait.png",
+		"perks": ["NurseCalling", "Stridor", "Thanatophobia"]
 	},
 	"268435460": {
 		"id": "Witch",
@@ -718,25 +778,26 @@
 		"tunables": {
 			"MaxWalkSpeed": 440,
 			"TerrorRadius": 2400,
-			"TeleportMaxDistance": 4000,
+			"TeleportMaxDistance": 4800,
 			"MaxNumTraps": 10,
-			"PhantomTrap_TriggerRadius": 300,
+			"PhantomTrap_TriggerRadius": 270,
 			"PhantomTrap_DetectionBuff": 400,
 			"PhantomTrap_FlashlightDestroyTime": 0.5,
 			"PhantomTrap_ActivateLoudNoiseRange": 100000,
-			"PhantomTrap_ActiveTime": 5,
+			"PhantomTrap_ActiveTime": 6,
 			"PhantomTrap_TriggerAttackTime": 10,
 			"PhantomTrap_TeleportAttackTime": 10,
 			"PhantomTrap_TeleportCooldownDuration": 10,
 			"TeleportStunTime": 0.009999999776482582,
 			"SlowdownTimeAfterTeleport": 1,
 			"PhantomTrap_ActivateNotifySurvivorBotsRange": 1600,
-			"PhantomTrap_WipeAwayTime": 3.5
+			"PhantomTrap_WipeAwayTime": 4
 		},
 		"item": "Item_Slasher_PhantomTrap",
 		"outfit": ["HA_Head01", "HA_Body01", "HA_Claw01"],
 		"dlc": "fleshAndMud",
-		"image": "UI/Icons/CharPortraits/DLC3/K05_TheHag_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC3/K05_TheHag_Portrait.png",
+		"perks": ["Hex_Devour_Hope", "Hex_Ruin", "Hex_The_Third_Seal"]
 	},
 	"268435461": {
 		"id": "Shape",
@@ -781,7 +842,8 @@
 		"item": "Item_Slasher_Stalker",
 		"outfit": ["MM_Head01", "MM_Body01", "MM_Knife01"],
 		"dlc": "halloween",
-		"image": "UI/Icons/CharPortraits/DLC2/K06_TheShape_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC2/K06_TheShape_Portrait.png",
+		"perks": ["Dying_Light", "Play_With_Your_Food", "Save_The_Best_For_Last"]
 	},
 	"268435462": {
 		"id": "Killer07",
@@ -795,10 +857,10 @@
 		"tunables": {
 			"MaxWalkSpeed": 460,
 			"TerrorRadius": 3200,
-			"ShockTherapy_Range": 1070,
+			"ShockTherapy_Range": 1200,
 			"ShockTherapy_Range_LineShape": 2400,
 			"ShockTherapy_SecondsToCharge": 1,
-			"ShockTherapy_Delay": 1,
+			"ShockTherapy_Delay": 0.800000011920929,
 			"ShockTherapy_Cooldown": 1.5,
 			"ShockTherapy_SlashComboTime": 10,
 			"ShockTherapyBlockActionDuration": 2.5,
@@ -828,7 +890,8 @@
 		"item": "Item_Slasher_Killer07Item",
 		"outfit": ["DO_Head01", "DO_Body01", "DO_Weapon01"],
 		"dlc": "sparkofMadness",
-		"image": "UI/Icons/CharPortraits/DLC4/K07_TheDoctor_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC4/K07_TheDoctor_Portrait.png",
+		"perks": ["GeneratorOvercharge", "MonitorAndAbuse", "OverwhelmingPresence"]
 	},
 	"268435463": {
 		"id": "Bear",
@@ -848,12 +911,14 @@
 			"HatchetThrowSecondsToCharge": 1,
 			"HatchetFarHitDistance": 2400,
 			"HatchetLaunchPitchMax": 5,
-			"HatchetThrowCancellationCooldown": 1
+			"HatchetThrowCancellationCooldown": 1,
+			"HatchetWindUpTime": 0.8999999761581421
 		},
 		"item": "Item_Slasher_Hatchet",
 		"outfit": ["BE_Mask01", "BE_Body01", "BE_W01"],
 		"dlc": "boreal",
-		"image": "UI/Icons/CharPortraits/DLC5/K08_TheHuntress_Portrait.png"
+		"image": "UI/Icons/CharPortraits/DLC5/K08_TheHuntress_Portrait.png",
+		"perks": ["BeastOfPrey", "Hex_HuntressLullaby", "TerritorialImperative"]
 	},
 	"268435464": {
 		"id": "Cannibal",
@@ -888,7 +953,8 @@
 		"item": "Item_Slasher_LFChainsaw",
 		"outfit": ["CA_Head01", "CA_Body01", "CA_W01"],
 		"dlc": "Cannibal",
-		"image": "UI/Icons/CharPortraits/Cannibal/K09_TheCannibal_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Cannibal/K09_TheCannibal_Portrait.png",
+		"perks": ["BBQAndChilli", "FranklinsLoss", "InTheDark"]
 	},
 	"268435465": {
 		"id": "Nightmare",
@@ -897,7 +963,7 @@
 		"difficulty": "intermediate",
 		"gender": "male",
 		"height": "average",
-		"bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, <b>Dream Demon</b>. It is here that Survivors become extremely vulnerable to his dream abilities.&nbsp;Using his <b>Dream Projection</b> ability he is able to quickly appear across the map and put pressure on Survivors.<br><br>His personal perks,&nbsp;<b>Fire Up</b>, <b>Remember Me</b> and <b>Blood Warden</b>,&nbsp;improve his abilities over time and make him stronger as the trial reaches its climax.",
+		"bio": "A nightmare inducing Killer, passively forcing Survivors into his Dream World using his power, <b>Dream Demon</b>. It is here that Survivors become extremely vulnerable to his dream abilities.\u00a0Using his <b>Dream Projection</b> ability he is able to quickly appear across the map and put pressure on Survivors.<br><br>His personal perks,\u00a0<b>Fire Up</b>, <b>Remember Me</b> and <b>Blood Warden</b>,\u00a0improve his abilities over time and make him stronger as the trial reaches its climax.",
 		"story": "Even while he lived, Freddy Krueger was a creature of nightmare for those who truly knew him. Hiding behind a mask of warmth and friendliness, Freddy's actual temperament was known only to his victims. When those victims were finally heard, the parents of Springwood tracked Freddy down and took the law into their own hands. They thought fire had rid them of a monster that night, that their children were finally safe, but evil as strong as his has a way of surviving.<br><br>Years passed, the horror was buried, the victims mercifully forgot. Then, somehow, Freddy returned, and dreams became nightmares once again.<br><br>Freddy focused his anger on those he felt had wronged him, building up to his one true obsession: Nancy Holbrook. But he underestimated her strength and resourcefulness. Together with her friend, Quentin, she managed to weaken Freddy, mutilating him and leaving him for dead once more.<br><br>Death didn't want Freddy the first time he encountered it, why did they think it would take him now? He emerged once more, consumed with vengeance. Then he turned his sights on the boy who had blocked his path to Nancy, his number one.<br><br>Freddy invaded Quentin's dreams, terrorizing him night after night, until his strength and defenses would be at their lowest. When the time was right, he forced the boy to return to the dark reflection of Badham Preschool. Here he would have his final revenge.<br><br>Freddy stalked the boy through the school's halls. He took his time, savoring every moment of the hunt. This was what he enjoyed the most: the smell of their sweat in the air, the ragged gasps of their terrified breath. They were his to play with.<br><br>There was the boy, at the end of a long corridor. Too tired and scared to run anymore? Resigned to his fate? Freddy closed in, arms wide, claws raking the wall. Their tips traced along a pipe, the metallic shrieking only adding to the boy\u2019s apprehension.<br><br>A shower of sparks rained on the ground, and into the liquid that covered the tiled floor. A blue flame blossomed and quickly engulfed the room.<br><br>The boy took flight as Freddy burst from the flames in a fury. Rooms and walls raced past in a blur until they were in Freddy's basement. There would be no escape from here.<br><br>Slowly Freddy closed in on the boy. His fear was so strong now that Freddy could almost taste it, but his eyes burned with a defiant hatred that was almost admirable.<br><br>Freddy drew back his claws.<br><br>Then Freddy felt another presence with him; something old, powerful and dark. A miasma enveloped him and the only sensation was a sound like wooden beams flexing and creaking in the distance. The echoing groan of metal crushed against metal. Something arcane and unknowable, half-way between language and pure terror.<br><br>There was a moment of falling and spinning, and then Freddy was back in the school. But not his school. It looked the same, but it felt different. His powers were tempered in some ways and focused in others. The boy had gone for now, but other prey walked the hallways. Some would be inconsequential; others would become his new favorites. All would fall before his claws.",
 		"tunables": {
 			"TerrorRadius": 3200,
@@ -932,7 +998,8 @@
 		"item": "Item_Slasher_DreamInducer",
 		"outfit": ["SD_Head01", "SD_Body01", "SD_W01"],
 		"dlc": "Sandman",
-		"image": "UI/Icons/CharPortraits/England/K10_TheNightmare_Portrait.png"
+		"image": "UI/Icons/CharPortraits/England/K10_TheNightmare_Portrait.png",
+		"perks": ["BloodWarden", "FireUp", "RememberMe"]
 	},
 	"268435466": {
 		"id": "Pig",
@@ -944,25 +1011,26 @@
 		"bio": "A tormenting Killer, able to Crouch into stealth mode, then Ambush Survivors from a short distance. She can also apply <b>Reverse Bear Traps</b> to downed Survivors, forcing them to remove it before the timer runs out. If the timer expires, they die instantly.<br><br>Her personal perks, <b>Hangman's Trick</b>, <b>Surveillance</b> and <b>Make Your Choice</b>, give her more map control and expose altruistic Survivors.",
 		"story": "When John Kramer, better known as Jigsaw, planned for his son to be born during the Chinese Zodiac\u2019s Year of the Pig, he wanted it to represent fertility and rebirth; a new beginning for him and his wife, and the start of a charmed life for his son. But that plan was shattered on the night that a junkie broke into his wife\u2019s clinic, hoping to score.<br><br>After this event resulted in the death of his unborn son, John finally caught up with the junkie, making him his first test subject, and the Pig was changed forever too. It became a representation of the disease that was rotting John from the inside, a reminder that we are just meat unless we elevate ourselves through our actions, by grasping life from the jaws of death.<br><br>The Pig became a vessel, an agent of Jigsaw, conveying the subjects to their test. For some of those who emerged victorious, the Pig could still be a rebirth, into their new lives as apprentices, even disciples, of Jigsaw.<br><br>That was the case for Amanda Young, a troubled soul, whose life had been a catalogue of harm, both to herself and those around her. That changed when she faced, and bested, Jigsaw\u2019s test. Deciding her life was worth something, she became devoted to Jigsaw\u2019s cause, ready to take over when the cancer consumed him.<br><br>But she became more dependent on John, her anguish at his impending death combining with a belief that their test subjects weren\u2019t capable of saving themselves, of being reborn in the crucible of the games.<br><br>Seeing this, John presented her with another game, another chance to save herself, but Amanda let her rage and jealousy rule her actions. She failed the test and took a bullet as a consequence.<br><br>Bleeding out on the tiled floor, darkness engulfed Amanda\u2019s vision, accompanied by a sound like creaking wood. Then she was in a forest, once more viewing the world through the eyes of a Pig. Trees surrounded her, their branches clawing at her from all sides. Waves of panic washed over her and she could hear her breath reverberating inside the mask.<br><br>Had she been damned, cursed to spend her days here, in this guise? Or maybe this was another test? Maybe she hadn\u2019t failed at all? John always thought one step ahead of everyone else, planned for every eventuality, and he would never give up on her, surely?<br><br>Jigsaw may have gone but he had passed her onto another. A being for whom she would be The Pig again.<br><br>Ultimately, she saw now that she had been right in the choices she had made. The time for games was over. There was no chance of redemption for any of them. They were meat, and meat was destined for slaughter.",
 		"tunables": {
-			"CrouchTime": 1.2999999523162842,
+			"CrouchTime": 1,
 			"MaxWalkSpeed": 460,
 			"ReverseBearTrapRemovalModifier": 3,
 			"ReverseBearTrapTimeToExecution": 150,
 			"ReverseBearTrapTotalRemovals": 12,
 			"SlasherAttackAmbushHittingTime": 0.30000001192092896,
-			"SlasherAttackAmbushMissCooldownTime": 2,
-			"SlasherAttackAmbushObstructCooldownTime": 2,
-			"SlasherAttackAmbushOpenTime": 2,
-			"SlasherAttackAmbushSucceedCooldownTime": 3,
+			"SlasherAttackAmbushMissCooldownTime": 1.5,
+			"SlasherAttackAmbushObstructCooldownTime": 1.5,
+			"SlasherAttackAmbushOpenTime": 2.299999952316284,
+			"SlasherAttackAmbushSucceedCooldownTime": 2.700000047683716,
 			"SlasherStealthDecreaseRate": 0.6600000262260437,
 			"SlasherStealthIncreaseRate": 0.25,
 			"TerrorRadius": 3200,
-			"UnCrouchTime": 1.2999999523162842
+			"UnCrouchTime": 1
 		},
 		"item": "Item_Slasher_ReverseBearTrap",
 		"outfit": ["FK_Mask01", "FK_Body01", "FK_W01"],
 		"dlc": "Finland",
-		"image": "UI/Icons/CharPortraits/Finland/K11_ThePig_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Finland/K11_ThePig_Portrait.png",
+		"perks": ["HangmansTrick", "MakeYourChoice", "Surveillance"]
 	},
 	"268435467": {
 		"id": "Clown",
@@ -1009,15 +1077,16 @@
 			"EnablePlaceholderSmoke": 1,
 			"BombDirectHitBlindDuration": 2,
 			"AntidoteSpeedBoostValue": 0.10000000149011612,
-			"AntidoteSpeedBoostDuration": 5,
-			"AntidoteCloudActivationDelay": 2.5,
+			"AntidoteSpeedBoostDuration": 6,
+			"AntidoteCloudActivationDelay": 2,
 			"GasCloudCosmeticFadeDuration": 0.75,
 			"AntidoteCloudCosmeticFadeDuration": 2.5
 		},
 		"item": "Item_Slasher_GasBomb",
 		"outfit": ["GK_Head01", "GK_Body01", "GK_W01"],
 		"dlc": "Guam",
-		"image": "UI/Icons/CharPortraits/Guam/K12_TheClown_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Guam/K12_TheClown_Portrait.png",
+		"perks": ["Bamboozle", "Coulrophobia", "pop_goes_the_weasel"]
 	},
 	"268435468": {
 		"id": "Spirit",
@@ -1047,7 +1116,8 @@
 		"item": "Item_Slasher_PhaseWalker",
 		"outfit": ["HK_Head01", "HK_Body01", "HK_W01"],
 		"dlc": "Haiti",
-		"image": "UI/Icons/CharPortraits/Haiti/K13_TheSpirit_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Haiti/K13_TheSpirit_Portrait.png",
+		"perks": ["Hex_HauntedGround", "Rancor", "SpiritFury"]
 	},
 	"268435469": {
 		"id": "Legion",
@@ -1086,7 +1156,8 @@
 		"item": "Item_Slasher_Frenzy",
 		"outfit": ["KK_Head01", "KK_Body01", "KK_W01"],
 		"dlc": "Kenya",
-		"image": "UI/Icons/CharPortraits/Kenya/K14_TheLegion_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Kenya/K14_TheLegion_Portrait.png",
+		"perks": ["Discordance", "Ironmaiden", "MadGrit"]
 	},
 	"268435470": {
 		"id": "Plague",
@@ -1137,7 +1208,8 @@
 		"item": "Item_Slasher_PlaguePower",
 		"outfit": ["MK_Mask01", "MK_Body01", "MK_W01"],
 		"dlc": "Mali",
-		"image": "UI/Icons/CharPortraits/Mali/K15_ThePlague_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Mali/K15_ThePlague_Portrait.png",
+		"perks": ["CorruptIntervention", "DarkDevotion", "InfectiousFright"]
 	},
 	"268435471": {
 		"id": "Ghostface",
@@ -1187,7 +1259,8 @@
 		"item": "Item_Slasher_GhostPower",
 		"outfit": ["OK_Mask01", "OK_Body01", "OK_W01"],
 		"dlc": "Oman",
-		"image": "UI/Icons/CharPortraits/Oman/K16_TheGhostface_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Oman/K16_TheGhostface_Portrait.png",
+		"perks": ["FurtiveChase", "ImAllEars", "ThrillingTremors"]
 	},
 	"268435472": {
 		"id": "Demogorgon",
@@ -1219,7 +1292,7 @@
 			"PrototypeDash_SecondsToCharge": 1,
 			"SlasherAttackQatarDashOpenTime": 0.6000000238418579,
 			"SlasherAttackQatarDashHittingTime": 0.30000001192092896,
-			"SlasherAttackQatarDashSucceedCooldownTime": 3,
+			"SlasherAttackQatarDashSucceedCooldownTime": 2.700000047683716,
 			"SlasherAttackQatarDashMissCooldownTime": 2.25,
 			"SlasherAttackQatarDashObstructCooldownTime": 2.25,
 			"SlasherAttackQatarDashEmulateGamepadForMouseYaw": 1,
@@ -1231,12 +1304,14 @@
 			"SlasherAttackQatarDashCancelCooldownTime": 0.44999998807907104,
 			"PortalAreaEffectRadius": 400,
 			"PortalMaxDestroyingPlayers": 4,
-			"TeleportStealthDuration": 5
+			"TeleportStealthDuration": 5,
+			"ShredPalletCooldownDuration": 1.7999999523162842
 		},
 		"item": "Item_Slasher_QatarKillerPower",
 		"outfit": ["QK_Head01", "QK_Body01", "QK_W01"],
 		"dlc": "Qatar",
-		"image": "UI/Icons/CharPortraits/Qatar/K17_TheDemogorgon_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Qatar/K17_TheDemogorgon_Portrait.png",
+		"perks": ["CruelConfinement", "Mindbreaker", "Surge"]
 	},
 	"268435473": {
 		"id": "Oni",
@@ -1245,7 +1320,7 @@
 		"difficulty": "veryhard",
 		"gender": "male",
 		"height": "tall",
-		"bio": "A&nbsp;monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, <b>Yamaoka's Wrath</b>,&nbsp;he can rush down Survivors at great speed and deal deadly strikes with his kanab\u014d.<br><br>His personal perks, <b>Zanshin&nbsp;Tactics</b>, <b>Blood Echo</b> and <b>Nemesis</b>, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
+		"bio": "A\u00a0monstrous Killer, able to absorb the blood energy of his injured foes, and then use that energy to transform into a brutal demon. Using his power, <b>Yamaoka's Wrath</b>,\u00a0he can rush down Survivors at great speed and deal deadly strikes with his kanab\u014d.<br><br>His personal perks, <b>Zanshin\u00a0Tactics</b>, <b>Blood Echo</b> and <b>Nemesis</b>, provide navigational information, punish injured Survivors, and gain advantages over those that interfere.",
 		"story": "Honoring his family name was never enough for Kazan Yamaoka. He wanted to surpass his father\u2019s reputation and end what he saw as the thinning of samurai culture with farmers often posing as samurai. His father tried to turn Kazan\u2019s attention to more noble pursuits, but Kazan refused to heed his advice, and borrowing his father\u2019s katana, he embarked on a dark pilgrimage to prove his worth and rid Japan of imposters. Ignoring the code that had been taught to him, Kazan killed imposters in the hills and the valleys, on the beaches and in the woodland. The killings were brutal, cruel and morbid. He humiliated farmers and warriors alike, yanking off their topknots and stripping them of their armor. His rage, bloodlust and perverse sense of honor knew no bounds. Monks believed he was possessed by something dark and otherworldly and cursed him while a noble lord began to call him \u2018Oni-Yamaoka,\u2019 the rageful samurai, an insult both to Kazan and his family.<br><br>Determined to redeem his family\u2019s name, Kazan now butchered anyone who dared call him Oni-Yamaoka. The insult confused him. He had defeated the best and he had purified the samurai class by ridding the land of imposters. How could anyone refer to him as an ogre? Had it been because he had marched onto a battlefield to cut down the fiercest warriors. Had it been because he had taken a kanabo and dashed hundreds of skulls with it? Or had it been because of his need to secure a \u2018trophy\u2019 from his victims. It didn\u2019t matter. Being called an ogre was more than he could bear and an ominous voice in his head urged him to strike down the lord who had desecrated his name.<br><br>As Kazan made for the lord\u2019s town, he suddenly found himself face to face with a samurai standing on a dirt road, blocking his way. Kazan readied his kanabo. Without a word, the samurai attacked and quickly secured the upper hand. But he hesitated. With a devastating blow, Kazan crushed the samurai\u2019s head and cracked his helmet. As Kazan approached the fallen samurai, he saw his father\u2019s face and staggered back to his haunches. His father stared at Kazan with mingled shame and regret as he issued his last breath. Kazan closed his eyes and screamed in agony until he could scream no more. When he opened his eyes again\u2026 his father was gone. Not only had he killed his father, but he had allowed thieves to steal his body for armor.<br><br>Bitter, lost and disillusioned, Kazan roamed the land aimlessly with his father\u2019s voice rattling in his head, taunting him, reminding him of his failures, sending him into fits of uncontrollable black rage. One day, walking in the woods, Kazan happened upon an Oni statue. He stopped and stood motionless for a long moment. The weathered and overgrown statue seemed to be ridiculing him, accusing him of being the imposter samurai he had so desperately sought to destroy. Kazan shook the laughing voice out of his head and half remembered the lord who had ridiculed him as \u2018Oni-Yamaoka.\u2019<br><br>With renewed anger, Kazan journeyed to a town high up in the snowy mountains where the lord resided. A dozen samurai met Kazan at the gates of the town. A dozen samurai fell to his kanabo. His speed and strength were unmatched. His rage was incomprehensible. Covered in blood and gore, Kazan battled through the town and soon found the lord hiding in a villa. He dragged him out of a cabinet, sliced his tendons to immobilize him and watched him beg and squirm like a dog. Without hesitation, he thrust his fist into the lord\u2019s mouth and yanked out the wicked tongue that had desecrated his name.<br><br>Satisfied, Kazan exited the villa to find himself surrounded by dozens of farmers wielding rusted scythes, sharp pitchforks, and heavy clubs. He survived the first few assaults, but there were too many attackers coming from every direction. Within moments Kazan was on the ground staring at a cold, indifferent, darkening sky as farmers took turns stabbing and torturing the \u2018Oni\u2019 who had butchered their beloved lord. The frenzied mob dragged Kazan into a small stone mill to continue the torture and finally left him to die a slow, agonizing death. When they returned, the mill was filled with a strange black fog and Kazan\u2019s body and the kanabo were nowhere to be found. It was the beginning of a dark legend about a rageful Oni haunting the town.",
 		"tunables": {
 			"TerrorRadius": 3200,
@@ -1303,7 +1378,8 @@
 		"item": "Item_Slasher_Kanobo",
 		"outfit": ["SwedenKiller_Head01", "SwedenKiller_Body01", "SwedenKiller_Weapon01"],
 		"dlc": "Sweden",
-		"image": "UI/Icons/CharPortraits/Sweden/K18_TheOni_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Sweden/K18_TheOni_Portrait.png",
+		"perks": ["BloodEcho", "Nemesis", "ZanshinTactics"]
 	},
 	"268435474": {
 		"id": "Gunslinger",
@@ -1312,8 +1388,8 @@
 		"difficulty": "hard",
 		"gender": "male",
 		"height": "tall",
-		"bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, <b>The Redeemer</b>.<br><br>His personal perks, <b>Gear Head</b>, <b>Dead Man\u2019s Switch</b>, and <b>Hex: Retribution</b>,&nbsp;allow him to locate and&nbsp;impede&nbsp;Survivor objectives, and punish Survivors for destroying Totems.",
-		"story": "Born in the dust-ridden badlands of the American Midwest, Caleb Quinn was son to struggling Irish immigrants. On the edge of the frontier, sickness, famine, and death were common sights, and pioneers contended for whatever scraps they could claim while tycoons feasted. Caleb's father, once an engineer, had few options to ply his trade as businesses&nbsp;posted a common sign:&nbsp;No Irish Need Apply. His antiquated tools&nbsp;laid untouched for years until Caleb uncovered them. Noticing his son\u2019s interest in the trade, he gifted him his old wrench.<br><br>The devices Caleb made under his father\u2019s guidance had quaint applications, but when his father was away, they took a grim turn. He hid plans for a mask that would gouge barbed needles into a human\u2019s eyes and rip them from their sockets, complete with sketches of it fitted&nbsp;on&nbsp;boys&nbsp;who bullied him.<br><br>With age, Caleb's engineering abilities became marketable and employers put their discrimination aside. Henry Bayshore, the owner of United West Rail, hired him.<br><br>Caleb first invented a&nbsp;gun that shot railroad spikes into the ground. Next, he made a steam-powered tunneling drill. But as Bayshore feigned indifference, the devices began turning up at other companies, the patents stolen from Caleb and sold.<br><br>A familiar sensation coursed through Caleb's blood, feeding the sharp pain in his heart. Rage overwhelming him, he burst into Bayshore\u2019s office and smashed his face into a bloody stew. As he was pulled away, he pushed his specialized gun to his boss\u2019 gut and squeezed the trigger. A railroad spike plowed through skin and viscera, nailing Bayshore to his desk.<br><br>The only thing that saved Caleb from hanging was Bayshore's unlikely survival. For fifteen years, Caleb was confined to&nbsp;Hellshire&nbsp;Penitentiary, the nation\u2019s first private prison. In a fortress of illiterate convicts, he found an unlikely friend in the educated prison warden. He designed torture devices for him and in return received extra meals. After a time, the warden offered to commute his sentence. He spoke of something greater than monetary wealth\u2014political capital\u2014and that his connections could have Bayshore framed and rotting behind bars for life. He had only one request: Make him rich. Fill the prison. Use ingenuity to bring outlaws in alive.<br><br>Caleb returned to his workshop, and with a few modifications emerged with something new\u2014the speargun. The first trial occurred when a thief robbed a Chinese laundry. Seizing on the opportunity, Caleb unleashed his prototype. Metal joints screeched as the spike shot forward, gouging into the target's abdomen. But as the spear tugged it caught the thief's intestines and, with an ungodly sound, yanked them onto the dusty road.&nbsp;After several iterations the disembowelments dwindled, but Caleb had already earned his new nickname: The&nbsp;Deathslinger.<br><br>Looking to protect his asset, the&nbsp;prison warden pulled strings and released Irish inmates to form Caleb's posse. The&nbsp;Hellshire&nbsp;Gang was born.&nbsp;For six years&nbsp;they roamed the country collecting wanted outlaws for the prison, fulfilling their end of the bargain. After a bloody battle at&nbsp;Glenvale, Caleb caught notice of a newspaper headline: Henry Bayshore Purchases&nbsp;Hellshire&nbsp;Penitentiary.&nbsp;In the picture, a disfigured Bayshore proudly shook the warden\u2019s hand. Caleb's heart pounded with rage, blood swelling as if it would burst from his veins. He\u2019d been sold out, a pawn in a rich man's game.<br><br>The&nbsp;Hellshire&nbsp;Gang pledged their loyalty to Caleb and called for the warden\u2019s head. In a thundering gallop, they smashed through the prison entrance, shrieking like bloodthirsty marauders.&nbsp; A guard raised his pistol but hesitated. A spear&nbsp;punctured&nbsp;his chest. Caleb grabbed the man's head and slammed it against a prison cell&nbsp;until it spilled through the bars.<br><br>Reaching the warden's office, Caleb kicked the door and was met with a fortunate sight\u2014it wasn\u2019t only the prison warden who cowered in a corner, but Henry Bayshore. Overpowered with rage, Caleb rushed Bayshore,&nbsp;beating,&nbsp;bludgeoning,&nbsp;tearing&nbsp;at his flesh. The man's blood dripped from his face, crimson pooling at his feet. The&nbsp;Hellshire&nbsp;Gang swarmed the warden, snapping bones with each kick.<br><br>With the two men broken and begging for death, the posse dragged them to the commons&nbsp;where they were&nbsp;left to the growing crowd of prisoners.<br><br>Soaked in blood and sweat, Caleb hobbled to his old cell, hardly paying notice to Bayshore\u2019s screams. He sat on the bed\u2019s edge as drops of blood ran from his fingertips.&nbsp;A thick, unnatural&nbsp;fog&nbsp;streamed through the barred window. He pulled out his old wrench, cracked and rusted, and ran a thumb along the metal, regarding it with faded eyes. He couldn\u2019t remember when it came into his possession. He didn\u2019t care to remember. At his feet he saw a dusty path, and, at its end, silhouettes of all who had done him wrong: the boys who bullied him, the executives who took advantage of him, and, again... Henry Bayshore. Emerging from a fog were the tools to dispose of them\u2014unforgiving steel hooks, brilliant and beautiful in their simplicity. Pain tore through his leg as he stood but he endured, pushing onward, walking the dusty path, leaving a trail of blood flowing behind him.",
+		"bio": "A vengeful Killer, able to spear Survivors from a distance and Reel them in using his power, <b>The Redeemer</b>.<br><br>His personal perks, <b>Gear Head</b>, <b>Dead Man\u2019s Switch</b>, and <b>Hex: Retribution</b>,\u00a0allow him to locate and\u00a0impede\u00a0Survivor objectives, and punish Survivors for destroying Totems.",
+		"story": "Born in the dust-ridden badlands of the American Midwest, Caleb Quinn was son to struggling Irish immigrants. On the edge of the frontier, sickness, famine, and death were common sights, and pioneers contended for whatever scraps they could claim while tycoons feasted. Caleb's father, once an engineer, had few options to ply his trade as businesses\u00a0posted a common sign:\u00a0No Irish Need Apply. His antiquated tools\u00a0laid untouched for years until Caleb uncovered them. Noticing his son\u2019s interest in the trade, he gifted him his old wrench.<br><br>The devices Caleb made under his father\u2019s guidance had quaint applications, but when his father was away, they took a grim turn. He hid plans for a mask that would gouge barbed needles into a human\u2019s eyes and rip them from their sockets, complete with sketches of it fitted\u00a0on\u00a0boys\u00a0who bullied him.<br><br>With age, Caleb's engineering abilities became marketable and employers put their discrimination aside. Henry Bayshore, the owner of United West Rail, hired him.<br><br>Caleb first invented a\u00a0gun that shot railroad spikes into the ground. Next, he made a steam-powered tunneling drill. But as Bayshore feigned indifference, the devices began turning up at other companies, the patents stolen from Caleb and sold.<br><br>A familiar sensation coursed through Caleb's blood, feeding the sharp pain in his heart. Rage overwhelming him, he burst into Bayshore\u2019s office and smashed his face into a bloody stew. As he was pulled away, he pushed his specialized gun to his boss\u2019 gut and squeezed the trigger. A railroad spike plowed through skin and viscera, nailing Bayshore to his desk.<br><br>The only thing that saved Caleb from hanging was Bayshore's unlikely survival. For fifteen years, Caleb was confined to\u00a0Hellshire\u00a0Penitentiary, the nation\u2019s first private prison. In a fortress of illiterate convicts, he found an unlikely friend in the educated prison warden. He designed torture devices for him and in return received extra meals. After a time, the warden offered to commute his sentence. He spoke of something greater than monetary wealth\u2014political capital\u2014and that his connections could have Bayshore framed and rotting behind bars for life. He had only one request: Make him rich. Fill the prison. Use ingenuity to bring outlaws in alive.<br><br>Caleb returned to his workshop, and with a few modifications emerged with something new\u2014the speargun. The first trial occurred when a thief robbed a Chinese laundry. Seizing on the opportunity, Caleb unleashed his prototype. Metal joints screeched as the spike shot forward, gouging into the target's abdomen. But as the spear tugged it caught the thief's intestines and, with an ungodly sound, yanked them onto the dusty road.\u00a0After several iterations the disembowelments dwindled, but Caleb had already earned his new nickname: The\u00a0Deathslinger.<br><br>Looking to protect his asset, the\u00a0prison warden pulled strings and released Irish inmates to form Caleb's posse. The\u00a0Hellshire\u00a0Gang was born.\u00a0For six years\u00a0they roamed the country collecting wanted outlaws for the prison, fulfilling their end of the bargain. After a bloody battle at\u00a0Glenvale, Caleb caught notice of a newspaper headline: Henry Bayshore Purchases\u00a0Hellshire\u00a0Penitentiary.\u00a0In the picture, a disfigured Bayshore proudly shook the warden\u2019s hand. Caleb's heart pounded with rage, blood swelling as if it would burst from his veins. He\u2019d been sold out, a pawn in a rich man's game.<br><br>The\u00a0Hellshire\u00a0Gang pledged their loyalty to Caleb and called for the warden\u2019s head. In a thundering gallop, they smashed through the prison entrance, shrieking like bloodthirsty marauders.\u00a0 A guard raised his pistol but hesitated. A spear\u00a0punctured\u00a0his chest. Caleb grabbed the man's head and slammed it against a prison cell\u00a0until it spilled through the bars.<br><br>Reaching the warden's office, Caleb kicked the door and was met with a fortunate sight\u2014it wasn\u2019t only the prison warden who cowered in a corner, but Henry Bayshore. Overpowered with rage, Caleb rushed Bayshore,\u00a0beating,\u00a0bludgeoning,\u00a0tearing\u00a0at his flesh. The man's blood dripped from his face, crimson pooling at his feet. The\u00a0Hellshire\u00a0Gang swarmed the warden, snapping bones with each kick.<br><br>With the two men broken and begging for death, the posse dragged them to the commons\u00a0where they were\u00a0left to the growing crowd of prisoners.<br><br>Soaked in blood and sweat, Caleb hobbled to his old cell, hardly paying notice to Bayshore\u2019s screams. He sat on the bed\u2019s edge as drops of blood ran from his fingertips.\u00a0A thick, unnatural\u00a0fog\u00a0streamed through the barred window. He pulled out his old wrench, cracked and rusted, and ran a thumb along the metal, regarding it with faded eyes. He couldn\u2019t remember when it came into his possession. He didn\u2019t care to remember. At his feet he saw a dusty path, and, at its end, silhouettes of all who had done him wrong: the boys who bullied him, the executives who took advantage of him, and, again... Henry Bayshore. Emerging from a fog were the tools to dispose of them\u2014unforgiving steel hooks, brilliant and beautiful in their simplicity. Pain tore through his leg as he stood but he endured, pushing onward, walking the dusty path, leaving a trail of blood flowing behind him.\u00a0",
 		"tunables": {
 			"TerrorRadius": 3200,
 			"MaxWalkSpeed": 440,
@@ -1372,7 +1448,8 @@
 		"item": "Item_Slasher_HarpoonRifle",
 		"outfit": ["UkraineKiller_Head01", "UkraineKiller_Body01", "UkraineKiller_W01"],
 		"dlc": "Ukraine",
-		"image": "UI/Icons/CharPortraits/Ukraine/K19_TheDeathslinger_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Ukraine/K19_TheDeathslinger_Portrait.png",
+		"perks": ["DeadMansSwitch", "Gearhead", "HexRetribution"]
 	},
 	"268435475": {
 		"id": "K20",
@@ -1435,7 +1512,8 @@
 		"item": "Item_Slasher_TormentMode",
 		"outfit": ["K20_Head01", "K20_Body01", "K20_Weapon01"],
 		"dlc": "Wales",
-		"image": "UI/Icons/CharPortraits/Wales/K20_TheExecutioner_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Wales/K20_TheExecutioner_Portrait.png",
+		"perks": ["Deathbound", "ForcedPenance", "TrailofTorment"]
 	},
 	"268435476": {
 		"id": "K21",
@@ -1444,7 +1522,7 @@
 		"difficulty": "veryhard",
 		"gender": "male",
 		"height": "average",
-		"bio": "An unpredictable Killer, able to rush forward in a burst of speed and carom off obstacles to injure Survivors using his power, <b>Blighted Corruption</b>.<br><br>His personal perks, <b>Dragon's Grip</b>, <b>Hex: Undying</b>, and <b>Hex: Blood Favor</b> allow him to impose powerful effects on generators, Totems, and pallets.",
+		"bio": "An unpredictable Killer, able to rush forward in a burst of speed and carom off obstacles to injure Survivors using his power, <b>Blighted Corruption</b>.<br><br>His personal perks, <b>Dragon's Grip</b>, <b>Hex: Undying</b>, and <b>Hex: Blood Favor</b> allow him to impose powerful effects on generators, Totems, and pallets.\u00a0",
 		"story": "To understand the human condition, one must rise above it. This was the credo of Talbot Grimes, a Scottish chemist whose unrestrained ambition took him to towering heights. As a boy, he was a popular child\u2014bright, charismatic, and unafraid to challenge authority\u2014yet despite his social graces he was fiercely independent, spending much of his time exploring the sprawling fields near his town alone. What began as a child's curiosity nearly turned deadly after experimenting with a patch of poisonous foxglove. For days, he laid in bed dripping with sweat, purging any food that touched his stomach. When he recovered, it wasn't fear that gripped him, but fascination. There was something magical in how a single flower could so drastically affect him.<br><br>Into his adult years, his ambition developed as quickly as his questionable methods. He attended the London School of Medicine and excelled despite several reprimands. His willingness to push the limits secured him a position with the British East India Company, and within seven years he was made head chemist. In time, he completed one of his greatest achievements: a chemical that could increase a worker's productivity while reducing their need for rest. He was rewarded with a secret laboratory beneath a prison camp on Dyer Island.<br><br>There, off the coast of India, prisoners from the Opium War became his unwilling subjects, leading to a drug that allowed soldiers to withstand incredible amounts of pain. Though most side effects were minor, there were rumors that a small number of soldiers went mad. In feral states, they massacred villages, impaling the populace on bayonets, leaving them hanging from trees. There were no official reports on the subject, and Talbot refused to blame himself for what could only be exaggerated war stories.<br><br>Though his callous brilliance seemed unflappable, he was ignorant to the enemies his questionable work had amassed. The realization struck him quite literally\u2014with a steel pipe to the back of his head during a trip to Mangalore. He was bound and loaded into a wagon. When his blindfold was removed, a sickly man showed him a mass grave filled with hundreds of bodies. Unbeknownst to Talbot, his productivity-increasing drug had killed nearly an entire factory's worth of workers. He knew he couldn't defend himself against the anger and accusations of his abductor\u2014all he could do was curl up as the blows from the steel pipe rained down. His body was thrown into the grave and left for dead. Shifting between consciousness and the darkest black, he crawled for an escape, fingers sinking into rotting flesh. Black flies feasted on his uncovered skin, the sensation of a hundred pin pricks stabbing into him. As he collapsed, he came face to face with a dead woman\u2019s dazzling hazel eyes. Too weak to pull away, he could do nothing but witness his life\u2019s work.<br><br>Then, from the edge of death, he was brought back. He found himself on a small bed as a kindly, wrinkled face looked over him. With each pained breath, he was nursed back to health in an ancient mystery school posing as a monastery. In verdant gardens behind tall, unassuming walls, monks studied forbidden texts, striving to expand the human mind in the search for other dimensions\u2014believing one to be connected to the other.<br><br>Talbot\u2019s knowledge proved indispensable, his mind-altering chemicals integrating seamlessly with theories of neural expansion. He realized then that his salvation was no coincidence\u2014he was plucked from the pit specifically to advance the school\u2019s knowledge. He agreed to help until his recovery was complete, being tasked with researching what the monk\u2019s called the soul chemical, a compound derived from the pineal gland that could open the mind\u2019s eye. What began as a favor to his saviors, soon became an obsession. Poring over the school\u2019s archives of lost texts, he uncovered scientific formulas that confirmed previously unthinkable ideas. He dreamt of ushering humankind into a new period of enlightenment. Perhaps then, the nightmares of hundreds of dead factory workers\u2014and of those two hazel eyes\u2014would fade from his mind.<br><br>As he came closer to a breakthrough, the demeanor of the monks shifted. The gentle smiles they offered were paired with uneasy eyes that quickly darted away when spotted. The polite conversations he was once privy to turned to hushed murmurs. The last thing he would see of the school was the cracked ceiling above his bed, branching like a dendrite through plaster.<br><br>His next memories were a shattered mosaic of images and sensations. Smearing lights, horse hoofs on cobblestone, coarse burlap scratching at his cheeks, and sharp bites into his arm. He awoke ragged and unwashed, splayed on the straw mattress of an opium den. Mind in a dense fog, his first thought was of his notes, the only record of his groundbreaking revelations. He searched frantically, scrambling through the dingy basement, pleading aloud for help. The few other denizens looked up from their hammocks, offering nothing but drug-soaked eyes and apathetic gazes that soon fell into half-slumber. Before he noticed the robed figure appear behind him, a needle plunged into his arm and the world disappeared once more.<br><br>Awoken. Again. Each time, hazier than the last. He tongued at hollow gaps between his teeth. How long, he wondered. A faint memory returned. The soul chemical. His notes. The verge of a breakthrough. A faraway whisper entered his mind.<br><br>He fumbled with a stone, sharpening it with shaking hands. In the dim light of the den, amongst the catatonic occupants, he carved his research from memory into the walls. He wrote for hours until his fingers bled, moving to the floor, taking in everything the voice whispered despite his inability to comprehend it. When there was nowhere left to write, he gripped the stone and carved the message into his chest. Stained with blood, he witnessed a miracle appear before him\u2014a magnificent field of lush, orange flowers. The whispered voice beckoned to him, urging him to enter the field and discover worlds and dimensions beyond human comprehension. For a moment, Talbot felt the sense of wonder he possessed as a child.<br><br>The denizens of the opium den awoke to silence, the dry scent of smoke still lingering in the air. Shambling out of their drug-hazed fog, they found the stone floor wet with blood, tiny rivulets coursing through the cracks. As eyes adjusted to the darkened room, the jagged lettering scrawled along its length began to appear. Written over and over without end, there was but one single line: <i>Death Is Only the Beginning</i>.",
 		"tunables": {
 			"TerrorRadius": 3200,
@@ -1480,14 +1558,13 @@
 			"SlasherAttackBlightDashObstructCooldownTime": 2.5,
 			"BreakBreakablesWithPowerAttack": 1,
 			"BreakBreakablesWithPowerAttackBaseTime": 2.5,
-			"BreakBreakablesWithPowerAttackReducedTime": 1.5,
-			"Addon20_CooldownOnDashHit": 20,
-			"Addon20_MaxConsecutiveDashes": 3
+			"BreakBreakablesWithPowerAttackReducedTime": 1.5
 		},
 		"item": "Item_Slasher_K21Power",
 		"outfit": ["K21_Head01", "K21_Body01", "K21_Weapon01"],
 		"dlc": "Yemen",
-		"image": "UI/Icons/CharPortraits/Yemen/K21_TheBlight_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Yemen/K21_TheBlight_Portrait.png",
+		"perks": ["DragonsGrip", "HexBloodFavor", "HexUndying"]
 	},
 	"268435477": {
 		"id": "K22",
@@ -1548,7 +1625,8 @@
 		"item": "Item_Slasher_K22Power",
 		"outfit": ["K22_Head01", "K22_Body01", "K22_Weapon01"],
 		"dlc": "Aurora",
-		"image": "UI/Icons/CharPortraits/Aurora/K22_TheTwins_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Aurora/K22_TheTwins_Portrait.png",
+		"perks": ["K22P01", "K22P02", "K22P03"]
 	},
 	"268435478": {
 		"id": "K23",
@@ -1557,7 +1635,7 @@
 		"difficulty": "intermediate",
 		"gender": "male",
 		"height": "average",
-		"bio": "A ranged Killer, able to quickly unleash a flurry of blades by using&nbsp;his&nbsp;power,&nbsp;<b>Showstopper</b>.<br><br>His&nbsp;personal perks, <b>Starstruck</b>, <b>Hex: Crowd Control</b>, and <b>No Way Out</b>, allow him&nbsp;to quickly down would-be rescuers and block areas of the environment to his advantage.",
+		"bio": "A ranged Killer, able to quickly unleash a flurry of blades by using\u00a0his\u00a0power,\u00a0<b>Showstopper</b>.<br><br>His\u00a0personal perks, <b>Starstruck</b>, <b>Hex: Crowd Control</b>, and <b>No Way Out</b>, allow him\u00a0to quickly down would-be rescuers and block areas of the environment to his advantage.",
 		"story": "Ji-Woon Hak thrived under the attention of others, energized by every eye that watched him and every tongue that spoke his name. Amidst the prestige, he had only one desire: more. Even as a child he found ways to draw crowds. Working at his family\u2019s restaurant, he attracted business with spectacles he performed using throwing knives. Gullible tourists believed this was a traditional South Korean experience, gladly parting with their money to witness it. Ji-Woon's father spent the restaurant\u2019s earnings on dancing and vocal lessons for his son, pushing him to attain the fame he never could.<br><br>Ji-Woon did not disappoint. After years showcasing his abilities to nobodies at talent shows, he hit the track to stardom. Yun-Jin Lee, a producer at Mightee One Entertainment, recruited Ji-Woon into her training program. He transferred to a dormitory in Seoul where, for fourteen hours a day, he was crafted into a star, taught how to move and sing, how to carry himself with the right balance of confidence and modesty.<br><br>Draining as the process was, it worked. Yun-Jin selected Ji-Woon to join the band NO SPIN, bringing a raw energy to their tracks. Fame was almost immediate. Ji-Woon lived in a daze of interviews and adoration, and though the frenzied schedule exhausted his bandmates, he was invigorated. Each day was an affirmation that he was greater than the mediocrity society spewed out.<br><br>But over time, the champagne grew stale. When he looked at his fans, he saw their joy and envy split five ways, thinned out between each band member. The validation that had surged through him left a desperate yearning for more.<br><br>Ji-Woon kept up impressions, mimicking a charm long buried under loathing. He recorded the latest NO SPIN album with his bandmates, never missing a beat. After a lengthy lunch break, he returned to the studio to discover fate had granted him a gift. The scent of burning wires was unmistakable. He rushed to the control room, finding the door blocked by fallen speakers. On the other side, his bandmates pounded on the door, their cries accompanied by the crackling of flames.<br><br>Ji-Woon called to them, dashing to the speakers, grabbing one and\u2014stopping. He froze. Each breath was a conscious, deliberate process requiring all his attention, the nearby cries hardly audible until, slowly, he backed away. And then he heard it. They were screaming his name as they burnt. Screaming for him to save them. Ji-Woon! Ji-Woon! Ji-Woon Hak! It was the most beautiful thing he\u2019d ever heard. When the fire crew arrived, his tears were genuine.<br><br>Ji-Woon was celebrated as a tragic figure, a hero who did all he could in a futile attempt to save his friends. Yun-Jin paraded him through interviews until it was time to rebrand. He was reborn as The Trickster, a solo artist who produced his own songs, sporting a soft heart beneath a wild exterior. But, away from concert set-ups and television stages, something darker grew.<br><br>He targeted those who lived alone, coming to them in the night. The first was a college music student with a captivating voice. Ji-Woon woke him with a baseball bat to the skull, binding his arms and legs, gagging him with a rag duct taped into his mouth. He tortured him for hours, dissecting him alive. Yet there was something missing\u2014a sound, a connection. He wanted to hear the victim\u2019s wonderous voice pleading as he cut his belly open, but all he received was muffled cries through a rag.<br><br>He learned and adjusted.<br><br>Victims had to be abducted, driven to an abandoned building where he could let their voices carry unrestrained emotion. He made music from them, prodding in the right places to evoke different types of shrieks and howls. Stabbing the quadratus lumborum elicited a long, guttural wail, while slashing the carotid artery created a sound similar to a cat being strangled. There was honesty in their suffering. Ji-Woon recorded each session, synthesizing and working them into his songs, hiding them behind layers of melodies.<br><br>He was elated with his work. He left hints for police, arranging a mink boa from a recent photoshoot around a victim\u2019s slashed throat. For his next killing, he removed the teeth from a man that a boxer in one of his music videos was without. During a particularly audacious plea for attention, he killed a fan he had met during a VIP meet-up, replacing her eyes with his diamond cufflinks and writing I HAVE SEEN GOD in blood across her chest. Each scene was a dazzling spectacle.<br><br>Between music and murder, Ji-Woon\u2019s work was discussed globally. However, as violence became his preferred art style, his music career took a hit. Revenue was down and Mightee One executives pointed their fingers at him. Yun-Jin, with professional fury, came to his defense, but she was outnumbered. It was decided that Ji-Woon could no longer self-produce his songs.<br><br>The decision was devastating. His tracks fused genuine humanity into music, yet executives rejected anything that wasn\u2019t generic and expected. And so be it. If they couldn\u2019t understand his art, he would incorporate them into it until they did.<br><br>He had three months until he was to perform a private show for Mightee One\u2019s board members; three months to plan his magnum opus. He transferred obscene amounts of money to a veterinarian in exchange for cannisters of nitrous oxide, then bribed the stage technician of Mightee One\u2019s private theatre for access to the room. His celebrity granted him a benefit of the doubt no regular person could conceive. When the show was ready, gas seeped into the room as executives and stagehands awaited Ji-Woon, conveniently running behind schedule.<br><br>When he arrived, half-conscious bodies were splayed in their seats and crawling across the floor. He worked quickly, binding everyone, pausing only when he came to Yun-Jin\u2014the woman who had plucked him from a mudhole and set him on the path he deserved. She would be rewarded, granted special access to the coming display of wonder. Even under sedation, she fought, a raging storm within her, far stronger than the others. He propped her up as the lone audience member, prying her eyes open. The others, sniveling and sobbing, were brought on stage to perform their final act. With a contemptable sneer, he slapped makeup onto their faces and shone stage lights upon them. They became his instruments.<br><br>To the sound of self-produced melodies, he tortured them, gracefully dashing from one body to another, conducting an operatic crescendo from their wailings. They shouted, whimpered, screamed, cried for their loved ones, cried for their mothers. It was a magnificent outpouring of emotion, of what it meant to be human, and they did it with eyes fixed on Ji-Woon.<br><br>Viscera drained from the stage until, with the toss of his throwing knife, the final human instrument fell silent and the music stopped. Covered in sweat and blood, an exhausted Ji-Woon looked to Yun-Jin and bowed. Curtain call. He had attained perfection. With blade in hand, he made his way to Yun-Jin, prepared to tie up loose ends before the credits rolled. But as he reached her\u2014<br><br>The Fog.<br><br>From where, he didn\u2019t know, but it billowed around them, damp, cool... comfortable. He saw the grand stage: hospitals and temples, forests and slaughterhouses\u2014an eternal plane adorned with rusted hooks, sustained by the million eyes that would watch him, run from him, <i>experience him</i>. All he had to do was accept, become an implement of The Fog and, most importantly, make them scream.<br><br>Encore!",
 		"tunables": {
 			"MaxWalkSpeed": 460,
@@ -1617,7 +1695,8 @@
 		"item": "Item_Slasher_ThrowingKnives",
 		"outfit": ["K23_Head01", "K23_Body01", "K23_Weapon01"],
 		"dlc": "Comet",
-		"image": "UI/Icons/CharPortraits/Comet/K23_TheTrickster_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Comet/K23_TheTrickster_Portrait.png",
+		"perks": ["K23P01", "K23P02", "K23P03"]
 	},
 	"268435479": {
 		"id": "K24",
@@ -1684,7 +1763,8 @@
 		"item": "Item_Slasher_K24Power",
 		"outfit": ["K24_Head01", "K24_Body01", "K24_Weapon01"],
 		"dlc": "Eclipse",
-		"image": "UI/Icons/CharPortraits/Eclipse/K24_TheNemesis_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Eclipse/K24_TheNemesis_Portrait.png",
+		"perks": ["K24P01", "K24P02", "K24P03"]
 	},
 	"268435480": {
 		"id": "K25",
@@ -1753,7 +1833,8 @@
 		"item": "Item_Slasher_K25Power",
 		"outfit": ["K25_Head01", "K25_Body01", "K25_Weapon01"],
 		"dlc": "Gemini",
-		"image": "UI/Icons/CharPortraits/Gemini/K25_TheCenobite_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Gemini/K25_TheCenobite_Portrait.png",
+		"perks": ["K25P01", "K25P02", "K25P03"]
 	},
 	"268435481": {
 		"id": "K26",
@@ -1762,7 +1843,7 @@
 		"difficulty": "intermediate",
 		"gender": "female",
 		"height": "average",
-		"bio": "A ranged-reconnaissance Killer, able to&nbsp;launch&nbsp;Dire Crows across the map to&nbsp;reveal and attack Survivors.<br><br>Her personal perks,&nbsp;<b>Grim Embrace</b>,&nbsp;<b>Scourge Hook: Pain Resonance</b>, and&nbsp;<b>Hex: Pentimento</b>&nbsp;allow her to interrupt Survivor objectives, torment hooked Survivors, and&nbsp;use destroyed Totems to her advantage.&nbsp;",
+		"bio": "A ranged-reconnaissance Killer, able to\u00a0launch\u00a0Dire Crows across the map to\u00a0reveal and attack Survivors.<br><br>Her personal perks,\u00a0<b>Grim Embrace</b>,\u00a0<b>Scourge Hook: Pain Resonance</b>, and\u00a0<b>Hex: Pentimento</b>\u00a0allow her to interrupt Survivor objectives, torment hooked Survivors, and\u00a0use destroyed Totems to her advantage.\u00a0\u00a0",
 		"story": "Carmina Mora was a gifted artist who carried the guilt of her young brother's death. Growing up a rugged coastal village in southern Chile, she sketched the sublime landscapes of Patagonia. Sitting outside, she painted dramatic fjords while feeding the crows nested in the tree next to the house.<br><br>She grew up carrying the guilt of her mother's sudden departure. Her father blamed Carmina for her mother's abandonment, which added to her grief. She became the caretaker of Matias, her little brother, despite still being a child herself.<br><br>A year later, Carmina was painting with Matias outside when the telephone rang. Her father remained in the yard, drinking his beer. Carmina rushed to the house to answer the phone and hung up a few seconds later. When she returned outside, Matias was nowhere to be seen. She asked her father, but he had paid no attention to Matias. She called her brother's name, looking for him everywhere. While searching, she saw a bright red coat floating on the narrow creek by the house--Matias' jacket. She jumped into the creek and found him floating on the surface with vacant eyes, unblinking. He had fallen and drowned.<br><br>Her scream tore the sky. Her father found Carmina sobbing on the creek's shore, clutching her brother's body in her arms, surrounded by a murder of crows. Her father snatched Matias's body away from her, and she cried until her voice broke.<br><br>The following morning, the world was cloaked in darkness. Her father did not say a word, because he did not have to. Carmina knew it was all her fault. Months passed, yet her loss was as fresh as morning dew. Crippled with self-loathing, she could no longer paint. Without Matias, life had no meaning.<br><br>On the bleak morning of Matias\u2019s birthday, Carmina walked to a narrow bridge several blocks away from home. She was convinced that nothing could bring her relief. Her mother was gone, her brother was dead, and her father blamed her for it all. She was convinced that she had nothing left to live for.<br><br>Carmina walked to the railing of the bridge that stood over the turbulent river. Locals had nicknamed the spot DeathLeap. Several cars drove by Carmina, but none stopped. No one seemed to care. She climbed over the railing and her legs wobbled as she stood on the lip of the bridge. She looked down, watching the fierce river smash into a giant boulder. She closed her eyes.<i>See you soon, Matias.</i><br><br>Suddenly, a cacophony of caws filled the sky. Carmina opened her eyes and saw a black cloud of feathers flying toward her. The cloud split open and glossy black crows dove from the sky. One landed on her shoulder and stared intently into Carmina\u2019s eyes, as if peering into her soul. Her grip on the railing loosened and the crow cawed raucously. Carmina stared at the crow, confused.<br><br>Another crow landed on the railing, then another. Soon, a flock of crows were covering the railing of the bridge, staying close to her. She felt their heavy stare on her, calculative and enigmatic, as if they were assessing her. She looked down for a second and a thunder of caws interrupted her dark impulse. The crows seemed to care about her wellbeing. As she dangled over the edge with the wind blowing through her raven hair, Carmina felt akin to them. For the first time since Matias had died, Carmina did not feel alone.<br><br>She returned home, giving life another chance. The crows left but Carmina suspected that if anything happened to her, they would return.<br><br>Inspired by her ordeal, Carmina picked up a brush. In the weeks that followed, she painted her experience, using black ink to depict the DeathLeap with a black cloud of feathers, the murder of crows that saved her life. The experience was transformative and launched her signature, black-ink surrealist art.<br><br>After several years, some color pierced the darkness, and this shift of medium expanded her art form. She painted large-scale murals on busy street corners, designed grandiose costumes, and recited militant poetry. Carmina\u2019s art displayed local, intimate tragedies on a large scale, making them impossible to ignore. And everywhere she performed, crows followed.<br><br>Her performances grew bold and drew the attention of artists who found her style invigorating. She grew close to a group of painters who understood her iconoclastic vision. Her performances launched the Large-Scale Surrealist movement, which became a phenomenon.<br><br>Her renown grew enough to attract the commission of a multinational enterprise, The Vack Label. Carmina investigated the group, discovering that they gifted art pieces to select disreputable congressmen. Vack\u2019s commissioned artists seemed to disappear afterward.<br><br>Determined to expose the group's link to corrupt politics, Carmina accepted Vack's commission. The following week, Carmina painted a giant mural on a cemetery's columbarium, displaying the Vack Label logo as a surrealist grim reaper harvesting the fields of Chilean families. She wore a theatrical dress as she painted, on which she had stitched a poem about political revolution.<br><br>The piece sparked a radical debate about corruption. The controversy painted a target on Carmina's back. After receiving anonymous death threats, she took refuge in her father\u2019s house, bringing along her closest friends for safety.<br><br>That night, a gang of masked gunmen broke into the house. They swiftly subdued Carmina and her friends, threw them in a van, and drove off.<br><br>The following morning, a dry breeze blew sand on Carmina's face, awakening her. She was seated in a chair in the middle of the desert, with her legs tied and her hands handcuffed. Her friends were lying on the ground, tied up. A shadow fell over her face. Carmina looked up.<br><br>A man dressed in a long robe with his face hidden in a dark hood approached her. He pulled a silvery knife from his robe.<br><br>He grabbed her hands and recited a hymn in an unfamiliar language. Carmina held his gaze. He paused and brought down his blade with a sudden blow.<br><br>She cried in agony as her friends woke to a terrible sight; Carmina's severed hands falling in the sand.The handcuffs followed, landing into a pool of blood<br><br>The hooded man smiled in satisfaction. <i>How are you going to paint now?</i> Carmina cursed and screamed at him, wriggling against the bonds on her legs.<br><br>The man grabbed Carmina\u2019s chin. She spit in his face.<br><br>He grunted and pried her mouth open, pulling out her tongue. Carmina struggled against his hold. In a violent blow, he chopped off Carmina's tongue.<br><br>She howled in anguish. The man wiped his blade on his robe, leaving a trail of blood. <i>How are you going to recite poems now?</i><br><br>Sorrow swelled in Carmina's chest, sharper than pain. Overwhelmed by uncontrollable rage, grief and loss overcame her senses. She had lost her little brother. And she had lost the only way to cope with such pain. Carmina screamed like on the day her brother died.<br><br>Raucous caws echoed through the wasteland. The sky was obscured by a cyclone of dark clouds. Black feathers fell on Carmina's bleeding arms. She looked up and saw a torrent of crows erupting from the clouds, diving on the hooded man.<br><br>As the ravenous crows pecked at his flesh mercilessly, Carmina smiled, watching her Surrealist art coming to life.<br><br>But her heart lurched with rage when she saw the crows move on to their next target, her friends on the ground. She screamed as waves of pain, guilt, and fright overwhelmed her. But it was in vain, the ravenous crows were uncontrollable.<br><br>Darkness fell over her eyes as her friends' agonizing screams grew more acute. Death was coming and again, it was her fault.<br><br>A deep, black fog engulfed her.",
 		"tunables": {
 			"MaxWalkSpeed": 460,
@@ -1844,7 +1925,8 @@
 		"item": "Item_Slasher_K26Power",
 		"outfit": ["K26_Head01", "K26_Body01", "K26_W01"],
 		"dlc": "Ion",
-		"image": "UI/Icons/CharPortraits/Ion/K26_TheArtist_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Ion/K26_TheArtist_Portrait.png",
+		"perks": ["K26P01", "K26P02", "K26P03"]
 	},
 	"268435482": {
 		"id": "K27",
@@ -1869,7 +1951,7 @@
 			"StacksRemovedOnInsert": 3,
 			"MinDistanceForSelectedTV": 3200,
 			"MaxDistanceForSelectedTV": 7600,
-			"MaxStacksOfLockedInCondemnedPerHook": 2,
+			"MaxStacksOfLockedInCondemnedPerHook": 3,
 			"KillerInstinctDurationOnFullyCondemned": 6,
 			"RangeToStopCondemnProgressAfterChase": 1600,
 			"TimeAwayFromKillerToResumeCondemn": 6,
@@ -1884,7 +1966,7 @@
 			"TeleportSuccessTime": 2.700000047683716,
 			"TeleportCancelledTime": 0.5,
 			"TeleportMaximumAngle": 45,
-			"PostTeleportSpeedBoostDuration": 1.5,
+			"PostTeleportSpeedBoostDuration": 2,
 			"RangeToApplyCondemnAfterTeleport": 1600,
 			"TurnOffTVChargeTime": 0.5,
 			"InsertTapeChargeTime": 1,
@@ -1908,7 +1990,8 @@
 		"item": "Item_Slasher_K27Power",
 		"outfit": ["K27_Head01", "K27_Body01", "K27_Weapon01"],
 		"dlc": "Kepler",
-		"image": "UI/Icons/CharPortraits/Kepler/K27_TheOnryo_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Kepler/K27_TheOnryo_Portrait.png",
+		"perks": ["K27P01", "K27P02", "K27P03"]
 	},
 	"268435483": {
 		"id": "K28",
@@ -1968,7 +2051,8 @@
 		"item": "Item_Slasher_K28Power",
 		"outfit": ["K28_Head01", "K28_Body01", "K28_Weapon01"],
 		"dlc": "Meteor",
-		"image": "UI/Icons/CharPortraits/Meteor/K28_TheDredge_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Meteor/K28_TheDredge_Portrait.png",
+		"perks": ["K28P01", "K28P02", "K28P03"]
 	},
 	"268435484": {
 		"id": "K29",
@@ -2054,7 +2138,8 @@
 		"item": "Item_Slasher_K29Power",
 		"outfit": ["K29_Head01", "K29_Body01", "K29_Weapon01"],
 		"dlc": "Orion",
-		"image": "UI/Icons/CharPortraits/Orion/K29_TheMasterMind_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Orion/K29_TheMasterMind_Portrait.png",
+		"perks": ["K29P01", "K29P02", "K29P03"]
 	},
 	"268435485": {
 		"id": "K30",
@@ -2097,7 +2182,8 @@
 		"item": "Item_Slasher_K30Power",
 		"outfit": ["K30_Head01", "K30_Body01", "K30_Weapon01"],
 		"dlc": "Quantum",
-		"image": "UI/Icons/CharPortraits/Quantum/K30_TheKnight_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Quantum/K30_TheKnight_Portrait.png",
+		"perks": ["K30P01", "K30P02", "K30P03"]
 	},
 	"268435486": {
 		"id": "K31",
@@ -2175,7 +2261,8 @@
 		"item": "Item_Slasher_K31Power",
 		"outfit": ["K31_Head01", "K31_Body01", "K31_Weapon01"],
 		"dlc": "Saturn",
-		"image": "UI/Icons/CharPortraits/Saturn/K31_TheSkullMerchant_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Saturn/K31_TheSkullMerchant_Portrait.png",
+		"perks": ["K31P01", "K31P02", "K31P03"]
 	},
 	"268435487": {
 		"id": "K32",
@@ -2265,7 +2352,8 @@
 		"item": "Item_Slasher_K32Power",
 		"outfit": ["K32_Head01", "K32_Body01", "K32_Weapon01"],
 		"dlc": "Umbra",
-		"image": "UI/Icons/CharPortraits/Umbra/K32_TheSingularity_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Umbra/K32_TheSingularity_Portrait.png",
+		"perks": ["K32P01", "K32P02", "K32P03"]
 	},
 	"268435488": {
 		"id": "K33",
@@ -2346,7 +2434,8 @@
 		"item": "Item_Slasher_K33Power",
 		"outfit": ["K33_Head01", "K33_Body01", "K33_Weapon01"],
 		"dlc": "Wormhole",
-		"image": "UI/Icons/CharPortraits/Wormhole/K33_TheXenomorph_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Wormhole/K33_TheXenomorph_Portrait.png",
+		"perks": ["K33P01", "K33P02", "K33P03"]
 	},
 	"268435489": {
 		"id": "K34",
@@ -2404,6 +2493,77 @@
 		"item": "Item_Slasher_K34Power",
 		"outfit": ["K34_Head01", "K34_Body01", "K34_Weapon01"],
 		"dlc": "Yerkes",
-		"image": "UI/Icons/CharPortraits/Yerkes/K34_TheYerkes_Portrait.png"
+		"image": "UI/Icons/CharPortraits/Yerkes/K34_TheYerkes_Portrait.png",
+		"perks": ["K34P01", "K34P02", "K34P03"]
+	},
+	"268435490": {
+		"id": "K35",
+		"name": "The Unknown",
+		"role": "killer",
+		"difficulty": "intermediate",
+		"gender": "male",
+		"height": "average",
+		"bio": "A being beyond understanding, though many have tried.<br><br>Its personal perks, <b>Unbound</b>, <b>Unforeseen</b>, and <b>Undone</b> allow it to move quicker, put its Terror Radius on a generator, and deplete generator progress.",
+		"story": "Olivia\u2019s master\u2019s thesis was on urban legends and their origins. She believed they shared similarities with traditional folklore and picked one to illustrate her point. The Unknown was believed to be a mysterious evil so heinous that investigating it almost immediately invited death. At least that was how the story went. And there were many stories. One story was of a woman in Greenville who disappeared without a trace on stage in front of a room full of witnesses. Her friend disappeared weeks later while trying to investigate what happened. The police were stumped. They had no clues or leads, and that mystery created the perfect storm for amplifying and spreading an urban legend.<br><br>Instead of going back home for spring break, Olivia headed to Greenville to investigate. She drove to the second-cheapest motel in town and began to set up in a small room that smelled of cigarette smoke, mold, and booze. She turned one wall into a kind of evidence board. She taped up articles and various theories on similar disappearances attributed to The Unknown throughout the country. She made connections with red string and yellow thumbtacks. Anyone walking into the motel room would think she had lost her mind.<br><br>There were many theories as to The Unknown\u2019s origin. Some said it was a malevolent entity conjured long ago by an ancient cult. Others believed it to be an alien that escaped from Area 51. Legend was it thrived in darkness and stole the voices of those it consumed so as to lure others to their doom.<br><br>The first newspaper articles Olivia found referenced a disappearance at a s\u00e9ance held in the 1800s. In the late 1950s, several college students mysteriously disappeared from a movie theater. Witnesses saw them go inside. Some remembered seeing them in their seats. But when the lights came up, they were gone. No one saw them leave. No trace of them was ever found. A projectionist claimed to have heard voices in the empty darkness of the theater later that night. But when he turned on the lights, no one was there. Then in the 1960s a group of teens disappeared while exploring an abandoned hospital believed to be haunted.<br><br>Stories and speculation arose to explain these mystifying disappearances. Some talked about a top-secret government research program run by the Office of Strategic Services in the 1950s. Project Apple-Pie. Mind control experiments using hallucinogenic drugs. Most of the records were destroyed in the '70s, but witnesses claim that experiments were performed on unsuspecting civilians in various settings and locations throughout the country, including movie theaters, hospitals and universities. Many believed these unethical experiments opened doorways to other dimensions which allowed evil things to enter the world.<br><br>Olivia wrote observations to pin to her evidence board. The Unknown dwells in darkness and can mimic its victims. Was it an evil entity? An extraterrestrial? A failed government experiment? Or just a garden variety serial killer allergic to publicity? She wanted to prove The Unknown was nothing more than modern-day folklore. And that investigation led here to this night, to this place, to this shabby motel room.<br><br>Yet she couldn\u2019t help but notice that the disappearances in Greenville included one detail the other stories didn\u2019t. The fog. And she half-remembered another urban legend with a thick, unnatural fog that somehow made people disappear. Maybe, she mused, the Greenville disappearances didn\u2019t relate to The Unknown but some other darkness.<br><br>For a moment Olivia wondered what would happen if one urban legend encountered another. She laughed at the idea and tempted fate by sketching a picture of what she thought The Unknown might look like. Then she pinned the sketch right in the middle of her evidence board, laughed nervously and waited to be consumed by The Unknown for having tried to define it. Anxiously, she stared at the windows and front door for seconds that turned to minutes and minutes that turned to hours.<br><br>But nothing happened.<br><br>Now it was after 2AM and Olivia was exhausted as she examined the articles and sipped cold coffee. So, when she first heard the whisper, she wondered if she imagined it.<br><br>\u201cOlivia\u2026\u201d<br><br>It seemed to come from the bathroom.<br><br>\u201cHelp\u2026\u201d<br><br>The lights in the room flickered.<br><br>\u201cWho\u2019s there?\u201d<br><br>Olivia stared with wide eyes at the closed door of the bathroom. Her mind was playing tricks on her. Or\u2014<br><br>Her friends had shown up to prank her.<br><br>\u201cAriella? Sean? Stop messing around\u2026\u201d<br><br>The lights continued to flicker as she edged closer to the bathroom. Fear spread in long waves through her, and a terrible realization bloomed within her that The Unknown was behind the bathroom door, was preparing to make her pay for her hubris. Something began to whisper her name again. But then the voice rose, cracked, and distorted in sudden panic as if the brooding creature behind the door were under attack.<br><br>An unknown horror filled Olivia\u2019s heart and left room for nothing else. She breathed deeply as cold sweat beaded on her forehead. She placed her hand on the doorknob. The lights turned off, but she could still hear the strangely inhuman cries. Then the lights turned back on, and she could see a strange black fog seeping through the bottom of the door.<br><br>Hesitantly, Olivia creaked the door open to see a bulky shape with frenzied tentacles being pulled into a thick mass of fog, vanishing slowly into the darkness like a dying shadow. The shrieking stopped suddenly, neighbors banged on the wall to turn down the TV, and Olivia stared intently at the black abyss that yawned before her. She wasn\u2019t sure what to do. Part of her wanted to run. But the other part wanted to know more. And as she considered what to do next, dozens of voices began to call out to her with promises of the unknown and the impossible and of unearthly things beyond human experience.",
+		"tunables": {
+			"MaxWalkSpeed": 460,
+			"CarryingCamperMaxWalkSpeedPercent": 0.800000011920929,
+			"TerrorRadius": 3200,
+			"KillerTeleportPointsRestrictionRadiusToOtherPoints": 1400,
+			"KillerTeleportPointsRestrictionRadiusToGenerators": 175,
+			"KillerTeleportPointsRestrictionRadiusToEmptyHooks": 215,
+			"KillerTeleportPointsRestrictionRadiusToActiveHooks": 1200,
+			"KillerTeleportPointsRestrictionRadiusToVisibleHatch": 300,
+			"KillerTeleportPointsRestrictionRadiusToPallets": 175,
+			"KillerTeleportPointsRestrictionRadiusToExitGate": 300,
+			"KillerTeleportPointsRestrictionLingerTimeToActiveHooks": 0.20000000298023224,
+			"MaximumNumberOfKillerTeleportPoints": 4,
+			"KillerTeleportCooldownTime": 25,
+			"KillerTeleportMinDistance": 300,
+			"AreaBlastBeforeShrinkTime": 0.20000000298023224,
+			"AreaBlastShrinkTime": 0.2199999988079071,
+			"AreaBlastGrowTime": 0.3799999952316284,
+			"AreaBlastBeforeGrowTime": 0.10000000149011612,
+			"AreaBlastMinScale": 0.30000001192092896,
+			"AreaBlastMaxScale": 1.25,
+			"DecoySelfDestructTime": 5,
+			"TravelProjectileTimeoutTime": 5,
+			"TravelProjectileMaxBounces": 1,
+			"TravelProjectileHinderedLifetimeOnPassthrough": 3,
+			"TravelProjectileLauncherInitialSpeed": 2500,
+			"KillerEffectRemovalTime": 10,
+			"ShootAreaBlastChargeTime": 1,
+			"ShootAreaBlastCooldownTime": 7,
+			"ShootAreaBlastGracePercentage": 0.20000000298023224,
+			"HuskSpawningMaxChargeTime": 45,
+			"HuskSpawningTime": 3,
+			"HuskSpawningTimeReductionOnSurvivorAfflictedWithKillerEffect": 10,
+			"HuskSpawningTimeReductionOnSurvivorInjuredWithKillerEffect": 10,
+			"HuskSpawningTimeReductionOnHookedKillerTeleportPointRecycle": 10,
+			"SurvivorSightDistance": 2500,
+			"SurvivorDiscerningDelay": 0.05000000074505806,
+			"SurvivorUndiscerningDelay": 1.25,
+			"SurvivorHuskDestructionLookTime": 1.5,
+			"SurvivorHuskDestructionChargeTimeNotInfected": 4,
+			"SurvivorHuskDestructionLookDistance": 800,
+			"SurvivorHuskDestructionInteractionDistance": 300,
+			"SurvivorHuskDestructionGracePercentage": 0.05000000074505806,
+			"SurvivorHuskDestructionSuccessPercentage": 0.9900000095367432,
+			"SurvivorHuskDestructionFailureKillerInstinctDuration": 5,
+			"KillerTeleportPointSpawnTime": 5,
+			"KillerTeleportPointSurvivorOutlineDistance": 800,
+			"KillerTeleportToKillerTeleportPointWakeupTime": 1.7000000476837158,
+			"Addon16KillerTeleportPointSpawningReducationPercentage": 0.5,
+			"TeleportDuration": 0.30000001192092896,
+			"KillerTeleportPointRefundPercentageOnKillerManuallyDestruction": 0.75,
+			"TravelProjectileBounciness": 0.12999999523162842,
+			"TravelProjectileFriction": 0.5,
+			"AddedWeakenedProgressionSecondsOnAreaBlastInjury": 6
+		},
+		"item": "Item_Slasher_K35Power",
+		"outfit": ["K35_Head01", "K35_Body01", "K35_Weapon01"],
+		"dlc": "ApplePie",
+		"image": "UI/Icons/CharPortraits/Applepie/K35_TheUnknown_Portrait.png",
+		"perks": ["K35P01", "K35P02", "K35P03"]
 	}
 }
