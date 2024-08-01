@@ -15,12 +15,12 @@
 	"Adrenaline": {
 		"categories": ["navigation", "adaptation"],
 		"name": "Adrenaline",
-		"description": "You are fuelled by unexpected energy when on the verge of escape.<br><br>Instantly heal one <b>health state</b> and sprint at {0}% of your normal running speed for {1} seconds when the exit gates are powered. Adrenaline is on hold if you are disabled at the moment it should take effect and will activate when freed.<br><br><i>Adrenaline</i> will <b>wake you up</b> if you are asleep when it triggers.<br><br><i>Adrenaline</i> ignores the <b>Exhausted</b> status effect.<br><br>Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+		"description": "You are fuelled by unexpected energy when on the verge of escape.<br><br>This perk activates when the exit gates are powered.<br><br>Instantly heal one health state if you are injured or in the dying state and sprint at {0}% of your normal running speed for {1} seconds.<br><br>Adrenaline ignores the Exhausted status effect. Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
 		"role": "survivor",
 		"character": 1,
 		"tunables": [
 			["150"],
-			["5"],
+			["3"],
 			["60", "50", "40"]
 		],
 		"teachable": 40,
@@ -79,12 +79,12 @@
 	"Autodidact": {
 		"categories": ["safeguard"],
 		"name": "Autodidact",
-		"description": "You start the trial with a -{1}% progress penalty for Skill Checks to heal other Survivors.<br><br>For every successful Skill Check while healing another Survivor, you receive a token up to a maximum of {0} tokens.<br><br>Each token grants you a +{2}% progress bonus.<br><br>Great Skill Checks cannot be performed while using <i>Autodidact</i>.<li><i>Autodidact</i> is not active when using a Med Kit to heal.</li>",
+		"description": "You start the trial with a -{1}% progress penalty for Skill Checks to heal other Survivors.<br><br>For every successful Skill Check while healing another Survivor, you receive a token up to a maximum of {0} tokens.<br><br>Each token grants you a +{2}% progress bonus.<br><br>Great Skill Checks cannot be performed while using <i>Autodidact</i>.<li><i>Autodidact</i> is not active when using a Med-kit to heal.</li>",
 		"role": "survivor",
 		"character": 13,
 		"tunables": [
 			["3", "4", "5"],
-			["25"],
+			["15"],
 			["15"]
 		],
 		"teachable": 40,
@@ -97,8 +97,8 @@
 		"role": "survivor",
 		"character": 18,
 		"tunables": [
-			["7"],
-			["4", "6", "8"],
+			["10"],
+			["20", "25", "30"],
 			["8"]
 		],
 		"teachable": 30,
@@ -338,11 +338,12 @@
 	"BuckleUp": {
 		"categories": ["perception"],
 		"name": "Buckle Up",
-		"description": "Unlocks potential in one's aura reading ability. While healing a Survivor in the dying state, you both can see the Killer's aura. When completing healing a Survivor from the dying state to injured, both you and the healed Survivor gain <b>Endurance</b> for {0} seconds.<br><br><b>Endurance</b> prevents a Survivor from being downed, inflicting <b>Deep Wound</b> instead.<br><br><b>Deep Wound</b> will put a Survivor in the dying state unless it is mended before the timer runs out.",
+		"description": "Unlocks potential in one's aura reading ability. While healing a Survivor in the dying state, you both can see the Killer's aura. When completing healing a Survivor from the dying state to injured, the healed Survivor can break into a sprint at {0}% of their normal running movement speed for {1} seconds and leaves no scratch marks during this time.<br><br>This perk does not cause Exhaustion.",
 		"role": "survivor",
 		"character": 16,
 		"tunables": [
-			["6", "8", "10"]
+			["150"],
+			["3", "4", "5"]
 		],
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Ash/iconPerks_buckleUp.png"
@@ -502,11 +503,12 @@
 	"DecisiveStrike": {
 		"categories": ["adaptation"],
 		"name": "Decisive Strike",
-		"description": "Stab at your aggressor in an attempt to escape.<br><br>After being unhooked or unhooking yourself, <b>Decisive Strike</b> activates for {0} seconds.<br><br>While active, complete a Skill Check when grabbed by the Killer to escape, stunning them for 3 seconds.<li>Succeeding or failing the Skill Check disables <b>Decisive Strike</b>.</li><li>You become the Obsession after stunning the Killer.</li><li>The perk and its effects are disabled if the exit gates are powered.</li><br><br><b>Increases</b> your chance to be the Obsession.<br><br>Taking any Conspicuous Action will deactivate <b>Decisive Strike</b>.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
+		"description": "Stab at your aggressor in an attempt to escape.<br><br>After being unhooked or unhooking yourself, <b>Decisive Strike</b> activates for {0} seconds.<br><br>While active, complete a Skill Check when grabbed by the Killer to escape, stunning them for {1} seconds.<li>Succeeding or failing the Skill Check disables <b>Decisive Strike</b>.</li><li>You become the Obsession after stunning the Killer.</li><li>The perk and its effects are disabled if the exit gates are powered.</li><br><br><b>Increases</b> your chance to be the Obsession.<br><br>Taking any Conspicuous Action will deactivate <b>Decisive Strike</b>.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.",
 		"role": "survivor",
 		"character": 5,
 		"tunables": [
-			["40", "50", "60"]
+			["40", "50", "60"],
+			["4"]
 		],
 		"teachable": 40,
 		"image": "UI/Icons/Perks/DLC2/iconPerks_decisiveStrike.png"
@@ -632,7 +634,7 @@
 			["30"],
 			["4"],
 			["60"],
-			["120", "100", "80"]
+			["60", "50", "40"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Yemen/iconPerks_dragonsGrip.png"
@@ -944,8 +946,8 @@
 		"role": "killer",
 		"character": 268435471,
 		"tunables": [
-			["6"],
-			["60", "50", "40"]
+			["8"],
+			["60", "45", "30"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Oman/iconPerks_imAllEars.png"
@@ -1035,7 +1037,7 @@
 		"role": "survivor",
 		"character": 3,
 		"tunables": [
-			["25", "50", "75"]
+			["80", "90", "100"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/iconPerks_ironWill.png"
@@ -1061,7 +1063,7 @@
 		"character": 268435477,
 		"tunables": [
 			["3"],
-			["120", "100", "80"]
+			["60", "50", "40"]
 		],
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Aurora/iconPerks_Oppression.png"
@@ -1162,8 +1164,7 @@
 		"role": "killer",
 		"character": 268435480,
 		"tunables": [
-			["20", "25", "30"],
-			["20", "25", "30"]
+			["15", "20", "25"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Gemini/iconPerks_Deadlock.png"
@@ -1190,7 +1191,7 @@
 		"tunables": [
 			["4"],
 			["90"],
-			["7", "8", "9"]
+			["10", "13", "16"]
 		],
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Gemini/iconPerks_ScourgeHookGiftOfPain.png"
@@ -1202,7 +1203,7 @@
 		"role": "killer",
 		"character": 268435481,
 		"tunables": [
-			["8", "10", "12"],
+			["6", "8", "10"],
 			["4"],
 			["40"],
 			["6"]
@@ -1218,7 +1219,7 @@
 		"character": 268435481,
 		"tunables": [
 			["4"],
-			["15", "20", "25"]
+			["10", "15", "20"]
 		],
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Ion/T_iconPerks_painResonance.png"
@@ -1293,11 +1294,11 @@
 	"K28P02": {
 		"categories": null,
 		"name": "Darkness Revealed",
-		"description": "In your presence, places once thought to be safe are perhaps the most dangerous.<br><br>When you search a locker, the auras of all Survivors within {2} meters of any lockers are revealed to you for {0} seconds.<br><br>This perk has a {1}-second cooldown.",
+		"description": "In your presence, places once thought to be safe are perhaps the most dangerous.<br><br>When you search a locker, the auras of all Survivors within {2} meters of any lockers are revealed to you for {0} seconds.<br><br><i>Darkness Revealed</i> has a cooldown of {1} seconds.",
 		"role": "killer",
 		"character": 268435483,
 		"tunables": [
-			["3", "4", "5"],
+			["6", "7", "8"],
 			["30"],
 			["8"]
 		],
@@ -1465,13 +1466,13 @@
 	"K32P03": {
 		"categories": ["enhancement", "chasing"],
 		"name": "Machine Learning",
-		"description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>After performing the damage generator action, this perk activates.<br><br>While this perk is active, the next Generator you damage will be <b>compromised</b> until it is completed. The Generator is highlighted in yellow.<br><br>When the <b>compromised</b> generator is completed, you become <b>Undetectable</b> and gain {1}% Haste for {2} seconds. Then, the perk deactivates.<br><br>If you damage a generator while another generator is <b>compromised</b>, the <b>compromised</b> generator becomes the latest one damaged.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
+		"description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>After performing the damage generator action, this perk activates.<br><br>While this perk is active, the next generator you damage will be <b>compromised</b> until it is completed. The generator is highlighted in yellow.<br><br>When the <b>compromised</b> generator is completed, you become <b>Undetectable</b> and gain {1}% Haste for {2} seconds. Then, the perk deactivates.<br><br>If you damage a generator while another generator is <b>compromised</b>, the <b>compromised</b> generator becomes the latest one damaged.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
 		"role": "killer",
 		"character": 268435487,
 		"tunables": [
 			["1"],
 			["10"],
-			["20", "25", "30"]
+			["40", "50", "60"]
 		],
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Umbra/IconPerks_SelfAware.png"
@@ -1479,13 +1480,13 @@
 	"K33P01": {
 		"categories": null,
 		"name": "Ultimate Weapon",
-		"description": "When they spot you, they know the end is near.<br><br>When you open a locker, this perk activates for {0} seconds.<br><br>Survivors entering your Terror Radius scream, reveal their position and gain <b>Blindness</b> for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>\u201cI can't lie to you about your chances, but... you have my sympathies.\u201d \u2013Ash",
+		"description": "When they spot you, they know the end is near.<br><br>When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain blindness for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>\u201cI can't lie to you about your chances, but... you have my sympathies.\u201d \u2013Ash",
 		"role": "killer",
 		"character": 268435488,
 		"tunables": [
+			["32"],
 			["30"],
-			["30"],
-			["40", "35", "30"]
+			["80", "70", "60"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Wormhole/iconPerks_UltimateWeapon.png"
@@ -1598,6 +1599,46 @@
 		],
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Applepie/iconPerks_Undone.png"
+	},
+	"K36P01": {
+		"categories": null,
+		"name": "Weave Attunement",
+		"description": "You are so attuned to magical energies that you can sense even minor ripples around enchantments.<br><br>When an item becomes depleted for the first time, it is dropped. You see the auras of dropped items.<br><br>Survivors within {0} meters of dropped items have their auras revealed to you.<br><br>When a Survivor picks up a Survivor item, they suffer the <b>Oblivious</b> status effect for {1} seconds.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.<br><br>\u201cNo number of novelties will protect you from me!\u201d - Vecna",
+		"role": "killer",
+		"character": 268435491,
+		"tunables": [
+			["12"],
+			["20", "25", "30"]
+		],
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Churros/iconPerks_WeaveAttunement.png"
+	},
+	"K36P02": {
+		"categories": null,
+		"name": "Languid Touch",
+		"description": "Your dreadful aura is so suffocating that even terrifying scenes tire your prey.<br><br>When a Survivor within {0} meters of you scares a crow, they suffer from the <b>Exhausted</b> status effect for {1} seconds.<br><br><i>Languid Touch</i> has a cooldown of {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.<br><br>\u201cSubmit to me. It is inevitable.\u201d - Vecna",
+		"role": "killer",
+		"character": 268435491,
+		"tunables": [
+			["36"],
+			["6", "8", "10"],
+			["20"]
+		],
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Churros/iconPerks_LanguidTouch.png"
+	},
+	"K36P03": {
+		"categories": null,
+		"name": "Dark Arrogance",
+		"description": "When everything is going right, you are an inescapable inevitability.<br><br><b>Increases</b> the duration you are blinded by any means and the duration of pallet stuns by {0}%.<br><br><b>Increases</b> regular vault speed by {1}%.<br><br>\u201cRun all you want. I will not be denied.\u201d - Vecna",
+		"role": "killer",
+		"character": 268435491,
+		"tunables": [
+			["25"],
+			["15", "20", "25"]
+		],
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Churros/iconPerks_DarkArrogance.png"
 	},
 	"Kindred": {
 		"categories": ["perception"],
@@ -1920,7 +1961,7 @@
 		"role": "killer",
 		"character": 268435467,
 		"tunables": [
-			["30"],
+			["20"],
 			["35", "40", "45"]
 		],
 		"teachable": 40,
@@ -2138,7 +2179,7 @@
 		"role": "survivor",
 		"character": 25,
 		"tunables": [
-			["40", "45", "50"]
+			["50", "60", "70"]
 		],
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Eclipse/iconPerks_Resurgence.png"
@@ -2146,7 +2187,7 @@
 	"S26P03": {
 		"categories": ["adaptation"],
 		"name": "Blast Mine",
-		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>When standing next to a generator, press the <i>Active Ability Button 1</i> to install a <i>Blast Mine</i> which stays active for {2} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one <i>Blast Mine</i> can be active on a generator.<br><br><li>When the Killer damages the generator, the <i>Blast Mine</i> explodes, stunning them and blinding anyone nearby.</li><li><i>Blast Mine</i> deactivates when the generator is damaged by the Killer or when the timer expires.</li>",
+		"description": "When direct combat isn't an option, you still find ways to strike back.<br><br><i>Blast Mine</i> activates after completing a total of {0}% worth of repair progress on generators.<br><br>When standing next to a generator, press the <i>Active Ability Button 2</i> to install a <i>Blast Mine</i> which stays active for {2} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one <i>Blast Mine</i> can be active on a generator.<br><br><li>When the Killer damages the generator, the <i>Blast Mine</i> explodes, stunning them and blinding anyone nearby.</li><li><i>Blast Mine</i> deactivates when the generator is damaged by the Killer or when the timer expires.</li>",
 		"role": "survivor",
 		"character": 25,
 		"tunables": [
@@ -2291,7 +2332,7 @@
 		"character": 29,
 		"tunables": [
 			["32", "64", "96"],
-			["10"]
+			["30"]
 		],
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Kepler/iconPerks_empathicConnection.png"
@@ -2351,7 +2392,7 @@
 	"S32P01": {
 		"categories": null,
 		"name": "Wiretap",
-		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>When standing next to a generator, press the <i>Active Ability button 1</i> to install a <i>Wiretap</i>, which stays active for {0} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one <i>Wiretap</i> can be active on a generator.<br><br><li>When the Killer enters within {3} meters of the generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the generator is damaged by the Killer or when the timer expires.</li></ul></li>",
+		"description": "You know that the best way to stay one step ahead is to keep tabs on the competition.<br><br><i>Wiretap</i> activates after completing a total of {1}% worth of repair progress on generators.<br><br>When standing next to a generator, press the <i>Active Ability button 2</i> to install a <i>Wiretap</i>, which stays active for {0} seconds.<br><br>Affected generators will be revealed to all Survivors by a yellow aura. Only one <i>Wiretap</i> can be active on a generator.<br><br><li>When the Killer enters within {3} meters of the generator, their aura is revealed to all Survivors.<ul><li><i>Wiretap</i> deactivates when the generator is damaged by the Killer or when the timer expires.</li></ul></li>",
 		"role": "survivor",
 		"character": 31,
 		"tunables": [
@@ -2518,9 +2559,9 @@
 		"character": 35,
 		"tunables": [
 			["10"],
-			["200"],
+			["150"],
 			["5"],
-			["60", "50", "40"]
+			["30", "25", "20"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Saturn/iconPerks_BackgroundPlayer.png"
@@ -2724,7 +2765,7 @@
 		"role": "survivor",
 		"character": 40,
 		"tunables": [
-			["120"],
+			["60"],
 			["50"],
 			["100"],
 			["8", "9", "10"]
@@ -2756,6 +2797,85 @@
 		],
 		"teachable": 40,
 		"image": "UI/Icons/Perks/Applepie/iconsPerks_Wicked.png"
+	},
+	"S42P01": {
+		"categories": null,
+		"name": "Mirrored Illusion",
+		"description": "A familiar spell made unfamiliar in this corrupted landscape.<br><br>This perk activates after completing a total of {0}% worth of repairs on generators.<br><br>Press the Ability button 2 when next to a generator, totem, chest or exit gate to spawn a static illusion that lasts for {1} seconds.<br><br>Then, the perk deactivates.<br><br>\"Just... stay there... perfect!\" - Baermar",
+		"role": "survivor",
+		"character": 41,
+		"tunables": [
+			["50"],
+			["100", "110", "120"]
+		],
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Churros/iconPerks_MirroredIllusion.png"
+	},
+	"S42P02": {
+		"categories": null,
+		"name": "Bardic Inspiration",
+		"description": "It's time to give your audience a show. Will you bring the house down or will you choke?<br><br>Press the Ability button 1 while standing and motionless to enter the performance interaction that lasts up to {0} seconds and empowers Survivors within {1} meters. Roll a d20. This effect lasts for {2} seconds if the performance is completed.<br><br><li><b>1</b> | You scream, but nothing happens</li><li><b>2-10</b> |\u202fSkill Checks\u202fgive +1% progress</li><li><b>11-19</b> |\u202fSkill Checks\u202fgive +2% progress</li><li><b>20</b> |\u202fSkill Checks\u202fgive +3% progress</li><br><br>When the ability is canceled or the performance completes, it goes on cooldown for {3} seconds.<br><br>\"Listen closely! I'm about to save your life!\" - Aestri",
+		"role": "survivor",
+		"character": 41,
+		"tunables": [
+			["15"],
+			["16"],
+			["90"],
+			["110", "100", "90"]
+		],
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Churros/iconPerks_BardicInspiration.png"
+	},
+	"S42P03": {
+		"categories": null,
+		"name": "Still Sight",
+		"description": "A clear mind and calm temperament will always find the means of their escape.<br><br>After not moving for {0} seconds, this perk activates.<br><br>Until you start moving, you see the\u202faura\u202fof the Killer as well as all generators and chests within {1} meters.<br><br>\"Breathe in. Breathe out. Now open your eyes.\" - Baermar",
+		"role": "survivor",
+		"character": 41,
+		"tunables": [
+			["6", "5", "4"],
+			["24"]
+		],
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Churros/iconPerks_StillSight.png"
+	},
+	"S43P01": {
+		"categories": null,
+		"name": "Finesse",
+		"description": "The threat of danger can motivate any creature to strengthen its resolve.<br><br>This perk activates when you are healthy.<br><br><li>Your fast vaults are {0}% faster.</li><br><br>This perk goes on cooldown for {1} seconds after performing a fast vault.<br><br>\"Just need to push myself a bit further.\" - Lara Croft",
+		"role": "survivor",
+		"character": 42,
+		"tunables": [
+			["20"],
+			["40", "35", "30"]
+		],
+		"teachable": 30,
+		"image": "UI/Icons/Perks/Donut/iconPerks_Finesse.png"
+	},
+	"S43P02": {
+		"categories": null,
+		"name": "Hardened",
+		"description": "Live long enough, and survival will run in your blood.<br><br>This perk activates after you complete all of the following:<br><br><li>unlock a chest;</li><li>cleanse or bless a totem.</li><br><br>For the rest of the trial, anytime you would scream, reveal the Killer's aura for {0} seconds instead.<br><br>\"Got to keep quiet. That thing is still out there.\" - Lara Croft",
+		"role": "survivor",
+		"character": 42,
+		"tunables": [
+			["3", "4", "5"]
+		],
+		"teachable": 35,
+		"image": "UI/Icons/Perks/Donut/iconPerks_Hardened.png"
+	},
+	"S43P03": {
+		"categories": null,
+		"name": "Specialist",
+		"description": "Adventure. Exploration. Excavation. You are in your element.<br><br>Each time you open or rummage through a chest, gain <b>1 token</b>, up to {0}.<br><br>When you perform a great Skill Check on a generator, consume <b>all tokens</b>. Then, for each token consumed, reduce the maximum required generator progress by {1}.<br><br>\"Well, then. Doesn't this feel familiar?\" - Lara Croft",
+		"role": "survivor",
+		"character": 42,
+		"tunables": [
+			["6"],
+			["2", "3", "4"]
+		],
+		"teachable": 40,
+		"image": "UI/Icons/Perks/Donut/iconPerks_Specialist.png"
 	},
 	"Saboteur": {
 		"categories": ["strategy"],
@@ -2890,7 +3010,7 @@
 		"role": "survivor",
 		"character": 15,
 		"tunables": [
-			["40", "45", "50"]
+			["50", "60", "70"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/Mali/iconPerks_solidarity.png"
@@ -2994,8 +3114,8 @@
 		"role": "killer",
 		"character": 268435459,
 		"tunables": [
-			["25", "50"],
-			["0", "25"]
+			["30", "40", "50"],
+			["15", "20", "25"]
 		],
 		"teachable": 30,
 		"image": "UI/Icons/Perks/iconPerks_stridor.png"
@@ -3028,7 +3148,7 @@
 	"Technician": {
 		"categories": ["concealment", "strategy"],
 		"name": "Technician",
-		"description": "You are apt at handling machinery with the greatest care and precision.<br><br>The noises caused by your repairs and their hearing distance are reduced by {0} meters. On a failed repair Skill Check, there is a {1}% chance the generator explosion will be prevented.",
+		"description": "You are apt at handling machinery with the greatest care and precision.<br><br>The noises caused by your repairs and their hearing distance are reduced by {0} meters.<br><br>On a failed repair Skill Check, the following effects happen:<br><br><li>The generator explosion will be prevented.</li><li>The generator loses progress as usual.</li><li>An additional {1}% progress is lost.</li>",
 		"role": "survivor",
 		"character": 8,
 		"tunables": [
@@ -3137,7 +3257,7 @@
 		"character": 268435475,
 		"tunables": {
 			"0": ["16"],
-			"2": ["80", "70", "60"]
+			"2": ["60", "45", "30"]
 		},
 		"teachable": 35,
 		"image": "UI/Icons/Perks/Wales/iconPerks_trailOfTorment.png"

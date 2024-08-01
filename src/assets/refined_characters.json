@@ -242,8 +242,20 @@
   "sable_ward": {
     "name": "Sable Ward",
     "role": "survivor",
-    "bio": "She is not afraid to embrace the darkness, or the power that lies within it. Her personal perks, Invocation: Weaving Spiders, Strength in Shadows, and Wicked allow her to quicken repair progress, heal herself without a Med-kit, and escape the basement hooks.",
+    "bio": "Sable is not afraid to embrace the darkness, or the power that lies within it. Her personal perks, Invocation: Weaving Spiders, Strength in Shadows, and Wicked allow her to quicken repair progress, heal herself without a Med-kit, and escape the basement hooks.",
     "image": "sable_ward.png"
+  },
+  "aestri_yazar": {
+    "name": "Aestri Yazar",
+    "role": "survivor",
+    "bio": "Aestri, fellow bard Baermar, and their troupe never back down from any adventure. Their personal perks, Mirrored Illusion, Bardic Inspiration, and Still Sight allow them to create illusions, help others repair generators quicker, and see nearby Killers, generators, and chests.",
+    "image": "aestri_yazar.png"
+  },
+  "lara_croft": {
+    "name": "Lara Croft",
+    "role": "survivor",
+    "bio": "Lara Croft's instincts have been honed by her many dangerous expeditions. Her personal perks, Finesse, Specialist, and Hardened allow her to reveal the killer instead of screaming, repair generators more efficiently, and fast vault faster.",
+    "image": "lara_croft.png"
   },
   "the_trapper": {
     "name": "The Trapper",
@@ -454,5 +466,11 @@
     "role": "killer",
     "bio": "A being beyond understanding, though many have tried. Its personal perks, Unbound, Unforeseen, and Undone allow it to move quicker, put its Terror Radius on a generator, and deplete generator progress.",
     "image": "the_unknown.png"
+  },
+  "the_lich": {
+    "name": "The Lich",
+    "role": "killer",
+    "bio": "Few dare speak The Lich's true name, for fear that he may hear... or worse. His personal perks, Weave Attunement, Languid Touch, and Dark Arrogance allow him to exploit used items, exhaust those who disturb the crows, and increase vault speed.",
+    "image": "the_lich.png"
   }
 }
