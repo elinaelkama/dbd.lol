@@ -1,7 +1,4 @@
 [{
-	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/IconPerks_self-Care.png",
-	"name": "self-care"
-}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/IconPerks_aceInTheHole.png",
 	"name": "ace_in_the_hole"
 }, {
@@ -107,6 +104,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/IconPerks_clairvoyance.png",
 	"name": "clairvoyance"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconPerks_cleanBreak.png",
+	"name": "clean_break"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/IconPerks_correctiveAction.png",
 	"name": "corrective_action"
 }, {
@@ -161,6 +161,12 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ae/IconPerks_empathy.png",
 	"name": "empathy"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/IconPerks_Exultation.png",
+	"name": "exultation"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/25/IconPerks_EyesOfBelmont.png",
+	"name": "eyes_of_belmont"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/IconPerks_fastTrack.png",
 	"name": "fast_track"
 }, {
@@ -203,6 +209,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/IconPerks_innerStrength.png",
 	"name": "inner_strength"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a8/IconPerks_invocationTreacherousCrows.png",
+	"name": "invocation:_treacherous_crows"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/IconPerks_invocationWeavingSpiders.png",
 	"name": "invocation:_weaving_spiders"
 }, {
@@ -244,6 +253,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_mirroredIllusion.png",
 	"name": "mirrored_illusion"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/98/IconPerks_MomentOfGlory.png",
+	"name": "moment_of_glory"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f5/IconPerks_noMither.png",
 	"name": "no_mither"
@@ -340,6 +352,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/IconPerks_self-Preservation.png",
 	"name": "self-preservation"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/IconPerks_shoulderTheBurden.png",
+	"name": "shoulder_the_burden"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/IconPerks_slipperyMeat.png",
 	"name": "slippery_meat"
@@ -440,6 +455,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/34/IconPerks_alienInstinct.png",
 	"name": "alien_instinct"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/IconPerks_allShakingThunder.png",
+	"name": "all-shaking_thunder"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_awakenedAwareness.png",
 	"name": "awakened_awareness"
 }, {
@@ -514,6 +532,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_distressing.png",
 	"name": "distressing"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/IconPerks_Dominance.png",
+	"name": "dominance"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/ff/IconPerks_dragonsGrip.png",
 	"name": "dragon's_grip"
@@ -602,11 +623,17 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_hexUndying.png",
 	"name": "hex:_undying"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/81/IconPerks_HexWretchedFate.png",
+	"name": "hex:_wretched_fate"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/23/IconPerks_hoarder.png",
 	"name": "hoarder"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_hubris.png",
 	"name": "hubris"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconPerks_HumanGreed.png",
+	"name": "human_greed"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/IconPerks_hysteria.png",
 	"name": "hysteria"
@@ -665,6 +692,9 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/IconPerks_nemesis.png",
 	"name": "nemesis"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/IconPerks_noQuarter.png",
+	"name": "no_quarter"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_noWayOut.png",
 	"name": "no_way_out"
 }, {
@@ -709,6 +739,9 @@
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/IconPerks_scourgeHookHangmansTrick.png",
 	"name": "scourge_hook:_hangman's_trick"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/IconPerks_scourgeHookJaggedCompass.png",
+	"name": "scourge_hook:_jagged_compass"
 }, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/IconPerks_scourgeHookMonstrousShrine.png",
 	"name": "scourge_hook:_monstrous_shrine"

@@ -143,6 +143,14 @@
 	"name": "The Lich",
 	"code": "K36"
 }, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/K37_TheDarkLord_Portrait.png",
+	"name": "The Dark Lord",
+	"code": "K37"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/K38_TheHoundmaster_Portrait.png",
+	"name": "The Houndmaster",
+	"code": "K38"
+}, {
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/S01_DwightFairfield_Portrait.png",
 	"name": "Dwight Fairfield",
 	"code": "S01"
@@ -314,4 +322,12 @@
 	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/S43_LaraCroft_Portrait.png",
 	"name": "Lara Croft",
 	"code": "S43"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f8/S44_TrevorBelmont_Portrait.png",
+	"name": "Trevor Belmont",
+	"code": "S44"
+}, {
+	"url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/72/S45_TaurieCain_Portrait.png",
+	"name": "Taurie Cain",
+	"code": "S45"
 }]

@@ -257,6 +257,12 @@
     "bio": "Lara Croft's instincts have been honed by her many dangerous expeditions. Her personal perks, Finesse, Specialist, and Hardened allow her to reveal the killer instead of screaming, repair generators more efficiently, and fast vault faster.",
     "image": "lara_croft.png"
   },
+  "trevor_belmont": {
+    "name": "Trevor Belmont",
+    "role": "survivor",
+    "bio": "Trevor Belmont, vampire hunter, knows his destiny is to vanquish evil. His personal perks, Eyes of Belmont, Exultation, and Moment of Glory, allow him to see the Killer's aura, increase an item's rarity, and heal one health state.",
+    "image": "trevor_belmont.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -472,5 +478,11 @@
     "role": "killer",
     "bio": "Few dare speak The Lich's true name, for fear that he may hear... or worse. His personal perks, Weave Attunement, Languid Touch, and Dark Arrogance allow him to exploit used items, exhaust those who disturb the crows, and increase vault speed.",
     "image": "the_lich.png"
+  },
+  "the_dark_lord": {
+    "name": "The Dark Lord",
+    "role": "killer",
+    "bio": "The Dark Lord, Dracula, is the embodiment of darkness and tragedy. His personal perks, Hex: Wretched Fate, Human Greed, and Dominance, allow him to slow the Obsession's repair speed, see the auras of unopened chests, and block chests and totems.",
+    "image": "the_dark_lord.png"
   }
 }
