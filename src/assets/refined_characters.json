@@ -263,6 +263,12 @@
     "bio": "Trevor Belmont, vampire hunter, knows his destiny is to vanquish evil. His personal perks, Eyes of Belmont, Exultation, and Moment of Glory, allow him to see the Killer's aura, increase an item's rarity, and heal one health state.",
     "image": "trevor_belmont.png"
   },
+  "taurie_cain": {
+    "name": "Taurie Cain",
+    "role": "survivor",
+    "bio": "Taurie Cain was raised as a Disciple of the Black Talon, condemned to be a sacrifice. Her personal perks, Invocation: Treacherous Crows, Clean Break, and Shoulder the Burden, allow her to reveal the Killer's aura, heal after being Broken, and take on another Survivor’s hook state.",
+    "image": "taurie_cain.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -484,5 +490,11 @@
     "role": "killer",
     "bio": "The Dark Lord, Dracula, is the embodiment of darkness and tragedy. His personal perks, Hex: Wretched Fate, Human Greed, and Dominance, allow him to slow the Obsession's repair speed, see the auras of unopened chests, and block chests and totems.",
     "image": "the_dark_lord.png"
+  },
+  "the_houndmaster": {
+    "name": "The Houndmaster",
+    "role": "killer",
+    "bio": "The Houndmaster is a force to be feared, with an equally fearsome dog at her side. Her personal perks, All-Shaking Thunder, Scourge Hook: Jagged Compass, and No Quarter, help her increase her lunge attack distance, create scourge hooks, and overwhelm Survivors with healing Skill Checks.",
+    "image": "the_houndmaster.png"
   }
 }

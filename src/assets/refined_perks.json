@@ -1,7 +1,7 @@
 {
   "ace_in_the_hole": {
     "name": "Ace In The Hole",
-    "description": "Lady Luck always seems to be throwing something good your way. When retrieving an item from a chest, there is a {0}% chance that a Very Rare (or lower) add-on will be attached to it. {1}% chance of finding an add-on of Uncommon rarity (or lower). When escaping, keep any add-ons your item has.",
+    "description": "Lady Luck always seems to be throwing something good your way. When retrieving an item from a chest, there is a {0}% chance that a Ultra Rare (or lower) add-on will be attached to it. {1}% chance of finding a second add-on of Uncommon rarity (or lower). When escaping, keep any add-ons your item has.",
     "role": "survivor",
     "character": "Ace Visconti",
     "tunables": [
@@ -9,9 +9,9 @@
         "100"
       ],
       [
-        "10",
-        "25",
-        "50"
+        "50",
+        "75",
+        "100"
       ]
     ],
     "image": "ace_in_the_hole.png"
@@ -441,12 +441,12 @@
   },
   "buckle_up": {
     "name": "Buckle Up",
-    "description": "Unlocks potential in one's aura reading ability. While healing a Survivor in the dying state, you both can see the Killer's aura. When completing healing a Survivor from the dying state to injured, the healed Survivor can break into a sprint at {0}% of their normal running movement speed for {1} seconds and leaves no scratch marks during this time. This perk does not cause Exhaustion.",
+    "description": "Unlocks potential in one's aura reading ability. While healing a Survivor in the dying state: You both can see the Killer's aura. When completing healing a Survivor from the dying state to injured: The healed Survivor gains {0}% Haste for {1} seconds and leaves no scratch marks during this time. Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": "Ashley J. Williams",
     "tunables": [
       [
-        "150"
+        "50"
       ],
       [
         "3",
@@ -761,7 +761,7 @@
         "12"
       ],
       [
-        "30"
+        "15"
       ],
       [
         "2"
@@ -771,17 +771,14 @@
   },
   "distressing": {
     "name": "Distressing",
-    "description": "Your horrifying emanation strikes at a supernaturally long distance. Your Terror Radius is increased by {0}%. Gain {1}% more Bloodpoints for actions in the Deviousness category.",
+    "description": "Your horrifying emanation strikes at a supernaturally long distance. Your Terror Radius is increased by {0}%.",
     "role": "killer",
     "character": null,
     "tunables": [
       [
-        "22",
-        "24",
-        "26"
-      ],
-      [
-        "100"
+        "20",
+        "25",
+        "30"
       ]
     ],
     "image": "distressing.png"
@@ -1090,7 +1087,7 @@
   },
   "hex_devour_hope": {
     "name": "Hex: Devour Hope",
-    "description": "A Hex rooting its power on hope. The false hope of Survivors ignites your hunger. When a Survivor is unhooked at least 24 meters away, Devour Hope receives a token. 2 Tokens: Gain a {0}% Haste status effect, 10 seconds after hooking a Survivor, for a duration of 10 seconds. 3 Tokens: Survivors suffer from the Exposed status effect. 5 Tokens: Grants the ability to kill Survivors by your own hand. The Hex effects persist as long as the related Hex Totem is standing. Exposed Survivors will be downed by basic attacks even if uninjured. Haste increases Killer movement speed.",
+    "description": "A Hex rooting its power on hope. The false hope of Survivors ignites your hunger. When a Survivor is rescued from a hook at least 24 meters away, Devour Hope receives a token. 2 Tokens: Gain a {0}% Haste status effect, 10 seconds after hooking a Survivor, for a duration of 10 seconds. 3 Tokens: Survivors suffer from the Exposed status effect. 5 Tokens: Grants the ability to kill Survivors by your own hand. The Hex effects persist as long as the related Hex Totem is standing. Exposed Survivors will be downed by basic attacks even if uninjured. Haste increases Killer movement speed.",
     "role": "killer",
     "character": "The Hag",
     "tunables": [
@@ -1163,17 +1160,14 @@
   },
   "hex_thrill_of_the_hunt": {
     "name": "Hex: Thrill Of The Hunt",
-    "description": "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. For each Dull and Hex Totem remaining on the map gain a token. Gain {0}% more Bloodpoints for actions in the Hunter category for each token. Survivors' cleansing and blessing speed is reduced by {1}% for each token. The Hex effects persist as long as the related Hex Totem is standing.",
+    "description": "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. For each Dull and Hex Totem remaining on the map gain a token. Survivors' cleansing and blessing speed is reduced by {0}% for each token. The Hex effects persist as long as the related Hex Totem is standing.",
     "role": "killer",
     "character": null,
     "tunables": [
       [
-        "10"
-      ],
-      [
-        "8",
-        "9",
-        "10"
+        "10",
+        "12",
+        "14"
       ]
     ],
     "image": "hex_thrill_of_the_hunt.png"
@@ -1924,9 +1918,9 @@
         "10"
       ],
       [
+        "35",
         "40",
-        "50",
-        "60"
+        "45"
       ]
     ],
     "image": "machine_learning.png"
@@ -2111,12 +2105,12 @@
   "weave_attunement": {
     "categories": null,
     "name": "Weave Attunement",
-    "description": "You are so attuned to magical energies that you can sense even minor ripples around enchantments. When an item becomes depleted for the first time, it is dropped. You see the auras of dropped items. Survivors within {0} meters of dropped items have their auras revealed to you. When a Survivor picks up a Survivor item, they suffer from the Oblivious status effect for {1} seconds. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
+    "description": "You are so attuned to magical energies that you can sense even minor ripples around enchantments. When an item becomes depleted for the first time, it is dropped. You see the auras of dropped items. Survivors within {0} meters of dropped items have their auras revealed to you. Affected Survivors see the item's aura. When a Survivor picks up a Survivor item, they suffer from the Oblivious status effect for {1} seconds. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
     "role": "killer",
     "character": "The Lich",
     "tunables": [
       [
-        "12"
+        "8"
       ],
       [
         "20",
@@ -2142,7 +2136,7 @@
         "10"
       ],
       [
-        "20"
+        "5"
       ]
     ],
     "image": "languid_touch.png"
@@ -2168,7 +2162,7 @@
   "hex_wretched_fate": {
     "categories": null,
     "name": "Hex: Wretched Fate",
-    "description": "You see your victim from afar and resolve to prolong their suffering. After one generator has been repaired, a random Dull Totem becomes a Hex Totem and curses the Obsession. The Obsession suffers a {0}% repair speed penalty. They also see this Hex Totem's aura when within {1} meters. This effect persists until the Hex Totem is cleansed. The Killer can only be obsessed with one Survivor at a time.",
+    "description": "You see your victim from afar and resolve to prolong their suffering. After one generator has been repaired, a random Dull Totem becomes a Hex Totem and curses the Obsession. The Obsession suffers a {0}% repair speed penalty. They also see this Hex Totem's aura when within {1} meters. This effect persists until the Hex Totem is cleansed. The Killer can only be obsessed with one Survivor at a time. \"So toil, mortal, toil! Your effort will be for naught!\" - Dracula",
     "role": "killer",
     "character": "The Dark Lord",
     "tunables": [
@@ -2186,7 +2180,7 @@
   "human_greed": {
     "categories": null,
     "name": "Human Greed",
-    "description": "One can always rely on the avarice of the living and use it to one's advantage. You see the auras of Unopened chests and Survivors' auras are revealed for {0} seconds when they enter a {1}-meter range. You also gain the ability to kick chests to close them. This ability has a {2}-second cooldown. Survivors unlock these closed chests {3}% faster.",
+    "description": "One can always rely on the avarice of the living and use it to one's advantage. You see the auras of Unopened chests and Survivors' auras are revealed for {0} seconds when they enter a {1}-meter range. You also gain the ability to kick chests to close them. This ability has a {2}-second cooldown. \"Come running, one and all, and see what fortune awaits you.\" - Dracula",
     "role": "killer",
     "character": "The Dark Lord",
     "tunables": [
@@ -2197,12 +2191,9 @@
         "8"
       ],
       [
-        "60",
-        "45",
-        "30"
-      ],
-      [
-        "50"
+        "30",
+        "25",
+        "20"
       ]
     ],
     "image": "human_greed.png"
@@ -2210,17 +2201,71 @@
   "dominance": {
     "categories": null,
     "name": "Dominance",
-    "description": "The power you wield over the land strikes terror in the hearts of all who cross your path. The first time each totem and each chest is interacted with by a Survivor, that totem or chest is blocked by the Entity for {0} seconds. The auras of blocked totems and chests are revealed to you in white.",
+    "description": "The power you wield over the land strikes terror in the hearts of all who cross your path. The first time each totem and each chest is interacted with by a Survivor, that totem or chest is blocked by the Entity for {0} seconds. The auras of blocked totems and chests are revealed to you in white. \"Tragic, is it not? How powerless you must feel.\" - Dracula",
     "role": "killer",
     "character": "The Dark Lord",
     "tunables": [
       [
-        "4",
-        "6",
-        "8"
+        "8",
+        "12",
+        "16"
       ]
     ],
     "image": "dominance.png"
+  },
+  "all-shaking_thunder": {
+    "categories": null,
+    "name": "All-Shaking Thunder",
+    "description": "Enemies on land and sea learned to tremble before your might. After you fall from a height, your lunge attack distance is increased by {0}% for {1} seconds. This perk has a {2}-second cooldown. \"Go on. Run. Tell your friends I'm coming for them.\" - Portia Maye",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "tunables": [
+      [
+        "75"
+      ],
+      [
+        "8",
+        "12",
+        "16"
+      ],
+      [
+        "5"
+      ]
+    ],
+    "image": "all-shaking_thunder.png"
+  },
+  "scourge_hook_jagged_compass": {
+    "categories": null,
+    "name": "Scourge Hook: Jagged Compass",
+    "description": "Sometimes the compass points north. Other times it points somewhere else entirely. At the start of the trial, up to 4 random hooks are changed into scourge hooks. You see their auras in white. When a Survivor is unhooked from a hook, it becomes a scourge hook. When you hook a Survivor on a scourge hook, the aura of the generator with the most progress is revealed in yellow for {0} seconds. \"Drop anchor! I will chart us a new course.\" - Portia Maye",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "tunables": [
+      [
+        "6",
+        "8",
+        "10"
+      ]
+    ],
+    "image": "scourge_hook_jagged_compass.png"
+  },
+  "no_quarter": {
+    "categories": null,
+    "name": "No Quarter",
+    "description": "Every skirmish ended with a relentless volley of cannon fire, leaving no doubt who was superior. When a Survivor reaches {0}% healing progress while self-healing, they are faced with continuous Skill Checks. If one of these Skill Checks is missed or the heal is interrupted, the Survivor suffers from the Broken status effect for {1} seconds. Broken prevents Survivors from being healed. \"Fire another broadside! Don't stop until the sea takes them!\" - Portia Maye",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "tunables": [
+      [
+        "75"
+      ],
+      [
+        "20",
+        "25",
+        "30"
+      ]
+    ],
+    "image": "no_quarter.png"
   },
   "kindred": {
     "name": "Kindred",
@@ -2300,12 +2345,12 @@
   },
   "lithe": {
     "name": "Lithe",
-    "description": "After performing a rushed vault, break into a sprint at {0}% of your normal running speed for a maximum of {1} seconds. Causes the Exhausted status effect for {2} seconds. Lithe cannot be used while Exhausted . Exhausted prevents Survivors from activating exhausting perks.",
+    "description": "After performing a rushed vault, you gain {0}% Haste for {1} seconds. Causes the Exhausted status effect for {2} seconds. Lithe cannot be used while Exhausted . Haste increases Survivor movement speed. Exhausted prevents Survivors from activating exhausting perks.",
     "role": "survivor",
     "character": "Feng Min",
     "tunables": [
       [
-        "150"
+        "50"
       ],
       [
         "3"
@@ -2473,7 +2518,7 @@
   },
   "no_one_left_behind": {
     "name": "No One Left Behind",
-    "description": "It is inconceivable to leave someone behind. Once the exit gates are powered, you gain the following effects: {0}% additional Bloodpoints for healing and unhooking other Survivors. {1}% bonus action speed when healing and unhooking other Survivors. When unhooking a Survivor, they gain a 7% movement bonus for 10 seconds. The auras of all other Survivors are revealed to you.",
+    "description": "It is inconceivable to leave someone behind. Once the exit gates are powered, you gain the following effects: {0}% bonus action speed when healing and unhooking other Survivors. When unhooking a Survivor, they gain {1}% Haste for {2} seconds. The auras of all other Survivors are revealed to you. Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": null,
     "tunables": [
@@ -2483,9 +2528,10 @@
         "100"
       ],
       [
-        "30",
-        "40",
-        "50"
+        "10"
+      ],
+      [
+        "15"
       ]
     ],
     "image": "no_one_left_behind.png"
@@ -2565,14 +2611,17 @@
   },
   "pharmacy": {
     "name": "Pharmacy",
-    "description": "You have a knack for finding medicine. When injured, Pharmacy activates. While active: Unlocking chests is {0}% faster. The hearing distance for noises from unlocking chests are reduced by 8 meters. Pharmacy guarantees an Emergency Med-kit upon completing the interaction.",
+    "description": "You have a knack for finding medicine. Unlocking chests is {0}% faster. The hearing distance for noises from unlocking chests are reduced by {1} meters. Pharmacy guarantees an Emergency Med-kit upon completing the interaction.",
     "role": "survivor",
     "character": "Quentin Smith",
     "tunables": [
       [
-        "40",
-        "60",
-        "80"
+        "70",
+        "85",
+        "100"
+      ],
+      [
+        "20"
       ]
     ],
     "image": "pharmacy.png"
@@ -2596,14 +2645,14 @@
   },
   "plunderer_s_instinct": {
     "name": "Plunderer's Instinct",
-    "description": "Unlocks potential in one's aura reading ability. The auras of unopened chests and items in the environment are revealed to you when standing within a {0} meter range. Grants a considerably better chance at finding an item of higher rarity from chests.",
+    "description": "Unlocks potential in one's aura reading ability. Reveal unopened chests and items when within a {0} meter range. Increases the odds of finding an item of higher rarity from chests by 50% .",
     "role": "survivor",
     "character": null,
     "tunables": [
       [
-        "16",
-        "24",
-        "32"
+        "32",
+        "48",
+        "64"
       ]
     ],
     "image": "plunderer_s_instinct.png"
@@ -2649,7 +2698,7 @@
     "character": "The Wraith",
     "tunables": [
       [
-        "6"
+        "4"
       ],
       [
         "60",
@@ -3578,12 +3627,12 @@
     "character": "Nicolas Cage",
     "tunables": [
       [
-        "3",
         "4",
-        "5"
+        "5",
+        "6"
       ],
       [
-        "60"
+        "40"
       ]
     ],
     "image": "scene_partner.png"
@@ -3723,18 +3772,12 @@
   "invocation_weaving_spiders": {
     "categories": null,
     "name": "Invocation: Weaving Spiders",
-    "description": "The place where fear festers and terror treads is also where those with the gift can reach across the veil. When in the basement near the circle, press the Ability Button 1 to begin the Invocation. Invocations take {0} seconds. Other Survivors will see your aura during this and can join an ongoing interaction, increasing speed by {1}% each. If they have an Invocation perk equipped, they increase it by {2}% instead. Once the Invocation is completed: You become Injured and gain the Broken status effect for the rest of the trial. Reduce the maximum required generator charges of all remaining generators by {3}. Completing the Invocation disables that perk for all Survivors. Broken prevents Survivors from being healed. \"I call upon the spirits of the night, to aid us in our desperate flight!\" - Sable",
+    "description": "The place where fear festers and terror treads is also where those with the gift can reach across the veil. When in the basement near the circle, press the Ability Button 1 to begin the Invocation. Invocations take {0} seconds. Other Survivors will see your aura during this and can join an ongoing interaction. Once the Invocation is completed: You become Injured and gain the Broken status effect for the rest of the trial. Reduce the maximum required generator charges of all remaining generators by {1}. Completing the Invocation disables that perk for all Survivors. Broken prevents Survivors from being healed. \"I call upon the spirits of the night, to aid us in our desperate flight!\" - Sable",
     "role": "survivor",
     "character": "Sable Ward",
     "tunables": [
       [
         "60"
-      ],
-      [
-        "50"
-      ],
-      [
-        "100"
       ],
       [
         "8",
@@ -3797,7 +3840,7 @@
   "bardic_inspiration": {
     "categories": null,
     "name": "Bardic Inspiration",
-    "description": "It's time to give your audience a show. Will you bring the house down or will you choke? Press the Ability button 1 while standing and motionless to enter the performance interaction that lasts up to {0} seconds and empowers Survivors within {1} meters. Roll a d20. This effect lasts for {2} seconds if the performance is completed. 1 | You scream, but nothing happens 2-10 | Skill Checks give +1% progress 11-19 | Skill Checks give +2% progress 20 | Skill Checks give +3% progress When the ability is canceled or the performance completes, it goes on cooldown for {3} seconds. \"Listen closely! I'm about to save your life!\" - Aestri",
+    "description": "It's time to give your audience a show. Will you bring the house down or will you choke? Press and hold the Ability button 1 while standing and motionless to enter the performance interaction that lasts up to {0} seconds and empowers Survivors within {1} meters. Roll a d20. This effect lasts for {2} seconds if the performance is completed. 1 | You scream, but nothing happens 2-10 | Skill Checks give +1% progress 11-19 | Skill Checks give +2% progress 20 | Skill Checks give +3% progress When the ability is canceled or the performance completes, it goes on cooldown for {3} seconds. \"Listen closely! I'm about to save your life!\" - Aestri",
     "role": "survivor",
     "character": "Aestri Yazar",
     "tunables": [
@@ -3890,7 +3933,7 @@
   "eyes_of_belmont": {
     "categories": null,
     "name": "Eyes Of Belmont",
-    "description": "A history of vampire-hunting imbues the bloodline with certain abilities. When a generator is completed, the aura of the Killer is revealed to you for {0} seconds. Whenever a Killer's aura is revealed for a specified amount of time, that time is increased by {1} seconds.",
+    "description": "A history of vampire-hunting imbues the bloodline with certain abilities. When a generator is completed, the aura of the Killer is revealed to you for {0} seconds. Whenever a Killer's aura is revealed for a specified amount of time, that time is increased by {1} seconds. \"Ha! Your secret has been revealed!\" - Trevor",
     "role": "survivor",
     "character": "Trevor Belmont",
     "tunables": [
@@ -3908,7 +3951,7 @@
   "exultation": {
     "categories": null,
     "name": "Exultation",
-    "description": "Fortune favors the bold, even in the darkest corners of existence. Stunning the Killer with a pallet upgrades your held item rarity to the next tier, then recharges {0}% of the item's maximum charges. This perk has a {1}-second cooldown.",
+    "description": "Fortune favors the bold, even in the darkest corners of existence. Stunning the Killer with a pallet upgrades your held item rarity to the next tier, then recharges {0}% of the item's maximum charges. This perk has a {1}-second cooldown. \"You will not take me this day!\" - Trevor",
     "role": "survivor",
     "character": "Trevor Belmont",
     "tunables": [
@@ -3926,7 +3969,7 @@
   "moment_of_glory": {
     "categories": null,
     "name": "Moment Of Glory",
-    "description": "A hero should always have the chance to make a comeback. This perk activates after you open or rummage through {0} chests. When you become injured, you also become Broken . Automatically heal 1 health state after {1} seconds. Then, this perk deactivates. This effect is canceled if you enter the dying state. This perk will not activate if you are already suffering from the Broken status effect. Broken prevents Survivors from being healed.",
+    "description": "A hero should always have the chance to make a comeback. This perk activates after you open or rummage through {0} chests. When you become injured, you also become Broken . Automatically heal 1 health state after {1} seconds. Then, this perk deactivates. This effect is canceled if you enter the dying state. This perk will not activate if you are already suffering from the Broken status effect. Broken prevents Survivors from being healed. \"Never lose hope for a brighter tomorrow.\" - Trevor",
     "role": "survivor",
     "character": "Trevor Belmont",
     "tunables": [
@@ -3940,6 +3983,54 @@
       ]
     ],
     "image": "moment_of_glory.png"
+  },
+  "invocation_treacherous_crows": {
+    "categories": null,
+    "name": "Invocation: Treacherous Crows",
+    "description": "One with arcane knowledge has no reason to fear those watchful birds. When in the basement near the circle, press the Ability button 2 to begin the Invocation. Invocations take {0} seconds. Other Survivors will see your aura during this and can join an ongoing interaction. Once the Invocation is completed: You become injured and gain the Broken status effect for the rest of the trial. When a Survivor is in the Terror Radius and the Killer scares a crow, their aura is revealed to all Survivors for {1} seconds. Completing the Invocation disables that perk for all Survivors. Broken prevents Survivors from being healed. \"Remember your training. They taught you all about the crows.\" - Taurie Cain",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "tunables": [
+      [
+        "60"
+      ],
+      [
+        "1",
+        "1.5",
+        "2"
+      ]
+    ],
+    "image": "invocation_treacherous_crows.png"
+  },
+  "clean_break": {
+    "categories": null,
+    "name": "Clean Break",
+    "description": "At the end of the day, everyone has to look out for themselves. After you finish healing another Survivor, while being healed by another Survivor, press the Ability button 1 to gain the Broken status effect. After {0} seconds, you become healthy. This perk does not activate if you are already Broken . The effect is canceled if you go into the dying state. Broken prevents Survivors from being healed. \"I'll be fine! Don't stick your neck out for me.\" - Taurie Cain",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "tunables": [
+      [
+        "80",
+        "70",
+        "60"
+      ]
+    ],
+    "image": "clean_break.png"
+  },
+  "shoulder_the_burden": {
+    "categories": null,
+    "name": "Shoulder The Burden",
+    "description": "Born to be a disciple. Ready to submit to a greater cause. This is your calling. Once per trial, as long as you are not on death hook, press the Ability button 2 in front of a hooked Survivor to unhook them. When they are unhooked, they lose 1 hook state and you gain 1 hook state. You also scream and gain the Exposed status effect for {0} seconds. Exposed Survivors will be downed by basic attacks even if uninjured. \"It's not your time yet. Now go on!\" - Taurie Cain",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "tunables": [
+      [
+        "60",
+        "50",
+        "40"
+      ]
+    ],
+    "image": "shoulder_the_burden.png"
   },
   "saboteur": {
     "name": "Saboteur",
@@ -4582,7 +4673,7 @@
     "character": "David King",
     "tunables": [
       [
-        "150"
+        "100"
       ],
       [
         "6",
@@ -4637,9 +4728,9 @@
         "32"
       ],
       [
-        "6",
-        "7",
-        "8"
+        "3",
+        "4",
+        "5"
       ]
     ],
     "image": "zanshin_tactics.png"
