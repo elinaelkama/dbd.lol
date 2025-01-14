@@ -15,13 +15,15 @@ import PerkDisplay from './components/PerkDisplay';
 import Randomize from './components/Randomize';
 import { useAppSelector } from './hooks/redux';
 import { loadCharacterData, loadPerkData } from './store/actions';
-import { bpSmall } from './style/DesignSystem';
+import { bpSmall, md } from './style/DesignSystem';
 import { CharacterCollection } from './types/CharacterCollection';
 import { PerkCollection } from './types/PerkCollection';
+import { SettingsProvider } from './context/SettingsContext';
 
 const Container = styled.div`
   display: grid;
   grid-template-rows: auto auto auto 13rem;
+  gap: ${md};
   margin: auto;
   min-height: 100vh;
   @media screen and (max-width: ${bpSmall}) {
@@ -81,15 +83,17 @@ function App() {
 
   return (
     <AppContainer>
-      <Container>
-        <Intro title="DBD Perk Randomizer" ><Links /></Intro>
-        <CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>
-        <PerkDisplay>
-          {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
-        </PerkDisplay>
-        <div></div>
-      </Container>
-      <Randomize setRole={setRole} role={role} randomizePerks={randomizePerks} randomizeCharacter={randomizeCharacter} initialized={initialized} />
+      <SettingsProvider>
+        <Container>
+          <Intro title="DBD Perk Randomizer" ><Links /></Intro>
+          <CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>
+          <PerkDisplay>
+            {randomPerkNames && randomPerkNames.map(name => (<Perk key={name} perk={name} />))}
+          </PerkDisplay>
+          <div></div>
+        </Container>
+        <Randomize setRole={setRole} role={role} randomizePerks={randomizePerks} randomizeCharacter={randomizeCharacter} initialized={initialized} />
+      </SettingsProvider>
     </AppContainer >
   )
 }

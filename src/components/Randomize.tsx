@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { FaGear, FaXmark } from "react-icons/fa6";
 import Popup from "reactjs-popup";
 import styled from "styled-components";
 import { border, bpLarge, bpSmall, fontFamilyPrimary, hoverBackground, hoverColor, lg, md, shadow, sm, textPrimary, xs, xxl } from "../style/DesignSystem";
 import Toggle from "./Toggle";
+import { SettingsContext } from "../context/SettingsContext";
 
 type Props = {
 	randomizePerks: (role: string, roleNumber: number) => void
@@ -146,13 +147,12 @@ const CloseButton = styled.button`
 `
 
 const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, role }: Props) => {
-
-	const [includeCharacter, setIncludeCharacter] = useState(true)
+	const { showPerkDescription, setShowPerkDescription, showCharacter, setShowCharacter, showCharacterBio, setShowCharacterBio } = useContext(SettingsContext)
 	const [settingsOpen, setSettingsOpen] = useState(false)
 
 	const randomizeAll = () => {
 		randomizePerks(role, 4)
-		randomizeCharacter(includeCharacter ? role : null)
+		randomizeCharacter(role)
 	}
 
 	useEffect(() => {
@@ -172,7 +172,9 @@ const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, r
 						<CloseButton onClick={() => setSettingsOpen(false)}><FaXmark /></CloseButton>
 						<h2>Settings</h2>
 						<p>Perks: always on</p>
-						<Toggle name={"Character"} value={includeCharacter} setValue={(value) => setIncludeCharacter(value)}></Toggle>
+						<Toggle name={"Show Perk Descriptions"} value={showPerkDescription} setValue={(value) => setShowPerkDescription(value)}></Toggle>
+						<Toggle name={"Show Character"} value={showCharacter} setValue={(value) => setShowCharacter(value)}></Toggle>
+						<Toggle name={"Show Character Bio"} value={showCharacterBio} setValue={(value) => setShowCharacterBio(value)}></Toggle>
 					</ModalContent>
 				</ModalContainer>
 			</Popup>
