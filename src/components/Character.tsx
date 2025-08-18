@@ -1,13 +1,19 @@
-import { styled } from 'styled-components'
-import { bpMedium, fontFamilyPrimary, md, sm, textPrimary, xl } from '../style/DesignSystem'
-import { useAppSelector } from '../hooks/redux'
-import { useContext } from 'react'
-import { SettingsContext } from '../context/SettingsContext'
+import { styled } from "styled-components";
+import {
+  bpMedium,
+  fontFamilyPrimary,
+  md,
+  sm,
+  textPrimary,
+  xl,
+} from "../style/DesignSystem";
+import { useAppSelector } from "../hooks/redux";
+import { useContext } from "react";
+import { SettingsContext } from "../context/SettingsContext";
 
 type Props = {
-	character: string
-}
-
+  character: string;
+};
 
 const Container = styled.div`
   display: grid;
@@ -18,35 +24,35 @@ const Container = styled.div`
   font-family: ${fontFamilyPrimary};
   justify-content: center;
 
-  @media screen and (max-width: ${bpMedium}){
-	display: flex;
-	flex-wrap: wrap;
+  @media screen and (max-width: ${bpMedium}) {
+    display: flex;
+    flex-wrap: wrap;
   }
-`
+`;
 
 const Image = styled.img`
-max-height: 15rem;
-`
+  max-height: 15rem;
+`;
 
 const Header = styled.h3<{ $big: boolean }>`
-	font-size: ${({ $big }) => $big ? xl : md};
-	padding: 0 ${sm};
+  font-size: ${({ $big }) => ($big ? xl : md)};
+  padding: 0 ${sm};
 
-	@media screen and (max-width: ${bpMedium}){
-		text-align: center;
-	}
-`
+  @media screen and (max-width: ${bpMedium}) {
+    text-align: center;
+  }
+`;
 
 const Bio = styled.p`
-	padding: 0 ${sm};
-`
+  padding: 0 ${sm};
+`;
 
 const DetailContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Character = ({ character }: Props) => {
 	const { showCharacter, showCharacterBio } = useContext(SettingsContext)
@@ -61,7 +67,11 @@ const Character = ({ character }: Props) => {
 	return (
 		<Container>
 			<div>
-				<Image src={imagePath}></Image>
+				<Image src={imagePath} 
+					onError={(e) => {
+						e.currentTarget.src = '/icons/missing_icon.png';
+					}}
+				/>
 			</div>
 			<DetailContainer>
 				<Header $big={!showCharacterBio}>{name}</Header>
@@ -71,4 +81,4 @@ const Character = ({ character }: Props) => {
 	)
 }
 
-export default Character
+export default Character;

@@ -269,6 +269,24 @@
     "bio": "Taurie Cain was raised as a Disciple of the Black Talon, condemned to be a sacrifice. Her personal perks, Invocation: Treacherous Crows, Clean Break, and Shoulder the Burden, allow her to reveal the Killer's aura, heal after being Broken, and take on another Survivor’s hook state.",
     "image": "taurie_cain.png"
   },
+  "orela_rose": {
+    "name": "Orela Rose",
+    "role": "survivor",
+    "bio": "Orela Rose is a paramedic with a love for horror and a calming demeanor. Her personal perks, Do No Harm, Duty of Care, and Rapid Response, allow her to heal Survivors faster, give Haste to other Survivors, and see the Killer’s aura upon gaining Exhausted.",
+    "image": "orela_rose.png"
+  },
+  "rick_grimes": {
+    "name": "Rick Grimes",
+    "role": "survivor",
+    "bio": "Rick Grimes is the leader of a group of post-apocalyptic survivors. His personal perks, Apocalyptic Ingenuity, Come and Get Me!, and Teamwork: Toughen Up, allow him to remake broken pallets, help vulnerable teammates, and be discreet when injured.",
+    "image": "rick_grimes.png"
+  },
+  "michonne_grimes": {
+    "name": "Michonne Grimes",
+    "role": "survivor",
+    "bio": "Michonne Grimes is a relentless protector living in a community of post-apocalyptic survivors. Her personal perks, Conviction, Last Stand, and Teamwork: Throw Down allow her to make one last push after being downed, stun the Killer with a fast vault, and empower other Survivors after a tense chase.",
+    "image": "michonne_grimes.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -458,7 +476,7 @@
   "the_singularity": {
     "name": "The Singularity",
     "role": "killer",
-    "bio": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map. His personal perks, Genetic Limits, Forced Hesitation, and Machine Learning allow him to Exhaust newly healed Survivors, Hinder anyone close to a newly injured Survivor, and compromise generators.",
+    "bio": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map. His personal perks, Genetic Limits, Forced Hesitation, and Machine Learning allow him to Exhaust newly injured Survivors, Hinder anyone close to a Survivor put in the dying state, and compromise generators.",
     "image": "the_singularity.png"
   },
   "the_xenomorph": {
@@ -496,5 +514,17 @@
     "role": "killer",
     "bio": "The Houndmaster is a force to be feared, with an equally fearsome dog at her side. Her personal perks, All-Shaking Thunder, Scourge Hook: Jagged Compass, and No Quarter, help her increase her lunge attack distance, create scourge hooks, and overwhelm Survivors with healing Skill Checks.",
     "image": "the_houndmaster.png"
+  },
+  "the_ghoul": {
+    "name": "The Ghoul",
+    "role": "killer",
+    "bio": "The Ghoul has been pushed to his limits and he’s hungry for more. His personal perks, Hex: Nothing But Misery, Forever Entwined, and None Are Free, help him Hinder Survivors, hook Survivors more quickly, and block pallets when all generators are completed.",
+    "image": "the_ghoul.png"
+  },
+  "the_animatronic": {
+    "name": "The Animatronic",
+    "role": "killer",
+    "bio": "The Animatronic always comes back. His personal perks, Help Wanted, Phantom Fear, and Haywire, help him compromise generators, make Survivors scream, and regress exit gate switches.",
+    "image": "the_animatronic.png"
   }
 }

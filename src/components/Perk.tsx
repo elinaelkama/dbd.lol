@@ -63,7 +63,11 @@ const Perk = ({ perk }: Props) => {
 	return (
 		<Container>
 			<div>
-				<Image src={imagePath}></Image>
+				<Image src={imagePath} 
+					onError={(e) => {
+						e.currentTarget.src = '/icons/missing_icon.png';
+					}}
+				/>
 			</div>
 			<div>
 				<Header>{name}</Header>
