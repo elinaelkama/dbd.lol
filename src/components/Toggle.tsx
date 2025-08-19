@@ -1,9 +1,9 @@
-import styled from "styled-components"
-import { accent, border, md, xs } from "../style/DesignSystem"
+import styled from 'styled-components'
+import { accent, border, md, xs } from '../style/DesignSystem'
 
 type Props = {
-	name: string,
-	value: boolean,
+	name: string
+	value: boolean
 	setValue: (value: boolean) => void
 }
 
@@ -23,7 +23,7 @@ const Checkbox = styled.input`
 	outline: 3px solid ${accent};
 	accent-color: red;
 
-	&:checked{
+	&:checked {
 		outline: ${border};
 		accent-color: red;
 	}
@@ -33,7 +33,9 @@ const Toggle = ({ name, value, setValue }: Props) => {
 	return (
 		<ToggleContainer>
 			<div>{name}</div>
-			<div><Checkbox type="checkbox" checked={value} onChange={() => setValue(!value)} /></div>
+			<div>
+				<Checkbox type='checkbox' checked={value} onChange={() => setValue(!value)} />
+			</div>
 		</ToggleContainer>
 	)
 }

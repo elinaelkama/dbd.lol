@@ -1,4 +1,4 @@
-import { FaDiscord } from "react-icons/fa6"
+import { FaDiscord } from 'react-icons/fa6'
 import styled from 'styled-components'
 import { fontFamilyPrimary, hoverColor, md, textPrimary, xs } from '../style/DesignSystem'
 
@@ -19,7 +19,7 @@ const Link = styled.a`
 	font-family: ${fontFamilyPrimary};
 	padding: 0;
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 		color: ${hoverColor};
 	}
@@ -28,7 +28,9 @@ const Link = styled.a`
 const Links = () => {
 	return (
 		<Display>
-			<Link href="https://discord.gg/Xde7C47kYD"><FaDiscord /> Discord</Link>
+			<Link href='https://discord.gg/Xde7C47kYD'>
+				<FaDiscord /> Discord
+			</Link>
 		</Display>
 	)
 }

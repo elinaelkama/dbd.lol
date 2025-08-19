@@ -1,6 +1,6 @@
-import { styled } from "styled-components"
-import { fontFamilyPrimary, textPrimary, xl, xs } from "../style/DesignSystem"
-import { ReactNode } from "react"
+import { styled } from 'styled-components'
+import { fontFamilyPrimary, textPrimary, xl, xs } from '../style/DesignSystem'
+import type { ReactNode } from 'react'
 
 type Props = {
 	title: string
@@ -26,7 +26,7 @@ const Intro = ({ title, children }: Props) => {
 		<Container>
 			<Header>{title}</Header>
 			{children}
-		</Container >
+		</Container>
 	)
 }
 

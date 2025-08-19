@@ -1,10 +1,10 @@
-import { useContext, useEffect, useState } from "react";
-import { FaGear, FaXmark } from "react-icons/fa6";
-import Popup from "reactjs-popup";
-import styled from "styled-components";
-import { border, bpLarge, bpSmall, fontFamilyPrimary, hoverBackground, hoverColor, lg, md, shadow, sm, textPrimary, xs, xxl } from "../style/DesignSystem";
-import Toggle from "./Toggle";
-import { SettingsContext } from "../context/SettingsContext";
+import { useContext, useEffect, useState } from 'react'
+import { FaGear, FaXmark } from 'react-icons/fa6'
+import Popup from 'reactjs-popup'
+import styled from 'styled-components'
+import { border, bpLarge, bpSmall, fontFamilyPrimary, hoverBackground, hoverColor, lg, md, shadow, sm, textPrimary, xs, xxl } from '../style/DesignSystem'
+import Toggle from './Toggle'
+import { SettingsContext } from '../context/SettingsContext'
 
 type Props = {
 	randomizePerks: (role: string, roleNumber: number) => void
@@ -18,8 +18,8 @@ const Container = styled.div`
 	display: grid;
 	position: fixed;
 	grid-template-areas:
-	'roles  popup'
-	'randomize randomize';
+		'roles  popup'
+		'randomize randomize';
 	bottom: 0;
 	gap: ${sm};
 	width: 100vw;
@@ -27,13 +27,13 @@ const Container = styled.div`
 	padding: ${sm};
 	box-sizing: border-box;
 	@media screen and (max-width: ${bpLarge}) {
-		background: linear-gradient(rgba(0,0,0, 1), rgba(0,0,0, 1));
+		background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
 	}
 
 	@media screen and (max-width: ${bpSmall}) {
 		grid-template-areas:
-		'roles popup'
-		'randomize randomize';
+			'roles popup'
+			'randomize randomize';
 	}
 `
 
@@ -47,7 +47,7 @@ const PerkButton = styled.button`
 	color: ${textPrimary};
 	grid-area: randomize;
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 		background: ${hoverBackground};
 		color: ${hoverColor};
@@ -66,15 +66,15 @@ const RoleContainer = styled.div`
 `
 
 const RoleButton = styled.button<ButtonProps>`
-	border:${border};
+	border: ${border};
 	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${md};
 	color: ${textPrimary};
 	text-transform: capitalize;
-	background: ${props => props.is_active === "true" ? "red" : "none"};
+	background: ${props => (props.is_active === 'true' ? 'red' : 'none')};
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 		background: ${hoverBackground};
 		color: ${hoverColor};
@@ -93,13 +93,15 @@ const ModalContent = styled.div`
 	padding: ${sm};
 	position: relative;
 
-	& > h1, h2, h3{
+	& > h1,
+	h2,
+	h3 {
 		font-size: ${lg};
 		font-weight: 300;
 		text-align: center;
 	}
 
-	& > p{
+	& > p {
 		font-size: ${md};
 	}
 `
@@ -108,7 +110,7 @@ const PopUpButton = styled.button`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border:${border};
+	border: ${border};
 	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${md};
@@ -116,7 +118,7 @@ const PopUpButton = styled.button`
 	background: none;
 	grid-area: popup;
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 		background: ${hoverBackground};
 		color: ${hoverColor};
@@ -127,7 +129,7 @@ const CloseButton = styled.button`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border:${border};
+	border: ${border};
 	border-radius: ${xs};
 	box-shadow: ${shadow};
 	font-size: ${md};
@@ -139,7 +141,7 @@ const CloseButton = styled.button`
 	right: 0;
 	margin: ${sm};
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 		background: ${hoverBackground};
 		color: ${hoverColor};
@@ -165,21 +167,29 @@ const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, r
 
 	return (
 		<Container>
-			<PopUpButton onClick={() => setSettingsOpen(true)}><FaGear /></PopUpButton>
+			<PopUpButton onClick={() => setSettingsOpen(true)}>
+				<FaGear />
+			</PopUpButton>
 			<Popup open={settingsOpen} onClose={() => setSettingsOpen(false)} modal closeOnEscape>
 				<ModalContainer>
 					<ModalContent>
-						<CloseButton onClick={() => setSettingsOpen(false)}><FaXmark /></CloseButton>
+						<CloseButton onClick={() => setSettingsOpen(false)}>
+							<FaXmark />
+						</CloseButton>
 						<h2>Settings</h2>
 						<p>Perks: always on</p>
-						<Toggle name={"Show Perk Descriptions"} value={showPerkDescription} setValue={(value) => setShowPerkDescription(value)}></Toggle>
-						<Toggle name={"Show Character"} value={showCharacter} setValue={(value) => setShowCharacter(value)}></Toggle>
-						<Toggle name={"Show Character Bio"} value={showCharacterBio} setValue={(value) => setShowCharacterBio(value)}></Toggle>
+						<Toggle name={'Show Perk Descriptions'} value={showPerkDescription} setValue={value => setShowPerkDescription(value)}></Toggle>
+						<Toggle name={'Show Character'} value={showCharacter} setValue={value => setShowCharacter(value)}></Toggle>
+						<Toggle name={'Show Character Bio'} value={showCharacterBio} setValue={value => setShowCharacterBio(value)}></Toggle>
 					</ModalContent>
 				</ModalContainer>
 			</Popup>
 			<RoleContainer>
-				{["survivor", "killer"].map(roleName => (<RoleButton key={roleName} is_active={role === roleName ? "true" : ""} onClick={() => setRole(roleName)}>{roleName}</RoleButton>))}
+				{['survivor', 'killer'].map(roleName => (
+					<RoleButton key={roleName} is_active={role === roleName ? 'true' : ''} onClick={() => setRole(roleName)}>
+						{roleName}
+					</RoleButton>
+				))}
 			</RoleContainer>
 			<PerkButton onClick={() => randomizeAll()}>Randomize</PerkButton>
 		</Container>
