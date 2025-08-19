@@ -47,7 +47,6 @@ function App() {
 
 	const [randomPerkNames, setRandomPerkNames] = useState<string[]>([])
 	const [randomCharacterName, setRandomCharacterName] = useState<string>()
-	const [role, setRole] = useState('survivor')
 
 	useEffect(() => {
 		dispatch(loadPerkData(perkData as PerkCollection))
@@ -91,10 +90,9 @@ function App() {
 					<PerkDisplay>{randomPerkNames && randomPerkNames.map(name => <Perk key={name} perk={name} />)}</PerkDisplay>
 					<div></div>
 				</Container>
-				<Randomize setRole={setRole} role={role} randomizePerks={randomizePerks} randomizeCharacter={randomizeCharacter} initialized={initialized} />
+				<Randomize randomizePerks={randomizePerks} randomizeCharacter={randomizeCharacter} initialized={initialized} />
 			</SettingsProvider>
 		</AppContainer>
 	)
 }
-
 export default App

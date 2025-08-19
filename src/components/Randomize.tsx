@@ -9,9 +9,7 @@ import { SettingsContext } from '../context/SettingsContext'
 type Props = {
 	randomizePerks: (role: string, roleNumber: number) => void
 	randomizeCharacter: (role: string | null) => void
-	setRole: (role: string) => void
 	initialized: boolean
-	role: string
 }
 
 const Container = styled.div`
@@ -148,8 +146,9 @@ const CloseButton = styled.button`
 	}
 `
 
-const Randomize = ({ setRole, randomizePerks, randomizeCharacter, initialized, role }: Props) => {
-	const { showPerkDescription, setShowPerkDescription, showCharacter, setShowCharacter, showCharacterBio, setShowCharacterBio } = useContext(SettingsContext)
+const Randomize = ({ randomizePerks, randomizeCharacter, initialized }: Props) => {
+	const { showPerkDescription, setShowPerkDescription, showCharacter, setShowCharacter, showCharacterBio, setShowCharacterBio, setRole, role } =
+		useContext(SettingsContext)
 	const [settingsOpen, setSettingsOpen] = useState(false)
 
 	const randomizeAll = () => {
