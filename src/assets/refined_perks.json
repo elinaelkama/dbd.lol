@@ -313,7 +313,7 @@
   },
   "boil_over": {
     "name": "Boil Over",
-    "description": "You are a battler and do everything to escape a foe's grasp. Your struggling effects on The Killer are increased by {0}%. You obscure The Killer's ability to see hook auras within {1} meters. You gain {2} % of current wiggling progress when the Killer drops from great heights.",
+    "description": "You are a battler and do everything to escape a foe's grasp. Your struggling effects on The Killer are increased by {0}%. You obscure The Killer's ability to see hook auras within {1} meters. You gain {2}% of current wiggling progress when the Killer drops from great heights.",
     "role": "survivor",
     "character": "Kate Denson",
     "tunables": [
@@ -369,6 +369,9 @@
       [
         "6",
         "8",
+        "10"
+      ],
+      [
         "10"
       ]
     ],
@@ -621,16 +624,16 @@
     "character": "The Deathslinger",
     "tunables": [
       [
-        "40",
-        "45",
-        "50"
+        "25",
+        "30",
+        "35"
       ]
     ],
     "image": "dead_man_s_switch.png"
   },
   "deathbound": {
     "name": "Deathbound",
-    "description": "Those whose lives are intertwined in darkness are destined to suffer together. When a Survivor heals another Survivor, they scream and activate Deathbound . When the healer is farther than {0} meters away from the Survivor they healed, they suffer from the Oblivious status effect. This lasts until the healer loses a health state. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
+    "description": "Those whose lives are intertwined in darkness are destined to suffer together. When a Survivor heals another Survivor, the healer Survivor screams and activates Deathbound . While they are at least {0} meters apart, the healer Survivor sees the aura of the Survivor they healed and suffers from the Oblivious status effect. Deathbound lasts until the healer loses a health state. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
     "role": "killer",
     "character": "The Executioner",
     "tunables": [
@@ -661,14 +664,17 @@
   },
   "deerstalker": {
     "name": "Deerstalker",
-    "description": "Unlocks potential in one's aura reading ability. Reveals dying Survivors' auras when standing within a {0} meter range.",
+    "description": "While a Survivor sees your aura, you see their aura. Every {0} seconds, reveal your aura to the Survivor with the lowest chase time for {1} seconds.",
     "role": "killer",
     "character": null,
     "tunables": [
       [
-        "20",
-        "28",
-        "36"
+        "40",
+        "35",
+        "30"
+      ],
+      [
+        "3"
       ]
     ],
     "image": "deerstalker.png"
@@ -708,9 +714,9 @@
     "character": "Felix Richter",
     "tunables": [
       [
-        "10",
-        "12",
-        "14"
+        "16",
+        "18",
+        "20"
       ]
     ],
     "image": "desperate_measures.png"
@@ -1083,9 +1089,9 @@
     "character": "The Hag",
     "tunables": [
       [
-        "50",
-        "75",
-        "100"
+        "100",
+        "125",
+        "150"
       ],
       [
         "0"
@@ -1176,9 +1182,9 @@
     "character": null,
     "tunables": [
       [
-        "5",
-        "6",
-        "7"
+        "3",
+        "4",
+        "5"
       ],
       [
         "120"
@@ -1346,12 +1352,12 @@
     "character": "The Twins",
     "tunables": [
       [
-        "3"
+        "4"
       ],
       [
-        "60",
-        "50",
-        "40"
+        "45",
+        "40",
+        "35"
       ]
     ],
     "image": "oppression.png"
@@ -1539,9 +1545,11 @@
         "4"
       ],
       [
+        "30",
         "40"
       ],
       [
+        "10",
         "6"
       ]
     ],
@@ -1688,9 +1696,9 @@
     "character": "The Dredge",
     "tunables": [
       [
-        "6",
-        "8",
-        "10"
+        "20",
+        "25",
+        "30"
       ]
     ],
     "image": "septic_touch.png"
@@ -1850,12 +1858,12 @@
     "character": "The Skull Merchant",
     "tunables": [
       [
-        "30",
-        "40",
-        "50"
+        "20",
+        "25",
+        "30"
       ],
       [
-        "30"
+        "60"
       ]
     ],
     "image": "leverage.png"
@@ -1917,20 +1925,20 @@
   "ultimate_weapon": {
     "categories": null,
     "name": "Ultimate Weapon",
-    "description": "When they spot you, they know the end is near. When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain blindness for {1} seconds. This perk goes on cooldown for {2} seconds. Blindness prevents Survivors from seeing auras.",
+    "description": "When they spot you, they know the end is near. When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain Blindness for {1} seconds. This perk goes on cooldown for {2} seconds. Blindness prevents Survivors from seeing auras.",
     "role": "killer",
     "character": "The Xenomorph",
     "tunables": [
       [
-        "32"
+        "40"
       ],
       [
         "30"
       ],
       [
-        "80",
-        "70",
-        "60"
+        "55",
+        "50",
+        "45"
       ]
     ],
     "image": "ultimate_weapon.png"
@@ -2138,7 +2146,7 @@
     "character": "The Lich",
     "tunables": [
       [
-        "25"
+        "15"
       ],
       [
         "15",
@@ -2213,9 +2221,9 @@
         "75"
       ],
       [
-        "8",
-        "12",
-        "16"
+        "15",
+        "20",
+        "25"
       ],
       [
         "5"
@@ -2361,6 +2369,60 @@
     ],
     "image": "haywire.png"
   },
+  "ravenous": {
+    "categories": null,
+    "name": "Ravenous",
+    "description": "The scent of blood is in the air. Time to feast. Whenever you hook a Survivor for the first time, gain 1 token , up to a maximum of 4 . When you have 4 tokens , all Survivors scream and are inflicted with Exposed for {0} seconds. Exposed Survivors are downed by basic attacks, even if uninjured.",
+    "role": "killer",
+    "character": "The Krasue",
+    "tunables": [
+      [
+        "40",
+        "50",
+        "60"
+      ]
+    ],
+    "image": "ravenous.png"
+  },
+  "wandering_eye": {
+    "categories": null,
+    "name": "Wandering Eye",
+    "description": "Bloodied prey surrounds you, vying for your attention. Whenever you start chasing a Survivor, reveal the auras of all other injured Survivors within {0} meters for {1} seconds. This perk has a {2}-second cooldown.",
+    "role": "killer",
+    "character": "The Krasue",
+    "tunables": [
+      [
+        "20"
+      ],
+      [
+        "5"
+      ],
+      [
+        "40",
+        "35",
+        "30"
+      ]
+    ],
+    "image": "wandering_eye.png"
+  },
+  "hex_overture_of_doom": {
+    "categories": null,
+    "name": "Hex: Overture Of Doom",
+    "description": "A hex that plays on the paranoia of others. Spawns a Hex Totem that curses the farthest generator and reveals its aura in yellow. When a Survivor repairs the cursed generator for {0} seconds, you gain Undetectable and your Terror Radius is applied to the generator for {1} seconds. When the cursed generator is repaired, the next farthest generator is cursed. Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+    "role": "killer",
+    "character": "The Krasue",
+    "tunables": [
+      [
+        "5"
+      ],
+      [
+        "20",
+        "25",
+        "30"
+      ]
+    ],
+    "image": "hex_overture_of_doom.png"
+  },
   "kindred": {
     "name": "Kindred",
     "description": "Unlocks potential in one's aura reading ability. While you are on the hook, all Survivor's auras are revealed to all other Survivors. If The Killer is within a {0} meter range, The Killer's aura is revealed to you and all other Survivors. While a Survivor other than you is on the hook, all other Survivors’ auras are revealed to you. If The Killer is within a {0} meter range of the hooked Survivor, The Killer's aura is revealed to you.",
@@ -2377,20 +2439,20 @@
   },
   "leader": {
     "name": "Leader",
-    "description": "You're able to organize a team to cooperate more efficiently. Increases other Survivors' healing, sabotage, unhooking, cleansing, opening exit gates, and chest unlocking speeds by {0}% when they are within a {1} meter range from you. Survivors can only be affected by one Leader effect at a time. This effect persists on other Survivors for {2} seconds after leaving the Leader's effective perk range.",
+    "description": "You're able to organize a team to cooperate more efficiently. Increases other Survivors' healing, sabotage, unhooking, cleansing, opening exit gates, and chest unlocking speeds by {0}% when they are within a {1} meter range from you. Survivors can only be affected by one Leader effect at a time. Once out of range, this effect persists for {2} seconds.",
     "role": "survivor",
     "character": "Dwight Fairfield",
     "tunables": [
       [
-        "15",
         "20",
-        "25"
+        "25",
+        "30"
       ],
       [
-        "8"
+        "10"
       ],
       [
-        "15"
+        "20"
       ]
     ],
     "image": "leader.png"
@@ -2526,19 +2588,19 @@
   },
   "monitor_&_abuse": {
     "name": "Monitor & Abuse",
-    "description": "Meticulous in your approach, terrifying in your application. While in a chase, your Terror Radius is increased by {0} meters. Otherwise, your Terror Radius is decreased by {1} meters.",
+    "description": "Meticulous in your approach, terrifying in your application. While in a chase, your Terror Radius is increased by {0}%. Otherwise, your Terror Radius is decreased by {1}%.",
     "role": "killer",
     "character": "The Doctor",
     "tunables": [
       [
-        "6",
-        "7",
-        "8"
+        "5",
+        "10",
+        "15"
       ],
       [
-        "6",
-        "7",
-        "8"
+        "15",
+        "20",
+        "25"
       ]
     ],
     "image": "monitor_&_abuse.png"
@@ -2618,9 +2680,7 @@
     "character": "David King",
     "tunables": [
       [
-        "25",
-        "50",
-        "75"
+        "100"
       ],
       [
         "15",
@@ -2632,14 +2692,14 @@
   },
   "a_nurse_s_calling": {
     "name": "A Nurse's Calling",
-    "description": "Unlocks potential in one's aura reading ability. The auras of Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
+    "description": "Unlocks potential in one's aura reading ability. The auras of injured Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
     "role": "killer",
     "character": "The Nurse",
     "tunables": [
       [
-        "20",
-        "24",
-        "28"
+        "28",
+        "30",
+        "32"
       ]
     ],
     "image": "a_nurse_s_calling.png"
@@ -2660,7 +2720,7 @@
   },
   "off_the_record": {
     "name": "Off The Record",
-    "description": "You’ve learned that a quiet approach is sometimes best. Once you are unhooked or escape from the hook, Off the Record activates for {0} seconds. This perk and its effects are disabled once the exit gates are powered. While Off the Record is active: Your aura will not be shown to The Killer. Grunts of pain caused by injuries are reduced by 100%. Gain the Endurance status effect. Endurance prevents a survivor from being downed, inflicting Deep Wound instead. Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+    "description": "You’ve learned that a quiet approach is sometimes best. Once you are unhooked or escape from the hook, Off the Record activates for {0} seconds. While Off the Record is active: Your aura will not be revealed to the Killer. Grunts of pain caused by injuries are reduced by 100%. You leave no scratch marks while sprinting.",
     "role": "survivor",
     "character": "Zarina Kassir",
     "tunables": [
@@ -2714,17 +2774,17 @@
   },
   "pharmacy": {
     "name": "Pharmacy",
-    "description": "You have a knack for finding medicine. Unlocking chests is {0}% faster. The hearing distance for noises from unlocking chests are reduced by {1} meters. Pharmacy guarantees an Emergency Med-kit upon completing the interaction.",
+    "description": "You have a knack for finding medicine. Unlocking chests is {0}% faster. The hearing distance for noises from unlocking chests is reduced by {1} meters. Pharmacy guarantees an Emergency Med-kit upon completing the interaction.",
     "role": "survivor",
     "character": "Quentin Smith",
     "tunables": [
       [
-        "70",
-        "85",
-        "100"
+        "75",
+        "100",
+        "125"
       ],
       [
-        "16"
+        "12"
       ]
     ],
     "image": "pharmacy.png"
@@ -2767,12 +2827,12 @@
     "character": "Jane Romero",
     "tunables": [
       [
-        "6"
+        "8"
       ],
       [
-        "10",
-        "12",
-        "14"
+        "20",
+        "25",
+        "30"
       ]
     ],
     "image": "poised.png"
@@ -3113,7 +3173,7 @@
   },
   "flashbang": {
     "name": "Flashbang",
-    "description": "You've adapted to a world in chaos and making what you can from the debris. After completing {0}% progress on any generator, Flashbang activates. Enter a locker and press the Active Ability Button 1 to craft a flash grenade. 1 charge. Detonates with a loud bang and flashing light. Creates a noise notification. Can be used to distract or blind. You leave the flash grenade behind when escaping the trial.",
+    "description": "You've adapted to a world in chaos and making what you can from the debris. After completing {0}% progress on any generator, Flashbang activates. Enter a locker and press the Active Ability button 1 to craft a flash grenade. 1 charge. Detonates with a loud bang and flashing light. Creates a noise notification. Can be used to distract or blind. You leave the flash grenade behind when escaping the trial.",
     "role": "survivor",
     "character": "Leon Scott Kennedy",
     "tunables": [
@@ -3142,14 +3202,14 @@
   "clairvoyance": {
     "categories": null,
     "name": "Clairvoyance",
-    "description": "There is an intrinsic energy in you that sees beyond your vision. Clairvoyance activates whenever you cleanse or bless a Totem. When empty-handed, hold the Ability Button 2 to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
+    "description": "There is an intrinsic energy in you that sees beyond your vision. Clairvoyance activates whenever you cleanse or bless a Totem. When empty-handed, hold the Use Item Button to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
     "role": "survivor",
     "character": "Mikaela Reid",
     "tunables": [
       [
-        "8",
-        "9",
-        "10"
+        "10",
+        "11",
+        "12"
       ],
       [
         "64"
@@ -3469,7 +3529,7 @@
   "potential_energy": {
     "categories": null,
     "name": "Potential Energy",
-    "description": "Your arcane abilities have adapted to The Entity's Realm after centuries of wandering, granting you unprecedented control over its many devices. While repairing, press the Active Ability Button 2 to gain tokens instead of repairing the generator, up to a maximum of {1} tokens . While you have at least 1 token, press the Active Ability Button 2 to consume all tokens and repair the generator for 1% per token spent. When you lose a health state, all tokens are lost.",
+    "description": "Your arcane abilities have adapted to The Entity's Realm after centuries of wandering, granting you unprecedented control over its many devices. While repairing, press the Active Ability Button 2 to gain tokens instead of repairing the generator, up to a maximum of {1} tokens. While you have at least 1 token, press the Active Ability Button 2 to consume all tokens and repair the generator for 1% per token spent. When you lose a health state, all tokens are lost.",
     "role": "survivor",
     "character": "Vittorio Toscano",
     "tunables": [
@@ -3520,7 +3580,7 @@
         "5"
       ],
       [
-        "60"
+        "40"
       ]
     ],
     "image": "quick_gambit.png"
@@ -3552,9 +3612,9 @@
         "5"
       ],
       [
-        "45",
-        "60",
-        "75"
+        "100",
+        "110",
+        "120"
       ]
     ],
     "image": "friendly_competition.png"
@@ -3737,7 +3797,7 @@
   "plot_twist": {
     "categories": null,
     "name": "Plot Twist",
-    "description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful. Plot Twist activates when you are injured. Press the ability button 2 while crouched and motionless to enter the dying state silently. When using Plot Twist to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state. When you recover by yourself using Plot Twist , you are healed instantly and you gain {0}% Haste for {1} seconds. This perk deactivates if you recover by yourself by any means. This perk re-activates when the exit gates are powered. Haste increases Survivor movement speed.",
+    "description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful. Plot Twist activates when you are injured. Press the ability button 2 while crouched and motionless to enter the dying state silently. When using Plot Twist to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state at 25% increased speed. When you recover by yourself using Plot Twist , you are healed instantly and you gain {0}% Haste for {1} seconds. This perk deactivates if you recover by yourself by any means. This perk re-activates when the exit gates are powered. Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": "Nicolas Cage",
     "tunables": [
@@ -3763,9 +3823,9 @@
         "30"
       ],
       [
-        "40",
         "35",
-        "30"
+        "30",
+        "25"
       ]
     ],
     "image": "lucky_star.png"
@@ -4191,7 +4251,7 @@
     "name": "Apocalyptic Ingenuity",
     "description": "You salvage what little there is to defend your team. After unlocking or rummaging through {0} chests, press Ability Button 1 for {1} seconds next to a broken pallet to build a fragile pallet . You see the auras of broken pallets within {2} meters. Fragile pallets are destroyed when dropped.",
     "role": "survivor",
-    "character": "The Survivor",
+    "character": "Rick Grimes",
     "tunables": [
       [
         "2"
@@ -4212,7 +4272,7 @@
     "name": "Come And Get Me!",
     "description": "You’ll risk your life to save others. After unhooking a Survivor, while crouched and idle, press Ability button 1 to make injured and dying Survivors within {0} meters leave no scratch marks or pools of blood or make grunts of pain for {1} seconds. You scream and the Killer sees your aura for {2} seconds.",
     "role": "survivor",
-    "character": "The Survivor",
+    "character": "Rick Grimes",
     "tunables": [
       [
         "24"
@@ -4233,7 +4293,7 @@
     "name": "Teamwork: Toughen Up",
     "description": "You maintain your composure under immense amounts of pain. When another Survivor pallet-stuns or blinds the Killer while you are injured and within {0} meters, your grunts of pain, scratch marks, and pools of blood are reduced by {1}% for {2} seconds.",
     "role": "survivor",
-    "character": "The Survivor",
+    "character": "Rick Grimes",
     "tunables": [
       [
         "24"
@@ -4254,7 +4314,7 @@
     "name": "Conviction",
     "description": "Sometimes one last push means the difference between death and survival. After you have healed {0} Survivor, while downed with at least {1}% recovery progress, press the Ability button 2 to recover instantly. You gain Broken , then are downed again after {2} seconds. Broken prevents Survivors from being healed. \"It's enough to keep going. Keep trying. Keep fighting. Keep dreaming.\" - Michonne Grimes",
     "role": "survivor",
-    "character": "The Killer",
+    "character": "Michonne Grimes",
     "tunables": [
       [
         "1"
@@ -4275,7 +4335,7 @@
     "name": "Last Stand",
     "description": "Even when things are at their worst, your spirit is indomitable. After spending {0} seconds in the Killer's Terror Radius while not in chase, when you fast-vault, stun the Killer for {1} seconds if they are within {2} meters. Then, this perk is disabled for the rest of the trial. \"Some bullies, you can live with. Others, you gotta fight.\" - Michonne Grimes",
     "role": "survivor",
-    "character": "The Killer",
+    "character": "Michonne Grimes",
     "tunables": [
       [
         "120",
@@ -4296,7 +4356,7 @@
     "name": "Teamwork: Throw Down",
     "description": "You know the best way to even the odds is to empower those around you. When you pallet-stun or blind the Killer, other injured Survivors within {0} meters gain Endurance and see the Killer's aura for {1} seconds. Endurance prevents a Survivor from being downed, inflicting Deep Wound instead. Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out. \"Facing evil brings good people together.\" - Michonne Grimes",
     "role": "survivor",
-    "character": "The Killer",
+    "character": "Michonne Grimes",
     "tunables": [
       [
         "24"
@@ -4308,6 +4368,69 @@
       ]
     ],
     "image": "teamwork_throw_down.png"
+  },
+  "road_life": {
+    "categories": null,
+    "name": "Road Life",
+    "description": "Faulty amps, sweaty dives, broken-down vans… nothing makes you feel more alive. While injured, not Broken and repairing a generator, gain 1 token for each regular great Skill Check success. When you have {0} tokens , spend all tokens and gain {1}% healing speed until you stop healing. Lose {2} token when you fail a regular Skill Check. Broken prevents Survivors from being healed.",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "tunables": [
+      [
+        "6",
+        "5",
+        "4"
+      ],
+      [
+        "100"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "image": "road_life.png"
+  },
+  "one-two-three-four": {
+    "categories": null,
+    "name": "ONE-TWO-THREE-FOUR!",
+    "description": "A steady beat makes for steady work. Press Active Ability button 2 while standing and idle to enter the \"performance\" interaction that lasts up to 15 seconds and empowers Survivors within {0} meters. You will get continuous Skill Checks during the performance. The effect lasts for {1} seconds if the performance is completed. Increases the odds of getting healing and repair Skill Checks by {2}%. When the ability is canceled or the performance completes, it goes on cooldown for {3} seconds.",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "tunables": [
+      [
+        "16"
+      ],
+      [
+        "90"
+      ],
+      [
+        "20"
+      ],
+      [
+        "110",
+        "100",
+        "90"
+      ]
+    ],
+    "image": "one-two-three-four.png"
+  },
+  "ghost_notes": {
+    "categories": null,
+    "name": "Ghost Notes",
+    "description": "You know that the best breakdowns precede the biggest build-ups. While you have Exhausted , your scratch marks disappear {0}% faster. You recover {1}% faster from Exhausted . Exhausted prevents Survivors from activating other perks that cause Exhausted.",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "tunables": [
+      [
+        "50"
+      ],
+      [
+        "5",
+        "7.5",
+        "10"
+      ]
+    ],
+    "image": "ghost_notes.png"
   },
   "saboteur": {
     "name": "Saboteur",
@@ -4671,14 +4794,14 @@
   },
   "tenacity": {
     "name": "Tenacity",
-    "description": "There is nothing stopping you. Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% Haste and recover and crawl at the same time. Grunts of pain while in the dying state are reduced by 75%. Haste increases Survivor movement speed.",
+    "description": "There is nothing stopping you. Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% Haste and your aura cannot be read by the Killer. Grunts of pain while in the dying state are reduced by 75%. Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": "Detective David Tapp",
     "tunables": [
       [
-        "30",
-        "40",
-        "50"
+        "15",
+        "20",
+        "25"
       ]
     ],
     "image": "tenacity.png"
@@ -4868,7 +4991,7 @@
   },
   "vigil": {
     "name": "Vigil",
-    "description": "You look over your friends even in dire situations. Decreases the duration of Blindness, Broken, Exhausted, Exposed, Hemorrhage, Hindered, Mangled and Oblivious status effects by {1}% for you and any Survivors within {0} meters. Once out of range, this effect persists for {2} seconds.",
+    "description": "You look over your friends even in dire situations. You and Survivors within {0} meters recover {1}% faster from the Blindness , Broken , Exhausted , Exposed , Hemorrhage , Hindered , Mangled and Oblivious status effects. Survivors can only be affected by one Vigil's effect at a time. Once out of range, this effect persists for {2} seconds.",
     "role": "survivor",
     "character": "Quentin Smith",
     "tunables": [
@@ -4876,9 +4999,9 @@
         "16"
       ],
       [
-        "30",
-        "35",
-        "40"
+        "44",
+        "55",
+        "66"
       ],
       [
         "15"
@@ -4896,9 +5019,9 @@
         "32"
       ],
       [
-        "16",
+        "20",
         "18",
-        "20"
+        "16"
       ]
     ],
     "image": "visionary.png"

@@ -227,7 +227,7 @@
   },
   "BBQAndChilli": {
     "categories": [
-      "tracking"
+      "hinderance"
     ],
     "name": "Barbecue & Chili",
     "description": "A deep bond with The Entity unlocks potential in one's aura reading ability.<li>After hooking a Survivor, all other Survivors' auras are revealed to you for {0} seconds when they are further than {1} meters from the hook.</li>",
@@ -393,7 +393,7 @@
       "adaptation"
     ],
     "name": "Boil Over",
-    "description": "You are a battler and do everything to escape a foe's grasp. Your struggling effects on The Killer are increased by {0}%.<br><br>You obscure The Killer's ability to see hook auras within {1} meters.<br><br>You gain {2} % of current wiggling progress when the Killer drops from great heights.",
+    "description": "You are a battler and do everything to escape a foe's grasp. Your struggling effects on The Killer are increased by {0}%.<br><br>You obscure The Killer's ability to see hook auras within {1} meters.<br><br>You gain {2}% of current wiggling progress when the Killer drops from great heights.",
     "role": "survivor",
     "character": 10,
     "tunables": [
@@ -458,6 +458,9 @@
       [
         "6",
         "8",
+        "10"
+      ],
+      [
         "10"
       ]
     ],
@@ -775,9 +778,9 @@
     "character": 268435474,
     "tunables": [
       [
-        "40",
-        "45",
-        "50"
+        "25",
+        "30",
+        "35"
       ]
     ],
     "teachable": 35,
@@ -789,7 +792,7 @@
       "tracking"
     ],
     "name": "Deathbound",
-    "description": "Those whose lives are intertwined in darkness are destined to suffer together.<br><br>When a Survivor heals another Survivor, they scream and activate <i>Deathbound</i>. When the healer is farther than {0}\u00a0meters away from the Survivor they healed,\u00a0they suffer from the <b>Oblivious</b> status effect. This lasts until the healer loses a health state.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
+    "description": "Those whose lives are intertwined in darkness are destined to suffer together.<br><br>When a Survivor heals another Survivor, the healer Survivor screams and activates <i>Deathbound</i>. While they are at least {0}\u00a0meters apart, the healer Survivor sees the aura of the Survivor they healed and suffers from the <b>Oblivious</b> status effect. <i>Deathbound</i> lasts until the healer loses a health state.<br><br>Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
     "role": "killer",
     "character": 268435475,
     "tunables": [
@@ -828,14 +831,17 @@
       "tracking"
     ],
     "name": "Deerstalker",
-    "description": "Unlocks potential in one's aura reading ability. Reveals dying Survivors' auras when standing within a {0} meter range.",
+    "description": "While a Survivor sees your aura, you see their aura.<br><br>Every {0} seconds, reveal your aura to the Survivor with the lowest chase time for {1} seconds.",
     "role": "killer",
     "character": null,
     "tunables": [
       [
-        "20",
-        "28",
-        "36"
+        "40",
+        "35",
+        "30"
+      ],
+      [
+        "3"
       ]
     ],
     "teachable": 0,
@@ -887,9 +893,9 @@
     "character": 22,
     "tunables": [
       [
-        "10",
-        "12",
-        "14"
+        "16",
+        "18",
+        "20"
       ]
     ],
     "teachable": 35,
@@ -1359,9 +1365,9 @@
     "character": 268435460,
     "tunables": [
       [
-        "50",
-        "75",
-        "100"
+        "100",
+        "125",
+        "150"
       ],
       [
         "0"
@@ -1478,9 +1484,9 @@
     "character": null,
     "tunables": [
       [
-        "5",
-        "6",
-        "7"
+        "3",
+        "4",
+        "5"
       ],
       [
         "120"
@@ -1689,12 +1695,12 @@
     "character": 268435477,
     "tunables": [
       [
-        "3"
+        "4"
       ],
       [
-        "60",
-        "50",
-        "40"
+        "45",
+        "40",
+        "35"
       ]
     ],
     "teachable": 35,
@@ -1914,9 +1920,11 @@
         "4"
       ],
       [
+        "30",
         "40"
       ],
       [
+        "10",
         "6"
       ]
     ],
@@ -2071,9 +2079,9 @@
     "character": 268435483,
     "tunables": [
       [
-        "6",
-        "8",
-        "10"
+        "20",
+        "25",
+        "30"
       ]
     ],
     "teachable": 40,
@@ -2253,12 +2261,12 @@
     "character": 268435486,
     "tunables": [
       [
-        "30",
-        "40",
-        "50"
+        "20",
+        "25",
+        "30"
       ],
       [
-        "30"
+        "60"
       ]
     ],
     "teachable": 40,
@@ -2335,20 +2343,20 @@
   "K33P01": {
     "categories": null,
     "name": "Ultimate Weapon",
-    "description": "When they spot you, they know the end is near.<br><br>When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain blindness for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>\u201cI can't lie to you about your chances, but... you have my sympathies.\u201d \u2013Ash",
+    "description": "When they spot you, they know the end is near.<br><br>When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain Blindness for {1} seconds.<br><br>This perk goes on cooldown for {2} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>\u201cI can't lie to you about your chances, but... you have my sympathies.\u201d \u2013Ash",
     "role": "killer",
     "character": 268435488,
     "tunables": [
       [
-        "32"
+        "40"
       ],
       [
         "30"
       ],
       [
-        "80",
-        "70",
-        "60"
+        "55",
+        "50",
+        "45"
       ]
     ],
     "teachable": 30,
@@ -2576,7 +2584,7 @@
     "character": 268435491,
     "tunables": [
       [
-        "25"
+        "15"
       ],
       [
         "15",
@@ -2655,9 +2663,9 @@
         "75"
       ],
       [
-        "8",
-        "12",
-        "16"
+        "15",
+        "20",
+        "25"
       ],
       [
         "5"
@@ -2812,6 +2820,63 @@
     "teachable": 40,
     "image": "/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_Haywire"
   },
+  "K41P01": {
+    "categories": null,
+    "name": "Ravenous",
+    "description": "The scent of blood is in the air. Time to feast.<br><br>Whenever you hook a Survivor for the first time, gain <b>1 token</b>, up to a maximum of <b>4</b>.<br><br>When you have <b>4 tokens</b>, all Survivors scream and are inflicted with <b>Exposed</b> for {0} seconds.<br><br>Exposed Survivors are downed by basic attacks, even if uninjured.<br><br>\u201cWeeping Ginevra\u2019s blood streams/The devil smells the weak.\u201d \u2014Fabbro Barone\u2019s \u201cGinevra\u201d",
+    "role": "killer",
+    "character": 268435496,
+    "tunables": [
+      [
+        "40",
+        "50",
+        "60"
+      ]
+    ],
+    "teachable": 30,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+  },
+  "K41P02": {
+    "categories": null,
+    "name": "Wandering Eye",
+    "description": "Bloodied prey surrounds you, vying for your attention.<br><br>Whenever you start chasing a Survivor, reveal the auras of all other injured Survivors within {0} meters for {1} seconds.<br><br>This perk has a {2}-second cooldown.<br><br>\u201cA drop does not satiate/when a river is needed.\u201d<br><br>\u2014Elliot Campbell\u2019s \u201cGrandeur of Samuel\u201d",
+    "role": "killer",
+    "character": 268435496,
+    "tunables": [
+      [
+        "20"
+      ],
+      [
+        "5"
+      ],
+      [
+        "40",
+        "35",
+        "30"
+      ]
+    ],
+    "teachable": 35,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_WanderingEye"
+  },
+  "K41P03": {
+    "categories": null,
+    "name": "Hex: Overture of Doom",
+    "description": "A hex that plays on the paranoia of others.<br><br>Spawns a Hex Totem that curses the farthest generator and reveals its aura in yellow.<br><br>When a Survivor repairs the cursed generator for {0} seconds, you gain <b>Undetectable</b> and your Terror Radius is applied to the generator for {1} seconds.<br><br>When the cursed generator is repaired, the next farthest generator is cursed.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>\u201cFrom salvation\u2019s ruin, be warned/death comes from all around.\u201d \u2014Giovanni Serrata\u2019s \u201cFog Hill\u201d",
+    "role": "killer",
+    "character": 268435496,
+    "tunables": [
+      [
+        "5"
+      ],
+      [
+        "20",
+        "25",
+        "30"
+      ]
+    ],
+    "teachable": 40,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_HexOvertureOfDoom"
+  },
   "Kindred": {
     "categories": [
       "perception"
@@ -2836,20 +2901,20 @@
       "support"
     ],
     "name": "Leader",
-    "description": "You're able to organize a team to cooperate more efficiently. Increases other Survivors' healing, sabotage, unhooking, cleansing, opening exit gates, and chest unlocking speeds by {0}% when they are within a {1} meter range from you.<br><br>Survivors can only be affected by one Leader effect at a time.<br><br>This effect persists on other Survivors for {2} seconds after leaving the Leader's effective perk range.",
+    "description": "You're able to organize a team to cooperate more efficiently.<br><br>Increases other Survivors' healing, sabotage, unhooking, cleansing, opening exit gates, and chest unlocking speeds by\u00a0{0}% when they are within a {1} meter range from you.<br><br>Survivors can only be affected by one Leader effect at a time.<br><br>Once out of range, this effect persists for\u00a0{2} seconds.",
     "role": "survivor",
     "character": 0,
     "tunables": [
       [
-        "15",
         "20",
-        "25"
+        "25",
+        "30"
       ],
       [
-        "8"
+        "10"
       ],
       [
-        "15"
+        "20"
       ]
     ],
     "teachable": 40,
@@ -3023,19 +3088,19 @@
       "trickery"
     ],
     "name": "Monitor & Abuse",
-    "description": "Meticulous in your approach, terrifying in your application.<br><br>While in a chase, your Terror Radius is increased by {0} meters. Otherwise, your Terror Radius is decreased by {1} meters.",
+    "description": "Meticulous in your approach, terrifying in your application.<br><br>While in a chase, your Terror Radius is increased by {0}%. Otherwise, your Terror Radius is decreased by {1}%.",
     "role": "killer",
     "character": 268435462,
     "tunables": [
       [
-        "6",
-        "7",
-        "8"
+        "5",
+        "10",
+        "15"
       ],
       [
-        "6",
-        "7",
-        "8"
+        "15",
+        "20",
+        "25"
       ]
     ],
     "teachable": 35,
@@ -3138,9 +3203,7 @@
     "character": 9,
     "tunables": [
       [
-        "25",
-        "50",
-        "75"
+        "100"
       ],
       [
         "15",
@@ -3156,14 +3219,14 @@
       "tracking"
     ],
     "name": "A Nurse's Calling",
-    "description": "Unlocks potential in one's aura reading ability. The auras of Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
+    "description": "Unlocks potential in one's aura reading ability. The auras of injured Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
     "role": "killer",
     "character": 268435459,
     "tunables": [
       [
-        "20",
-        "24",
-        "28"
+        "28",
+        "30",
+        "32"
       ]
     ],
     "teachable": 40,
@@ -3192,7 +3255,7 @@
       "concealment"
     ],
     "name": "Off the Record",
-    "description": "You\u2019ve learned that a quiet approach is sometimes best.<br><br>Once you are unhooked or escape from the hook, <i>Off the Record</i> activates for {0} seconds. This perk and its effects are disabled once the exit gates are powered.<br><br>While <i>Off the Record</i> is active:<li>Your aura will not be shown to The Killer.</li><li>Grunts of pain caused by injuries are reduced by 100%.</li><li>Gain the <b>Endurance</b> status effect.</li><br><br>Endurance prevents a survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+    "description": "You\u2019ve learned that a quiet approach is sometimes best.<br><br>Once you are unhooked or escape from the hook, <i>Off the Record</i> activates for {0} seconds.<br><br>While <i>Off the Record</i> is active:<li>Your aura will not be revealed to the Killer.</li><li>Grunts of pain caused by injuries are reduced by 100%.</li><li>You leave no scratch marks while sprinting.</li>",
     "role": "survivor",
     "character": 20,
     "tunables": [
@@ -3259,17 +3322,17 @@
       "adaptation"
     ],
     "name": "Pharmacy",
-    "description": "You have a knack for finding medicine.<br><br><li>Unlocking chests is {0}% faster.</li><li>The hearing distance for noises from unlocking chests are reduced by {1} meters.</li><li><i>Pharmacy</i> guarantees an Emergency Med-kit upon completing the interaction.</li><br>",
+    "description": "You have a knack for finding medicine.<br><br><li>Unlocking chests is {0}% faster.</li><li>The hearing distance for noises from unlocking chests is reduced by {1} meters.</li><li><i>Pharmacy</i> guarantees an Emergency Med-kit upon completing the interaction.</li><br>",
     "role": "survivor",
     "character": 11,
     "tunables": [
       [
-        "70",
-        "85",
-        "100"
+        "75",
+        "100",
+        "125"
       ],
       [
-        "16"
+        "12"
       ]
     ],
     "teachable": 35,
@@ -3324,12 +3387,12 @@
     "character": 15,
     "tunables": [
       [
-        "6"
+        "8"
       ],
       [
-        "10",
-        "12",
-        "14"
+        "20",
+        "25",
+        "30"
       ]
     ],
     "teachable": 35,
@@ -3758,7 +3821,7 @@
       "adaptation"
     ],
     "name": "Flashbang",
-    "description": "You've adapted to a world in chaos and making what you can from the debris.<br><br>After completing {0}% progress on any generator, <i>Flashbang</i> activates.<br><br>Enter a locker and press the <i>Active Ability Button 1</i> to craft a flash grenade.<br><br><li>1 charge.</li><li>Detonates with a loud bang and flashing light.</li><li>Creates a noise notification.</li><li>Can be used to distract or blind.</li><br><br>You leave the flash grenade behind when escaping the trial.",
+    "description": "You've adapted to a world in chaos and making what you can from the debris.<br><br>After completing {0}% progress on any generator, <i>Flashbang</i> activates.<br><br>Enter a locker and press the <i>Active Ability button 1</i> to craft a flash grenade.<br><br><li>1 charge.</li><li>Detonates with a loud bang and flashing light.</li><li>Creates a noise notification.</li><li>Can be used to distract or blind.</li><br><br>You leave the flash grenade behind when escaping the trial.",
     "role": "survivor",
     "character": 26,
     "tunables": [
@@ -3792,14 +3855,14 @@
   "S28P01": {
     "categories": null,
     "name": "Clairvoyance",
-    "description": "There is an intrinsic energy in you that sees beyond your vision.<br><br><i>Clairvoyance</i> activates whenever you cleanse or bless a Totem.<br><br>When empty-handed, hold the <i>Ability Button 2</i> to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
+    "description": "There is an intrinsic energy in you that sees beyond your vision.<br><br><i>Clairvoyance</i> activates whenever you cleanse or bless a Totem.<br><br>When empty-handed, hold the <i>Use Item Button</i> to unlock your full aura-reading potential. For up to {0} seconds, you see the auras of exit gate switches, generators, hooks, chests and the Hatch within a {1} meter range.",
     "role": "survivor",
     "character": 27,
     "tunables": [
       [
-        "8",
-        "9",
-        "10"
+        "10",
+        "11",
+        "12"
       ],
       [
         "64"
@@ -4137,7 +4200,7 @@
   "S34P01": {
     "categories": null,
     "name": "Potential Energy",
-    "description": "Your arcane abilities have adapted to The Entity's Realm after centuries of wandering, granting you unprecedented control over its many devices.<br><br>While repairing, press the <i>Active Ability Button 2</i> to gain tokens instead of repairing the generator, up to a maximum of <b>{1} tokens</b>.<br><br>While you have at least 1 token, press the <i>Active Ability Button 2</i> to consume all tokens and repair the generator for <b>1% per token</b> spent.<br><br>When you lose a health state, all tokens are lost.",
+    "description": "Your arcane abilities have adapted to The Entity's Realm after centuries of wandering, granting you unprecedented control over its many devices.<br><br>While repairing, press the <i>Active Ability Button 2</i> to gain tokens instead of repairing the generator, up to a maximum of {1} tokens.<br><br>While you have at least 1 token, press the <i>Active Ability Button 2</i> to consume all tokens and repair the generator for <b>1% per token</b> spent.<br><br>When you lose a health state, all tokens are lost.",
     "role": "survivor",
     "character": 33,
     "tunables": [
@@ -4190,7 +4253,7 @@
         "5"
       ],
       [
-        "60"
+        "40"
       ]
     ],
     "teachable": 40,
@@ -4230,9 +4293,9 @@
         "5"
       ],
       [
-        "45",
-        "60",
-        "75"
+        "100",
+        "110",
+        "120"
       ]
     ],
     "teachable": 35,
@@ -4446,7 +4509,7 @@
   "S38P03": {
     "categories": null,
     "name": "Plot Twist",
-    "description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful.<br><br><i>Plot Twist</i> activates when you are injured.<br><br>Press the <i>ability button 2</i> while crouched and motionless to enter the dying state silently.<br><br>When using <i>Plot Twist</i> to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state.<br><br>When you recover by yourself using <i>Plot Twist</i>, you are healed instantly and you gain {0}% <b>Haste</b> for {1} seconds.<br><br><i>This perk deactivates if you recover by yourself by any means.<br><br>This perk re-activates when the exit gates are powered.</i><br><br>Haste increases Survivor movement speed.",
+    "description": "Big moments are vital, but you know that sometimes an understated read can be just as powerful.<br><br><i>Plot Twist</i> activates when you are injured.<br><br>Press the <i>ability button 2</i> while crouched and motionless to enter the dying state silently.<br><br>When using <i>Plot Twist</i> to enter the dying state: you leave no blood pools and you make no noise and you can fully recover from the dying state at <b>25%</b> increased speed.<br><br>When you recover by yourself using <i>Plot Twist</i>, you are healed instantly and you gain {0}% <b>Haste</b> for {1} seconds.<br><br><i>This perk deactivates if you recover by yourself by any means.<br><br>This perk re-activates when the exit gates are powered.</i><br><br>Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": 37,
     "tunables": [
@@ -4473,9 +4536,9 @@
         "30"
       ],
       [
-        "40",
         "35",
-        "30"
+        "30",
+        "25"
       ]
     ],
     "teachable": 30,
@@ -5061,6 +5124,72 @@
     "teachable": 40,
     "image": "/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkToughenUp"
   },
+  "S49P01": {
+    "categories": null,
+    "name": "Road Life",
+    "description": "Faulty amps, sweaty dives, broken-down vans\u2026 nothing makes you feel more alive.<br><br>While injured, not <b>Broken</b> and repairing a generator, gain <b>1</b> <b>token</b> for each regular great Skill Check success.<br><br>When you have {0} <b>tokens</b>, spend all <b>tokens</b> and gain {1}% healing speed until you stop healing.<br><br>Lose {2} <b>token</b> when you fail a regular Skill Check.<br><br>Broken prevents Survivors from being healed.<br><br>\u201cRemind me to teach you how to patch your own pedals, Krit.\u201d \u2014 Vee Boonyasak",
+    "role": "survivor",
+    "character": 48,
+    "tunables": [
+      [
+        "6",
+        "5",
+        "4"
+      ],
+      [
+        "100"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "teachable": 30,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+  },
+  "S49P02": {
+    "categories": null,
+    "name": "ONE-TWO-THREE-FOUR!",
+    "description": "A steady beat makes for steady work.<br><br>Press <i>Active Ability button 2</i> while standing and idle to enter the \"performance\" interaction that lasts up to 15 seconds and empowers Survivors within {0} meters. You will get continuous Skill Checks during the performance. The effect lasts for {1} seconds if the performance is completed.<ul><li>Increases the odds of getting healing and repair Skill Checks by {2}%.</li></ul><br><br>When the ability is canceled or the performance completes, it goes on cooldown for {3} seconds.<br><br>\u201cWe are loud! We are heavy! WE ARE AXEKICK!\u201d<br><br>\u2014 Vee Boonyasak",
+    "role": "survivor",
+    "character": 48,
+    "tunables": [
+      [
+        "16"
+      ],
+      [
+        "90"
+      ],
+      [
+        "20"
+      ],
+      [
+        "110",
+        "100",
+        "90"
+      ]
+    ],
+    "teachable": 35,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_OneTwoThreeFour"
+  },
+  "S49P03": {
+    "categories": null,
+    "name": "Ghost Notes",
+    "description": "You know that the best breakdowns precede the biggest build-ups.<br><br>While you have <b>Exhausted</b>, your scratch marks disappear {0}% faster.<br><br>You recover {1}% faster from <b>Exhausted</b>.<br><br>Exhausted prevents Survivors from activating other perks that cause Exhausted.<br><br>\u201cLet\u2019s take it to the bridge!\u201d \u2014 Vee Boonyasak",
+    "role": "survivor",
+    "character": 48,
+    "tunables": [
+      [
+        "50"
+      ],
+      [
+        "5",
+        "7.5",
+        "10"
+      ]
+    ],
+    "teachable": 40,
+    "image": "/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_GhostNotes"
+  },
   "Saboteur": {
     "categories": [
       "strategy"
@@ -5517,14 +5646,14 @@
       "navigation"
     ],
     "name": "Tenacity",
-    "description": "There is nothing stopping you.<br><br>Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% <b>Haste</b> and recover and crawl at the same time. Grunts of pain while in the dying state are reduced by 75%.<br><br>Haste increases Survivor movement speed.",
+    "description": "There is nothing stopping you.<br><br>Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% <b>Haste</b> and your aura cannot be read by the Killer. Grunts of pain while in the dying state are reduced by 75%.<br><br>Haste increases Survivor movement speed.",
     "role": "survivor",
     "character": 12,
     "tunables": [
       [
-        "30",
-        "40",
-        "50"
+        "15",
+        "20",
+        "25"
       ]
     ],
     "teachable": 30,
@@ -5763,7 +5892,7 @@
       "support"
     ],
     "name": "Vigil",
-    "description": "You look over your friends even in dire situations. <b>Decreases</b> the duration of <b>Blindness, Broken, Exhausted, Exposed, Hemorrhage, Hindered, Mangled</b> and <b>Oblivious</b> status effects by {1}% for you and any Survivors within {0} meters. Once out of range, this effect persists for {2} seconds.",
+    "description": "You look over your friends even in dire situations.<br><br>You and Survivors within {0} meters recover {1}% faster from the <b>Blindness</b>, <b>Broken</b>, <b>Exhausted</b>, <b>Exposed</b>, <b>Hemorrhage</b>, <b>Hindered</b>, <b>Mangled</b> and <b>Oblivious</b> status effects.<br><br>Survivors can only be affected by one Vigil's effect at a time.<br><br>Once out of range, this effect persists for {2} seconds.",
     "role": "survivor",
     "character": 11,
     "tunables": [
@@ -5771,9 +5900,9 @@
         "16"
       ],
       [
-        "30",
-        "35",
-        "40"
+        "44",
+        "55",
+        "66"
       ],
       [
         "15"
@@ -5795,9 +5924,9 @@
         "32"
       ],
       [
-        "16",
+        "20",
         "18",
-        "20"
+        "16"
       ]
     ],
     "teachable": 30,

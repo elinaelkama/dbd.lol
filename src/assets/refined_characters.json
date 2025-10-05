@@ -287,6 +287,12 @@
     "bio": "Michonne Grimes is a relentless protector living in a community of post-apocalyptic survivors. Her personal perks, Conviction, Last Stand, and Teamwork: Throw Down allow her to make one last push after being downed, stun the Killer with a fast vault, and empower other Survivors after a tense chase.",
     "image": "michonne_grimes.png"
   },
+  "vee_boonyasak": {
+    "name": "Vee Boonyasak",
+    "role": "survivor",
+    "bio": "Vee Boonyasak is an energetic drummer whose adventurous nature led to a doomed concert. Her personal perks, Road Life, ONE-TWO-THREE-FOUR!, and Ghost Notes allow her to leverage repair work into faster healing, strengthen allies' ability to repair and heal, and recover from Exhausted faster.",
+    "image": "vee_boonyasak.png"
+  },
   "the_trapper": {
     "name": "The Trapper",
     "role": "killer",
@@ -320,7 +326,7 @@
   "the_shape": {
     "name": "The Shape",
     "role": "killer",
-    "bio": "A haunting Killer, intent on monitoring Survivors from a distance to feed his power, Evil Within . The more he Stalks, the stronger and faster he becomes. His personal perks, Save the Best for Last, Play with your Food and Dying Light select one Survivor to become the Obsession and trigger deadly effects based on the Obsession's status.",
+    "bio": "A haunting Killer who stalks Survivors to feed his power. His personal perks, Save the Best for Last, Play with your Food and Dying Light select one Survivor to become the Obsession and trigger deadly effects based on the Obsession's status.",
     "image": "the_shape.png"
   },
   "the_doctor": {
@@ -526,5 +532,11 @@
     "role": "killer",
     "bio": "The Animatronic always comes back. His personal perks, Help Wanted, Phantom Fear, and Haywire, help him compromise generators, make Survivors scream, and regress exit gate switches.",
     "image": "the_animatronic.png"
+  },
+  "the_krasue": {
+    "name": "The Krasue",
+    "role": "killer",
+    "bio": "A shape-changing Killer, able to inflict Survivors with an effect that weakens them to her Intestinal Whip attack. Her personal perks, Ravenous, Wandering Eye, and Hex: Overture of Doom help her increase mid-trial pressure, spot injured Survivors, and cause confusion to her whereabouts.",
+    "image": "the_krasue.png"
   }
 }

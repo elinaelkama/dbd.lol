@@ -83,7 +83,7 @@ function App() {
 		<AppContainer>
 			<SettingsProvider>
 				<Container>
-					<Intro title='DBD Perk Randomizer'>
+					<Intro title='DBD Perk Randomizer' subtitle='Now With Sinister Grace!'>
 						<Links />
 					</Intro>
 					<CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>

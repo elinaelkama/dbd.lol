@@ -1,9 +1,10 @@
 import { styled } from 'styled-components'
-import { fontFamilyPrimary, textPrimary, xl, xs } from '../style/DesignSystem'
+import { fontFamilyPrimary, md, textPrimary, xl, xs } from '../style/DesignSystem'
 import type { ReactNode } from 'react'
 
 type Props = {
 	title: string
+	subtitle: string
 	children?: ReactNode
 }
 
@@ -21,10 +22,19 @@ const Header = styled.h1`
 	margin-bottom: ${xs};
 `
 
-const Intro = ({ title, children }: Props) => {
+const Subtitle = styled.h4`
+	font-family: ${fontFamilyPrimary};
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: ${md};
+	margin: ${xs} ${xs};
+`
+
+const Intro = ({ title, subtitle, children }: Props) => {
 	return (
 		<Container>
 			<Header>{title}</Header>
+			<Subtitle>{subtitle}</Subtitle>
 			{children}
 		</Container>
 	)
