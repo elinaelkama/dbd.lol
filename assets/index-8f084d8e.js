@@ -152,7 +152,7 @@ Error generating stack: `+i.message+`
 	font-size: ${$e};
 	text-align: center;
 `,gT=F.div`
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 	text-align: left;
 	padding: 0 ${jr};
 
