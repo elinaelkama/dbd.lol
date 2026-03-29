@@ -1,7 +1,7 @@
 import { useContext, useMemo } from 'react'
 import styled from 'styled-components'
 import { useAppSelector } from '../hooks/redux'
-import { bpSmall, fontFamilyPrimary, md, sm, textPrimary } from '../style/DesignSystem'
+import { bpSmall, desc, fontFamilyPrimary, md, sm, textPrimary } from '../style/DesignSystem'
 import { SettingsContext } from '../context/SettingsContext'
 
 type Props = {
@@ -28,7 +28,7 @@ const Header = styled.h3`
 `
 
 const Desc = styled.div`
-	font-size: ${sm};
+	font-size: ${desc};
 	text-align: left;
 	padding: 0 ${sm};
 

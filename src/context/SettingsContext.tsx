@@ -22,11 +22,11 @@ type Props = {
 const savedSettings = JSON.parse(localStorage.getItem('settings') ?? '{}')
 
 const initialState: SettingsContextContent = {
-	showPerkDescription: savedSettings.showPerkDescription ?? false,
+	showPerkDescription: savedSettings.showPerkDescription ?? true,
 	setShowPerkDescription: () => undefined,
-	showCharacter: savedSettings.showCharacter ?? false,
+	showCharacter: savedSettings.showCharacter ?? true,
 	setShowCharacter: () => undefined,
-	showCharacterBio: savedSettings.showCharacterBio ?? false,
+	showCharacterBio: savedSettings.showCharacterBio ?? true,
 	setShowCharacterBio: () => undefined,
 	role: savedSettings.role ?? 'survivor',
 	setRole: () => undefined,

@@ -4,8 +4,8 @@ import 'reactjs-popup/dist/index.css'
 import styled from 'styled-components'
 import './App.css'
 import bg from './assets/bg_rpd.jpg'
-import characterData from './assets/refined_characters.json'
-import perkData from './assets/refined_perks.json'
+import characterData from './assets/characters.json'
+import perkData from './assets/perks.json'
 import Character from './components/Character'
 import CharacterDisplay from './components/CharacterDisplay'
 import Intro from './components/Intro'
@@ -83,7 +83,7 @@ function App() {
 		<AppContainer>
 			<SettingsProvider>
 				<Container>
-					<Intro title='DBD Perk Randomizer' subtitle='Now With Sinister Grace!'>
+					<Intro title='DBD Perk Randomizer' subtitle='Now With Stranger Things Chapter 2!'>
 						<Links />
 					</Intro>
 					<CharacterDisplay>{randomCharacterName && <Character character={randomCharacterName} />}</CharacterDisplay>
